@@ -1,0 +1,43 @@
+# state.yaml — SOT (Single Source of Truth)
+# Daily AI News Card Pipeline. Orchestrator만 수정 (절대 기준 2). 에이전트는 읽기 전용.
+
+workflow:
+  name: "Daily AI News Card Pipeline"
+  current_step: 1
+  status: "in_progress"     # in_progress | completed | failed
+
+  parent_genome:
+    source: "AgenticWorkflow"
+    version: "2026-06-25"
+    inherited_dna: ["absolute-criteria", "sot-pattern", "3-phase-structure", "4-layer-qa", "safety-hooks", "adversarial-review", "decision-log", "context-preservation", "cross-step-traceability"]
+
+  # 단계별 산출물 경로 — Anti-Skip Guard가 파일 존재 + 최소 크기(100 bytes) 검증
+  outputs:
+    # step-1: "data/research/candidates-YYYY-MM-DD.json"
+    # step-2: "data/research/verified-YYYY-MM-DD.json"
+    # step-3: "data/planning/top10-YYYY-MM-DD.json"
+    # step-5: "data/cards-YYYY-MM-DD.json"
+    # step-6: "public/index.html"
+
+  pending_human_action:
+    step: null
+    options: []
+
+  autopilot:
+    enabled: true
+    decision_log_dir: "autopilot-logs/"
+    auto_approved_steps: []
+
+  pacs:
+    current_step_score: null
+    dimensions:
+      F: null
+      C: null
+      L: null
+    weak_dimension: null
+    pre_mortem_flag: null
+    history: {}
+
+  verification:
+    last_verified_step: 0
+    retries: {}

@@ -1,0 +1,102 @@
+{
+  "date": "2026-06-25",
+  "generated_at": "2026-06-25T07:40:00+09:00",
+  "cards": [
+    {
+      "rank": 1,
+      "category": "자동화·에이전트",
+      "verified_date": "2026-06-24",
+      "verification_status": "yesterday",
+      "headline": "Microsoft, 스스로 일하는 '오토파일럿' 공개 — 첫 제품 Scout",
+      "summary": "프롬프트를 기다리지 않고 상시 자율로 작동하는 에이전트 카테고리 'Autopilots'를 신설하고, 첫 제품 Scout를 발표했다.",
+      "points": [
+        "Scout는 자체 거버넌스 ID(Entra)를 가져 권한·감사 추적이 가능",
+        "Teams·Outlook·SharePoint와 기본 연동, 업무 흐름에 상주",
+        "Work IQ API를 함께 공개해 자동화 스택을 확장"
+      ],
+      "insight": "에이전트 경쟁의 축이 '무엇을 할 수 있나'에서 '권한·감사를 어떻게 통제하나'로 옮겨가고 있다. 자율성이 높아질수록 거버넌스 설계가 도입의 전제 조건이 된다.",
+      "source_url": "https://blog.mean.ceo/ai-agents-news-june-2026/",
+      "source_name": "mean.ceo"
+    },
+    {
+      "rank": 2,
+      "category": "교육·생산성",
+      "verified_date": "2026-06-24",
+      "verification_status": "yesterday",
+      "headline": "GPT-5, 3년 묵은 면역학 난제를 풀다",
+      "summary": "OpenAI가 GPT-5가 면역학자 Derya Unutmaz의 3년짜리 연구 난제 해결을 도운 사례를 공개했다.",
+      "points": [
+        "AI가 '검색'을 넘어 가설 수립·검증의 연구 파트너로 작동한 사례",
+        "전문가의 도메인 지식과 AI 추론이 결합될 때 성과가 나옴",
+        "범용 모델(GPT-5)이 고도 전문 영역에서 실질 기여"
+      ],
+      "insight": "AI의 가치는 '답을 대신 내주는 도구'가 아니라 '전문가의 사고를 가속하는 협업자'에서 나온다. 도메인 전문성이 있는 사용자일수록 활용 격차가 더 벌어진다.",
+      "source_url": "https://openai.com/news/",
+      "source_name": "OpenAI"
+    },
+    {
+      "rank": 3,
+      "category": "AI",
+      "verified_date": "2026-06-24",
+      "verification_status": "yesterday",
+      "headline": "OpenAI, 보안 특화 모델 'GPT-5.5-Cyber' 출시 — 벤치마크 신기록",
+      "summary": "사이버보안에 특화된 GPT-5.5-Cyber가 CyberGym 역대 최고 점수를 기록하며 검증된 조직에만 제한 제공된다.",
+      "points": [
+        "단일 모델 기준 CyberGym 최고 점수 — 보안 분야 능력 입증",
+        "공개 API가 아닌 'Trusted Access' 게이트 방식으로 제공",
+        "공격·방어 양날의 기술이라 접근 통제를 전제로 배포"
+      ],
+      "insight": "고능력 모델일수록 '누구나 쓰는 공개'가 아니라 '검증된 사용자에게만'으로 배포 방식이 갈라진다. 능력과 통제 가능성을 함께 설계하는 것이 새 표준이 되고 있다.",
+      "source_url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-24-2026",
+      "source_name": "buildfastwithai"
+    },
+    {
+      "rank": 4,
+      "category": "AI",
+      "verified_date": "2026-06-24",
+      "verification_status": "yesterday",
+      "headline": "구글 Gemini 3.5 Pro, 6월 출시 약속에도 정식 공개 지연",
+      "summary": "5월 I/O에서 6월 출시를 공언한 Gemini 3.5 Pro가 월말까지 정식 출시(GA)에 이르지 못하고 있다.",
+      "points": [
+        "공개 일정 공언과 실제 GA 사이의 간극이 드러남",
+        "프런티어 모델 경쟁에서 '출시 타이밍'도 평판 변수",
+        "월말까지 며칠 남지 않아 시장 불확실성 확대"
+      ],
+      "insight": "모델 로드맵의 '약속한 날짜'는 그 자체가 신뢰 자산이다. 발표와 실제 가용성 사이의 격차는 기술력만큼이나 시장 신뢰에 영향을 준다.",
+      "source_url": "https://llm-stats.com/llm-updates",
+      "source_name": "llm-stats"
+    },
+    {
+      "rank": 5,
+      "category": "글로벌 AI",
+      "verified_date": "2026-06-24",
+      "verification_status": "yesterday",
+      "headline": "Reflection AI, '미국산 오픈웨이트' 대안으로 250억 달러 가치 평가",
+      "summary": "오픈웨이트 프런티어 대안을 표방한 Reflection AI가 급등한 기업가치로 투자를 유치했고, SpaceX가 63억 달러 규모 컴퓨트를 약정했다.",
+      "points": [
+        "'오픈웨이트' 진영이 지정학 경쟁 속 대안으로 부상",
+        "SpaceX의 대규모 컴퓨트 약정이 학습 인프라를 뒷받침",
+        "프런티어 모델 생태계가 폐쇄형 일변도에서 다극화"
+      ],
+      "insight": "AI 공급망이 소수 폐쇄형 모델에 집중되는 데 대한 반작용으로 '오픈웨이트'와 컴퓨트 다변화가 힘을 받는다. 모델 다양성은 기술 선택지이자 지정학적 안전판이다.",
+      "source_url": "https://blog.mean.ceo/latest-ai-announcements-news-june-2026/",
+      "source_name": "mean.ceo"
+    },
+    {
+      "rank": 6,
+      "category": "AI 정책",
+      "verified_date": "2026-06-24",
+      "verification_status": "yesterday",
+      "headline": "백악관, '첨단 AI 혁신·보안' 행정조치 발표",
+      "summary": "첨단 인공지능의 혁신과 보안을 촉진하기 위한 대통령 행정조치가 발표돼 거버넌스와 수출 정책을 다룬다.",
+      "points": [
+        "혁신 촉진과 보안 통제를 동시에 겨냥한 정책 신호",
+        "수출 통제가 모델·칩 가용성에 직접 영향",
+        "국가 정책이 AI 제품의 지역별 사용 가능성을 좌우"
+      ],
+      "insight": "AI 가용성은 더 이상 기술 문제만이 아니라 정책의 함수다. 특정 모델·지역에 묶인 서비스는 규제·수출통제 변화에 통째로 노출되므로 공급 다변화가 안정성의 핵심이 된다.",
+      "source_url": "https://www.whitehouse.gov/presidential-actions/2026/06/promoting-advanced-artificial-intelligence-innovation-and-security/",
+      "source_name": "WhiteHouse"
+    }
+  ]
+}

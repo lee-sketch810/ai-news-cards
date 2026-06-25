@@ -1,0 +1,13 @@
+# 런타임 산출물 — 공개 레포에 커밋하지 않음
+verification-logs/
+autopilot-logs/
+pacs-logs/
+review-logs/
+data/research/
+data/planning/
+
+# 캐시
+__pycache__/
+*.pyc
+
+# 커밋 대상: public/, data/archive/, data/cards-*.json, scripts/, .claude/, workflow.md

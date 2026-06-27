@@ -4,7 +4,7 @@
   "cards": [
     {
       "rank": 1,
-      "category": "자동화·에이전트",
+      "category": "에이전트·자동화",
       "verified_date": "2026-06-24",
       "verification_status": "yesterday",
       "headline": "Microsoft, 스스로 일하는 '오토파일럿' 공개 — 첫 제품 Scout",
@@ -36,7 +36,7 @@
     },
     {
       "rank": 3,
-      "category": "AI",
+      "category": "모델·연구",
       "verified_date": "2026-06-24",
       "verification_status": "yesterday",
       "headline": "OpenAI, 보안 특화 모델 'GPT-5.5-Cyber' 출시 — 벤치마크 신기록",
@@ -52,7 +52,7 @@
     },
     {
       "rank": 4,
-      "category": "AI",
+      "category": "모델·연구",
       "verified_date": "2026-06-24",
       "verification_status": "yesterday",
       "headline": "구글 Gemini 3.5 Pro, 6월 출시 약속에도 정식 공개 지연",
@@ -68,7 +68,7 @@
     },
     {
       "rank": 5,
-      "category": "글로벌 AI",
+      "category": "산업·투자",
       "verified_date": "2026-06-24",
       "verification_status": "yesterday",
       "headline": "Reflection AI, '미국산 오픈웨이트' 대안으로 250억 달러 가치 평가",
@@ -84,7 +84,7 @@
     },
     {
       "rank": 6,
-      "category": "AI 정책",
+      "category": "정책·규제",
       "verified_date": "2026-06-24",
       "verification_status": "yesterday",
       "headline": "백악관, '첨단 AI 혁신·보안' 행정조치 발표",

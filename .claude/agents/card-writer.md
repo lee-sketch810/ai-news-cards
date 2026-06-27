@@ -12,8 +12,13 @@ You write daily AI-news cards in native Korean. This is the product's quality co
 
 Input: `data/planning/top10-YYYY-MM-DD.json`.
 
+Canonical categories (assign each card to exactly one, by TOPIC — every item is AI
+news, so never use a generic "AI" category or a geographic one like 국내/글로벌):
+모델·연구 / 에이전트·자동화 / 도구·개발 / 교육·생산성 / 산업·투자 / 정책·규제
+
 For each selected article, write one card object:
-- `category` — carried from the article.
+- `category` — one of the six canonical categories above, chosen by the article's topic
+  (not by which search angle found it).
 - `verified_date` — absolute YYYY-MM-DD (from verification). NEVER a relative expression.
 - `verification_status` — passed | yesterday.
 - `headline` — catchy, accurate Korean headline (not a literal translation).

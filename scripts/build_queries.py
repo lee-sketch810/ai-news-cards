@@ -13,15 +13,20 @@ from datetime import datetime, timedelta, timezone
 
 KST = timezone(timedelta(hours=9))
 
+# 표준 카테고리 — 단일 축(주제 기반). '모든 뉴스가 AI'이므로 'AI' 같은 상위 개념이나
+# 지역 축(국내/글로벌)은 카테고리로 쓰지 않는다. 카드의 최종 분류는 @card-writer가
+# 내용을 보고 이 6종 중에서 배정한다(아래 category는 수집 앵글의 기본 힌트).
+CATEGORIES = ["모델·연구", "에이전트·자동화", "도구·개발", "교육·생산성", "산업·투자", "정책·규제"]
+
 ANGLES = [
-    ("model-release", "AI", "OpenAI Anthropic Google new model release announcement {date}"),
-    ("agent-automation", "자동화·에이전트", "AI agent automation tool launch {date} latest"),
+    ("model-release", "모델·연구", "OpenAI Anthropic Google new model release announcement {date}"),
+    ("agent-automation", "에이전트·자동화", "AI agent automation tool launch {date} latest"),
     ("edu-productivity", "교육·생산성", "AI education productivity tool {date} e-learning"),
-    ("korea-ai", "국내 AI", "인공지능 AI 한국 발표 출시 {kdate}"),
-    ("policy", "AI 정책", "AI regulation policy governance {date}"),
-    ("bigtech", "빅테크", "NVIDIA chip big tech AI {date}"),
-    ("workflow", "워크플로우", "AI workflow LLM developer tool {date} release"),
-    ("global", "글로벌 AI", "artificial intelligence news biggest stories {date}"),
+    ("korea", "산업·투자", "인공지능 AI 한국 발표 출시 {kdate}"),
+    ("policy", "정책·규제", "AI regulation policy governance {date}"),
+    ("bigtech", "산업·투자", "NVIDIA chip big tech AI funding {date}"),
+    ("dev-tools", "도구·개발", "AI workflow LLM developer tool {date} release"),
+    ("research", "모델·연구", "artificial intelligence research breakthrough biggest stories {date}"),
 ]
 
 

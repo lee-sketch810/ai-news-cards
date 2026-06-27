@@ -116,7 +116,7 @@
 - **Translation**: none (이미 한국어 원본)
 
 ### 6. 렌더 + 배포 (Render & Deploy)
-- **Pre-processing**: `scripts/render_cards.py` — `cards-YYYY-MM-DD.json`을 `public/index.html`의 `/* CARDS_DATA_START */ … /* CARDS_DATA_END */` 마커 사이에 주입하고, `data/archive/cards-YYYY-MM-DD.json`으로 아카이브 복사. (inject_briefing.py 패턴 재사용)
+- **Pre-processing**: `scripts/render_cards.py` — 최신 카드를 `public/index.html`의 `/* CARDS_DATA_START */ … /* CARDS_DATA_END */` 마커에 주입하고, 에디션을 `public/data/cards-YYYY-MM-DD.json`으로 발행하며, 날짜 매니페스트 `public/data/index.json`을 재생성. (서빙 데이터는 public/ 하위에 두어 GitHub Pages가 직접 서빙 → 아카이브/검색 fetch 가능)
 - **Agent**: `@news-deployer`
 - **Verification**:
   - [ ] `public/index.html`에 Top10(또는 검증 통과분) 카드가 모두 렌더됨

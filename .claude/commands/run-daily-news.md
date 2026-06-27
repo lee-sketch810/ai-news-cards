@@ -17,7 +17,8 @@ ai-news-cards/workflow.md를 따라 1~6단계를 순차 실행한다. Autopilot 
 7. `@card-writer` → 한국어 카드 + 범용 인사이트 → `data/cards-<DATE>.json`
    → `@reviewer + @fact-checker` 검토
 8. `@news-deployer` → `python scripts/render_cards.py --cards data/cards-<DATE>.json`
-   → git add/commit/push (GitHub Pages 자동 빌드)
+   (public/index.html 주입 + public/data/cards-<DATE>.json 발행 + public/data/index.json 매니페스트)
+   → `git add public/ && git commit && git push` (GitHub Pages 자동 빌드)
 
 검증 통과가 10건 미만이면 통과분만 발행한다(억지 채움 금지). WebSearch 전면 실패 시
 `scripts/ddg_fallback.py`로 보충하고, 그래도 0건이면 당일 발행을 보류하고 로그를 남긴다.

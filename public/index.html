@@ -3,19 +3,19 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>오늘의 AI 뉴스 · 카드뉴스</title>
-<meta name="description" content="매일 발행일 검증을 거친 AI 뉴스 Top 10을 요약과 인사이트 카드로.">
+<title>오늘의 AI 뉴스</title>
+<meta name="description" content="매일 아침, 그날의 핵심 AI 뉴스만 골라 요약과 인사이트로. 출처와 발행일을 확인한 뉴스만 싣습니다.">
 <style>
   :root{
     --bg:#f6f6f4; --surface:#ffffff; --text:#1f1f1d; --muted:#5f5e5a; --hint:#8a8980;
     --border:rgba(0,0,0,.10); --chip:#f1efe8; --chip-text:#444441;
-    --accent:#534ab7; --accent-bg:#eeedfe; --ok:#0f6e56; --warn:#854f0b;
+    --accent:#534ab7; --accent-bg:#eeedfe; --ok:#0f6e56;
   }
   @media (prefers-color-scheme:dark){
     :root{
       --bg:#1a1a18; --surface:#242422; --text:#ededea; --muted:#aeaca4; --hint:#7d7c75;
       --border:rgba(255,255,255,.12); --chip:#33332f; --chip-text:#d3d1c7;
-      --accent:#afa9ec; --accent-bg:#3c3489; --ok:#5dcaa5; --warn:#fac775;
+      --accent:#afa9ec; --accent-bg:#3c3489; --ok:#5dcaa5;
     }
   }
   *{box-sizing:border-box}
@@ -23,13 +23,25 @@
     font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Apple SD Gothic Neo","Noto Sans KR",sans-serif;
     line-height:1.6;-webkit-font-smoothing:antialiased}
   .wrap{max-width:760px;margin:0 auto;padding:28px 18px 64px}
-  header{border-bottom:1px solid var(--border);padding-bottom:14px;margin-bottom:18px}
-  h1{font-size:22px;font-weight:600;margin:0}
-  .sub{font-size:13px;color:var(--muted);margin-top:4px}
-  .filters{display:flex;flex-wrap:wrap;gap:8px;margin:16px 0 20px}
+  header{border-bottom:1px solid var(--border);padding-bottom:14px;margin-bottom:16px}
+  h1{font-size:23px;font-weight:600;margin:0}
+  .sub{font-size:14px;color:var(--muted);margin-top:5px}
+  .backtoday{display:none;font-size:13px;color:var(--accent);text-decoration:none;margin-top:8px}
+  .backtoday.show{display:inline-block}
+
+  .datenav{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:14px 0 16px}
+  .datenav button{font:inherit;font-size:13px;padding:6px 12px;border-radius:8px;cursor:pointer;
+    background:var(--chip);color:var(--chip-text);border:1px solid transparent}
+  .datenav button:disabled{opacity:.4;cursor:default}
+  .datenav input[type=date]{font:inherit;font-size:13px;padding:5px 10px;border-radius:8px;
+    border:1px solid var(--border);background:var(--surface);color:var(--text)}
+  .datenav .spacer{flex:1}
+
+  .filters{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 20px}
   .filters button{font:inherit;font-size:13px;padding:5px 12px;border-radius:8px;cursor:pointer;
     background:var(--chip);color:var(--chip-text);border:1px solid transparent;transition:.15s}
   .filters button[aria-pressed="true"]{background:var(--accent-bg);color:var(--accent);border-color:var(--accent)}
+
   .card{background:var(--surface);border:1px solid var(--border);border-radius:12px;
     padding:18px 20px;margin-bottom:14px}
   .card-top{display:flex;align-items:center;justify-content:space-between;margin-bottom:10px;gap:8px}
@@ -46,23 +58,46 @@
   .card-foot{display:flex;align-items:center;justify-content:space-between;font-size:12px;gap:8px}
   .card-foot a{color:var(--accent);text-decoration:none}
   .card-foot a:hover{text-decoration:underline}
-  .verify{font-weight:500}
-  .verify.passed{color:var(--ok)} .verify.yesterday{color:var(--warn)}
-  .empty{color:var(--muted);font-size:14px;padding:32px 0;text-align:center}
-  footer{margin-top:28px;font-size:11px;color:var(--hint);line-height:1.7;border-top:1px solid var(--border);padding-top:14px}
+  .verify{color:var(--ok);font-weight:500}
+
+  .archive{display:none;background:var(--surface);border:1px solid var(--border);
+    border-radius:12px;padding:8px;margin-bottom:18px}
+  .archive.show{display:block}
+  .archive a{display:flex;justify-content:space-between;gap:12px;padding:9px 12px;border-radius:8px;
+    text-decoration:none;color:var(--text);font-size:13px}
+  .archive a:hover{background:var(--bg)}
+  .archive .a-date{font-weight:500;white-space:nowrap}
+  .archive .a-head{color:var(--muted);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  .archive .a-cnt{color:var(--hint);white-space:nowrap}
+
+  .empty{color:var(--muted);font-size:15px;padding:40px 0;text-align:center}
+  .empty a{color:var(--accent);text-decoration:none}
+  footer{margin-top:28px;font-size:12px;color:var(--hint);line-height:1.7;
+    border-top:1px solid var(--border);padding-top:14px}
 </style>
 </head>
 <body>
 <div class="wrap">
   <header>
     <h1>오늘의 AI 뉴스</h1>
-    <div class="sub" id="meta">발행일 검증을 거친 AI 뉴스 Top 10 · 요약과 인사이트</div>
+    <div class="sub" id="sub">매일 아침, 그날의 핵심 AI 뉴스만 골라 드립니다.</div>
+    <a class="backtoday" id="backtoday" href="./">← 오늘 뉴스로 돌아가기</a>
   </header>
+
+  <nav class="datenav" aria-label="날짜 탐색">
+    <button id="prev" aria-label="이전 날">◀ 이전</button>
+    <input type="date" id="datepick" aria-label="날짜 선택">
+    <button id="next" aria-label="다음 날">다음 ▶</button>
+    <span class="spacer"></span>
+    <button id="toggle-archive" aria-expanded="false">📅 지난 뉴스</button>
+  </nav>
+
+  <div class="archive" id="archive" aria-label="지난 뉴스 목록"></div>
   <div class="filters" id="filters"></div>
-  <main id="cards"><div class="empty">데이터를 불러오는 중…</div></main>
+  <main id="cards"><div class="empty">불러오는 중…</div></main>
+
   <footer>
-    날짜는 기사 발행일(절대표기) · 검증 통과 항목만 노출. 인사이트는 독자 일반 관점의 '왜 중요한가'.
-    매일 자동 갱신.
+    매일 아침 9시 업데이트 · 출처와 발행일을 확인한 뉴스만 싣습니다.
   </footer>
 </div>
 
@@ -72,37 +107,50 @@
 
 <script>
 (function(){
-  var raw = document.getElementById('cards-json').textContent
-            .replace(/\/\* CARDS_DATA_(START|END) \*\//g,'').trim();
-  var data; try{ data = JSON.parse(raw); }catch(e){ data = {cards:[]}; }
-  var cards = data.cards || [];
-  var meta = document.getElementById('meta');
-  if(data.date){ meta.textContent = data.date + ' · 발행일 검증 거친 AI 뉴스 ' + cards.length + '건'; }
+  var EMBEDDED;
+  try{
+    EMBEDDED = JSON.parse(document.getElementById('cards-json').textContent
+      .replace(/\/\* CARDS_DATA_(START|END) \*\//g,'').trim());
+  }catch(e){ EMBEDDED = {date:"",cards:[]}; }
 
-  var esc = function(s){ var d=document.createElement('div'); d.textContent=s==null?'':s; return d.innerHTML; };
-  var cats = [];
-  cards.forEach(function(c){ if(c.category && cats.indexOf(c.category)<0) cats.push(c.category); });
+  var esc=function(s){var d=document.createElement('div');d.textContent=s==null?'':s;return d.innerHTML;};
+  var WEEK=['일','월','화','수','목','금','토'];
+  function fmtDate(iso){
+    var p=(iso||'').split('-'); if(p.length!==3) return iso||'';
+    var dt=new Date(+p[0],+p[1]-1,+p[2]);
+    return p[0]+'년 '+(+p[1])+'월 '+(+p[2])+'일 ('+WEEK[dt.getDay()]+')';
+  }
 
-  var active = '전체';
-  var fbox = document.getElementById('filters');
-  ['전체'].concat(cats).forEach(function(cat){
-    var b=document.createElement('button');
-    b.textContent=cat; b.setAttribute('aria-pressed', cat===active);
-    b.onclick=function(){ active=cat;
-      Array.prototype.forEach.call(fbox.children,function(x){x.setAttribute('aria-pressed',x.textContent===cat);});
-      render(); };
-    fbox.appendChild(b);
-  });
+  var manifest={latest:EMBEDDED.date,editions:[]};
+  var current=null;          // 현재 보고 있는 에디션 데이터
+  var activeCat='전체';
 
-  function vlabel(s){ return s==='passed' ? ['passed','당일 검증 통과'] : ['yesterday','발행일 '+'(전일) 검증']; }
+  var elSub=document.getElementById('sub');
+  var elBack=document.getElementById('backtoday');
+  var elPrev=document.getElementById('prev');
+  var elNext=document.getElementById('next');
+  var elPick=document.getElementById('datepick');
+  var elArchiveBtn=document.getElementById('toggle-archive');
+  var elArchive=document.getElementById('archive');
+  var elFilters=document.getElementById('filters');
+  var elCards=document.getElementById('cards');
 
-  function render(){
-    var box=document.getElementById('cards');
-    var list = active==='전체' ? cards : cards.filter(function(c){return c.category===active;});
-    if(!list.length){ box.innerHTML='<div class="empty">해당 카테고리의 뉴스가 없습니다.</div>'; return; }
-    box.innerHTML = list.map(function(c){
+  function setHeader(data){
+    var isLatest = data.date===manifest.latest;
+    elSub.textContent = fmtDate(data.date) + ' · ' +
+      (isLatest ? '오늘 꼭 알아야 할 AI 뉴스 ' : '그날의 AI 뉴스 ') + (data.cards.length);
+    elBack.classList.toggle('show', !isLatest);
+  }
+
+  function renderCards(){
+    var list=activeCat==='전체'?current.cards:current.cards.filter(function(c){return c.category===activeCat;});
+    if(!current.cards.length){
+      elCards.innerHTML='<div class="empty">이 날짜에는 발행된 뉴스가 없습니다.<br><a href="./">가장 최근 뉴스 보기</a></div>';
+      return;
+    }
+    if(!list.length){ elCards.innerHTML='<div class="empty">이 카테고리의 뉴스가 없습니다.</div>'; return; }
+    elCards.innerHTML=list.map(function(c){
       var pts=(c.points||[]).map(function(p){return '<li>'+esc(p)+'</li>';}).join('');
-      var v=vlabel(c.verification_status);
       return '<article class="card">'
         +'<div class="card-top"><span class="cat">'+esc(c.category)+'</span>'
         +'<span class="date">'+esc(c.verified_date)+'</span></div>'
@@ -112,11 +160,84 @@
         +'<div class="insight"><span class="label">왜 중요한가</span><p>'+esc(c.insight)+'</p></div>'
         +'<div class="card-foot">'
         +'<a href="'+esc(c.source_url)+'" target="_blank" rel="noopener">출처'+(c.source_name?' · '+esc(c.source_name):'')+'</a>'
-        +'<span class="verify '+v[0]+'">'+v[1]+'</span></div>'
+        +'<span class="verify">✓ 출처·발행일 확인</span></div>'
         +'</article>';
     }).join('');
   }
-  render();
+
+  function buildFilters(){
+    var cats=[]; current.cards.forEach(function(c){if(c.category&&cats.indexOf(c.category)<0)cats.push(c.category);});
+    activeCat='전체';
+    elFilters.innerHTML='';
+    ['전체'].concat(cats).forEach(function(cat){
+      var b=document.createElement('button');
+      b.textContent=cat; b.setAttribute('aria-pressed',cat===activeCat);
+      b.onclick=function(){activeCat=cat;
+        [].forEach.call(elFilters.children,function(x){x.setAttribute('aria-pressed',x.textContent===cat);});
+        renderCards();};
+      elFilters.appendChild(b);
+    });
+  }
+
+  function updateNav(date){
+    var dates=manifest.editions.map(function(e){return e.date;}); // 최신순
+    var i=dates.indexOf(date);
+    elNext.disabled=!(i>0);                     // 더 최신 있음
+    elPrev.disabled=!(i>=0&&i<dates.length-1);  // 더 과거 있음
+    elNext.onclick=function(){ if(i>0) go(dates[i-1]); };
+    elPrev.onclick=function(){ if(i>=0&&i<dates.length-1) go(dates[i+1]); };
+    if(date) elPick.value=date;
+    if(dates.length){ elPick.min=dates[dates.length-1]; elPick.max=dates[0]; }
+  }
+
+  function show(data){
+    current=data; setHeader(data); buildFilters(); renderCards(); updateNav(data.date);
+    [].forEach.call(elArchive.querySelectorAll('a'),function(a){
+      a.style.background=a.dataset.date===data.date?'var(--bg)':'';});
+  }
+
+  function go(date){
+    if(!date) return;
+    if(date===EMBEDDED.date){ history.pushState({},'', './'); show(EMBEDDED); return; }
+    history.pushState({},'','?date='+date);
+    fetch('data/cards-'+date+'.json').then(function(r){
+      if(!r.ok) throw 0; return r.json();
+    }).then(show).catch(function(){
+      current={date:date,cards:[]}; setHeader(current); elFilters.innerHTML=''; renderCards(); updateNav(date);
+    });
+  }
+
+  function buildArchive(){
+    if(!manifest.editions.length){ elArchiveBtn.style.display='none'; return; }
+    elArchive.innerHTML=manifest.editions.map(function(e){
+      return '<a href="?date='+e.date+'" data-date="'+e.date+'">'
+        +'<span class="a-date">'+fmtDate(e.date)+'</span>'
+        +'<span class="a-head">'+esc(e.top_headline)+'</span>'
+        +'<span class="a-cnt">'+e.count+'건</span></a>';
+    }).join('');
+    [].forEach.call(elArchive.querySelectorAll('a'),function(a){
+      a.onclick=function(ev){ev.preventDefault();go(a.dataset.date);elArchive.classList.remove('show');elArchiveBtn.setAttribute('aria-expanded','false');};
+    });
+  }
+  elArchiveBtn.onclick=function(){
+    var open=elArchive.classList.toggle('show');
+    elArchiveBtn.setAttribute('aria-expanded',open);
+  };
+  elPick.onchange=function(){ go(elPick.value); };
+  window.onpopstate=function(){ start(); };
+
+  function param(){ var m=location.search.match(/[?&]date=([0-9-]+)/); return m?m[1]:null; }
+
+  function start(){
+    if(EMBEDDED.cards.length){ show(EMBEDDED); }       // 임베드 최신 즉시 표시
+    fetch('data/index.json').then(function(r){return r.ok?r.json():null;}).then(function(m){
+      if(m){ manifest=m; buildArchive(); }
+      var d=param();
+      if(d && d!==EMBEDDED.date){ go(d); }
+      else { updateNav(EMBEDDED.date||manifest.latest); if(!EMBEDDED.cards.length && manifest.latest) go(manifest.latest); }
+    }).catch(function(){ if(EMBEDDED.cards.length) updateNav(EMBEDDED.date); });
+  }
+  start();
 })();
 </script>
 </body>

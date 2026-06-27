@@ -1,0 +1,54 @@
+{
+  "date": "2026-06-24",
+  "generated_at": "2026-06-24T09:05:00+09:00",
+  "cards": [
+    {
+      "rank": 1,
+      "category": "모델·연구",
+      "verified_date": "2026-06-23",
+      "verification_status": "yesterday",
+      "headline": "OpenAI GPT-5.6, ChatGPT Pro에 선노출 — 6월 말 정식 출시 임박",
+      "summary": "GPT-5.5의 후속인 GPT-5.6이 정식 출시에 앞서 ChatGPT Pro 사용자에게 먼저 모습을 드러냈다.",
+      "points": [
+        "정식 출시 전 상위 요금제 선노출로 점진 공개",
+        "전작 대비 의미 있는 성능 향상 예고",
+        "프런티어 모델 경쟁의 출시 주기가 빨라지는 흐름"
+      ],
+      "insight": "최신 모델이 상위 요금제에 먼저 가는 패턴이 굳어지고 있다. 'AI 접근 격차'가 요금제 단위로 벌어진다는 점을 환기한다.",
+      "source_url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-23-2026",
+      "source_name": "buildfastwithai"
+    },
+    {
+      "rank": 2,
+      "category": "산업·투자",
+      "verified_date": "2026-06-23",
+      "verification_status": "yesterday",
+      "headline": "'Attention' 공저자 Noam Shazeer, 구글 떠나 OpenAI 합류",
+      "summary": "트랜스포머를 제시한 2017년 논문의 공저자 Noam Shazeer가 구글 DeepMind를 떠나 OpenAI로 옮긴다.",
+      "points": [
+        "AI 핵심 인재의 빅테크 간 이동이 가속",
+        "인재 확보가 모델 경쟁력의 직접 변수",
+        "구글→OpenAI 인재 이동이 같은 주에 연이어 발생"
+      ],
+      "insight": "프런티어 AI 경쟁의 승부처가 컴퓨트뿐 아니라 핵심 인재 쟁탈로 옮겨가고 있다. 인재 흐름은 기술 주도권의 선행 지표다.",
+      "source_url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-23-2026",
+      "source_name": "buildfastwithai"
+    },
+    {
+      "rank": 3,
+      "category": "도구·개발",
+      "verified_date": "2026-06-23",
+      "verification_status": "yesterday",
+      "headline": "Fable 5, 6월 23일부터 모든 구독자에 유료 크레딧 필요",
+      "summary": "Fable 5 모델이 6월 23일부터 모든 구독자에게 유료 사용 크레딧을 요구하는 방식으로 전환됐다.",
+      "points": [
+        "무상 제공에서 유료 크레딧 기반으로 정책 변경",
+        "고성능 모델의 운영 비용이 가격에 반영되는 흐름",
+        "워크플로우에 모델을 묶을 때 비용 구조 점검 필요"
+      ],
+      "insight": "고성능 모델일수록 '무료'에서 '사용량 과금'으로 빠르게 전환된다. 모델에 의존한 서비스는 가격 정책 변화를 비용 리스크로 관리해야 한다.",
+      "source_url": "https://llm-stats.com/llm-updates",
+      "source_name": "llm-stats"
+    }
+  ]
+}

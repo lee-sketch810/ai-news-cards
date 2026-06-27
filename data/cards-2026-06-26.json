@@ -1,0 +1,102 @@
+{
+  "date": "2026-06-26",
+  "generated_at": "2026-06-26T09:05:00+09:00",
+  "cards": [
+    {
+      "rank": 1,
+      "category": "산업·투자",
+      "verified_date": "2026-06-26",
+      "verification_status": "passed",
+      "headline": "OpenAI, 첫 자체 추론 칩 'Jalapeño' 공개 — 서빙 비용 약 50% 절감 노린다",
+      "summary": "OpenAI와 브로드컴이 엔비디아 GPU 대비 추론 비용을 약 50% 낮추도록 설계한 맞춤 칩 Jalapeño를 공개했다.",
+      "points": [
+        "ChatGPT 서빙 비용이 2025년 약 140억 달러 — 추론 단가가 수익성의 핵심 변수",
+        "자체 칩으로 GPU 의존도와 단가를 동시에 낮추려는 전략",
+        "엔지니어링 샘플이 이미 OpenAI 경영진에 전달됨"
+      ],
+      "insight": "AI 경쟁의 승부처가 모델 성능을 넘어 '추론 단가'로 내려가고 있다. 자체 실리콘은 대규모 서비스에서 수익성을 가르는 구조적 레버다.",
+      "source_url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-26-2026",
+      "source_name": "buildfastwithai"
+    },
+    {
+      "rank": 2,
+      "category": "정책·규제",
+      "verified_date": "2026-06-26",
+      "verification_status": "passed",
+      "headline": "Anthropic, 알리바바의 '모델 증류 공격' 의혹 공식 제기",
+      "summary": "Anthropic이 알리바바가 2만 5천 개 계정으로 2,880만 건의 부정 API 호출을 일으켜 Claude의 능력을 추출하려 했다고 공식 주장했다.",
+      "points": [
+        "대규모 계정·호출을 동원한 조직적 증류(distillation) 시도 의혹",
+        "프런티어 모델의 '능력 도용'이 새 분쟁 축으로 부상",
+        "API 남용 탐지·차단이 모델 보호의 핵심 과제로"
+      ],
+      "insight": "모델 자체가 핵심 자산이 되면서 '증류를 통한 능력 도용'이 새로운 IP 분쟁 영역으로 떠오른다. 모델 제공자에게 남용 탐지는 보안이자 자산 방어다.",
+      "source_url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-26-2026",
+      "source_name": "buildfastwithai"
+    },
+    {
+      "rank": 3,
+      "category": "모델·연구",
+      "verified_date": "2026-06-26",
+      "verification_status": "passed",
+      "headline": "구글 DeepMind 인재 이탈 가속 — 6일 새 4명, Anthropic·OpenAI로",
+      "summary": "노벨상 수상자 John Jumper를 포함한 구글 DeepMind 핵심 연구자 4명이 6일 사이 Anthropic과 OpenAI로 옮겼다.",
+      "points": [
+        "AlphaFold 기여자 등 최상위 연구 인재의 연쇄 이동",
+        "단기간 집중 이탈로 연구 조직 동요 신호",
+        "인재 확보가 모델 경쟁력의 직접 변수임을 재확인"
+      ],
+      "insight": "프런티어 AI 경쟁의 선행 지표는 인재 흐름이다. 핵심 연구자의 집중 이동은 향후 모델 주도권의 이동을 예고하는 신호로 읽힌다.",
+      "source_url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-26-2026",
+      "source_name": "buildfastwithai"
+    },
+    {
+      "rank": 4,
+      "category": "모델·연구",
+      "verified_date": "2026-06-26",
+      "verification_status": "passed",
+      "headline": "OpenAI GPT-5.6 출시 초읽기 — 6월 28일 전 확률 83%, 컨텍스트 150만 토큰",
+      "summary": "예측 시장이 GPT-5.6의 6월 28일 이전 출시 확률을 83%로 매기는 가운데, 150만 토큰 컨텍스트 윈도우가 거론된다.",
+      "points": [
+        "초장문 컨텍스트(150만 토큰)로 처리 범위 대폭 확대 예고",
+        "예측 시장이 임박한 출시를 높은 확률로 반영",
+        "프런티어 모델의 출시 주기가 더 빨라지는 흐름"
+      ],
+      "insight": "컨텍스트 윈도우 경쟁이 다시 한계를 끌어올리고 있다. 더 긴 입력은 'AI가 한 번에 다룰 수 있는 일의 크기'를 바꾸는 실질 변수다.",
+      "source_url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-26-2026",
+      "source_name": "buildfastwithai"
+    },
+    {
+      "rank": 5,
+      "category": "도구·개발",
+      "verified_date": "2026-06-26",
+      "verification_status": "passed",
+      "headline": "프런티어 모델 가격, 2026년 들어 두 배로 — GPT-5.5·Fable 5 단가 상승",
+      "summary": "하락하던 토큰 단가 추세가 반전돼 GPT-5.5와 Claude Fable 5가 전작 대비 토큰당 비용을 두 배로 올렸다.",
+      "points": [
+        "장기 하락하던 단가가 상승 반전",
+        "고성능·고비용 모델과 저비용 모델의 분화 가속",
+        "모델에 의존한 서비스는 단가 변동을 비용 리스크로 관리해야"
+      ],
+      "insight": "'AI는 계속 싸진다'는 가정이 흔들린다. 최상위 성능에는 프리미엄 가격이 붙으며, 빌더는 성능과 단가를 함께 설계해야 한다.",
+      "source_url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-26-2026",
+      "source_name": "buildfastwithai"
+    },
+    {
+      "rank": 6,
+      "category": "산업·투자",
+      "verified_date": "2026-06-26",
+      "verification_status": "passed",
+      "headline": "Anthropic, 2분기 흑자 궤도 — 영업이익 약 5.6억 달러 전망",
+      "summary": "Anthropic이 경쟁사들이 대규모 적자를 내는 가운데 2026년 2분기 약 5억 5,900만 달러 영업이익을 향해 가고 있다.",
+      "points": [
+        "경쟁 구도 속 드문 흑자 전환 신호",
+        "토큰 단가 인상·기업 시장 확대가 수익성에 기여",
+        "AI 사업의 '성장 vs 수익' 균형점이 시험대에"
+      ],
+      "insight": "AI 기업 평가의 잣대가 '성장 서사'에서 '실제 수익성'으로 이동하기 시작했다. 흑자 가능성은 사업 모델의 지속가능성을 가르는 분기점이다.",
+      "source_url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-26-2026",
+      "source_name": "buildfastwithai"
+    }
+  ]
+}

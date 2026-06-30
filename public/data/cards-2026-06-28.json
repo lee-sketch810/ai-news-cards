@@ -1,0 +1,90 @@
+{
+  "date": "2026-06-28",
+  "generated_at": "2026-06-28T09:05:00+09:00",
+  "daily_insight": {
+    "title": "기술 밖의 변수가 AI를 좌우한다",
+    "body": "정부 승인, 조직 붕괴, 일자리 충격. 이날의 핵심은 모델 성능이 아니라 '정부·조직·사회'라는 기술 외적 힘이 AI의 향방을 쥐고 있다는 점이었다."
+  },
+  "cards": [
+    {
+      "rank": 1,
+      "category": "정책·규제",
+      "verified_date": "2026-06-28",
+      "verification_status": "passed",
+      "headline": "美 정부, 프런티어 모델 출시 통제 — OpenAI·Anthropic 같은 처지",
+      "summary": "정식 프레임워크 없는 임시 정부 승인 절차가 프런티어 모델 출시를 제약하며, 두 선도 기업이 동일한 규제 병목에 놓였다.",
+      "points": [
+        "출시 전 정부 승인이 사실상의 게이트로 작동",
+        "공식 프레임워크 부재로 절차의 예측가능성 저하",
+        "규제가 모델 가용성을 직접 좌우"
+      ],
+      "insight": "프런티어 모델의 출시 권한이 점차 정부 절차에 종속된다. AI 가용성은 기술 준비도뿐 아니라 규제 통과 여부의 함수가 되고 있다.",
+      "source_url": "https://aitoolsrecap.com/Blog/ai-news-june-28-2026",
+      "source_name": "aitoolsrecap"
+    },
+    {
+      "rank": 2,
+      "category": "모델·연구",
+      "verified_date": "2026-06-28",
+      "verification_status": "passed",
+      "headline": "Anthropic 'AI for Science' 행사 예고 — 노벨상 John Jumper 공개석상",
+      "summary": "AlphaFold 공동 창안자이자 노벨상 수상자 John Jumper가 6월 30일 Anthropic의 AI for Science 행사에서 첫 공개석상에 설 예정이다.",
+      "points": [
+        "최상위 과학 인재의 합류가 행사로 가시화",
+        "'AI for Science' 의제를 전면에 배치",
+        "연구 인재 영입이 브랜드 신호로 작동"
+      ],
+      "insight": "AI 기업이 과학 난제 해결을 전면에 내세우는 흐름이다. 모델 경쟁이 벤치마크를 넘어 '실제 발견에 기여하는가'로 확장되고 있다.",
+      "source_url": "https://aitoolsrecap.com/Blog/ai-news-june-28-2026",
+      "source_name": "aitoolsrecap"
+    },
+    {
+      "rank": 3,
+      "category": "도구·개발",
+      "verified_date": "2026-06-28",
+      "verification_status": "passed",
+      "headline": "Claude Opus 4.7 패스트 모드 7월 24일 종료 — 4.8로 이전 필요",
+      "summary": "Claude Opus 4.7의 패스트 모드가 7월 24일 제거되며, 개발자는 그 전에 Opus 4.8 패스트 모드로 옮겨야 요청 실패를 피할 수 있다.",
+      "points": [
+        "구버전 기능 종료로 마이그레이션 기한 설정",
+        "미이전 시 요청 실패 위험",
+        "모델 버전 수명주기 관리의 중요성 부각"
+      ],
+      "insight": "모델은 빠르게 버전이 갈리고 구기능은 예고와 함께 사라진다. 모델에 의존한 서비스는 버전 종료(deprecation)를 상시 운영 리스크로 관리해야 한다.",
+      "source_url": "https://aitoolsrecap.com/Blog/ai-news-june-28-2026",
+      "source_name": "aitoolsrecap"
+    },
+    {
+      "rank": 4,
+      "category": "산업·투자",
+      "verified_date": "2026-06-28",
+      "verification_status": "passed",
+      "headline": "xAI 리더십 위기 — 창업자 11명 전원 이탈",
+      "summary": "xAI의 원년 공동창업자 11명이 2026년 5월까지 모두 회사를 떠났고, 리드 호프먼은 회사를 '완전한 난파선'으로 평했다.",
+      "points": [
+        "창업 핵심 인력의 전면 이탈",
+        "외부 인사의 강한 부정 평가",
+        "조직 안정성이 AI 경쟁력의 전제임을 환기"
+      ],
+      "insight": "기술과 자본이 충분해도 조직이 무너지면 경쟁에서 밀린다. AI 기업의 지속가능성은 모델 성능만이 아니라 인적 안정성에 달려 있다.",
+      "source_url": "https://aitoolsrecap.com/Blog/ai-news-june-28-2026",
+      "source_name": "aitoolsrecap"
+    },
+    {
+      "rank": 5,
+      "category": "정책·규제",
+      "verified_date": "2026-06-28",
+      "verification_status": "passed",
+      "headline": "골드만삭스: AI로 美 일자리 월 1.1만 개 순감 — Z세대 직격",
+      "summary": "AI가 미국에서 매월 약 1만 1천 개의 순일자리를 없애고 있으며, 입문급 지식 노동에서 Z세대가 불균형적 타격을 받는다는 분석이 나왔다.",
+      "points": [
+        "AI發 일자리 순감이 통계로 가시화",
+        "입문급·청년층에 충격이 집중",
+        "노동시장 전환 대응이 정책 과제로"
+      ],
+      "insight": "AI의 생산성 효과 이면에서 노동시장 재편이 빠르게 진행된다. 입문급 일자리 축소는 교육·재교육 체계가 풀어야 할 사회적 숙제를 키운다.",
+      "source_url": "https://aitoolsrecap.com/Blog/ai-news-june-28-2026",
+      "source_name": "aitoolsrecap"
+    }
+  ]
+}

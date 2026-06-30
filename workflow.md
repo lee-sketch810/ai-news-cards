@@ -129,6 +129,21 @@
 - **Review**: none
 - **Translation**: none
 
+### 7. Notion 누적 동기화 (Accumulating Archive)
+- **Pre-processing**: none (입력은 `data/cards-YYYY-MM-DD.json`)
+- **Agent**: `@news-deployer` (Notion MCP)
+- **Verification**:
+  - [ ] 당일 카드가 Notion DB "AI 뉴스 아카이브"(data_source `af0009aa-29ea-4d16-8ef6-2689de6eda95`)에 적재됨
+  - [ ] 속성 매핑 정확: 헤드라인·발행일(verified_date)·수집일(edition date)·카테고리·요약·인사이트·출처·출처명·검증(passed→당일/yesterday→전일)
+  - [ ] 동일 수집일+헤드라인 중복 미삽입 (idempotent)
+  - [ ] 개인 필드(읽음·북마크·메모·활용태그)는 비워 둠 (사용자 몫)
+- **Task**: Upsert each day's cards into the Notion archive DB via Notion MCP create-pages; the 3 points become the page body. Non-blocking: log and continue on failure (site deploy is the primary output).
+- **Output**: Notion DB rows (파생 싱크 — SOT 아님)
+- **Review**: none
+- **Translation**: none
+
+> **SOT 원칙 (절대 기준 2)**: Notion은 `cards-*.json`의 **파생 싱크(거울)**다. 진실원천은 사이트의 카드 JSON이며, Notion 쓰기 실패가 파이프라인을 막지 않는다.
+
 ---
 
 ## Claude Code Configuration

@@ -1,0 +1,106 @@
+{
+  "date": "2026-06-29",
+  "generated_at": "2026-06-29T09:05:00+09:00",
+  "daily_insight": {
+    "title": "모델은 이제 '등급'으로 쪼개진다",
+    "body": "3단 모델, 기관 한정 복원, 작업별 라우팅, 단계적 출시. 하나의 모델을 모두가 쓰던 시대가 저물고, 누가·어디까지·어떤 작업에 쓰느냐로 잘게 나뉘는 흐름이 또렷해졌다."
+  },
+  "cards": [
+    {
+      "rank": 1,
+      "category": "모델·연구",
+      "verified_date": "2026-06-29",
+      "verification_status": "passed",
+      "headline": "OpenAI, GPT-5.6 3단 모델 'Sol·Terra·Luna' 프리뷰 — Sol Ultra 91.9%",
+      "summary": "OpenAI가 정부 게이트 방식으로 GPT-5.6의 3단 구성(Sol·Terra·Luna)을 선보였고, Sol Ultra가 Terminal-Bench 2.1에서 91.9%를 기록했다.",
+      "points": [
+        "성능·접근권을 나눈 3단 모델 라인업",
+        "정부 게이트형 제한 접근으로 공개",
+        "에이전트 벤치마크에서 높은 점수 기록"
+      ],
+      "insight": "프런티어 모델이 '한 개'가 아니라 접근권·성능별 등급으로 쪼개진다. 능력이 높을수록 '누구에게 어디까지 열지'를 함께 설계하는 것이 표준이 된다.",
+      "source_url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-29-2026",
+      "source_name": "buildfastwithai"
+    },
+    {
+      "rank": 2,
+      "category": "정책·규제",
+      "verified_date": "2026-06-29",
+      "verification_status": "passed",
+      "headline": "Claude Mythos 5 부분 복원 — 美 핵심인프라 100곳 한정",
+      "summary": "Anthropic이 상무부 승인으로 약 100개 미국 핵심 인프라 기관에 Mythos 5 접근을 복원했으나 Fable 5는 여전히 차단 상태다.",
+      "points": [
+        "정부 승인 아래 제한적·선별적 복원",
+        "모델별로 차등화된 가용성",
+        "국가 안보 맥락이 모델 접근을 좌우"
+      ],
+      "insight": "모델 가용성이 '전면 공개/전면 차단'이 아니라 기관·용도별로 잘게 통제되는 시대다. 어떤 모델을 쓸 수 있는지가 규제 지형에 따라 달라진다.",
+      "source_url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-29-2026",
+      "source_name": "buildfastwithai"
+    },
+    {
+      "rank": 3,
+      "category": "도구·개발",
+      "verified_date": "2026-06-29",
+      "verification_status": "passed",
+      "headline": "기업, '토큰맥싱' 버리고 모델 라우팅으로 — 비용 70~90% 절감",
+      "summary": "기업들이 무작정 큰 모델을 쓰는 전략을 버리고 작업별로 모델을 배분하는 라우팅·어드바이저 기법으로 AI 비용을 70~90% 줄이고 있다.",
+      "points": [
+        "작업 난이도에 맞춰 모델을 선택하는 라우팅 확산",
+        "비용을 대폭 낮추는 실전 운영 패턴",
+        "'무조건 큰 모델'에서 '적정 모델'로 전환"
+      ],
+      "insight": "AI 비용 최적화의 핵심은 더 싼 모델이 아니라 '작업마다 알맞은 모델을 고르는 설계'다. 모델 라우팅은 품질을 지키면서 비용을 가르는 실전 레버다.",
+      "source_url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-29-2026",
+      "source_name": "buildfastwithai"
+    },
+    {
+      "rank": 4,
+      "category": "정책·규제",
+      "verified_date": "2026-06-29",
+      "verification_status": "passed",
+      "headline": "Anthropic-국방부 소송 진행 중 — 공급망 리스크 지정에 반발",
+      "summary": "Anthropic이 트럼프 행정부의 공급망 리스크 지정에 맞선 연방 소송을 이어가는 가운데 캘리포니아에서 예비 가처분이 유지되고 있다.",
+      "points": [
+        "정부의 공급망 리스크 지정에 법적 대응",
+        "예비 가처분으로 일부 제동",
+        "AI 기업과 정부의 갈등이 법정으로"
+      ],
+      "insight": "AI 기업과 국가 정책의 충돌이 법정 다툼으로 번지고 있다. 모델의 사업 환경은 기술뿐 아니라 규제·소송 리스크의 영향권에 들어섰다.",
+      "source_url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-29-2026",
+      "source_name": "buildfastwithai"
+    },
+    {
+      "rank": 5,
+      "category": "모델·연구",
+      "verified_date": "2026-06-29",
+      "verification_status": "passed",
+      "headline": "프런티어 AI, '정부 프리뷰 → 검증 파트너' 출시 패턴 표준화",
+      "summary": "정부 프리뷰 접근과 검증된 파트너 대상 단계적 배포가 미국 프런티어 모델 출시의 표준 절차로 자리 잡았다.",
+      "points": [
+        "출시 전 정부 프리뷰가 관행화",
+        "검증 파트너 우선 배포 방식 정착",
+        "공개 범위를 단계적으로 넓히는 구조"
+      ],
+      "insight": "프런티어 모델은 이제 '공개 출시'가 아니라 '단계적 개방'으로 풀린다. 일반 사용자가 최신 모델에 닿기까지의 시차가 구조적으로 길어진다.",
+      "source_url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-29-2026",
+      "source_name": "buildfastwithai"
+    },
+    {
+      "rank": 6,
+      "category": "교육·생산성",
+      "verified_date": "2026-06-29",
+      "verification_status": "passed",
+      "headline": "Anthropic 경제지수: 사용자 35% \"1년 내 AI가 내 일 대부분 대체\" 기대",
+      "summary": "Anthropic 설문에서 사용자의 35%가 12개월 내 AI가 자기 업무의 대부분을 수행할 것으로 기대했고, 숙련 사용자일수록 협업형 활용으로 더 나은 성과를 냈다.",
+      "points": [
+        "단기간 내 업무 대체에 대한 높은 기대",
+        "숙련 사용자의 협업형 활용이 성과 우위",
+        "기대와 실제 활용 역량의 격차 존재"
+      ],
+      "insight": "AI 효용은 '얼마나 강력한가'보다 '얼마나 잘 협업하는가'에서 갈린다. 도구를 다루는 숙련도가 곧 성과 격차로 이어지므로, 활용 역량 교육이 관건이 된다.",
+      "source_url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-29-2026",
+      "source_name": "buildfastwithai"
+    }
+  ]
+}

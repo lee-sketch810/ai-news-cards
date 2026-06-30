@@ -1,0 +1,106 @@
+{
+  "date": "2026-06-30",
+  "generated_at": "2026-06-30T09:05:00+09:00",
+  "daily_insight": {
+    "title": "사상 최대 베팅과 그 청구서",
+    "body": "알파벳은 역대급 자본을 모으지만 인재는 떠나고, AI 도구 비용은 사용자에게 전가되며, 사회는 재교육으로 충격을 흡수하려 한다. 거대한 투자의 이면에 분배의 청구서가 쌓인 하루다."
+  },
+  "cards": [
+    {
+      "rank": 1,
+      "category": "산업·투자",
+      "verified_date": "2026-06-30",
+      "verification_status": "passed",
+      "headline": "알파벳, 사상 최대 847.5억 달러 펀딩 — 버크셔 100억 달러 앵커",
+      "summary": "알파벳이 AI 인프라를 위한 기업 역사상 최대 규모의 지분 조달에 성공했고, 버크셔 해서웨이가 100억 달러로 앵커 투자자로 참여했다.",
+      "points": [
+        "기업 역사상 최대 규모의 지분 조달",
+        "버크셔의 이례적 대형 AI 인프라 베팅",
+        "AI 인프라 군비경쟁의 자금 규모 확대"
+      ],
+      "insight": "AI 인프라 경쟁이 한 기업의 현금흐름으로 감당 못 할 규모가 되면서, 외부 대형 자본까지 끌어들이는 단계로 들어섰다. 자본 조달력 자체가 경쟁력이 된다.",
+      "source_url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-30-2026",
+      "source_name": "buildfastwithai"
+    },
+    {
+      "rank": 2,
+      "category": "모델·연구",
+      "verified_date": "2026-06-30",
+      "verification_status": "passed",
+      "headline": "구글, 5개월간 AI 연구자 6명 이탈 — Brin \"격차 시급히 메워야\"",
+      "summary": "추론 전문가 Denny Zhou 등 DeepMind 핵심 인재가 경쟁사로 떠나자 세르게이 브린이 '에이전트 실행력의 격차를 시급히 메워야 한다'고 밝혔다.",
+      "points": [
+        "장기간 누적된 핵심 인재 유출",
+        "창업자가 직접 위기감을 공식화",
+        "'에이전트 실행력'이 격차의 핵심으로 지목"
+      ],
+      "insight": "선두 기업조차 인재 유출 앞에서 흔들린다. 경쟁의 초점이 모델 성능에서 '에이전트로 실제 일을 끝내는 실행력'으로 이동하고 있음을 보여준다.",
+      "source_url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-30-2026",
+      "source_name": "buildfastwithai"
+    },
+    {
+      "rank": 3,
+      "category": "모델·연구",
+      "verified_date": "2026-06-30",
+      "verification_status": "passed",
+      "headline": "구글 Gemini 3.5 Pro, 6월 출시 불발 — 7월로 연기",
+      "summary": "구글이 장문 작업의 토큰 효율 검증이 더 필요하다고 판단해 플래그십 Gemini 3.5 Pro 출시를 7월로 미뤘다.",
+      "points": [
+        "추가 검증 필요로 출시 일정 변경",
+        "장문 작업의 효율이 지연 사유",
+        "공언한 6월 출시 약속 불발"
+      ],
+      "insight": "주요 모델의 연이은 출시 연기는 '빠른 공개'보다 '검증된 품질'을 택하는 압박이 커졌음을 보여준다. 약속한 일정과 실제 출시의 간극이 평판 변수로 굳어진다.",
+      "source_url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-30-2026",
+      "source_name": "buildfastwithai"
+    },
+    {
+      "rank": 4,
+      "category": "도구·개발",
+      "verified_date": "2026-06-30",
+      "verification_status": "passed",
+      "headline": "GitHub Copilot, 정액제 종료하고 토큰 과금 — 헤비유저 비용 10~50배↑",
+      "summary": "사용량 기반 과금이 도입되며 일부 헤비유저의 월 비용이 10~50배로 뛰었고, 무제한 구독에서 벗어나는 첫 대형 전환점이 됐다.",
+      "points": [
+        "정액 무제한에서 사용량 과금으로 전환",
+        "헤비유저 비용 급증",
+        "AI 개발도구 과금 모델의 구조적 변화"
+      ],
+      "insight": "AI 도구가 '정액 무제한'에서 '쓴 만큼 과금'으로 이동한다. 사용량이 곧 비용이 되므로, AI를 업무에 깊게 쓸수록 비용 설계가 생산성만큼 중요해진다.",
+      "source_url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-30-2026",
+      "source_name": "buildfastwithai"
+    },
+    {
+      "rank": 5,
+      "category": "산업·투자",
+      "verified_date": "2026-06-30",
+      "verification_status": "passed",
+      "headline": "퀄컴, Modular 39.2억 달러 인수 — 엔비디아 생태계에 도전",
+      "summary": "퀄컴이 Modular를 39억 2천만 달러에 인수해 엔비디아 생태계에 맞설 AI 칩 배포용 소프트웨어 인프라를 확보했다.",
+      "points": [
+        "하드웨어 업체의 소프트웨어 스택 확보",
+        "엔비디아 생태계 종속 탈피 시도",
+        "AI 칩 경쟁이 '칩+SW' 묶음으로 확대"
+      ],
+      "insight": "AI 칩 경쟁의 승부처는 실리콘만이 아니라 그 위의 소프트웨어 생태계다. 하드웨어 업체들이 SW를 사들이는 것은 '엔비디아 해자'가 칩이 아니라 생태계임을 인정하는 신호다.",
+      "source_url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-30-2026",
+      "source_name": "buildfastwithai"
+    },
+    {
+      "rank": 6,
+      "category": "교육·생산성",
+      "verified_date": "2026-06-30",
+      "verification_status": "passed",
+      "headline": "RAISE US, 5억 달러 노동자 재교육 — Amazon·Anthropic·MS 참여",
+      "summary": "전 상무장관 라이몬도가 이끄는 초당적 비영리 RAISE US가 AI發 일자리 대체에 대응해 아마존·Anthropic·마이크로소프트의 약정을 받아 5억 달러 재교육 사업을 출범했다.",
+      "points": [
+        "AI 일자리 대체에 대응한 대형 재교육 기금",
+        "주요 빅테크의 공동 참여",
+        "초당적 비영리 주도로 추진"
+      ],
+      "insight": "AI가 일자리를 재편하는 만큼 '재교육'이 사회적 안전망의 핵심 의제로 떠오른다. 기술 도입과 인력 전환을 함께 설계하는 것이 지속가능성의 조건이 된다.",
+      "source_url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-30-2026",
+      "source_name": "buildfastwithai"
+    }
+  ]
+}

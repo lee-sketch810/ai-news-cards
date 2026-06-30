@@ -1,0 +1,106 @@
+{
+  "date": "2026-06-27",
+  "generated_at": "2026-06-27T09:05:00+09:00",
+  "daily_insight": {
+    "title": "거대 자본도 인재·가격 앞에선 흔들린다",
+    "body": "출시는 미뤄지고 인재는 빠지고 시총은 증발하며, 저비용 중국 모델이 점유율을 가져간다. 천문학적 자본지출에도 회수는 더디다. AI 패권의 균열이 동시다발로 드러난 하루다."
+  },
+  "cards": [
+    {
+      "rank": 1,
+      "category": "모델·연구",
+      "verified_date": "2026-06-27",
+      "verification_status": "passed",
+      "headline": "GPT-5.6 출시 7월로 연기 — 출시 확률 83%→18% 급락",
+      "summary": "임박했던 OpenAI GPT-5.6 출시가 7월로 미뤄지며 예측 시장 확률이 83%에서 18%로 무너졌다.",
+      "points": [
+        "보상 모델 검증 등 추가 작업이 지연 사유로 거론",
+        "예측 시장 확률이 단기간에 급락",
+        "프런티어 모델의 '발표와 실제 출시'의 간극 재확인"
+      ],
+      "insight": "공언된 출시 일정과 실제 배포의 간극은 모델 경쟁에서 반복되는 패턴이다. 로드맵 신뢰도 자체가 기업 평판의 변수로 작동한다.",
+      "source_url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-27-2026",
+      "source_name": "buildfastwithai"
+    },
+    {
+      "rank": 2,
+      "category": "산업·투자",
+      "verified_date": "2026-06-27",
+      "verification_status": "passed",
+      "headline": "알파벳 시총 2,690억 달러 증발 — 6일 새 DeepMind 핵심 4명 이탈",
+      "summary": "Shazeer·Jumper 등 구글 DeepMind 연구자 4명이 6일 사이 경쟁사로 떠나며 기술기업 사상 손꼽히는 비실적성 시총 급락이 일어났다.",
+      "points": [
+        "핵심 인재 연쇄 이탈이 시장 평가에 직접 충격",
+        "비실적 이슈로는 이례적 규모의 시총 하락",
+        "인재 유출이 곧 기업 가치 리스크로 가시화"
+      ],
+      "insight": "AI 기업의 가치는 모델만큼이나 핵심 인재에 묶여 있다. 인재 유출은 재무제표보다 빠르게 시장 신뢰를 흔드는 선행 충격이다.",
+      "source_url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-27-2026",
+      "source_name": "buildfastwithai"
+    },
+    {
+      "rank": 3,
+      "category": "산업·투자",
+      "verified_date": "2026-06-27",
+      "verification_status": "passed",
+      "headline": "OpenAI·Anthropic 가격 전쟁 조짐 — IPO 앞두고 단가 인하 압박",
+      "summary": "9~10월 IPO를 앞둔 두 회사가 중국 오픈웨이트 모델이 OpenRouter API의 60%를 잠식하자 토큰 단가 인하 압박에 직면했다.",
+      "points": [
+        "저비용 중국 오픈웨이트가 가격 경쟁을 촉발",
+        "IPO를 앞둔 수익성·점유율 동시 압박",
+        "API 단가가 경쟁의 핵심 전장으로"
+      ],
+      "insight": "모델 성능이 상향 평준화되자 경쟁이 가격으로 옮겨간다. 저비용 대안의 부상은 프리미엄 모델의 단가 전략을 직접 흔든다.",
+      "source_url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-27-2026",
+      "source_name": "buildfastwithai"
+    },
+    {
+      "rank": 4,
+      "category": "도구·개발",
+      "verified_date": "2026-06-27",
+      "verification_status": "passed",
+      "headline": "Anthropic 'Claude Design' 출시 — 디자인 SW 업체 위협",
+      "summary": "Claude Opus 4.7 기반 디자인 도구가 출시되며 Figma 주가가 하락, 엔터프라이즈 SW 영역으로의 확장이 이어졌다.",
+      "points": [
+        "AI 모델 제공자가 응용 SW 영역으로 직접 진입",
+        "기존 디자인 SW 업체의 해자 위협",
+        "모델→애플리케이션 수직 확장 흐름"
+      ],
+      "insight": "모델 제공자가 응용 도구로 내려오면서 'AI를 쓰던 SW'와 'AI가 직접 만든 SW'가 경쟁하게 된다. 단일 기능 SaaS의 방어선이 좁아진다.",
+      "source_url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-27-2026",
+      "source_name": "buildfastwithai"
+    },
+    {
+      "rank": 5,
+      "category": "산업·투자",
+      "verified_date": "2026-06-27",
+      "verification_status": "passed",
+      "headline": "AI 자본지출 4,520억 달러 — 투자 대비 회수는 부진",
+      "summary": "하이퍼스케일러의 2026년 합산 AI 지출이 이스라엘 GDP를 넘어섰지만, 마이크로소프트는 AI 서비스 1달러당 0.38달러만 회수하는 등 ROI는 저조하다.",
+      "points": [
+        "AI 인프라 지출이 국가 GDP 규모로 팽창",
+        "지출 대비 수익 회수율은 여전히 낮음",
+        "'투자 과열 vs 실수익' 논쟁 심화"
+      ],
+      "insight": "AI 인프라 경쟁은 막대한 자본을 빨아들이지만 수익화는 아직 뒤따르지 못한다. 지출 규모가 아니라 회수율이 지속가능성의 진짜 잣대다.",
+      "source_url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-27-2026",
+      "source_name": "buildfastwithai"
+    },
+    {
+      "rank": 6,
+      "category": "모델·연구",
+      "verified_date": "2026-06-27",
+      "verification_status": "passed",
+      "headline": "중국 오픈웨이트 모델, API 사용량 60% 차지",
+      "summary": "DeepSeek V4-Pro 등 오픈웨이트 대안이 비용 차익을 무기로 개발자 선호를 끌어가며 프로덕션 AI 파이프라인의 모델 선택 방식을 바꾸고 있다.",
+      "points": [
+        "비용 차익(cost arbitrage)이 모델 선택의 핵심 기준으로",
+        "오픈웨이트가 실사용 점유율에서 우위 확보",
+        "프로덕션 파이프라인의 모델 선정 논리 변화"
+      ],
+      "insight": "개발 현장에서 모델 선택 기준이 '최고 성능'에서 '성능 대비 비용'으로 이동한다. 모델은 단일 정답이 아니라 작업별로 갈아끼우는 부품이 되고 있다.",
+      "source_url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-27-2026",
+      "source_name": "buildfastwithai"
+    }
+  ]
+}

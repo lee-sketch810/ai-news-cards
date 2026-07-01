@@ -59,6 +59,44 @@
   .card-foot a{color:var(--accent);text-decoration:none}
   .card-foot a:hover{text-decoration:underline}
   .verify{color:var(--ok);font-weight:500}
+  .verify.vv{color:var(--accent)}
+  .ents{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 12px}
+  .ent{font:inherit;font-size:11.5px;padding:2px 9px;border-radius:20px;cursor:pointer;
+    background:var(--chip);color:var(--chip-text);border:1px solid transparent}
+  .ent:hover{border-color:var(--accent);color:var(--accent)}
+
+  .tools{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin:0 0 16px}
+  .tools input{font:inherit;font-size:13px;padding:7px 12px;border-radius:8px;flex:1;min-width:160px;
+    border:1px solid var(--border);background:var(--surface);color:var(--text)}
+  .tools button{font:inherit;font-size:13px;padding:7px 12px;border-radius:8px;cursor:pointer;
+    background:var(--chip);color:var(--chip-text);border:1px solid transparent;white-space:nowrap}
+  .tools button:hover{border-color:var(--accent);color:var(--accent)}
+
+  .view{display:none;margin:0 0 8px}
+  .view.show{display:block}
+  .view h2.v-title{font-size:18px;font-weight:600;margin:0 0 4px}
+  .view .v-sub{font-size:13px;color:var(--muted);margin:0 0 14px}
+  .tl a,.sr a{display:block;text-decoration:none;color:var(--text);border:1px solid var(--border);
+    border-radius:10px;padding:12px 14px;margin-bottom:10px}
+  .tl a:hover,.sr a:hover{border-color:var(--accent)}
+  .tl .t-top,.sr .t-top{display:flex;justify-content:space-between;gap:10px;margin-bottom:4px}
+  .tl .t-cat,.sr .t-cat{font-size:11px;font-weight:500;background:var(--accent-bg);color:var(--accent);
+    padding:2px 8px;border-radius:6px}
+  .tl .t-date,.sr .t-date{font-size:12px;color:var(--hint)}
+  .tl .t-head,.sr .t-head{font-size:14px;font-weight:500}
+  .sr .t-sum{font-size:12.5px;color:var(--muted);margin:4px 0 0;line-height:1.5}
+  .bar-row{display:flex;align-items:center;gap:10px;margin:6px 0}
+  .bar-row .b-lab{font-size:12.5px;color:var(--muted);width:96px;flex:none}
+  .bar-row .b-track{flex:1;background:var(--chip);border-radius:6px;height:16px;overflow:hidden}
+  .bar-row .b-fill{height:100%;background:var(--accent);border-radius:6px}
+  .bar-row .b-val{font-size:12px;color:var(--hint);width:34px;text-align:right;flex:none}
+  .rank-chip{display:inline-flex;align-items:center;gap:6px;font-size:12.5px;padding:5px 11px;
+    border-radius:20px;background:var(--chip);color:var(--chip-text);border:1px solid transparent;
+    cursor:pointer;margin:0 6px 6px 0}
+  .rank-chip:hover{border-color:var(--accent);color:var(--accent)}
+  .rank-chip b{color:var(--accent)}
+  .about p{font-size:13.5px;color:var(--muted);line-height:1.7;margin:0 0 10px}
+  .about ul{font-size:13.5px;color:var(--muted);line-height:1.7;margin:0 0 10px;padding-left:18px}
 
   .archive{display:none;background:var(--surface);border:1px solid var(--border);
     border-radius:12px;padding:8px;margin-bottom:18px}
@@ -110,7 +148,14 @@
     <button id="toggle-archive" aria-expanded="false">📅 지난 뉴스</button>
   </nav>
 
+  <div class="tools">
+    <input type="search" id="search" placeholder="🔍 전체 뉴스 검색 (기업·모델·키워드)" aria-label="뉴스 검색">
+    <button id="btn-trends">📊 트렌드</button>
+    <button id="btn-about">ℹ️ 소개</button>
+  </div>
+
   <div class="archive" id="archive" aria-label="지난 뉴스 목록"></div>
+  <section class="view" id="view" aria-label="타임라인·트렌드·검색·소개"></section>
   <section class="daily" id="daily" aria-label="오늘의 종합 인사이트"></section>
   <div class="filters" id="filters"></div>
   <main id="cards"><div class="empty">불러오는 중…</div></main>
@@ -123,7 +168,76 @@
 </div>
 
 <script id="cards-json" type="application/json">/* CARDS_DATA_START */
-{"date": "2026-07-01", "generated_at": "2026-07-01T09:05:00+09:00", "daily_insight": {"title": "하루를 Anthropic이 채웠다 — 모델·과학·접근을 동시에", "body": "프런티어급 미드티어 모델(Sonnet 5), 연구자 전용 작업대(Claude Science), 정부 지시로 막혔던 모델의 재배포가 같은 시점에 쏟아졌다. 성능·전문화·가용성을 한꺼번에 밀어붙이며 제품 저변을 넓히려는 움직임이 도드라진 흐름이다."}, "cards": [{"rank": 1, "category": "모델·연구", "verified_date": "2026-06-30", "verification_status": "yesterday", "headline": "Anthropic, 'Claude Sonnet 5' 공개 — 미드티어에 프런티어급 성능", "summary": "Anthropic이 코딩·에이전트·전문 업무 전반에서 프런티어급 성능을 대규모로 제공하는 Sonnet 5를 공개했다.", "points": ["중간 등급 모델에 최상위급 성능을 담음", "코딩·에이전트 작업에서 특히 강조된 향상", "성능 대비 비용 곡선을 다시 끌어내림"], "insight": "'최고 성능=최고가 모델'이라는 공식이 흔들린다. 미드티어가 프런티어 성능을 담으면, 대다수 실무는 더 저렴한 등급으로 충분해져 모델 선택의 기준이 바뀐다.", "source_url": "https://www.anthropic.com/news", "source_name": "Anthropic"}, {"rank": 2, "category": "교육·생산성", "verified_date": "2026-06-30", "verification_status": "yesterday", "headline": "Anthropic, 연구자용 AI 작업대 'Claude Science' 출시", "summary": "Anthropic이 자주 쓰는 연구 패키지·컴퓨팅 자원과 맞춤 연동되는 과학자용 AI 워크벤치 Claude Science를 공개했다.", "points": ["범용 챗을 넘어 연구 워크플로우에 특화", "연구 패키지·컴퓨팅 자원과의 통합 제공", "전문 직군 전용 도구로의 확장"], "insight": "AI의 다음 격전지는 '범용 대화'가 아니라 '직군 특화 작업대'다. 도메인 도구·데이터와 얼마나 깊게 통합되느냐가 실제 생산성을 가른다.", "source_url": "https://www.anthropic.com/news", "source_name": "Anthropic"}, {"rank": 3, "category": "정책·규제", "verified_date": "2026-06-30", "verification_status": "yesterday", "headline": "Anthropic, 'Fable 5' 재배포 — 앞선 정부 지시 이후 복귀", "summary": "앞선 정부 지시로 접근이 제한됐던 Fable 5를 Anthropic이 다시 배포하기 시작했다.", "points": ["정부 지시로 막혔던 모델의 재개", "가용성이 규제 상황에 따라 오르내림", "모델 접근의 정책 종속성이 재확인됨"], "insight": "모델 가용성은 이제 기술이 아니라 정책의 리듬을 탄다. 특정 모델에 묶인 서비스는 '언제든 막히고 풀릴 수 있음'을 전제로 폴백을 준비해야 한다.", "source_url": "https://www.anthropic.com/news", "source_name": "Anthropic"}]}
+{
+  "date": "2026-07-01",
+  "generated_at": "2026-07-01T09:05:00+09:00",
+  "daily_insight": {
+    "title": "하루를 Anthropic이 채웠다 — 모델·과학·접근을 동시에",
+    "body": "프런티어급 미드티어 모델(Sonnet 5), 연구자 전용 작업대(Claude Science), 정부 지시로 막혔던 모델의 재배포가 같은 시점에 쏟아졌다. 성능·전문화·가용성을 한꺼번에 밀어붙이며 제품 저변을 넓히려는 움직임이 도드라진 흐름이다."
+  },
+  "cards": [
+    {
+      "rank": 1,
+      "category": "모델·연구",
+      "verified_date": "2026-06-30",
+      "verification_status": "yesterday",
+      "headline": "Anthropic, 'Claude Sonnet 5' 공개 — 미드티어에 프런티어급 성능",
+      "summary": "Anthropic이 코딩·에이전트·전문 업무 전반에서 프런티어급 성능을 대규모로 제공하는 Sonnet 5를 공개했다.",
+      "points": [
+        "중간 등급 모델에 최상위급 성능을 담음",
+        "코딩·에이전트 작업에서 특히 강조된 향상",
+        "성능 대비 비용 곡선을 다시 끌어내림"
+      ],
+      "insight": "'최고 성능=최고가 모델'이라는 공식이 흔들린다. 미드티어가 프런티어 성능을 담으면, 대다수 실무는 더 저렴한 등급으로 충분해져 모델 선택의 기준이 바뀐다.",
+      "source_url": "https://www.anthropic.com/news",
+      "source_name": "Anthropic",
+      "entities": [
+        "Anthropic",
+        "Claude"
+      ]
+    },
+    {
+      "rank": 2,
+      "category": "교육·생산성",
+      "verified_date": "2026-06-30",
+      "verification_status": "yesterday",
+      "headline": "Anthropic, 연구자용 AI 작업대 'Claude Science' 출시",
+      "summary": "Anthropic이 자주 쓰는 연구 패키지·컴퓨팅 자원과 맞춤 연동되는 과학자용 AI 워크벤치 Claude Science를 공개했다.",
+      "points": [
+        "범용 챗을 넘어 연구 워크플로우에 특화",
+        "연구 패키지·컴퓨팅 자원과의 통합 제공",
+        "전문 직군 전용 도구로의 확장"
+      ],
+      "insight": "AI의 다음 격전지는 '범용 대화'가 아니라 '직군 특화 작업대'다. 도메인 도구·데이터와 얼마나 깊게 통합되느냐가 실제 생산성을 가른다.",
+      "source_url": "https://www.anthropic.com/news",
+      "source_name": "Anthropic",
+      "entities": [
+        "Anthropic",
+        "Claude"
+      ]
+    },
+    {
+      "rank": 3,
+      "category": "정책·규제",
+      "verified_date": "2026-06-30",
+      "verification_status": "yesterday",
+      "headline": "Anthropic, 'Fable 5' 재배포 — 앞선 정부 지시 이후 복귀",
+      "summary": "앞선 정부 지시로 접근이 제한됐던 Fable 5를 Anthropic이 다시 배포하기 시작했다.",
+      "points": [
+        "정부 지시로 막혔던 모델의 재개",
+        "가용성이 규제 상황에 따라 오르내림",
+        "모델 접근의 정책 종속성이 재확인됨"
+      ],
+      "insight": "모델 가용성은 이제 기술이 아니라 정책의 리듬을 탄다. 특정 모델에 묶인 서비스는 '언제든 막히고 풀릴 수 있음'을 전제로 폴백을 준비해야 한다.",
+      "source_url": "https://www.anthropic.com/news",
+      "source_name": "Anthropic",
+      "entities": [
+        "Anthropic",
+        "Claude"
+      ]
+    }
+  ]
+}
 /* CARDS_DATA_END */</script>
 
 <script>
@@ -183,6 +297,10 @@
     if(!list.length){ elCards.innerHTML='<div class="empty">이 카테고리의 뉴스가 없습니다.</div>'; return; }
     elCards.innerHTML=list.map(function(c){
       var pts=(c.points||[]).map(function(p){return '<li>'+esc(p)+'</li>';}).join('');
+      var chips=(c.entities||[]).map(function(e){
+        return '<button class="ent" data-ent="'+esc(e)+'">'+esc(e)+'</button>';}).join('');
+      var multi=(c.sources&&c.sources.length>1);
+      var badge=multi?'<span class="verify vv">✓✓ 교차검증</span>':'<span class="verify">✓ 출처·발행일 확인</span>';
       return '<article class="card">'
         +'<div class="card-top"><span class="cat">'+esc(c.category)+'</span>'
         +'<span class="date">'+esc(c.verified_date)+'</span></div>'
@@ -190,11 +308,14 @@
         +'<p class="summary">'+esc(c.summary)+'</p>'
         +'<ul class="points">'+pts+'</ul>'
         +'<div class="insight"><span class="label">왜 중요한가</span><p>'+esc(c.insight)+'</p></div>'
+        +(chips?'<div class="ents">'+chips+'</div>':'')
         +'<div class="card-foot">'
         +'<a href="'+esc(c.source_url)+'" target="_blank" rel="noopener">출처'+(c.source_name?' · '+esc(c.source_name):'')+'</a>'
-        +'<span class="verify">✓ 출처·발행일 확인</span></div>'
+        +badge+'</div>'
         +'</article>';
     }).join('');
+    [].forEach.call(elCards.querySelectorAll('.ent'),function(b){
+      b.onclick=function(){ goEntity(b.dataset.ent); };});
   }
 
   function buildFilters(){
@@ -230,6 +351,7 @@
 
   function go(date){
     if(!date) return;
+    if(elView.classList.contains('show')) clearView();
     if(date===EMBEDDED.date){ history.pushState({},'', './'); show(EMBEDDED); return; }
     history.pushState({},'','?date='+date);
     fetch('data/cards-'+date+'.json').then(function(r){
@@ -276,6 +398,116 @@
     }).catch(function(){});
   }
 
+  // ---- 특수 뷰 (엔티티 타임라인 / 트렌드 / 검색 / 소개) ----
+  var elView=document.getElementById('view');
+  var elSearch=document.getElementById('search');
+  var _cache={};
+  function fetchJSON(name){
+    return _cache[name]!==undefined ? Promise.resolve(_cache[name]) :
+      fetch('data/'+name).then(function(r){return r.ok?r.json():null;})
+        .then(function(j){_cache[name]=j;return j;}).catch(function(){return null;});
+  }
+  function clearView(){
+    elView.classList.remove('show'); elView.innerHTML='';
+    elCards.style.display=''; elFilters.style.display='';
+    var ov=document.getElementById('overview'); ov.style.display=ov.innerHTML.trim()?'block':'none';
+  }
+  function enterView(html){
+    elDaily.style.display='none'; elFilters.style.display='none'; elCards.style.display='none';
+    document.getElementById('overview').style.display='none';
+    elView.innerHTML=html; elView.classList.add('show'); window.scrollTo(0,0); wireView();
+  }
+  function exitView(){
+    if(/[?&](entity|view|q)=/.test(location.search)) history.pushState({},'','./');
+    clearView(); if(current) show(current);
+  }
+  function wireView(){
+    [].forEach.call(elView.querySelectorAll('[data-back]'),function(b){b.onclick=exitView;});
+    [].forEach.call(elView.querySelectorAll('[data-ent]'),function(b){b.onclick=function(){goEntity(b.dataset.ent);};});
+    [].forEach.call(elView.querySelectorAll('.sr a[data-date]'),function(a){
+      a.onclick=function(ev){ev.preventDefault();var dt=a.dataset.date;clearView();history.pushState({},'','./');go(dt);};});
+  }
+  function backBtn(){ return '<button class="ent" data-back="1" style="margin-bottom:12px">← 뉴스로</button>'; }
+
+  function goEntity(name){
+    history.pushState({},'','?entity='+encodeURIComponent(name));
+    fetchJSON('entities.json').then(function(o){
+      var items=(o&&o.timelines&&o.timelines[name])||[];
+      var rows=items.map(function(it){
+        return '<a href="'+esc(it.url)+'" target="_blank" rel="noopener">'
+          +'<div class="t-top"><span class="t-cat">'+esc(it.category)+'</span>'
+          +'<span class="t-date">'+esc(it.date)+'</span></div>'
+          +'<div class="t-head">'+esc(it.headline)+'</div></a>';}).join('');
+      enterView(backBtn()+'<h2 class="v-title">'+esc(name)+' 타임라인</h2>'
+        +'<p class="v-sub">이 주제로 확인된 소식 '+items.length+'건 · 최신순</p>'
+        +'<div class="tl">'+(rows||'<div class="empty">해당 소식이 없습니다.</div>')+'</div>');
+    });
+  }
+  function showTrends(){
+    history.pushState({},'','?view=trends');
+    fetchJSON('trends.json').then(function(t){
+      if(!t){ enterView(backBtn()+'<div class="empty">트렌드 데이터가 없습니다.</div>'); return; }
+      var cats=t.by_category||{};
+      var max=Math.max.apply(null,Object.keys(cats).map(function(k){return cats[k];}).concat([1]));
+      var bars=Object.keys(cats).map(function(k){
+        return '<div class="bar-row"><span class="b-lab">'+esc(k)+'</span>'
+          +'<span class="b-track"><span class="b-fill" style="width:'+Math.round(cats[k]/max*100)+'%"></span></span>'
+          +'<span class="b-val">'+cats[k]+'</span></div>';}).join('');
+      var ents=(t.top_entities||[]).map(function(e){
+        return '<button class="rank-chip" data-ent="'+esc(e.name)+'">'+esc(e.name)+' <b>'+e.count+'</b></button>';}).join('');
+      enterView(backBtn()+'<h2 class="v-title">주간 트렌드</h2>'
+        +'<p class="v-sub">'+esc(t.period)+' · 카드 '+t.total_cards+'건 / '+t.total_editions+'일</p>'
+        +'<div style="margin-bottom:18px">'+bars+'</div>'
+        +'<p class="v-sub" style="margin:0 0 8px">가장 자주 등장한 기업·모델 (클릭 시 타임라인)</p>'
+        +'<div>'+ents+'</div>');
+    });
+  }
+  function doSearch(q){
+    q=(q||'').trim();
+    if(!q){ if(elView.classList.contains('show')) exitView(); return; }
+    history.replaceState({},'','?q='+encodeURIComponent(q));
+    fetchJSON('search-index.json').then(function(idx){
+      idx=idx||[]; var ql=q.toLowerCase();
+      var hits=idx.filter(function(c){
+        return (c.headline+' '+c.summary+' '+c.insight+' '+(c.entities||[]).join(' ')+' '+c.category).toLowerCase().indexOf(ql)>=0;});
+      var rows=hits.map(function(c){
+        return '<a href="?date='+c.date+'" data-date="'+c.date+'">'
+          +'<div class="t-top"><span class="t-cat">'+esc(c.category)+'</span><span class="t-date">'+esc(c.date)+'</span></div>'
+          +'<div class="t-head">'+esc(c.headline)+'</div><p class="t-sum">'+esc(c.summary)+'</p></a>';}).join('');
+      enterView(backBtn()+'<h2 class="v-title">"'+esc(q)+'" 검색</h2>'
+        +'<p class="v-sub">'+hits.length+'건 · 최신순</p>'
+        +'<div class="sr">'+(rows||'<div class="empty">검색 결과가 없습니다.</div>')+'</div>');
+      elSearch.value=q;
+    });
+  }
+  function showAbout(){
+    history.pushState({},'','?view=about');
+    enterView(backBtn()+'<h2 class="v-title">이 사이트는 어떻게 만드나요?</h2>'
+      +'<div class="about">'
+      +'<p>매일 아침, 웹에서 수집한 AI 뉴스 후보를 <b>기사 발행일 검증</b>을 거쳐 그날(또는 전일) 소식만 골라 싣습니다.</p>'
+      +'<ul>'
+      +'<li><b>발행일 검증</b> — 각 기사의 발행 시각 메타데이터를 확인해 오래된 기사를 걸러냅니다. 날짜는 상대표현 없이 절대 발행일로만 표기합니다.</li>'
+      +'<li><b>선별</b> — 중요도·실용성·관련성 점수로 상위 항목만, 카테고리 균형을 맞춰 고릅니다.</li>'
+      +'<li><b>3단 인사이트</b> — 카드별 "왜 중요한가", 일별 "오늘의 흐름", 기간 전체 "전체 흐름".</li>'
+      +'<li><b>출처 공개</b> — 모든 카드에 원문 링크를 답니다. 2개 이상 출처로 확인되면 ✓✓ 교차검증 배지가 붙습니다.</li>'
+      +'</ul>'
+      +'<p>카테고리는 주제 기준 6종입니다: 모델·연구 / 에이전트·자동화 / 도구·개발 / 교육·생산성 / 산업·투자 / 정책·규제.</p>'
+      +'</div>');
+  }
+
+  document.getElementById('btn-trends').onclick=showTrends;
+  document.getElementById('btn-about').onclick=showAbout;
+  var _sto=null;
+  elSearch.oninput=function(){ clearTimeout(_sto); var v=elSearch.value; _sto=setTimeout(function(){doSearch(v);},250); };
+
+  function applyViewParam(){
+    var m;
+    if((m=location.search.match(/[?&]entity=([^&]+)/))){ goEntity(decodeURIComponent(m[1])); return true; }
+    if((m=location.search.match(/[?&]view=(trends|about)/))){ (m[1]==='trends'?showTrends:showAbout)(); return true; }
+    if((m=location.search.match(/[?&]q=([^&]+)/))){ elSearch.value=decodeURIComponent(m[1]); doSearch(elSearch.value); return true; }
+    return false;
+  }
+
   function start(){
     if(EMBEDDED.cards.length){ show(EMBEDDED); }       // 임베드 최신 즉시 표시
     fetch('data/index.json').then(function(r){return r.ok?r.json():null;}).then(function(m){
@@ -283,6 +515,7 @@
       var d=param();
       if(d && d!==EMBEDDED.date){ go(d); }
       else { updateNav(EMBEDDED.date||manifest.latest); if(!EMBEDDED.cards.length && manifest.latest) go(manifest.latest); }
+      applyViewParam();
     }).catch(function(){ if(EMBEDDED.cards.length) updateNav(EMBEDDED.date); });
   }
   start();

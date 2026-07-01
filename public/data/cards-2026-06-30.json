@@ -20,7 +20,10 @@
       ],
       "insight": "AI 인프라 경쟁이 한 기업의 현금흐름으로 감당 못 할 규모가 되면서, 외부 대형 자본까지 끌어들이는 단계로 들어섰다. 자본 조달력 자체가 경쟁력이 된다.",
       "source_url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-30-2026",
-      "source_name": "buildfastwithai"
+      "source_name": "buildfastwithai",
+      "entities": [
+        "Google"
+      ]
     },
     {
       "rank": 2,
@@ -36,7 +39,10 @@
       ],
       "insight": "선두 기업조차 인재 유출 앞에서 흔들린다. 경쟁의 초점이 모델 성능에서 '에이전트로 실제 일을 끝내는 실행력'으로 이동하고 있음을 보여준다.",
       "source_url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-30-2026",
-      "source_name": "buildfastwithai"
+      "source_name": "buildfastwithai",
+      "entities": [
+        "Google"
+      ]
     },
     {
       "rank": 3,
@@ -52,7 +58,11 @@
       ],
       "insight": "주요 모델의 연이은 출시 연기는 '빠른 공개'보다 '검증된 품질'을 택하는 압박이 커졌음을 보여준다. 약속한 일정과 실제 출시의 간극이 평판 변수로 굳어진다.",
       "source_url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-30-2026",
-      "source_name": "buildfastwithai"
+      "source_name": "buildfastwithai",
+      "entities": [
+        "Google",
+        "Gemini"
+      ]
     },
     {
       "rank": 4,
@@ -68,7 +78,10 @@
       ],
       "insight": "AI 도구가 '정액 무제한'에서 '쓴 만큼 과금'으로 이동한다. 사용량이 곧 비용이 되므로, AI를 업무에 깊게 쓸수록 비용 설계가 생산성만큼 중요해진다.",
       "source_url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-30-2026",
-      "source_name": "buildfastwithai"
+      "source_name": "buildfastwithai",
+      "entities": [
+        "Microsoft"
+      ]
     },
     {
       "rank": 5,
@@ -84,7 +97,11 @@
       ],
       "insight": "AI 칩 경쟁의 승부처는 실리콘만이 아니라 그 위의 소프트웨어 생태계다. 하드웨어 업체들이 SW를 사들이는 것은 '엔비디아 해자'가 칩이 아니라 생태계임을 인정하는 신호다.",
       "source_url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-30-2026",
-      "source_name": "buildfastwithai"
+      "source_name": "buildfastwithai",
+      "entities": [
+        "NVIDIA",
+        "Qualcomm"
+      ]
     },
     {
       "rank": 6,
@@ -100,7 +117,11 @@
       ],
       "insight": "AI가 일자리를 재편하는 만큼 '재교육'이 사회적 안전망의 핵심 의제로 떠오른다. 기술 도입과 인력 전환을 함께 설계하는 것이 지속가능성의 조건이 된다.",
       "source_url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-30-2026",
-      "source_name": "buildfastwithai"
+      "source_name": "buildfastwithai",
+      "entities": [
+        "Anthropic",
+        "Microsoft"
+      ]
     }
   ]
 }

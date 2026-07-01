@@ -16,6 +16,10 @@ Procedure:
 1. Run `python scripts/render_cards.py --cards data/cards-YYYY-MM-DD.json`.
    This injects the latest cards into `public/index.html`, publishes the edition to
    `public/data/cards-YYYY-MM-DD.json`, and rebuilds the manifest `public/data/index.json`.
+   Then run `python scripts/build_analytics.py` — it tags entities on every card, rebuilds
+   `entities.json` (timelines), `trends.json` (category + entity ranking), and
+   `search-index.json`, and re-embeds the enriched latest edition into `public/index.html`.
+   (Always run build_analytics AFTER render_cards, never before.)
 2. Verify the page: every card renders, all `source_url`s are valid links (no placeholders),
    category filter, date navigation, and archive list work.
 3. Commit and push to the GitHub Pages branch:

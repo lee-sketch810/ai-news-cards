@@ -1,0 +1,454 @@
+{
+  "generated_at": "2026-07-01T06:27:58.242311+00:00",
+  "timelines": {
+    "OpenAI": [
+      {
+        "date": "2026-06-29",
+        "headline": "OpenAI, GPT-5.6 3단 모델 'Sol·Terra·Luna' 프리뷰 — Sol Ultra 91.9%",
+        "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-29-2026",
+        "category": "모델·연구",
+        "verification_status": "passed"
+      },
+      {
+        "date": "2026-06-28",
+        "headline": "美 정부, 프런티어 모델 출시 통제 — OpenAI·Anthropic 같은 처지",
+        "url": "https://aitoolsrecap.com/Blog/ai-news-june-28-2026",
+        "category": "정책·규제",
+        "verification_status": "passed"
+      },
+      {
+        "date": "2026-06-27",
+        "headline": "GPT-5.6 출시 7월로 연기 — 출시 확률 83%→18% 급락",
+        "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-27-2026",
+        "category": "모델·연구",
+        "verification_status": "passed"
+      },
+      {
+        "date": "2026-06-27",
+        "headline": "OpenAI·Anthropic 가격 전쟁 조짐 — IPO 앞두고 단가 인하 압박",
+        "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-27-2026",
+        "category": "산업·투자",
+        "verification_status": "passed"
+      },
+      {
+        "date": "2026-06-26",
+        "headline": "OpenAI, 첫 자체 추론 칩 'Jalapeño' 공개 — 서빙 비용 약 50% 절감 노린다",
+        "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-26-2026",
+        "category": "산업·투자",
+        "verification_status": "passed"
+      },
+      {
+        "date": "2026-06-26",
+        "headline": "구글 DeepMind 인재 이탈 가속 — 6일 새 4명, Anthropic·OpenAI로",
+        "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-26-2026",
+        "category": "모델·연구",
+        "verification_status": "passed"
+      },
+      {
+        "date": "2026-06-26",
+        "headline": "OpenAI GPT-5.6 출시 초읽기 — 6월 28일 전 확률 83%, 컨텍스트 150만 토큰",
+        "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-26-2026",
+        "category": "모델·연구",
+        "verification_status": "passed"
+      },
+      {
+        "date": "2026-06-25",
+        "headline": "GPT-5, 3년 묵은 면역학 난제를 풀다",
+        "url": "https://openai.com/news/",
+        "category": "교육·생산성",
+        "verification_status": "yesterday"
+      },
+      {
+        "date": "2026-06-25",
+        "headline": "OpenAI, 보안 특화 모델 'GPT-5.5-Cyber' 출시 — 벤치마크 신기록",
+        "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-24-2026",
+        "category": "모델·연구",
+        "verification_status": "yesterday"
+      },
+      {
+        "date": "2026-06-24",
+        "headline": "OpenAI GPT-5.6, ChatGPT Pro에 선노출 — 6월 말 정식 출시 임박",
+        "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-23-2026",
+        "category": "모델·연구",
+        "verification_status": "yesterday"
+      },
+      {
+        "date": "2026-06-24",
+        "headline": "'Attention' 공저자 Noam Shazeer, 구글 떠나 OpenAI 합류",
+        "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-23-2026",
+        "category": "산업·투자",
+        "verification_status": "yesterday"
+      }
+    ],
+    "GPT": [
+      {
+        "date": "2026-06-29",
+        "headline": "OpenAI, GPT-5.6 3단 모델 'Sol·Terra·Luna' 프리뷰 — Sol Ultra 91.9%",
+        "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-29-2026",
+        "category": "모델·연구",
+        "verification_status": "passed"
+      },
+      {
+        "date": "2026-06-27",
+        "headline": "GPT-5.6 출시 7월로 연기 — 출시 확률 83%→18% 급락",
+        "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-27-2026",
+        "category": "모델·연구",
+        "verification_status": "passed"
+      },
+      {
+        "date": "2026-06-26",
+        "headline": "OpenAI GPT-5.6 출시 초읽기 — 6월 28일 전 확률 83%, 컨텍스트 150만 토큰",
+        "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-26-2026",
+        "category": "모델·연구",
+        "verification_status": "passed"
+      },
+      {
+        "date": "2026-06-26",
+        "headline": "프런티어 모델 가격, 2026년 들어 두 배로 — GPT-5.5·Fable 5 단가 상승",
+        "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-26-2026",
+        "category": "도구·개발",
+        "verification_status": "passed"
+      },
+      {
+        "date": "2026-06-25",
+        "headline": "GPT-5, 3년 묵은 면역학 난제를 풀다",
+        "url": "https://openai.com/news/",
+        "category": "교육·생산성",
+        "verification_status": "yesterday"
+      },
+      {
+        "date": "2026-06-25",
+        "headline": "OpenAI, 보안 특화 모델 'GPT-5.5-Cyber' 출시 — 벤치마크 신기록",
+        "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-24-2026",
+        "category": "모델·연구",
+        "verification_status": "yesterday"
+      },
+      {
+        "date": "2026-06-24",
+        "headline": "OpenAI GPT-5.6, ChatGPT Pro에 선노출 — 6월 말 정식 출시 임박",
+        "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-23-2026",
+        "category": "모델·연구",
+        "verification_status": "yesterday"
+      }
+    ],
+    "Google": [
+      {
+        "date": "2026-06-30",
+        "headline": "알파벳, 사상 최대 847.5억 달러 펀딩 — 버크셔 100억 달러 앵커",
+        "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-30-2026",
+        "category": "산업·투자",
+        "verification_status": "passed"
+      },
+      {
+        "date": "2026-06-30",
+        "headline": "구글, 5개월간 AI 연구자 6명 이탈 — Brin \"격차 시급히 메워야\"",
+        "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-30-2026",
+        "category": "모델·연구",
+        "verification_status": "passed"
+      },
+      {
+        "date": "2026-06-30",
+        "headline": "구글 Gemini 3.5 Pro, 6월 출시 불발 — 7월로 연기",
+        "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-30-2026",
+        "category": "모델·연구",
+        "verification_status": "passed"
+      },
+      {
+        "date": "2026-06-27",
+        "headline": "알파벳 시총 2,690억 달러 증발 — 6일 새 DeepMind 핵심 4명 이탈",
+        "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-27-2026",
+        "category": "산업·투자",
+        "verification_status": "passed"
+      },
+      {
+        "date": "2026-06-26",
+        "headline": "구글 DeepMind 인재 이탈 가속 — 6일 새 4명, Anthropic·OpenAI로",
+        "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-26-2026",
+        "category": "모델·연구",
+        "verification_status": "passed"
+      },
+      {
+        "date": "2026-06-25",
+        "headline": "구글 Gemini 3.5 Pro, 6월 출시 약속에도 정식 공개 지연",
+        "url": "https://llm-stats.com/llm-updates",
+        "category": "모델·연구",
+        "verification_status": "yesterday"
+      },
+      {
+        "date": "2026-06-24",
+        "headline": "'Attention' 공저자 Noam Shazeer, 구글 떠나 OpenAI 합류",
+        "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-23-2026",
+        "category": "산업·투자",
+        "verification_status": "yesterday"
+      }
+    ],
+    "Claude": [
+      {
+        "date": "2026-07-01",
+        "headline": "Anthropic, 'Claude Sonnet 5' 공개 — 미드티어에 프런티어급 성능",
+        "url": "https://www.anthropic.com/news",
+        "category": "모델·연구",
+        "verification_status": "yesterday"
+      },
+      {
+        "date": "2026-07-01",
+        "headline": "Anthropic, 연구자용 AI 작업대 'Claude Science' 출시",
+        "url": "https://www.anthropic.com/news",
+        "category": "교육·생산성",
+        "verification_status": "yesterday"
+      },
+      {
+        "date": "2026-07-01",
+        "headline": "Anthropic, 'Fable 5' 재배포 — 앞선 정부 지시 이후 복귀",
+        "url": "https://www.anthropic.com/news",
+        "category": "정책·규제",
+        "verification_status": "yesterday"
+      },
+      {
+        "date": "2026-06-29",
+        "headline": "Claude Mythos 5 부분 복원 — 美 핵심인프라 100곳 한정",
+        "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-29-2026",
+        "category": "정책·규제",
+        "verification_status": "passed"
+      },
+      {
+        "date": "2026-06-28",
+        "headline": "Claude Opus 4.7 패스트 모드 7월 24일 종료 — 4.8로 이전 필요",
+        "url": "https://aitoolsrecap.com/Blog/ai-news-june-28-2026",
+        "category": "도구·개발",
+        "verification_status": "passed"
+      },
+      {
+        "date": "2026-06-27",
+        "headline": "Anthropic 'Claude Design' 출시 — 디자인 SW 업체 위협",
+        "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-27-2026",
+        "category": "도구·개발",
+        "verification_status": "passed"
+      },
+      {
+        "date": "2026-06-26",
+        "headline": "Anthropic, 알리바바의 '모델 증류 공격' 의혹 공식 제기",
+        "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-26-2026",
+        "category": "정책·규제",
+        "verification_status": "passed"
+      },
+      {
+        "date": "2026-06-26",
+        "headline": "프런티어 모델 가격, 2026년 들어 두 배로 — GPT-5.5·Fable 5 단가 상승",
+        "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-26-2026",
+        "category": "도구·개발",
+        "verification_status": "passed"
+      },
+      {
+        "date": "2026-06-24",
+        "headline": "Fable 5, 6월 23일부터 모든 구독자에 유료 크레딧 필요",
+        "url": "https://llm-stats.com/llm-updates",
+        "category": "도구·개발",
+        "verification_status": "yesterday"
+      }
+    ],
+    "Microsoft": [
+      {
+        "date": "2026-06-30",
+        "headline": "GitHub Copilot, 정액제 종료하고 토큰 과금 — 헤비유저 비용 10~50배↑",
+        "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-30-2026",
+        "category": "도구·개발",
+        "verification_status": "passed"
+      },
+      {
+        "date": "2026-06-30",
+        "headline": "RAISE US, 5억 달러 노동자 재교육 — Amazon·Anthropic·MS 참여",
+        "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-30-2026",
+        "category": "교육·생산성",
+        "verification_status": "passed"
+      },
+      {
+        "date": "2026-06-27",
+        "headline": "AI 자본지출 4,520억 달러 — 투자 대비 회수는 부진",
+        "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-27-2026",
+        "category": "산업·투자",
+        "verification_status": "passed"
+      },
+      {
+        "date": "2026-06-25",
+        "headline": "Microsoft, 스스로 일하는 '오토파일럿' 공개 — 첫 제품 Scout",
+        "url": "https://blog.mean.ceo/ai-agents-news-june-2026/",
+        "category": "에이전트·자동화",
+        "verification_status": "yesterday"
+      }
+    ],
+    "Gemini": [
+      {
+        "date": "2026-06-30",
+        "headline": "구글 Gemini 3.5 Pro, 6월 출시 불발 — 7월로 연기",
+        "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-30-2026",
+        "category": "모델·연구",
+        "verification_status": "passed"
+      },
+      {
+        "date": "2026-06-25",
+        "headline": "구글 Gemini 3.5 Pro, 6월 출시 약속에도 정식 공개 지연",
+        "url": "https://llm-stats.com/llm-updates",
+        "category": "모델·연구",
+        "verification_status": "yesterday"
+      }
+    ],
+    "중국 오픈웨이트": [
+      {
+        "date": "2026-06-27",
+        "headline": "OpenAI·Anthropic 가격 전쟁 조짐 — IPO 앞두고 단가 인하 압박",
+        "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-27-2026",
+        "category": "산업·투자",
+        "verification_status": "passed"
+      },
+      {
+        "date": "2026-06-27",
+        "headline": "중국 오픈웨이트 모델, API 사용량 60% 차지",
+        "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-27-2026",
+        "category": "모델·연구",
+        "verification_status": "passed"
+      },
+      {
+        "date": "2026-06-25",
+        "headline": "Reflection AI, '미국산 오픈웨이트' 대안으로 250억 달러 가치 평가",
+        "url": "https://blog.mean.ceo/latest-ai-announcements-news-june-2026/",
+        "category": "산업·투자",
+        "verification_status": "yesterday"
+      }
+    ],
+    "NVIDIA": [
+      {
+        "date": "2026-06-30",
+        "headline": "퀄컴, Modular 39.2억 달러 인수 — 엔비디아 생태계에 도전",
+        "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-30-2026",
+        "category": "산업·투자",
+        "verification_status": "passed"
+      },
+      {
+        "date": "2026-06-26",
+        "headline": "OpenAI, 첫 자체 추론 칩 'Jalapeño' 공개 — 서빙 비용 약 50% 절감 노린다",
+        "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-26-2026",
+        "category": "산업·투자",
+        "verification_status": "passed"
+      }
+    ],
+    "Anthropic": [
+      {
+        "date": "2026-07-01",
+        "headline": "Anthropic, 'Claude Sonnet 5' 공개 — 미드티어에 프런티어급 성능",
+        "url": "https://www.anthropic.com/news",
+        "category": "모델·연구",
+        "verification_status": "yesterday"
+      },
+      {
+        "date": "2026-07-01",
+        "headline": "Anthropic, 연구자용 AI 작업대 'Claude Science' 출시",
+        "url": "https://www.anthropic.com/news",
+        "category": "교육·생산성",
+        "verification_status": "yesterday"
+      },
+      {
+        "date": "2026-07-01",
+        "headline": "Anthropic, 'Fable 5' 재배포 — 앞선 정부 지시 이후 복귀",
+        "url": "https://www.anthropic.com/news",
+        "category": "정책·규제",
+        "verification_status": "yesterday"
+      },
+      {
+        "date": "2026-06-30",
+        "headline": "RAISE US, 5억 달러 노동자 재교육 — Amazon·Anthropic·MS 참여",
+        "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-30-2026",
+        "category": "교육·생산성",
+        "verification_status": "passed"
+      },
+      {
+        "date": "2026-06-29",
+        "headline": "Claude Mythos 5 부분 복원 — 美 핵심인프라 100곳 한정",
+        "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-29-2026",
+        "category": "정책·규제",
+        "verification_status": "passed"
+      },
+      {
+        "date": "2026-06-29",
+        "headline": "Anthropic-국방부 소송 진행 중 — 공급망 리스크 지정에 반발",
+        "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-29-2026",
+        "category": "정책·규제",
+        "verification_status": "passed"
+      },
+      {
+        "date": "2026-06-29",
+        "headline": "Anthropic 경제지수: 사용자 35% \"1년 내 AI가 내 일 대부분 대체\" 기대",
+        "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-29-2026",
+        "category": "교육·생산성",
+        "verification_status": "passed"
+      },
+      {
+        "date": "2026-06-28",
+        "headline": "美 정부, 프런티어 모델 출시 통제 — OpenAI·Anthropic 같은 처지",
+        "url": "https://aitoolsrecap.com/Blog/ai-news-june-28-2026",
+        "category": "정책·규제",
+        "verification_status": "passed"
+      },
+      {
+        "date": "2026-06-28",
+        "headline": "Anthropic 'AI for Science' 행사 예고 — 노벨상 John Jumper 공개석상",
+        "url": "https://aitoolsrecap.com/Blog/ai-news-june-28-2026",
+        "category": "모델·연구",
+        "verification_status": "passed"
+      },
+      {
+        "date": "2026-06-27",
+        "headline": "OpenAI·Anthropic 가격 전쟁 조짐 — IPO 앞두고 단가 인하 압박",
+        "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-27-2026",
+        "category": "산업·투자",
+        "verification_status": "passed"
+      },
+      {
+        "date": "2026-06-27",
+        "headline": "Anthropic 'Claude Design' 출시 — 디자인 SW 업체 위협",
+        "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-27-2026",
+        "category": "도구·개발",
+        "verification_status": "passed"
+      },
+      {
+        "date": "2026-06-26",
+        "headline": "Anthropic, 알리바바의 '모델 증류 공격' 의혹 공식 제기",
+        "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-26-2026",
+        "category": "정책·규제",
+        "verification_status": "passed"
+      },
+      {
+        "date": "2026-06-26",
+        "headline": "구글 DeepMind 인재 이탈 가속 — 6일 새 4명, Anthropic·OpenAI로",
+        "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-26-2026",
+        "category": "모델·연구",
+        "verification_status": "passed"
+      },
+      {
+        "date": "2026-06-26",
+        "headline": "Anthropic, 2분기 흑자 궤도 — 영업이익 약 5.6억 달러 전망",
+        "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-26-2026",
+        "category": "산업·투자",
+        "verification_status": "passed"
+      }
+    ],
+    "xAI": [
+      {
+        "date": "2026-06-28",
+        "headline": "xAI 리더십 위기 — 창업자 11명 전원 이탈",
+        "url": "https://aitoolsrecap.com/Blog/ai-news-june-28-2026",
+        "category": "산업·투자",
+        "verification_status": "passed"
+      }
+    ],
+    "Qualcomm": [
+      {
+        "date": "2026-06-30",
+        "headline": "퀄컴, Modular 39.2억 달러 인수 — 엔비디아 생태계에 도전",
+        "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-30-2026",
+        "category": "산업·투자",
+        "verification_status": "passed"
+      }
+    ]
+  }
+}

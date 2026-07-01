@@ -20,7 +20,10 @@
       ],
       "insight": "에이전트 경쟁의 축이 '무엇을 할 수 있나'에서 '권한·감사를 어떻게 통제하나'로 옮겨가고 있다. 자율성이 높아질수록 거버넌스 설계가 도입의 전제 조건이 된다.",
       "source_url": "https://blog.mean.ceo/ai-agents-news-june-2026/",
-      "source_name": "mean.ceo"
+      "source_name": "mean.ceo",
+      "entities": [
+        "Microsoft"
+      ]
     },
     {
       "rank": 2,
@@ -36,7 +39,11 @@
       ],
       "insight": "AI의 가치는 '답을 대신 내주는 도구'가 아니라 '전문가의 사고를 가속하는 협업자'에서 나온다. 도메인 전문성이 있는 사용자일수록 활용 격차가 더 벌어진다.",
       "source_url": "https://openai.com/news/",
-      "source_name": "OpenAI"
+      "source_name": "OpenAI",
+      "entities": [
+        "OpenAI",
+        "GPT"
+      ]
     },
     {
       "rank": 3,
@@ -52,7 +59,11 @@
       ],
       "insight": "고능력 모델일수록 '누구나 쓰는 공개'가 아니라 '검증된 사용자에게만'으로 배포 방식이 갈라진다. 능력과 통제 가능성을 함께 설계하는 것이 새 표준이 되고 있다.",
       "source_url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-24-2026",
-      "source_name": "buildfastwithai"
+      "source_name": "buildfastwithai",
+      "entities": [
+        "OpenAI",
+        "GPT"
+      ]
     },
     {
       "rank": 4,
@@ -68,7 +79,11 @@
       ],
       "insight": "모델 로드맵의 '약속한 날짜'는 그 자체가 신뢰 자산이다. 발표와 실제 가용성 사이의 격차는 기술력만큼이나 시장 신뢰에 영향을 준다.",
       "source_url": "https://llm-stats.com/llm-updates",
-      "source_name": "llm-stats"
+      "source_name": "llm-stats",
+      "entities": [
+        "Google",
+        "Gemini"
+      ]
     },
     {
       "rank": 5,
@@ -84,7 +99,10 @@
       ],
       "insight": "AI 공급망이 소수 폐쇄형 모델에 집중되는 데 대한 반작용으로 '오픈웨이트'와 컴퓨트 다변화가 힘을 받는다. 모델 다양성은 기술 선택지이자 지정학적 안전판이다.",
       "source_url": "https://blog.mean.ceo/latest-ai-announcements-news-june-2026/",
-      "source_name": "mean.ceo"
+      "source_name": "mean.ceo",
+      "entities": [
+        "중국 오픈웨이트"
+      ]
     },
     {
       "rank": 6,
@@ -100,7 +118,8 @@
       ],
       "insight": "AI 가용성은 더 이상 기술 문제만이 아니라 정책의 함수다. 특정 모델·지역에 묶인 서비스는 규제·수출통제 변화에 통째로 노출되므로 공급 다변화가 안정성의 핵심이 된다.",
       "source_url": "https://www.whitehouse.gov/presidential-actions/2026/06/promoting-advanced-artificial-intelligence-innovation-and-security/",
-      "source_name": "WhiteHouse"
+      "source_name": "WhiteHouse",
+      "entities": []
     }
   ]
 }

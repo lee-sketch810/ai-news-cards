@@ -20,7 +20,11 @@
       ],
       "insight": "공언된 출시 일정과 실제 배포의 간극은 모델 경쟁에서 반복되는 패턴이다. 로드맵 신뢰도 자체가 기업 평판의 변수로 작동한다.",
       "source_url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-27-2026",
-      "source_name": "buildfastwithai"
+      "source_name": "buildfastwithai",
+      "entities": [
+        "OpenAI",
+        "GPT"
+      ]
     },
     {
       "rank": 2,
@@ -36,7 +40,10 @@
       ],
       "insight": "AI 기업의 가치는 모델만큼이나 핵심 인재에 묶여 있다. 인재 유출은 재무제표보다 빠르게 시장 신뢰를 흔드는 선행 충격이다.",
       "source_url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-27-2026",
-      "source_name": "buildfastwithai"
+      "source_name": "buildfastwithai",
+      "entities": [
+        "Google"
+      ]
     },
     {
       "rank": 3,
@@ -52,7 +59,12 @@
       ],
       "insight": "모델 성능이 상향 평준화되자 경쟁이 가격으로 옮겨간다. 저비용 대안의 부상은 프리미엄 모델의 단가 전략을 직접 흔든다.",
       "source_url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-27-2026",
-      "source_name": "buildfastwithai"
+      "source_name": "buildfastwithai",
+      "entities": [
+        "OpenAI",
+        "Anthropic",
+        "중국 오픈웨이트"
+      ]
     },
     {
       "rank": 4,
@@ -68,7 +80,11 @@
       ],
       "insight": "모델 제공자가 응용 도구로 내려오면서 'AI를 쓰던 SW'와 'AI가 직접 만든 SW'가 경쟁하게 된다. 단일 기능 SaaS의 방어선이 좁아진다.",
       "source_url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-27-2026",
-      "source_name": "buildfastwithai"
+      "source_name": "buildfastwithai",
+      "entities": [
+        "Anthropic",
+        "Claude"
+      ]
     },
     {
       "rank": 5,
@@ -84,7 +100,10 @@
       ],
       "insight": "AI 인프라 경쟁은 막대한 자본을 빨아들이지만 수익화는 아직 뒤따르지 못한다. 지출 규모가 아니라 회수율이 지속가능성의 진짜 잣대다.",
       "source_url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-27-2026",
-      "source_name": "buildfastwithai"
+      "source_name": "buildfastwithai",
+      "entities": [
+        "Microsoft"
+      ]
     },
     {
       "rank": 6,
@@ -100,7 +119,10 @@
       ],
       "insight": "개발 현장에서 모델 선택 기준이 '최고 성능'에서 '성능 대비 비용'으로 이동한다. 모델은 단일 정답이 아니라 작업별로 갈아끼우는 부품이 되고 있다.",
       "source_url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-27-2026",
-      "source_name": "buildfastwithai"
+      "source_name": "buildfastwithai",
+      "entities": [
+        "중국 오픈웨이트"
+      ]
     }
   ]
 }

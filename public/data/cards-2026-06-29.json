@@ -20,7 +20,11 @@
       ],
       "insight": "프런티어 모델이 '한 개'가 아니라 접근권·성능별 등급으로 쪼개진다. 능력이 높을수록 '누구에게 어디까지 열지'를 함께 설계하는 것이 표준이 된다.",
       "source_url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-29-2026",
-      "source_name": "buildfastwithai"
+      "source_name": "buildfastwithai",
+      "entities": [
+        "OpenAI",
+        "GPT"
+      ]
     },
     {
       "rank": 2,
@@ -36,7 +40,11 @@
       ],
       "insight": "모델 가용성이 '전면 공개/전면 차단'이 아니라 기관·용도별로 잘게 통제되는 시대다. 어떤 모델을 쓸 수 있는지가 규제 지형에 따라 달라진다.",
       "source_url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-29-2026",
-      "source_name": "buildfastwithai"
+      "source_name": "buildfastwithai",
+      "entities": [
+        "Anthropic",
+        "Claude"
+      ]
     },
     {
       "rank": 3,
@@ -52,7 +60,8 @@
       ],
       "insight": "AI 비용 최적화의 핵심은 더 싼 모델이 아니라 '작업마다 알맞은 모델을 고르는 설계'다. 모델 라우팅은 품질을 지키면서 비용을 가르는 실전 레버다.",
       "source_url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-29-2026",
-      "source_name": "buildfastwithai"
+      "source_name": "buildfastwithai",
+      "entities": []
     },
     {
       "rank": 4,
@@ -68,7 +77,10 @@
       ],
       "insight": "AI 기업과 국가 정책의 충돌이 법정 다툼으로 번지고 있다. 모델의 사업 환경은 기술뿐 아니라 규제·소송 리스크의 영향권에 들어섰다.",
       "source_url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-29-2026",
-      "source_name": "buildfastwithai"
+      "source_name": "buildfastwithai",
+      "entities": [
+        "Anthropic"
+      ]
     },
     {
       "rank": 5,
@@ -84,7 +96,8 @@
       ],
       "insight": "프런티어 모델은 이제 '공개 출시'가 아니라 '단계적 개방'으로 풀린다. 일반 사용자가 최신 모델에 닿기까지의 시차가 구조적으로 길어진다.",
       "source_url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-29-2026",
-      "source_name": "buildfastwithai"
+      "source_name": "buildfastwithai",
+      "entities": []
     },
     {
       "rank": 6,
@@ -100,7 +113,10 @@
       ],
       "insight": "AI 효용은 '얼마나 강력한가'보다 '얼마나 잘 협업하는가'에서 갈린다. 도구를 다루는 숙련도가 곧 성과 격차로 이어지므로, 활용 역량 교육이 관건이 된다.",
       "source_url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-29-2026",
-      "source_name": "buildfastwithai"
+      "source_name": "buildfastwithai",
+      "entities": [
+        "Anthropic"
+      ]
     }
   ]
 }

@@ -20,7 +20,11 @@
       ],
       "insight": "최신 모델이 상위 요금제에 먼저 가는 패턴이 굳어지고 있다. 'AI 접근 격차'가 요금제 단위로 벌어진다는 점을 환기한다.",
       "source_url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-23-2026",
-      "source_name": "buildfastwithai"
+      "source_name": "buildfastwithai",
+      "entities": [
+        "OpenAI",
+        "GPT"
+      ]
     },
     {
       "rank": 2,
@@ -36,7 +40,11 @@
       ],
       "insight": "프런티어 AI 경쟁의 승부처가 컴퓨트뿐 아니라 핵심 인재 쟁탈로 옮겨가고 있다. 인재 흐름은 기술 주도권의 선행 지표다.",
       "source_url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-23-2026",
-      "source_name": "buildfastwithai"
+      "source_name": "buildfastwithai",
+      "entities": [
+        "OpenAI",
+        "Google"
+      ]
     },
     {
       "rank": 3,
@@ -52,7 +60,10 @@
       ],
       "insight": "고성능 모델일수록 '무료'에서 '사용량 과금'으로 빠르게 전환된다. 모델에 의존한 서비스는 가격 정책 변화를 비용 리스크로 관리해야 한다.",
       "source_url": "https://llm-stats.com/llm-updates",
-      "source_name": "llm-stats"
+      "source_name": "llm-stats",
+      "entities": [
+        "Claude"
+      ]
     }
   ]
 }

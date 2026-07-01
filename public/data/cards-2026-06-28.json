@@ -20,7 +20,11 @@
       ],
       "insight": "프런티어 모델의 출시 권한이 점차 정부 절차에 종속된다. AI 가용성은 기술 준비도뿐 아니라 규제 통과 여부의 함수가 되고 있다.",
       "source_url": "https://aitoolsrecap.com/Blog/ai-news-june-28-2026",
-      "source_name": "aitoolsrecap"
+      "source_name": "aitoolsrecap",
+      "entities": [
+        "OpenAI",
+        "Anthropic"
+      ]
     },
     {
       "rank": 2,
@@ -36,7 +40,10 @@
       ],
       "insight": "AI 기업이 과학 난제 해결을 전면에 내세우는 흐름이다. 모델 경쟁이 벤치마크를 넘어 '실제 발견에 기여하는가'로 확장되고 있다.",
       "source_url": "https://aitoolsrecap.com/Blog/ai-news-june-28-2026",
-      "source_name": "aitoolsrecap"
+      "source_name": "aitoolsrecap",
+      "entities": [
+        "Anthropic"
+      ]
     },
     {
       "rank": 3,
@@ -52,7 +59,10 @@
       ],
       "insight": "모델은 빠르게 버전이 갈리고 구기능은 예고와 함께 사라진다. 모델에 의존한 서비스는 버전 종료(deprecation)를 상시 운영 리스크로 관리해야 한다.",
       "source_url": "https://aitoolsrecap.com/Blog/ai-news-june-28-2026",
-      "source_name": "aitoolsrecap"
+      "source_name": "aitoolsrecap",
+      "entities": [
+        "Claude"
+      ]
     },
     {
       "rank": 4,
@@ -68,7 +78,10 @@
       ],
       "insight": "기술과 자본이 충분해도 조직이 무너지면 경쟁에서 밀린다. AI 기업의 지속가능성은 모델 성능만이 아니라 인적 안정성에 달려 있다.",
       "source_url": "https://aitoolsrecap.com/Blog/ai-news-june-28-2026",
-      "source_name": "aitoolsrecap"
+      "source_name": "aitoolsrecap",
+      "entities": [
+        "xAI"
+      ]
     },
     {
       "rank": 5,
@@ -84,7 +97,8 @@
       ],
       "insight": "AI의 생산성 효과 이면에서 노동시장 재편이 빠르게 진행된다. 입문급 일자리 축소는 교육·재교육 체계가 풀어야 할 사회적 숙제를 키운다.",
       "source_url": "https://aitoolsrecap.com/Blog/ai-news-june-28-2026",
-      "source_name": "aitoolsrecap"
+      "source_name": "aitoolsrecap",
+      "entities": []
     }
   ]
 }

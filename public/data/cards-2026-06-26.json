@@ -20,7 +20,11 @@
       ],
       "insight": "AI 경쟁의 승부처가 모델 성능을 넘어 '추론 단가'로 내려가고 있다. 자체 실리콘은 대규모 서비스에서 수익성을 가르는 구조적 레버다.",
       "source_url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-26-2026",
-      "source_name": "buildfastwithai"
+      "source_name": "buildfastwithai",
+      "entities": [
+        "OpenAI",
+        "NVIDIA"
+      ]
     },
     {
       "rank": 2,
@@ -36,7 +40,11 @@
       ],
       "insight": "모델 자체가 핵심 자산이 되면서 '증류를 통한 능력 도용'이 새로운 IP 분쟁 영역으로 떠오른다. 모델 제공자에게 남용 탐지는 보안이자 자산 방어다.",
       "source_url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-26-2026",
-      "source_name": "buildfastwithai"
+      "source_name": "buildfastwithai",
+      "entities": [
+        "Anthropic",
+        "Claude"
+      ]
     },
     {
       "rank": 3,
@@ -52,7 +60,12 @@
       ],
       "insight": "프런티어 AI 경쟁의 선행 지표는 인재 흐름이다. 핵심 연구자의 집중 이동은 향후 모델 주도권의 이동을 예고하는 신호로 읽힌다.",
       "source_url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-26-2026",
-      "source_name": "buildfastwithai"
+      "source_name": "buildfastwithai",
+      "entities": [
+        "OpenAI",
+        "Anthropic",
+        "Google"
+      ]
     },
     {
       "rank": 4,
@@ -68,7 +81,11 @@
       ],
       "insight": "컨텍스트 윈도우 경쟁이 다시 한계를 끌어올리고 있다. 더 긴 입력은 'AI가 한 번에 다룰 수 있는 일의 크기'를 바꾸는 실질 변수다.",
       "source_url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-26-2026",
-      "source_name": "buildfastwithai"
+      "source_name": "buildfastwithai",
+      "entities": [
+        "OpenAI",
+        "GPT"
+      ]
     },
     {
       "rank": 5,
@@ -84,7 +101,11 @@
       ],
       "insight": "'AI는 계속 싸진다'는 가정이 흔들린다. 최상위 성능에는 프리미엄 가격이 붙으며, 빌더는 성능과 단가를 함께 설계해야 한다.",
       "source_url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-26-2026",
-      "source_name": "buildfastwithai"
+      "source_name": "buildfastwithai",
+      "entities": [
+        "Claude",
+        "GPT"
+      ]
     },
     {
       "rank": 6,
@@ -100,7 +121,10 @@
       ],
       "insight": "AI 기업 평가의 잣대가 '성장 서사'에서 '실제 수익성'으로 이동하기 시작했다. 흑자 가능성은 사업 모델의 지속가능성을 가르는 분기점이다.",
       "source_url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-26-2026",
-      "source_name": "buildfastwithai"
+      "source_name": "buildfastwithai",
+      "entities": [
+        "Anthropic"
+      ]
     }
   ]
 }

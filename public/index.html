@@ -78,6 +78,18 @@
 
   .empty{color:var(--muted);font-size:15px;padding:40px 0;text-align:center}
   .empty a{color:var(--accent);text-decoration:none}
+
+  .overview{display:none;background:var(--surface);border:1px solid var(--border);
+    border-radius:12px;padding:18px 20px;margin:26px 0 0}
+  .overview .o-label{font-size:11px;font-weight:600;color:var(--accent);letter-spacing:.02em}
+  .overview .o-period{font-size:12px;color:var(--hint);margin-left:8px}
+  .overview h2{font-size:17px;font-weight:600;margin:6px 0 8px;color:var(--text)}
+  .overview .o-lead{font-size:13.5px;color:var(--muted);margin:0 0 12px;line-height:1.65}
+  .overview .o-theme{border-top:1px solid var(--border);padding:10px 0 0;margin-top:10px}
+  .overview .o-k{display:inline-block;font-size:12px;font-weight:600;color:var(--accent);
+    background:var(--accent-bg);padding:2px 9px;border-radius:6px;margin-bottom:5px}
+  .overview .o-v{font-size:13px;color:var(--muted);margin:0;line-height:1.6}
+
   footer{margin-top:28px;font-size:12px;color:var(--hint);line-height:1.7;
     border-top:1px solid var(--border);padding-top:14px}
 </style>
@@ -102,6 +114,8 @@
   <section class="daily" id="daily" aria-label="오늘의 종합 인사이트"></section>
   <div class="filters" id="filters"></div>
   <main id="cards"><div class="empty">불러오는 중…</div></main>
+
+  <section class="overview" id="overview" aria-label="기간 전체 종합 인사이트"></section>
 
   <footer>
     매일 아침 9시 업데이트 · 출처와 발행일을 확인한 뉴스만 싣습니다.
@@ -246,6 +260,22 @@
 
   function param(){ var m=location.search.match(/[?&]date=([0-9-]+)/); return m?m[1]:null; }
 
+  function loadOverview(){
+    var el=document.getElementById('overview');
+    fetch('data/overview.json').then(function(r){return r.ok?r.json():null;}).then(function(o){
+      if(!o || !(o.title||o.lead)){ return; }
+      var themes=(o.themes||[]).map(function(t){
+        return '<div class="o-theme"><span class="o-k">'+esc(t.k)+'</span>'
+          +'<p class="o-v">'+esc(t.v)+'</p></div>';
+      }).join('');
+      el.innerHTML='<div><span class="o-label">전체 흐름 · 기간 종합</span>'
+        +(o.period?'<span class="o-period">'+esc(o.period)+'</span>':'')+'</div>'
+        +(o.title?'<h2>'+esc(o.title)+'</h2>':'')
+        +(o.lead?'<p class="o-lead">'+esc(o.lead)+'</p>':'')+themes;
+      el.style.display='block';
+    }).catch(function(){});
+  }
+
   function start(){
     if(EMBEDDED.cards.length){ show(EMBEDDED); }       // 임베드 최신 즉시 표시
     fetch('data/index.json').then(function(r){return r.ok?r.json():null;}).then(function(m){
@@ -256,6 +286,7 @@
     }).catch(function(){ if(EMBEDDED.cards.length) updateNav(EMBEDDED.date); });
   }
   start();
+  loadOverview();
 })();
 </script>
 </body>

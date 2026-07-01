@@ -24,6 +24,9 @@
       "entities": [
         "OpenAI",
         "GPT"
+      ],
+      "thread_ids": [
+        "gpt-5.6"
       ]
     },
     {
@@ -44,6 +47,9 @@
       "entities": [
         "Anthropic",
         "Claude"
+      ],
+      "thread_ids": [
+        "claude-access"
       ]
     },
     {
@@ -61,7 +67,8 @@
       "insight": "AI 비용 최적화의 핵심은 더 싼 모델이 아니라 '작업마다 알맞은 모델을 고르는 설계'다. 모델 라우팅은 품질을 지키면서 비용을 가르는 실전 레버다.",
       "source_url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-29-2026",
       "source_name": "buildfastwithai",
-      "entities": []
+      "entities": [],
+      "thread_ids": []
     },
     {
       "rank": 4,
@@ -80,7 +87,8 @@
       "source_name": "buildfastwithai",
       "entities": [
         "Anthropic"
-      ]
+      ],
+      "thread_ids": []
     },
     {
       "rank": 5,
@@ -97,7 +105,8 @@
       "insight": "프런티어 모델은 이제 '공개 출시'가 아니라 '단계적 개방'으로 풀린다. 일반 사용자가 최신 모델에 닿기까지의 시차가 구조적으로 길어진다.",
       "source_url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-29-2026",
       "source_name": "buildfastwithai",
-      "entities": []
+      "entities": [],
+      "thread_ids": []
     },
     {
       "rank": 6,
@@ -116,7 +125,8 @@
       "source_name": "buildfastwithai",
       "entities": [
         "Anthropic"
-      ]
+      ],
+      "thread_ids": []
     }
   ]
 }

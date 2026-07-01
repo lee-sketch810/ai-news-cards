@@ -24,7 +24,8 @@
       "entities": [
         "Anthropic",
         "Claude"
-      ]
+      ],
+      "thread_ids": []
     },
     {
       "rank": 2,
@@ -44,7 +45,8 @@
       "entities": [
         "Anthropic",
         "Claude"
-      ]
+      ],
+      "thread_ids": []
     },
     {
       "rank": 3,
@@ -64,6 +66,9 @@
       "entities": [
         "Anthropic",
         "Claude"
+      ],
+      "thread_ids": [
+        "claude-access"
       ]
     }
   ]

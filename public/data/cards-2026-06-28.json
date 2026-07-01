@@ -24,7 +24,8 @@
       "entities": [
         "OpenAI",
         "Anthropic"
-      ]
+      ],
+      "thread_ids": []
     },
     {
       "rank": 2,
@@ -43,7 +44,8 @@
       "source_name": "aitoolsrecap",
       "entities": [
         "Anthropic"
-      ]
+      ],
+      "thread_ids": []
     },
     {
       "rank": 3,
@@ -62,7 +64,8 @@
       "source_name": "aitoolsrecap",
       "entities": [
         "Claude"
-      ]
+      ],
+      "thread_ids": []
     },
     {
       "rank": 4,
@@ -81,7 +84,8 @@
       "source_name": "aitoolsrecap",
       "entities": [
         "xAI"
-      ]
+      ],
+      "thread_ids": []
     },
     {
       "rank": 5,
@@ -98,7 +102,8 @@
       "insight": "AI의 생산성 효과 이면에서 노동시장 재편이 빠르게 진행된다. 입문급 일자리 축소는 교육·재교육 체계가 풀어야 할 사회적 숙제를 키운다.",
       "source_url": "https://aitoolsrecap.com/Blog/ai-news-june-28-2026",
       "source_name": "aitoolsrecap",
-      "entities": []
+      "entities": [],
+      "thread_ids": []
     }
   ]
 }

@@ -151,6 +151,7 @@
   <div class="tools">
     <input type="search" id="search" placeholder="🔍 전체 뉴스 검색 (기업·모델·키워드)" aria-label="뉴스 검색">
     <button id="btn-trends">📊 트렌드</button>
+    <button id="btn-threads">🧵 이어지는 이야기</button>
     <button id="btn-about">ℹ️ 소개</button>
   </div>
 
@@ -194,7 +195,8 @@
       "entities": [
         "Anthropic",
         "Claude"
-      ]
+      ],
+      "thread_ids": []
     },
     {
       "rank": 2,
@@ -214,7 +216,8 @@
       "entities": [
         "Anthropic",
         "Claude"
-      ]
+      ],
+      "thread_ids": []
     },
     {
       "rank": 3,
@@ -234,6 +237,9 @@
       "entities": [
         "Anthropic",
         "Claude"
+      ],
+      "thread_ids": [
+        "claude-access"
       ]
     }
   ]
@@ -301,6 +307,8 @@
         return '<button class="ent" data-ent="'+esc(e)+'">'+esc(e)+'</button>';}).join('');
       var multi=(c.sources&&c.sources.length>1);
       var badge=multi?'<span class="verify vv">✓✓ 교차검증</span>':'<span class="verify">✓ 출처·발행일 확인</span>';
+      var thread=(c.thread_ids&&c.thread_ids[0])
+        ?'<button class="ent" data-thread="'+esc(c.thread_ids[0])+'" style="border-color:var(--accent);color:var(--accent)">🧵 이어지는 이야기</button>':'';
       return '<article class="card">'
         +'<div class="card-top"><span class="cat">'+esc(c.category)+'</span>'
         +'<span class="date">'+esc(c.verified_date)+'</span></div>'
@@ -308,13 +316,15 @@
         +'<p class="summary">'+esc(c.summary)+'</p>'
         +'<ul class="points">'+pts+'</ul>'
         +'<div class="insight"><span class="label">왜 중요한가</span><p>'+esc(c.insight)+'</p></div>'
-        +(chips?'<div class="ents">'+chips+'</div>':'')
+        +(chips||thread?'<div class="ents">'+chips+thread+'</div>':'')
         +'<div class="card-foot">'
         +'<a href="'+esc(c.source_url)+'" target="_blank" rel="noopener">출처'+(c.source_name?' · '+esc(c.source_name):'')+'</a>'
         +badge+'</div>'
         +'</article>';
     }).join('');
-    [].forEach.call(elCards.querySelectorAll('.ent'),function(b){
+    [].forEach.call(elCards.querySelectorAll('[data-thread]'),function(b){
+      b.onclick=function(){ goThread(b.dataset.thread); };});
+    [].forEach.call(elCards.querySelectorAll('.ent[data-ent]'),function(b){
       b.onclick=function(){ goEntity(b.dataset.ent); };});
   }
 
@@ -462,6 +472,41 @@
         +'<div>'+ents+'</div>');
     });
   }
+  function showThreads(){
+    history.pushState({},'','?view=threads');
+    fetchJSON('threads.json').then(function(o){
+      var threads=(o&&o.threads)||[];
+      if(!threads.length){ enterView(backBtn()+'<div class="empty">아직 여러 날짜에 걸친 이야기가 없습니다.</div>'); return; }
+      var rows=threads.map(function(t){
+        return '<button class="rank-chip" data-thread="'+esc(t.id)+'" style="display:block;width:100%;text-align:left;margin:0 0 8px">'
+          +esc(t.label)+' <b>'+t.count+'건</b>'
+          +'<span style="display:block;font-size:11.5px;color:var(--hint);margin-top:2px">'
+          +esc(t.first_seen)+' → '+esc(t.last_seen)+'</span></button>';
+      }).join('');
+      enterView(backBtn()+'<h2 class="v-title">이어지는 이야기</h2>'
+        +'<p class="v-sub">여러 날에 걸쳐 반복 등장한 주제 '+threads.length+'건 · 클릭하면 진행 순서대로</p>'
+        +rows);
+      [].forEach.call(elView.querySelectorAll('[data-thread]'),function(b){
+        b.onclick=function(){ goThread(b.dataset.thread); };});
+    });
+  }
+  function goThread(id){
+    history.pushState({},'','?thread='+encodeURIComponent(id));
+    fetchJSON('threads.json').then(function(o){
+      var t=((o&&o.threads)||[]).find(function(x){return x.id===id;});
+      if(!t){ enterView(backBtn()+'<div class="empty">해당 이야기를 찾을 수 없습니다.</div>'); return; }
+      var rows=t.entries.map(function(it,i){
+        return '<a href="'+esc(it.url)+'" target="_blank" rel="noopener">'
+          +'<div class="t-top"><span class="t-cat">'+(i+1)+'화 · '+esc(it.category)+'</span>'
+          +'<span class="t-date">'+esc(it.date)+'</span></div>'
+          +'<div class="t-head">'+esc(it.headline)+'</div>'
+          +'<p class="t-sum">'+esc(it.summary)+'</p></a>';
+      }).join('');
+      enterView(backBtn()+'<h2 class="v-title">'+esc(t.label)+'</h2>'
+        +'<p class="v-sub">'+esc(t.first_seen)+' ~ '+esc(t.last_seen)+' · 총 '+t.count+'건 · 오래된 순</p>'
+        +'<div class="tl">'+rows+'</div>');
+    });
+  }
   function doSearch(q){
     q=(q||'').trim();
     if(!q){ if(elView.classList.contains('show')) exitView(); return; }
@@ -496,6 +541,7 @@
   }
 
   document.getElementById('btn-trends').onclick=showTrends;
+  document.getElementById('btn-threads').onclick=showThreads;
   document.getElementById('btn-about').onclick=showAbout;
   var _sto=null;
   elSearch.oninput=function(){ clearTimeout(_sto); var v=elSearch.value; _sto=setTimeout(function(){doSearch(v);},250); };
@@ -503,7 +549,9 @@
   function applyViewParam(){
     var m;
     if((m=location.search.match(/[?&]entity=([^&]+)/))){ goEntity(decodeURIComponent(m[1])); return true; }
-    if((m=location.search.match(/[?&]view=(trends|about)/))){ (m[1]==='trends'?showTrends:showAbout)(); return true; }
+    if((m=location.search.match(/[?&]view=(trends|threads|about)/))){
+      ({trends:showTrends,threads:showThreads,about:showAbout})[m[1]](); return true; }
+    if((m=location.search.match(/[?&]thread=([^&]+)/))){ goThread(decodeURIComponent(m[1])); return true; }
     if((m=location.search.match(/[?&]q=([^&]+)/))){ elSearch.value=decodeURIComponent(m[1]); doSearch(elSearch.value); return true; }
     return false;
   }

@@ -23,7 +23,8 @@
       "source_name": "buildfastwithai",
       "entities": [
         "Google"
-      ]
+      ],
+      "thread_ids": []
     },
     {
       "rank": 2,
@@ -42,6 +43,9 @@
       "source_name": "buildfastwithai",
       "entities": [
         "Google"
+      ],
+      "thread_ids": [
+        "deepmind-exodus"
       ]
     },
     {
@@ -62,6 +66,9 @@
       "entities": [
         "Google",
         "Gemini"
+      ],
+      "thread_ids": [
+        "gemini-3.5-pro"
       ]
     },
     {
@@ -81,7 +88,8 @@
       "source_name": "buildfastwithai",
       "entities": [
         "Microsoft"
-      ]
+      ],
+      "thread_ids": []
     },
     {
       "rank": 5,
@@ -101,7 +109,8 @@
       "entities": [
         "NVIDIA",
         "Qualcomm"
-      ]
+      ],
+      "thread_ids": []
     },
     {
       "rank": 6,
@@ -121,7 +130,8 @@
       "entities": [
         "Anthropic",
         "Microsoft"
-      ]
+      ],
+      "thread_ids": []
     }
   ]
 }

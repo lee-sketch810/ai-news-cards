@@ -1,0 +1,138 @@
+{
+  "threads": [
+    {
+      "id": "claude-access",
+      "label": "Claude 모델 접근 제한·복원",
+      "first_seen": "2026-06-24",
+      "last_seen": "2026-07-01",
+      "count": 4,
+      "entries": [
+        {
+          "date": "2026-06-24",
+          "headline": "Fable 5, 6월 23일부터 모든 구독자에 유료 크레딧 필요",
+          "summary": "Fable 5 모델이 6월 23일부터 모든 구독자에게 유료 사용 크레딧을 요구하는 방식으로 전환됐다.",
+          "url": "https://llm-stats.com/llm-updates",
+          "category": "도구·개발"
+        },
+        {
+          "date": "2026-06-26",
+          "headline": "프런티어 모델 가격, 2026년 들어 두 배로 — GPT-5.5·Fable 5 단가 상승",
+          "summary": "하락하던 토큰 단가 추세가 반전돼 GPT-5.5와 Claude Fable 5가 전작 대비 토큰당 비용을 두 배로 올렸다.",
+          "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-26-2026",
+          "category": "도구·개발"
+        },
+        {
+          "date": "2026-06-29",
+          "headline": "Claude Mythos 5 부분 복원 — 美 핵심인프라 100곳 한정",
+          "summary": "Anthropic이 상무부 승인으로 약 100개 미국 핵심 인프라 기관에 Mythos 5 접근을 복원했으나 Fable 5는 여전히 차단 상태다.",
+          "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-29-2026",
+          "category": "정책·규제"
+        },
+        {
+          "date": "2026-07-01",
+          "headline": "Anthropic, 'Fable 5' 재배포 — 앞선 정부 지시 이후 복귀",
+          "summary": "앞선 정부 지시로 접근이 제한됐던 Fable 5를 Anthropic이 다시 배포하기 시작했다.",
+          "url": "https://www.anthropic.com/news",
+          "category": "정책·규제"
+        }
+      ]
+    },
+    {
+      "id": "gemini-3.5-pro",
+      "label": "Gemini 3.5 Pro 출시 지연",
+      "first_seen": "2026-06-25",
+      "last_seen": "2026-06-30",
+      "count": 2,
+      "entries": [
+        {
+          "date": "2026-06-25",
+          "headline": "구글 Gemini 3.5 Pro, 6월 출시 약속에도 정식 공개 지연",
+          "summary": "5월 I/O에서 6월 출시를 공언한 Gemini 3.5 Pro가 월말까지 정식 출시(GA)에 이르지 못하고 있다.",
+          "url": "https://llm-stats.com/llm-updates",
+          "category": "모델·연구"
+        },
+        {
+          "date": "2026-06-30",
+          "headline": "구글 Gemini 3.5 Pro, 6월 출시 불발 — 7월로 연기",
+          "summary": "구글이 장문 작업의 토큰 효율 검증이 더 필요하다고 판단해 플래그십 Gemini 3.5 Pro 출시를 7월로 미뤘다.",
+          "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-30-2026",
+          "category": "모델·연구"
+        }
+      ]
+    },
+    {
+      "id": "deepmind-exodus",
+      "label": "구글 DeepMind 인재 유출",
+      "first_seen": "2026-06-24",
+      "last_seen": "2026-06-30",
+      "count": 4,
+      "entries": [
+        {
+          "date": "2026-06-24",
+          "headline": "'Attention' 공저자 Noam Shazeer, 구글 떠나 OpenAI 합류",
+          "summary": "트랜스포머를 제시한 2017년 논문의 공저자 Noam Shazeer가 구글 DeepMind를 떠나 OpenAI로 옮긴다.",
+          "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-23-2026",
+          "category": "산업·투자"
+        },
+        {
+          "date": "2026-06-26",
+          "headline": "구글 DeepMind 인재 이탈 가속 — 6일 새 4명, Anthropic·OpenAI로",
+          "summary": "노벨상 수상자 John Jumper를 포함한 구글 DeepMind 핵심 연구자 4명이 6일 사이 Anthropic과 OpenAI로 옮겼다.",
+          "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-26-2026",
+          "category": "모델·연구"
+        },
+        {
+          "date": "2026-06-27",
+          "headline": "알파벳 시총 2,690억 달러 증발 — 6일 새 DeepMind 핵심 4명 이탈",
+          "summary": "Shazeer·Jumper 등 구글 DeepMind 연구자 4명이 6일 사이 경쟁사로 떠나며 기술기업 사상 손꼽히는 비실적성 시총 급락이 일어났다.",
+          "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-27-2026",
+          "category": "산업·투자"
+        },
+        {
+          "date": "2026-06-30",
+          "headline": "구글, 5개월간 AI 연구자 6명 이탈 — Brin \"격차 시급히 메워야\"",
+          "summary": "추론 전문가 Denny Zhou 등 DeepMind 핵심 인재가 경쟁사로 떠나자 세르게이 브린이 '에이전트 실행력의 격차를 시급히 메워야 한다'고 밝혔다.",
+          "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-30-2026",
+          "category": "모델·연구"
+        }
+      ]
+    },
+    {
+      "id": "gpt-5.6",
+      "label": "GPT-5.6 출시 여정",
+      "first_seen": "2026-06-24",
+      "last_seen": "2026-06-29",
+      "count": 4,
+      "entries": [
+        {
+          "date": "2026-06-24",
+          "headline": "OpenAI GPT-5.6, ChatGPT Pro에 선노출 — 6월 말 정식 출시 임박",
+          "summary": "GPT-5.5의 후속인 GPT-5.6이 정식 출시에 앞서 ChatGPT Pro 사용자에게 먼저 모습을 드러냈다.",
+          "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-23-2026",
+          "category": "모델·연구"
+        },
+        {
+          "date": "2026-06-26",
+          "headline": "OpenAI GPT-5.6 출시 초읽기 — 6월 28일 전 확률 83%, 컨텍스트 150만 토큰",
+          "summary": "예측 시장이 GPT-5.6의 6월 28일 이전 출시 확률을 83%로 매기는 가운데, 150만 토큰 컨텍스트 윈도우가 거론된다.",
+          "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-26-2026",
+          "category": "모델·연구"
+        },
+        {
+          "date": "2026-06-27",
+          "headline": "GPT-5.6 출시 7월로 연기 — 출시 확률 83%→18% 급락",
+          "summary": "임박했던 OpenAI GPT-5.6 출시가 7월로 미뤄지며 예측 시장 확률이 83%에서 18%로 무너졌다.",
+          "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-27-2026",
+          "category": "모델·연구"
+        },
+        {
+          "date": "2026-06-29",
+          "headline": "OpenAI, GPT-5.6 3단 모델 'Sol·Terra·Luna' 프리뷰 — Sol Ultra 91.9%",
+          "summary": "OpenAI가 정부 게이트 방식으로 GPT-5.6의 3단 구성(Sol·Terra·Luna)을 선보였고, Sol Ultra가 Terminal-Bench 2.1에서 91.9%를 기록했다.",
+          "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-29-2026",
+          "category": "모델·연구"
+        }
+      ]
+    }
+  ]
+}

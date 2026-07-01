@@ -1,0 +1,58 @@
+{
+  "date": "2026-07-01",
+  "generated_at": "2026-07-01T09:05:00+09:00",
+  "daily_insight": {
+    "title": "하루를 Anthropic이 채웠다 — 모델·과학·접근을 동시에",
+    "body": "프런티어급 미드티어 모델(Sonnet 5), 연구자 전용 작업대(Claude Science), 정부 지시로 막혔던 모델의 재배포가 같은 시점에 쏟아졌다. 성능·전문화·가용성을 한꺼번에 밀어붙이며 제품 저변을 넓히려는 움직임이 도드라진 흐름이다."
+  },
+  "cards": [
+    {
+      "rank": 1,
+      "category": "모델·연구",
+      "verified_date": "2026-06-30",
+      "verification_status": "yesterday",
+      "headline": "Anthropic, 'Claude Sonnet 5' 공개 — 미드티어에 프런티어급 성능",
+      "summary": "Anthropic이 코딩·에이전트·전문 업무 전반에서 프런티어급 성능을 대규모로 제공하는 Sonnet 5를 공개했다.",
+      "points": [
+        "중간 등급 모델에 최상위급 성능을 담음",
+        "코딩·에이전트 작업에서 특히 강조된 향상",
+        "성능 대비 비용 곡선을 다시 끌어내림"
+      ],
+      "insight": "'최고 성능=최고가 모델'이라는 공식이 흔들린다. 미드티어가 프런티어 성능을 담으면, 대다수 실무는 더 저렴한 등급으로 충분해져 모델 선택의 기준이 바뀐다.",
+      "source_url": "https://www.anthropic.com/news",
+      "source_name": "Anthropic"
+    },
+    {
+      "rank": 2,
+      "category": "교육·생산성",
+      "verified_date": "2026-06-30",
+      "verification_status": "yesterday",
+      "headline": "Anthropic, 연구자용 AI 작업대 'Claude Science' 출시",
+      "summary": "Anthropic이 자주 쓰는 연구 패키지·컴퓨팅 자원과 맞춤 연동되는 과학자용 AI 워크벤치 Claude Science를 공개했다.",
+      "points": [
+        "범용 챗을 넘어 연구 워크플로우에 특화",
+        "연구 패키지·컴퓨팅 자원과의 통합 제공",
+        "전문 직군 전용 도구로의 확장"
+      ],
+      "insight": "AI의 다음 격전지는 '범용 대화'가 아니라 '직군 특화 작업대'다. 도메인 도구·데이터와 얼마나 깊게 통합되느냐가 실제 생산성을 가른다.",
+      "source_url": "https://www.anthropic.com/news",
+      "source_name": "Anthropic"
+    },
+    {
+      "rank": 3,
+      "category": "정책·규제",
+      "verified_date": "2026-06-30",
+      "verification_status": "yesterday",
+      "headline": "Anthropic, 'Fable 5' 재배포 — 앞선 정부 지시 이후 복귀",
+      "summary": "앞선 정부 지시로 접근이 제한됐던 Fable 5를 Anthropic이 다시 배포하기 시작했다.",
+      "points": [
+        "정부 지시로 막혔던 모델의 재개",
+        "가용성이 규제 상황에 따라 오르내림",
+        "모델 접근의 정책 종속성이 재확인됨"
+      ],
+      "insight": "모델 가용성은 이제 기술이 아니라 정책의 리듬을 탄다. 특정 모델에 묶인 서비스는 '언제든 막히고 풀릴 수 있음'을 전제로 폴백을 준비해야 한다.",
+      "source_url": "https://www.anthropic.com/news",
+      "source_name": "Anthropic"
+    }
+  ]
+}

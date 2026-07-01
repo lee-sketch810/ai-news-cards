@@ -29,8 +29,14 @@ For each selected article, write one card object:
   never address a specific user, never reference a specific person's projects.
 - `source_url` — the verified real URL. `source_name` — the outlet.
 
+After the cards, write ONE `daily_insight` that synthesizes the whole day:
+- `daily_insight.title` — a short, punchy Korean headline naming the day's overarching theme.
+- `daily_insight.body` — 2-3 Korean sentences reading ACROSS all the cards: what single
+  current ties them together and why it matters. Not a list, not a summary of one story —
+  a macro takeaway. Universal tone (no personalization).
+
 Rules:
 - Native Korean, sales-copy-level naturalness. No translationese.
-- No relative date words anywhere ("어제", "오늘", "N일 전").
-- Output `data/cards-YYYY-MM-DD.json` as `{date, generated_at, cards:[...]}`,
-  cards ordered by rank.
+- No relative date words anywhere ("어제", "오늘", "N일 전") in card or insight text.
+- Output `data/cards-YYYY-MM-DD.json` as
+  `{date, generated_at, daily_insight:{title, body}, cards:[...]}`, cards ordered by rank.

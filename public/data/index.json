@@ -1,7 +1,12 @@
 {
-  "generated_at": "2026-06-30T22:18:52.612553+00:00",
-  "latest": "2026-06-30",
+  "generated_at": "2026-07-01T04:04:39.079584+00:00",
+  "latest": "2026-07-01",
   "editions": [
+    {
+      "date": "2026-07-01",
+      "count": 3,
+      "top_headline": "Anthropic, 'Claude Sonnet 5' 공개 — 미드티어에 프런티어급 성능"
+    },
     {
       "date": "2026-06-30",
       "count": 6,

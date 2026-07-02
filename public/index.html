@@ -151,7 +151,7 @@
   <div class="tools">
     <input type="search" id="search" placeholder="🔍 전체 뉴스 검색 (기업·모델·키워드)" aria-label="뉴스 검색">
     <button id="btn-trends">📊 트렌드</button>
-    <button id="btn-threads">🧵 이어지는 이야기</button>
+    <button id="btn-threads">🧵 후속 소식</button>
     <button id="btn-about">ℹ️ 소개</button>
   </div>
 
@@ -308,7 +308,7 @@
       var multi=(c.sources&&c.sources.length>1);
       var badge=multi?'<span class="verify vv">✓✓ 교차검증</span>':'<span class="verify">✓ 출처·발행일 확인</span>';
       var thread=(c.thread_ids&&c.thread_ids[0])
-        ?'<button class="ent" data-thread="'+esc(c.thread_ids[0])+'" style="border-color:var(--accent);color:var(--accent)">🧵 이어지는 이야기</button>':'';
+        ?'<button class="ent" data-thread="'+esc(c.thread_ids[0])+'" style="border-color:var(--accent);color:var(--accent)">🧵 후속 소식 보기</button>':'';
       return '<article class="card">'
         +'<div class="card-top"><span class="cat">'+esc(c.category)+'</span>'
         +'<span class="date">'+esc(c.verified_date)+'</span></div>'
@@ -476,15 +476,15 @@
     history.pushState({},'','?view=threads');
     fetchJSON('threads.json').then(function(o){
       var threads=(o&&o.threads)||[];
-      if(!threads.length){ enterView(backBtn()+'<div class="empty">아직 여러 날짜에 걸친 이야기가 없습니다.</div>'); return; }
+      if(!threads.length){ enterView(backBtn()+'<div class="empty">아직 후속 소식으로 이어진 주제가 없습니다.</div>'); return; }
       var rows=threads.map(function(t){
         return '<button class="rank-chip" data-thread="'+esc(t.id)+'" style="display:block;width:100%;text-align:left;margin:0 0 8px">'
           +esc(t.label)+' <b>'+t.count+'건</b>'
           +'<span style="display:block;font-size:11.5px;color:var(--hint);margin-top:2px">'
           +esc(t.first_seen)+' → '+esc(t.last_seen)+'</span></button>';
       }).join('');
-      enterView(backBtn()+'<h2 class="v-title">이어지는 이야기</h2>'
-        +'<p class="v-sub">여러 날에 걸쳐 반복 등장한 주제 '+threads.length+'건 · 클릭하면 진행 순서대로</p>'
+      enterView(backBtn()+'<h2 class="v-title">후속 소식</h2>'
+        +'<p class="v-sub">여러 날에 걸쳐 계속 보도된 주제 '+threads.length+'건 · 클릭하면 진행 순서대로</p>'
         +rows);
       [].forEach.call(elView.querySelectorAll('[data-thread]'),function(b){
         b.onclick=function(){ goThread(b.dataset.thread); };});

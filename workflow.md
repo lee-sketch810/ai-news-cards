@@ -144,6 +144,33 @@
 
 > **SOT 원칙 (절대 기준 2)**: Notion은 `cards-*.json`의 **파생 싱크(거울)**다. 진실원천은 사이트의 카드 JSON이며, Notion 쓰기 실패가 파이프라인을 막지 않는다.
 
+### 8. 분석 인덱스 재생성 (엔티티·트렌드·검색·스레드)
+- **Pre-processing**: none (입력은 `public/data/cards-*.json` 전체 — 아카이브 재스캔)
+- **Agent**: `@news-deployer`
+- **Verification**:
+  - [ ] `scripts/build_analytics.py` 실행 → `public/data/entities.json`·`trends.json`·`search-index.json` 재생성
+  - [ ] `scripts/build_threads.py` 실행 → `public/data/threads.json` 재생성, 카드에 `thread_ids` 주입
+  - [ ] 최신 에디션이 `index.html`에 엔티티·스레드 태그 포함해 재임베드됨
+- **Task**: Run `build_analytics.py` then `build_threads.py` over the full archive. Both are deterministic (P1) — no AI judgment involved.
+- **Output**: `public/data/{entities,trends,search-index,threads}.json`
+- **Review**: none
+- **Translation**: none
+
+### 9. 일일 다이제스트 초안 생성 (Gmail Draft — 발송 안 함)
+- **Pre-processing**: `scripts/build_digest.py --cards data/cards-YYYY-MM-DD.json` — 당일 카드+종합인사이트를 이메일 HTML로 변환
+- **Agent**: `@news-deployer` (Gmail MCP)
+- **Verification**:
+  - [ ] 다이제스트 제목이 `[오늘의 AI 뉴스] <날짜> · <오늘의 흐름 제목>` 형식
+  - [ ] 카드 전부(헤드라인·요약·포인트·인사이트·출처)가 본문에 포함
+  - [ ] Gmail MCP `create_draft`로 **초안만** 생성 — 발송(send) 호출 금지
+  - [ ] 실패 시 논블로킹 (사이트 배포가 우선 산출물)
+- **Task**: Build the HTML digest, then call Gmail MCP `create_draft` (never send) so the user can review and send manually.
+- **Output**: Gmail 초안함의 임시 메일 1건
+- **Review**: none
+- **Translation**: none
+
+> **안전 원칙**: 이메일 "발송"은 매번 사용자 명시 승인이 필요한 행위다(절대 기준 외부의 시스템 안전 규칙). 이 단계는 **초안 생성까지만** 자동화하고, 실제 발송 버튼은 항상 사용자가 누른다.
+
 ---
 
 ## Claude Code Configuration

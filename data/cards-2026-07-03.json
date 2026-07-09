@@ -1,0 +1,90 @@
+{
+  "date": "2026-07-03",
+  "generated_at": "2026-07-03T09:05:00+09:00",
+  "daily_insight": {
+    "title": "AI 인프라 청구서가 국가 단위로 커진다",
+    "body": "칩 외상 거래, 정부 지분 제안, 전력 소비 37% 급증, 대형 신사업 유닛까지 — 오늘의 뉴스는 하나같이 'AI를 계속 굴리는 데 드는 자원'을 다뤘다. 인프라 규모가 개별 기업을 넘어 국가 경제 단위로 이야기되기 시작했다."
+  },
+  "cards": [
+    {
+      "rank": 1,
+      "category": "산업·투자",
+      "verified_date": "2026-07-03",
+      "verification_status": "passed",
+      "headline": "엔비디아, AI 스타트업에 '선사용 후지불' 컴퓨팅 모델 제시",
+      "summary": "엔비디아가 매출 분배·크레딧 방식을 도입해 AI 스타트업이 선결제 없이 GPU에 접근할 수 있게 했다.",
+      "points": [
+        "초기 자본 부담 없이 GPU 접근 가능",
+        "매출 분배·크레딧 기반의 새로운 결제 구조",
+        "스타트업의 컴퓨팅 진입 장벽을 낮추는 전략"
+      ],
+      "insight": "GPU 공급자가 결제 방식까지 설계하면서 스타트업 생태계를 자기 플랫폼에 묶어둔다. 컴퓨팅 접근성 경쟁이 이제 가격이 아니라 '결제 조건'의 경쟁으로 번지고 있다.",
+      "source_url": "https://techstartups.com/2026/07/03/top-tech-news-today-july-3-2026/",
+      "source_name": "techstartups"
+    },
+    {
+      "rank": 2,
+      "category": "정책·규제",
+      "verified_date": "2026-07-03",
+      "verification_status": "passed",
+      "headline": "OpenAI, 美 정부에 지분 5% 제공 제안 — 약 426억 달러 규모",
+      "summary": "OpenAI가 정부 연계 기구에 약 5% 지분(약 426억 달러 가치)을 이전하는 방안을 제안한 것으로 알려졌다.",
+      "points": [
+        "정부 연계 기구에 지분 이전을 제안",
+        "제안 가치가 약 426억 달러 규모",
+        "정부와의 이해관계 정렬을 통한 규제 대응 성격"
+      ],
+      "insight": "프런티어 AI 기업이 정부를 규제 대상이 아니라 '이해관계자'로 끌어들이려 하고 있다. 지분 공유는 규제 리스크를 낮추는 대가로 국가에 실질적 지분을 내주는 새로운 협상 카드다.",
+      "source_url": "https://techstartups.com/2026/07/03/top-tech-news-today-july-3-2026/",
+      "source_name": "techstartups"
+    },
+    {
+      "rank": 3,
+      "category": "도구·개발",
+      "verified_date": "2026-07-03",
+      "verification_status": "passed",
+      "headline": "Anthropic, 삼성과 맞춤형 AI 칩 제조 초기 논의",
+      "summary": "Anthropic이 첨단 공정 기술을 활용한 맞춤형 AI 가속기 제조를 위해 삼성과 예비 협의를 시작했다.",
+      "points": [
+        "맞춤형 AI 가속기 제조를 위한 초기 협의",
+        "첨단 반도체 공정 기술 활용 예정",
+        "특정 칩 공급사에 대한 의존도 분산 시도"
+      ],
+      "insight": "모델 기업이 칩 제조사와 직접 손잡는 흐름은 '추론 비용 통제권'을 스스로 쥐려는 시도다. 자체 실리콘 확보는 이제 소수 최상위 기업만의 옵션이 아니라 경쟁의 표준 항목이 되고 있다.",
+      "source_url": "https://techstartups.com/2026/07/03/top-tech-news-today-july-3-2026/",
+      "source_name": "techstartups"
+    },
+    {
+      "rank": 4,
+      "category": "정책·규제",
+      "verified_date": "2026-07-03",
+      "verification_status": "passed",
+      "headline": "구글, AI 데이터센터發 전력 소비 전년比 37% 급증",
+      "summary": "구글의 전력 소비량이 AI 인프라 확장에 힘입어 전년 대비 37% 증가한 것으로 나타났다.",
+      "points": [
+        "AI 데이터센터 확장이 전력 소비 급증의 주된 원인",
+        "전년 대비 37%라는 큰 폭의 증가율",
+        "AI 확장의 에너지 비용이 수치로 가시화"
+      ],
+      "insight": "AI 확장의 진짜 비용 중 하나는 전력이다. 데이터센터의 전력 소비가 이 정도 속도로 늘면, 에너지 정책과 AI 정책은 더 이상 별개로 다룰 수 없는 문제가 된다.",
+      "source_url": "https://techstartups.com/2026/07/03/top-tech-news-today-july-3-2026/",
+      "source_name": "techstartups"
+    },
+    {
+      "rank": 5,
+      "category": "산업·투자",
+      "verified_date": "2026-07-03",
+      "verification_status": "passed",
+      "headline": "MS, 25억 달러 규모 'Frontier Company' 신설 — 기업 AI 도입 가속",
+      "summary": "마이크로소프트가 25억 달러를 투자하고 6천 명 규모 인력을 배치한 신규 조직을 만들어, AI 전문가를 기업 고객에 직접 파견하는 방식으로 엔터프라이즈 AI 도입을 가속한다.",
+      "points": [
+        "25억 달러 투자·6천 명 규모의 전담 조직 신설",
+        "AI 전문가를 기업 고객에 직접 파견",
+        "엔터프라이즈 AI 도입 지원을 별도 사업으로 분리"
+      ],
+      "insight": "빅테크가 'AI를 파는 것'에서 'AI 도입을 대행하는 것'으로 사업 영역을 넓히고 있다. 기업 고객 입장에서는 도구 구매가 아니라 컨설팅에 가까운 관계가 표준이 되는 흐름이다.",
+      "source_url": "https://techstartups.com/2026/07/03/top-tech-news-today-july-3-2026/",
+      "source_name": "techstartups"
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "date": "2026-07-05",
+  "generated_at": "2026-07-05T09:05:00+09:00",
+  "daily_insight": {
+    "title": "과학이 새로운 벤치마크가 되고 있다",
+    "body": "연구자 전용 작업대, 신약 발굴 프로그램, 생물학 벤치마크 공개가 한 날에 몰렸다. 프런티어 AI 경쟁의 다음 무대가 코딩·대화를 넘어 '실제 과학 난제를 푸는가'로 옮겨가는 흐름이 뚜렷하다."
+  },
+  "cards": [
+    {
+      "rank": 1,
+      "category": "교육·생산성",
+      "verified_date": "2026-07-05",
+      "verification_status": "passed",
+      "headline": "Anthropic, 'Claude Science' 정식 확장 — 신약 발굴 프로그램 포함",
+      "summary": "60여 개 사전구성 연구 도구를 갖춘 Claude Science가 소외질환 신약 발굴 프로그램과 함께 Pro/Max/Team/Enterprise 요금제 베타로 제공된다.",
+      "points": [
+        "60여 개 사전구성 연구 도구 제공",
+        "소외질환 대상 신약 발굴 프로그램 동반",
+        "여러 요금제에 걸쳐 베타로 확대 제공"
+      ],
+      "insight": "연구자 전용 작업대가 상업적 요금제 안으로 들어오면서, 과학 연구 지원이 자선이 아니라 정규 사업 라인이 되고 있다. 지속가능한 자금 구조가 있어야 이런 지원이 계속될 수 있다.",
+      "source_url": "https://aitoolsrecap.com/Blog/ai-news-july-5-2026",
+      "source_name": "aitoolsrecap",
+      "entities": [
+        "Anthropic",
+        "Claude"
+      ],
+      "thread_ids": []
+    },
+    {
+      "rank": 2,
+      "category": "모델·연구",
+      "verified_date": "2026-07-05",
+      "verification_status": "passed",
+      "headline": "OpenAI, GPT-5.6 Sol의 Terminal-Bench 2.1 점수 96.7%로 확정",
+      "summary": "OpenAI 최신 플래그십 모델이 프런티어 추론·장기 에이전트 작업에서 새로운 최고 기록을 세웠다.",
+      "points": [
+        "Terminal-Bench 2.1에서 96.7% 기록",
+        "장기 에이전트 작업 벤치마크 갱신",
+        "프런티어 추론 능력의 새 기준점 제시"
+      ],
+      "insight": "벤치마크 최고 기록의 갱신 주기가 점점 빨라지고 있다. 절대 수치보다 '얼마나 빨리 다음 기록으로 대체되는가'가 이 경쟁의 실제 속도를 보여준다.",
+      "source_url": "https://aitoolsrecap.com/Blog/ai-news-july-5-2026",
+      "source_name": "aitoolsrecap",
+      "entities": [
+        "OpenAI",
+        "GPT"
+      ],
+      "thread_ids": [
+        "gpt-5.6"
+      ]
+    },
+    {
+      "rank": 3,
+      "category": "도구·개발",
+      "verified_date": "2026-07-05",
+      "verification_status": "passed",
+      "headline": "GPT-5.6 Terra, 'GPT-5.5급 성능을 절반 비용에' 내세운 균형형 모델",
+      "summary": "OpenAI가 전작 GPT-5.5와 경쟁력 있는 성능을 절반 비용에 제공하는 균형형 모델 Terra를 공개했다.",
+      "points": [
+        "전작 대비 경쟁력 있는 성능 유지",
+        "비용은 약 2분의 1 수준으로 인하",
+        "고성능·저비용 사이의 균형점 제시"
+      ],
+      "insight": "최상위 모델과 별개로 '가성비 등급'을 따로 내놓는 것이 표준 전략이 되고 있다. 실무자 입장에선 최고 성능보다 이런 균형형 모델이 실제 도입 결정을 좌우할 가능성이 크다.",
+      "source_url": "https://aitoolsrecap.com/Blog/ai-news-july-5-2026",
+      "source_name": "aitoolsrecap",
+      "entities": [
+        "OpenAI",
+        "GPT"
+      ],
+      "thread_ids": [
+        "gpt-5.6"
+      ]
+    },
+    {
+      "rank": 4,
+      "category": "산업·투자",
+      "verified_date": "2026-07-05",
+      "verification_status": "passed",
+      "headline": "xAI, Grok 5 학습용 'Colossus 2' 1.5GW로 확장 — 시장은 3분기 출시 회의적",
+      "summary": "xAI가 Grok 5 학습을 위해 슈퍼컴퓨터 규모를 1.5GW로 늘렸지만, 예측시장은 3분기 출시 확률을 3%로 낮게 보고 있다.",
+      "points": [
+        "학습 인프라를 1.5GW 규모로 확장",
+        "예측시장의 3분기 출시 확률은 3%에 불과",
+        "인프라 투자와 실제 출시 기대 사이의 괴리"
+      ],
+      "insight": "인프라를 아무리 키워도 출시 신뢰도는 별개로 움직인다. 시장은 '얼마나 큰 컴퓨터를 짓는가'보다 '실제로 제때 내놓는가'의 과거 이력을 더 중요하게 본다.",
+      "source_url": "https://aitoolsrecap.com/Blog/ai-news-july-5-2026",
+      "source_name": "aitoolsrecap",
+      "entities": [
+        "xAI"
+      ],
+      "thread_ids": []
+    },
+    {
+      "rank": 5,
+      "category": "모델·연구",
+      "verified_date": "2026-07-05",
+      "verification_status": "passed",
+      "headline": "OpenAI, 생물학 전용 벤치마크 'GeneBench-Pro' 공개",
+      "summary": "AI 에이전트가 과학적 불확실성을 얼마나 잘 다루는지 시험하는 연구 수준의 계산생물학 벤치마크를 공개했다.",
+      "points": [
+        "연구 수준의 계산생물학 벤치마크 신설",
+        "과학적 불확실성 대응 능력을 시험",
+        "코딩·대화 중심 벤치마크에서 과학 영역으로 확장"
+      ],
+      "insight": "벤치마크의 영역이 '얼마나 말을 잘하는가'에서 '실제 과학 난제를 다룰 수 있는가'로 넓어지고 있다. 이는 AI의 다음 경쟁 무대가 어디인지 보여주는 신호다.",
+      "source_url": "https://aitoolsrecap.com/Blog/ai-news-july-5-2026",
+      "source_name": "aitoolsrecap",
+      "entities": [
+        "OpenAI"
+      ],
+      "thread_ids": []
+    }
+  ]
+}

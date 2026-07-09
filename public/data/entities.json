@@ -1,7 +1,70 @@
 {
-  "generated_at": "2026-07-01T23:11:22.193480+00:00",
+  "generated_at": "2026-07-09T23:27:31.068950+00:00",
   "timelines": {
     "OpenAI": [
+      {
+        "date": "2026-07-09",
+        "headline": "OpenAI, GPT-5.6 패밀리(Sol·Terra·Luna) 전면 출시",
+        "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-9-2026",
+        "category": "모델·연구",
+        "verification_status": "passed"
+      },
+      {
+        "date": "2026-07-09",
+        "headline": "사상 최초 — 세 프런티어 랩 동시 신모델 공개일",
+        "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-9-2026",
+        "category": "산업·투자",
+        "verification_status": "passed"
+      },
+      {
+        "date": "2026-07-09",
+        "headline": "OpenAI, Cerebras에 GPT-5.6 Sol 배포 — 초당 750토큰 속도",
+        "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-9-2026",
+        "category": "도구·개발",
+        "verification_status": "passed"
+      },
+      {
+        "date": "2026-07-07",
+        "headline": "Anthropic, 연환산 매출 470억 달러로 OpenAI 추월",
+        "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-7-2026",
+        "category": "산업·투자",
+        "verification_status": "passed"
+      },
+      {
+        "date": "2026-07-05",
+        "headline": "OpenAI, GPT-5.6 Sol의 Terminal-Bench 2.1 점수 96.7%로 확정",
+        "url": "https://aitoolsrecap.com/Blog/ai-news-july-5-2026",
+        "category": "모델·연구",
+        "verification_status": "passed"
+      },
+      {
+        "date": "2026-07-05",
+        "headline": "GPT-5.6 Terra, 'GPT-5.5급 성능을 절반 비용에' 내세운 균형형 모델",
+        "url": "https://aitoolsrecap.com/Blog/ai-news-july-5-2026",
+        "category": "도구·개발",
+        "verification_status": "passed"
+      },
+      {
+        "date": "2026-07-05",
+        "headline": "OpenAI, 생물학 전용 벤치마크 'GeneBench-Pro' 공개",
+        "url": "https://aitoolsrecap.com/Blog/ai-news-july-5-2026",
+        "category": "모델·연구",
+        "verification_status": "passed"
+      },
+      {
+        "date": "2026-07-04",
+        "headline": "OpenAI, 美 정부에 지분 5% 제공 재확인 — IPO 전략과 연계",
+        "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-4-2026",
+        "category": "산업·투자",
+        "verification_status": "passed"
+      },
+      {
+        "date": "2026-07-03",
+        "headline": "OpenAI, 美 정부에 지분 5% 제공 제안 — 약 426억 달러 규모",
+        "url": "https://techstartups.com/2026/07/03/top-tech-news-today-july-3-2026/",
+        "category": "정책·규제",
+        "verification_status": "passed"
+      },
       {
         "date": "2026-06-29",
         "headline": "OpenAI, GPT-5.6 3단 모델 'Sol·Terra·Luna' 프리뷰 — Sol Ultra 91.9%",
@@ -82,6 +145,48 @@
     ],
     "GPT": [
       {
+        "date": "2026-07-09",
+        "headline": "OpenAI, GPT-5.6 패밀리(Sol·Terra·Luna) 전면 출시",
+        "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-9-2026",
+        "category": "모델·연구",
+        "verification_status": "passed"
+      },
+      {
+        "date": "2026-07-09",
+        "headline": "OpenAI, Cerebras에 GPT-5.6 Sol 배포 — 초당 750토큰 속도",
+        "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-9-2026",
+        "category": "도구·개발",
+        "verification_status": "passed"
+      },
+      {
+        "date": "2026-07-06",
+        "headline": "GeneBench-Pro, 프런티어 AI의 생물학 한계 공개 — GPT-5.6 Sol 31.5%에 그쳐",
+        "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-6-2026",
+        "category": "교육·생산성",
+        "verification_status": "passed"
+      },
+      {
+        "date": "2026-07-05",
+        "headline": "OpenAI, GPT-5.6 Sol의 Terminal-Bench 2.1 점수 96.7%로 확정",
+        "url": "https://aitoolsrecap.com/Blog/ai-news-july-5-2026",
+        "category": "모델·연구",
+        "verification_status": "passed"
+      },
+      {
+        "date": "2026-07-05",
+        "headline": "GPT-5.6 Terra, 'GPT-5.5급 성능을 절반 비용에' 내세운 균형형 모델",
+        "url": "https://aitoolsrecap.com/Blog/ai-news-july-5-2026",
+        "category": "도구·개발",
+        "verification_status": "passed"
+      },
+      {
+        "date": "2026-07-04",
+        "headline": "메타 '수박(Watermelon)' 모델, GPT-5.5급 성능에 '자릿수 단위' 더 많은 컴퓨팅 투입",
+        "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-4-2026",
+        "category": "모델·연구",
+        "verification_status": "passed"
+      },
+      {
         "date": "2026-06-29",
         "headline": "OpenAI, GPT-5.6 3단 모델 'Sol·Terra·Luna' 프리뷰 — Sol Ultra 91.9%",
         "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-29-2026",
@@ -133,6 +238,34 @@
     ],
     "Google": [
       {
+        "date": "2026-07-09",
+        "headline": "구글 Gemini 3.5 Pro, 예정보다 5주 지연 — 여전히 제한적 기업 프리뷰 단계",
+        "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-9-2026",
+        "category": "모델·연구",
+        "verification_status": "passed"
+      },
+      {
+        "date": "2026-07-06",
+        "headline": "구글 Gemini 3.5 Pro, 또 지연 — 토큰 소모·장문 추론 성능 문제",
+        "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-6-2026",
+        "category": "모델·연구",
+        "verification_status": "passed"
+      },
+      {
+        "date": "2026-07-03",
+        "headline": "구글, AI 데이터센터發 전력 소비 전년比 37% 급증",
+        "url": "https://techstartups.com/2026/07/03/top-tech-news-today-july-3-2026/",
+        "category": "정책·규제",
+        "verification_status": "passed"
+      },
+      {
+        "date": "2026-07-02",
+        "headline": "Anthropic·Amazon·MS·Google, 4사 공동 '탈옥 위험 평가' 기준 마련",
+        "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-3-2026",
+        "category": "모델·연구",
+        "verification_status": "passed"
+      },
+      {
         "date": "2026-06-30",
         "headline": "알파벳, 사상 최대 847.5억 달러 펀딩 — 버크셔 100억 달러 앵커",
         "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-30-2026",
@@ -183,6 +316,76 @@
       }
     ],
     "Claude": [
+      {
+        "date": "2026-07-09",
+        "headline": "SpaceXAI, 'Grok 4.5' 일반 공개 — SuperGrok·X 프리미엄+ 대상",
+        "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-9-2026",
+        "category": "모델·연구",
+        "verification_status": "passed"
+      },
+      {
+        "date": "2026-07-08",
+        "headline": "Fable 5, 무료 제공 종료 — 토큰당 10~50달러 유료 전환",
+        "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-8-2026",
+        "category": "도구·개발",
+        "verification_status": "passed"
+      },
+      {
+        "date": "2026-07-07",
+        "headline": "Claude Code, 연환산 매출 25억 달러 — Anthropic 성장의 핵심 엔진",
+        "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-7-2026",
+        "category": "도구·개발",
+        "verification_status": "passed"
+      },
+      {
+        "date": "2026-07-06",
+        "headline": "SWE-Together 벤치마크: Claude Opus 4.8, 다중턴 코딩서 '개입 최소' 1위",
+        "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-6-2026",
+        "category": "모델·연구",
+        "verification_status": "passed"
+      },
+      {
+        "date": "2026-07-05",
+        "headline": "Anthropic, 'Claude Science' 정식 확장 — 신약 발굴 프로그램 포함",
+        "url": "https://aitoolsrecap.com/Blog/ai-news-july-5-2026",
+        "category": "교육·생산성",
+        "verification_status": "passed"
+      },
+      {
+        "date": "2026-07-04",
+        "headline": "xAI, 1.5조 파라미터 'Grok 4.5(V9)' 비공개 베타 — SpaceX·Tesla 우선 투입",
+        "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-4-2026",
+        "category": "모델·연구",
+        "verification_status": "passed"
+      },
+      {
+        "date": "2026-07-04",
+        "headline": "Anthropic, 중국 기업의 우회 접근 경로 차단 시작",
+        "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-4-2026",
+        "category": "정책·규제",
+        "verification_status": "passed"
+      },
+      {
+        "date": "2026-07-04",
+        "headline": "국방부-Anthropic 계약 갈등 이메일 공개 — 자율무기·감시 요구 거절",
+        "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-4-2026",
+        "category": "정책·규제",
+        "verification_status": "passed"
+      },
+      {
+        "date": "2026-07-02",
+        "headline": "Fable 5, 수출통제 해제 후 전 세계 재배포",
+        "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-3-2026",
+        "category": "정책·규제",
+        "verification_status": "passed"
+      },
+      {
+        "date": "2026-07-02",
+        "headline": "Claude Sonnet 5, 출시 첫 주 성능 향상과 함께 '토큰 소모' 변수 노출",
+        "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-3-2026",
+        "category": "도구·개발",
+        "verification_status": "passed"
+      },
       {
         "date": "2026-07-01",
         "headline": "Anthropic, 'Claude Sonnet 5' 공개 — 미드티어에 프런티어급 성능",
@@ -249,6 +452,13 @@
     ],
     "Microsoft": [
       {
+        "date": "2026-07-03",
+        "headline": "MS, 25억 달러 규모 'Frontier Company' 신설 — 기업 AI 도입 가속",
+        "url": "https://techstartups.com/2026/07/03/top-tech-news-today-july-3-2026/",
+        "category": "산업·투자",
+        "verification_status": "passed"
+      },
+      {
         "date": "2026-06-30",
         "headline": "GitHub Copilot, 정액제 종료하고 토큰 과금 — 헤비유저 비용 10~50배↑",
         "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-30-2026",
@@ -279,6 +489,20 @@
     ],
     "Gemini": [
       {
+        "date": "2026-07-09",
+        "headline": "구글 Gemini 3.5 Pro, 예정보다 5주 지연 — 여전히 제한적 기업 프리뷰 단계",
+        "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-9-2026",
+        "category": "모델·연구",
+        "verification_status": "passed"
+      },
+      {
+        "date": "2026-07-06",
+        "headline": "구글 Gemini 3.5 Pro, 또 지연 — 토큰 소모·장문 추론 성능 문제",
+        "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-6-2026",
+        "category": "모델·연구",
+        "verification_status": "passed"
+      },
+      {
         "date": "2026-06-30",
         "headline": "구글 Gemini 3.5 Pro, 6월 출시 불발 — 7월로 연기",
         "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-30-2026",
@@ -294,6 +518,34 @@
       }
     ],
     "중국 오픈웨이트": [
+      {
+        "date": "2026-07-08",
+        "headline": "中 오픈웨이트 모델, 美 기업 토큰 사용량의 30~46% 점유",
+        "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-8-2026",
+        "category": "산업·투자",
+        "verification_status": "passed"
+      },
+      {
+        "date": "2026-07-06",
+        "headline": "바이트댄스 도우바오, 中 AI 동반자법 대응해 7월 15일 에이전트 기능 종료",
+        "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-6-2026",
+        "category": "정책·규제",
+        "verification_status": "passed"
+      },
+      {
+        "date": "2026-07-04",
+        "headline": "메이투안, 1.6조 파라미터 오픈소스 'LongCat-2.0' 공개 — 자국산 칩으로 학습",
+        "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-4-2026",
+        "category": "모델·연구",
+        "verification_status": "passed"
+      },
+      {
+        "date": "2026-07-04",
+        "headline": "Anthropic, 중국 기업의 우회 접근 경로 차단 시작",
+        "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-4-2026",
+        "category": "정책·규제",
+        "verification_status": "passed"
+      },
       {
         "date": "2026-06-27",
         "headline": "OpenAI·Anthropic 가격 전쟁 조짐 — IPO 앞두고 단가 인하 압박",
@@ -318,6 +570,13 @@
     ],
     "NVIDIA": [
       {
+        "date": "2026-07-03",
+        "headline": "엔비디아, AI 스타트업에 '선사용 후지불' 컴퓨팅 모델 제시",
+        "url": "https://techstartups.com/2026/07/03/top-tech-news-today-july-3-2026/",
+        "category": "산업·투자",
+        "verification_status": "passed"
+      },
+      {
         "date": "2026-06-30",
         "headline": "퀄컴, Modular 39.2억 달러 인수 — 엔비디아 생태계에 도전",
         "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-30-2026",
@@ -333,6 +592,83 @@
       }
     ],
     "Anthropic": [
+      {
+        "date": "2026-07-09",
+        "headline": "사상 최초 — 세 프런티어 랩 동시 신모델 공개일",
+        "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-9-2026",
+        "category": "산업·투자",
+        "verification_status": "passed"
+      },
+      {
+        "date": "2026-07-07",
+        "headline": "Anthropic, 연환산 매출 470억 달러로 OpenAI 추월",
+        "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-7-2026",
+        "category": "산업·투자",
+        "verification_status": "passed"
+      },
+      {
+        "date": "2026-07-07",
+        "headline": "Claude Code, 연환산 매출 25억 달러 — Anthropic 성장의 핵심 엔진",
+        "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-7-2026",
+        "category": "도구·개발",
+        "verification_status": "passed"
+      },
+      {
+        "date": "2026-07-07",
+        "headline": "Anthropic, 테라울프와 190억 달러 규모 데이터센터 장기 임대 계약",
+        "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-7-2026",
+        "category": "산업·투자",
+        "verification_status": "passed"
+      },
+      {
+        "date": "2026-07-05",
+        "headline": "Anthropic, 'Claude Science' 정식 확장 — 신약 발굴 프로그램 포함",
+        "url": "https://aitoolsrecap.com/Blog/ai-news-july-5-2026",
+        "category": "교육·생산성",
+        "verification_status": "passed"
+      },
+      {
+        "date": "2026-07-04",
+        "headline": "Anthropic, 중국 기업의 우회 접근 경로 차단 시작",
+        "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-4-2026",
+        "category": "정책·규제",
+        "verification_status": "passed"
+      },
+      {
+        "date": "2026-07-04",
+        "headline": "국방부-Anthropic 계약 갈등 이메일 공개 — 자율무기·감시 요구 거절",
+        "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-4-2026",
+        "category": "정책·규제",
+        "verification_status": "passed"
+      },
+      {
+        "date": "2026-07-03",
+        "headline": "Anthropic, 삼성과 맞춤형 AI 칩 제조 초기 논의",
+        "url": "https://techstartups.com/2026/07/03/top-tech-news-today-july-3-2026/",
+        "category": "도구·개발",
+        "verification_status": "passed"
+      },
+      {
+        "date": "2026-07-02",
+        "headline": "Fable 5, 수출통제 해제 후 전 세계 재배포",
+        "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-3-2026",
+        "category": "정책·규제",
+        "verification_status": "passed"
+      },
+      {
+        "date": "2026-07-02",
+        "headline": "멘로벤처스, Anthropic 투자 성공에 힘입어 30억 달러 역대 최대 펀드 조성",
+        "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-3-2026",
+        "category": "산업·투자",
+        "verification_status": "passed"
+      },
+      {
+        "date": "2026-07-02",
+        "headline": "Anthropic·Amazon·MS·Google, 4사 공동 '탈옥 위험 평가' 기준 마련",
+        "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-3-2026",
+        "category": "모델·연구",
+        "verification_status": "passed"
+      },
       {
         "date": "2026-07-01",
         "headline": "Anthropic, 'Claude Sonnet 5' 공개 — 미드티어에 프런티어급 성능",
@@ -434,6 +770,27 @@
     ],
     "xAI": [
       {
+        "date": "2026-07-09",
+        "headline": "SpaceXAI, 'Grok 4.5' 일반 공개 — SuperGrok·X 프리미엄+ 대상",
+        "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-9-2026",
+        "category": "모델·연구",
+        "verification_status": "passed"
+      },
+      {
+        "date": "2026-07-05",
+        "headline": "xAI, Grok 5 학습용 'Colossus 2' 1.5GW로 확장 — 시장은 3분기 출시 회의적",
+        "url": "https://aitoolsrecap.com/Blog/ai-news-july-5-2026",
+        "category": "산업·투자",
+        "verification_status": "passed"
+      },
+      {
+        "date": "2026-07-04",
+        "headline": "xAI, 1.5조 파라미터 'Grok 4.5(V9)' 비공개 베타 — SpaceX·Tesla 우선 투입",
+        "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-4-2026",
+        "category": "모델·연구",
+        "verification_status": "passed"
+      },
+      {
         "date": "2026-06-28",
         "headline": "xAI 리더십 위기 — 창업자 11명 전원 이탈",
         "url": "https://aitoolsrecap.com/Blog/ai-news-june-28-2026",
@@ -447,6 +804,15 @@
         "headline": "퀄컴, Modular 39.2억 달러 인수 — 엔비디아 생태계에 도전",
         "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-30-2026",
         "category": "산업·투자",
+        "verification_status": "passed"
+      }
+    ],
+    "Meta": [
+      {
+        "date": "2026-07-04",
+        "headline": "메타 '수박(Watermelon)' 모델, GPT-5.5급 성능에 '자릿수 단위' 더 많은 컴퓨팅 투입",
+        "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-4-2026",
+        "category": "모델·연구",
         "verification_status": "passed"
       }
     ]

@@ -1,0 +1,139 @@
+{
+  "date": "2026-07-09",
+  "generated_at": "2026-07-09T09:05:00+09:00",
+  "daily_insight": {
+    "title": "사상 최초, 세 프런티어 랩이 같은 날 나란히 신모델을 내놨다",
+    "body": "OpenAI·xAI·Anthropic이 동시에 신모델을 공개 가능 상태로 만든 첫날이었다. 경쟁이 순차 대결에서 동시다발 대결로 바뀌었고, 그 이면에서는 지연되는 모델(Gemini)과 비용을 통제하려는 기업(테슬라)의 신중한 움직임도 함께 확인됐다."
+  },
+  "cards": [
+    {
+      "rank": 1,
+      "category": "모델·연구",
+      "verified_date": "2026-07-09",
+      "verification_status": "passed",
+      "headline": "OpenAI, GPT-5.6 패밀리(Sol·Terra·Luna) 전면 출시",
+      "summary": "ChatGPT와 API 전반에 걸쳐 3개 등급 모델이 출시됐으며, Sol은 Terminal-Bench 2.1에서 91.9%를 기록했다.",
+      "points": [
+        "ChatGPT·API 양쪽에 동시 전면 출시",
+        "3개 등급(Sol·Terra·Luna)으로 구성",
+        "Sol의 Terminal-Bench 2.1 점수 91.9%"
+      ],
+      "insight": "프리뷰·게이트 단계를 거친 모델이 마침내 전면 공개로 이어지는 사례다. 단계적 공개 이후 전면 출시까지 얼마나 걸리는지가 향후 모델들의 로드맵을 가늠하는 참고점이 된다.",
+      "source_url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-9-2026",
+      "source_name": "buildfastwithai",
+      "entities": [
+        "OpenAI",
+        "GPT"
+      ],
+      "thread_ids": [
+        "gpt-5.6"
+      ]
+    },
+    {
+      "rank": 2,
+      "category": "모델·연구",
+      "verified_date": "2026-07-09",
+      "verification_status": "passed",
+      "headline": "SpaceXAI, 'Grok 4.5' 일반 공개 — SuperGrok·X 프리미엄+ 대상",
+      "summary": "SpaceX가 Grok 4.5를 SuperGrok Heavy·X Premium+ 구독자에게 공개했으며, Opus급 성능을 주장하고 있다.",
+      "points": [
+        "SuperGrok Heavy·X Premium+ 구독자 대상 공개",
+        "Opus급 성능 주장 — 공개 벤치마크 미제시",
+        "비공개 베타에서 일반 공개로 전환"
+      ],
+      "insight": "비공개 베타 단계를 거친 모델이 짧은 시차로 일반 공개까지 이어졌다. 다만 벤치마크 없는 성능 주장은 여전히 독립 검증이 필요한 상태로 남는다.",
+      "source_url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-9-2026",
+      "source_name": "buildfastwithai",
+      "entities": [
+        "Claude",
+        "xAI"
+      ],
+      "thread_ids": []
+    },
+    {
+      "rank": 3,
+      "category": "산업·투자",
+      "verified_date": "2026-07-09",
+      "verification_status": "passed",
+      "headline": "사상 최초 — 세 프런티어 랩 동시 신모델 공개일",
+      "summary": "OpenAI·SpaceX·Anthropic이 각자의 신모델을 동시에 일반 접근 가능하게 만든 첫 사례로 기록됐다.",
+      "points": [
+        "OpenAI·SpaceX·Anthropic 3사 동시 공개",
+        "AI 역사상 최초 사례로 평가됨",
+        "경쟁이 순차에서 동시 구도로 전환"
+      ],
+      "insight": "경쟁사들의 출시 시점이 겹치는 것은 우연이 아니라 개발 속도 자체가 업계 전반에서 평준화되고 있다는 신호다. 특정 기업이 압도적으로 앞서가는 시기는 점점 짧아지고 있다.",
+      "source_url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-9-2026",
+      "source_name": "buildfastwithai",
+      "entities": [
+        "OpenAI",
+        "Anthropic"
+      ],
+      "thread_ids": []
+    },
+    {
+      "rank": 4,
+      "category": "도구·개발",
+      "verified_date": "2026-07-09",
+      "verification_status": "passed",
+      "headline": "OpenAI, Cerebras에 GPT-5.6 Sol 배포 — 초당 750토큰 속도",
+      "summary": "기존 GPU 기반 추론 서빙 대비 약 15배 빠른 초당 750토큰 속도로 Sol을 Cerebras 하드웨어에 배포했다.",
+      "points": [
+        "초당 750토큰의 처리 속도",
+        "기존 GPU 서빙 대비 약 15배 향상",
+        "대안 하드웨어 파트너십을 통한 속도 확보"
+      ],
+      "insight": "추론 속도 경쟁이 모델 설계를 넘어 '어떤 하드웨어에 배포하는가'로 확장되고 있다. 같은 모델도 배포처에 따라 체감 속도가 완전히 달라질 수 있다.",
+      "source_url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-9-2026",
+      "source_name": "buildfastwithai",
+      "entities": [
+        "OpenAI",
+        "GPT"
+      ],
+      "thread_ids": [
+        "gpt-5.6"
+      ]
+    },
+    {
+      "rank": 5,
+      "category": "모델·연구",
+      "verified_date": "2026-07-09",
+      "verification_status": "passed",
+      "headline": "구글 Gemini 3.5 Pro, 예정보다 5주 지연 — 여전히 제한적 기업 프리뷰 단계",
+      "summary": "경쟁사들의 잇단 출시에도 불구하고 Gemini 3.5 Pro는 6월 정식 출시 기한을 5주 넘긴 채 제한적 기업 프리뷰 상태에 머물러 있다.",
+      "points": [
+        "정식 출시 기한을 5주 초과",
+        "여전히 제한적 기업 프리뷰 단계",
+        "경쟁사 잇단 출시와 대비되는 지연"
+      ],
+      "insight": "경쟁사들이 속속 출시하는 와중의 장기 지연은 단순한 일정 조정을 넘어 해당 모델의 완성도에 대한 의문을 키운다. 지연이 길어질수록 '왜 늦는가'에 대한 설명 부담도 커진다.",
+      "source_url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-9-2026",
+      "source_name": "buildfastwithai",
+      "entities": [
+        "Google",
+        "Gemini"
+      ],
+      "thread_ids": [
+        "gemini-3.5-pro"
+      ]
+    },
+    {
+      "rank": 6,
+      "category": "교육·생산성",
+      "verified_date": "2026-07-09",
+      "verification_status": "passed",
+      "headline": "테슬라, 직원 1인당 주간 AI 코딩 도구 사용액 200달러로 제한",
+      "summary": "테슬라가 직원 1인당 주간 AI 코딩 도구 지출에 상한선을 두어, 기업의 효율 우선 기조를 드러냈다.",
+      "points": [
+        "직원 1인당 주간 200달러 상한 설정",
+        "AI 코딩 도구 지출에 대한 통제",
+        "기업의 비용 효율 우선 기조 반영"
+      ],
+      "insight": "AI 도구 도입 열풍 속에서도 대기업들은 실제 비용 통제에 나서고 있다. 무제한 도입이 아니라 '적정선을 정하는 것'이 다음 단계의 기업 AI 운영 방식이 되고 있다.",
+      "source_url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-9-2026",
+      "source_name": "buildfastwithai",
+      "entities": [],
+      "thread_ids": []
+    }
+  ]
+}

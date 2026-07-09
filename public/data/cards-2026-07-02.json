@@ -1,0 +1,130 @@
+{
+  "date": "2026-07-02",
+  "generated_at": "2026-07-02T09:05:00+09:00",
+  "daily_insight": {
+    "title": "완화와 통제가 동시에 — 수출규제는 풀리고 새 규정은 조여든다",
+    "body": "Fable 5의 글로벌 재개와 백악관의 자발적 모델 표준 추진이 같은 시점에 벌어졌다. 정부발 통제가 한쪽에서 풀리면 다른 쪽에서 새 규정이 자리를 채우는, AI 정책의 '풍선 효과'가 뚜렷했던 하루다."
+  },
+  "cards": [
+    {
+      "rank": 1,
+      "category": "정책·규제",
+      "verified_date": "2026-07-02",
+      "verification_status": "passed",
+      "headline": "Fable 5, 수출통제 해제 후 전 세계 재배포",
+      "summary": "Anthropic이 미 상무부의 수출통제 해제 결정에 따라 7월 1일 Fable 5를 전 세계에 재배포했으며, 탈옥 시도를 차단하는 새 안전 분류기를 함께 적용했다.",
+      "points": [
+        "미 상무부 수출통제 해제가 재배포의 직접 계기",
+        "탈옥 방지용 신규 안전 분류기 동시 적용",
+        "모델 접근이 정부 결정에 따라 다시 확대"
+      ],
+      "insight": "모델 가용성이 국경을 넘나드는 정책 결정에 그대로 연동된다. 글로벌 서비스는 특정 정부의 규제 변경 하나로 접근성이 통째로 바뀔 수 있음을 전제해야 한다.",
+      "source_url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-3-2026",
+      "source_name": "buildfastwithai",
+      "entities": [
+        "Anthropic",
+        "Claude"
+      ],
+      "thread_ids": [
+        "claude-access"
+      ]
+    },
+    {
+      "rank": 2,
+      "category": "정책·규제",
+      "verified_date": "2026-07-02",
+      "verification_status": "passed",
+      "headline": "백악관, 자발적 AI 모델 표준 마련 — 7월 7일경 발표 예정",
+      "summary": "백악관이 6월 2일 행정명령에 따른 프런티어 모델 출시 자발적 표준을 마무리하고 있으며, 7월 7일경 발표될 전망이다.",
+      "points": [
+        "행정명령 후속으로 자발적 표준 확정 단계",
+        "발표 시점이 임박한 것으로 알려짐",
+        "프런티어 모델 출시 절차의 공식화 시도"
+      ],
+      "insight": "임시방편적 정부 승인 관행이 점차 명문화된 표준으로 굳어지고 있다. 규칙이 코드화되면 예측 가능성은 커지지만, 그 기준을 정하는 쪽의 영향력도 함께 커진다.",
+      "source_url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-3-2026",
+      "source_name": "buildfastwithai",
+      "entities": [],
+      "thread_ids": []
+    },
+    {
+      "rank": 3,
+      "category": "산업·투자",
+      "verified_date": "2026-07-02",
+      "verification_status": "passed",
+      "headline": "멘로벤처스, Anthropic 투자 성공에 힘입어 30억 달러 역대 최대 펀드 조성",
+      "summary": "멘로벤처스가 누적 10억 달러 규모였던 Anthropic 투자가 약 140억 달러 가치로 불어나면서, 역대 최대인 30억 달러 규모 신규 펀드를 발표했다.",
+      "points": [
+        "단일 투자처 성공이 펀드 전체 규모를 견인",
+        "초기 10억 달러가 약 140억 달러로 평가 상승",
+        "벤처캐피털의 AI 쏠림이 숫자로 확인됨"
+      ],
+      "insight": "소수의 프런티어 AI 기업에 대한 초기 베팅이 벤처업계 전체의 자금 배분을 바꾸고 있다. 한 곳의 성공이 다음 펀드의 규모와 방향을 결정하는 쏠림 구조가 굳어지는 중이다.",
+      "source_url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-3-2026",
+      "source_name": "buildfastwithai",
+      "entities": [
+        "Anthropic"
+      ],
+      "thread_ids": []
+    },
+    {
+      "rank": 4,
+      "category": "도구·개발",
+      "verified_date": "2026-07-02",
+      "verification_status": "passed",
+      "headline": "Claude Sonnet 5, 출시 첫 주 성능 향상과 함께 '토큰 소모' 변수 노출",
+      "summary": "Sonnet 5가 다단계 작업 처리 능력은 개선됐지만, 새 토크나이저가 동일 텍스트에서 1.0~1.35배 더 많은 토큰을 소모하는 현상이 확인됐다.",
+      "points": [
+        "다단계·에이전트 작업 처리 능력 향상 확인",
+        "새 토크나이저로 인한 토큰 소모량 증가",
+        "체감 성능과 실제 과금액 사이의 괴리 발생 가능"
+      ],
+      "insight": "모델 업그레이드는 눈에 보이는 성능만이 아니라 '숨은 과금 구조'도 함께 바꾼다. 업그레이드 후 비용을 실측해야 실제 이득을 알 수 있다.",
+      "source_url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-3-2026",
+      "source_name": "buildfastwithai",
+      "entities": [
+        "Claude"
+      ],
+      "thread_ids": []
+    },
+    {
+      "rank": 5,
+      "category": "교육·생산성",
+      "verified_date": "2026-07-02",
+      "verification_status": "passed",
+      "headline": "美 6월 신규고용 5.7만 건에 그쳐 — AI發 노동시장 충격 지속",
+      "summary": "6월 미국 신규고용이 예상치를 크게 밑돌았고, 연초 이후 기술업계 감원이 14만 2천 건에 달하며 AI發 일자리 대체가 계속되고 있다.",
+      "points": [
+        "예상치를 크게 밑돈 6월 신규고용",
+        "연초 대비 기술업계 누적 감원 14만 2천 건",
+        "지식노동 전반의 AI發 대체 지속"
+      ],
+      "insight": "AI 생산성 효과의 이면에서 노동시장 재편이 통계로 반복 확인되고 있다. 일회성 뉴스가 아니라 지속되는 추세라는 점이 정책 대응의 시급성을 키운다.",
+      "source_url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-3-2026",
+      "source_name": "buildfastwithai",
+      "entities": [],
+      "thread_ids": []
+    },
+    {
+      "rank": 6,
+      "category": "모델·연구",
+      "verified_date": "2026-07-02",
+      "verification_status": "passed",
+      "headline": "Anthropic·Amazon·MS·Google, 4사 공동 '탈옥 위험 평가' 기준 마련",
+      "summary": "주요 AI 기업들이 모델 보안 취약점을 공동 채점하기 위한 공유 기준을 함께 개발하고 있다.",
+      "points": [
+        "경쟁사 간 보안 평가 기준을 공동 개발",
+        "취약점 발견에 비례적으로 대응하기 위한 목적",
+        "업계 차원의 자율 규율 시도"
+      ],
+      "insight": "경쟁 관계의 기업들이 보안 문제에서는 협력한다. 안전 문제는 개별 기업의 경쟁력이 아니라 업계 전체의 신뢰 문제로 인식되고 있다는 신호다.",
+      "source_url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-3-2026",
+      "source_name": "buildfastwithai",
+      "entities": [
+        "Anthropic",
+        "Google"
+      ],
+      "thread_ids": []
+    }
+  ]
+}

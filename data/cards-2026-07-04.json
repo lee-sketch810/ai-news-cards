@@ -1,0 +1,106 @@
+{
+  "date": "2026-07-04",
+  "generated_at": "2026-07-04T09:05:00+09:00",
+  "daily_insight": {
+    "title": "누가 규칙을 지키는가 — 벤치마크 조작과 접근 통제의 하루",
+    "body": "새 모델 발표 이면에서 벤치마크를 유리하게 조작하려는 시도, 우회 접근을 차단하는 조치, 국방부와의 사용 범위 갈등이 동시에 드러났다. AI 경쟁이 '누가 더 세게 만드는가'만큼 '누가 규칙을 지키는가'로 옮겨가고 있다."
+  },
+  "cards": [
+    {
+      "rank": 1,
+      "category": "모델·연구",
+      "verified_date": "2026-07-04",
+      "verification_status": "passed",
+      "headline": "xAI, 1.5조 파라미터 'Grok 4.5(V9)' 비공개 베타 — SpaceX·Tesla 우선 투입",
+      "summary": "xAI가 1.5조 파라미터 규모의 V9 모델을 SpaceX·Tesla 대상 비공개 베타로 투입했으며, Claude Opus급 성능을 주장하고 있다.",
+      "points": [
+        "1.5조 파라미터급 초대형 모델",
+        "SpaceX·Tesla 등 계열사 우선 투입",
+        "Opus급 성능 주장 — 공개 벤치마크는 미제시"
+      ],
+      "insight": "초대형 모델이 계열사부터 우선 투입되는 흐름은 검증되지 않은 능력 주장과 실사용 사이의 간극을 남긴다. 공개 벤치마크 없는 '성능급' 주장은 곧이곧대로 받아들이기 어렵다.",
+      "source_url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-4-2026",
+      "source_name": "buildfastwithai"
+    },
+    {
+      "rank": 2,
+      "category": "모델·연구",
+      "verified_date": "2026-07-04",
+      "verification_status": "passed",
+      "headline": "메이투안, 1.6조 파라미터 오픈소스 'LongCat-2.0' 공개 — 자국산 칩으로 학습",
+      "summary": "중국 메이투안이 전량 자국산 칩으로 학습한 1.6조 파라미터 모델을 MIT 라이선스로 오픈소스 공개했다.",
+      "points": [
+        "전량 자국산 칩으로 학습 완료",
+        "MIT 라이선스로 오픈소스 공개",
+        "중국 반도체 자립 흐름의 실증 사례"
+      ],
+      "insight": "자국산 칩만으로 초대형 모델 학습이 가능하다는 것을 보여준 사례다. 반도체 수출통제의 실효성 논쟁에 실질적 근거를 더하는 신호로 읽힌다.",
+      "source_url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-4-2026",
+      "source_name": "buildfastwithai"
+    },
+    {
+      "rank": 3,
+      "category": "정책·규제",
+      "verified_date": "2026-07-04",
+      "verification_status": "passed",
+      "headline": "Anthropic, 중국 기업의 우회 접근 경로 차단 시작",
+      "summary": "Anthropic이 앤트파이낸셜·바이트댄스 등 중국 기업들이 싱가포르 자회사·VPN을 통해 Claude에 접근하던 우회 경로를 식별해 차단하기 시작했다.",
+      "points": [
+        "제3국 자회사·VPN을 통한 우회 접근 식별",
+        "구체적 기업명(앤트파이낸셜·바이트댄스)이 지목됨",
+        "수출통제 실효성을 높이려는 후속 조치"
+      ],
+      "insight": "국가 단위 접근 통제는 우회로가 생기기 마련이고, 그 우회로를 막는 것 자체가 지속적인 대응 비용이 된다. 통제는 '설정'이 아니라 '계속되는 관리'의 문제임을 보여준다.",
+      "source_url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-4-2026",
+      "source_name": "buildfastwithai"
+    },
+    {
+      "rank": 4,
+      "category": "정책·규제",
+      "verified_date": "2026-07-04",
+      "verification_status": "passed",
+      "headline": "국방부-Anthropic 계약 갈등 이메일 공개 — 자율무기·감시 요구 거절",
+      "summary": "법정 문서를 통해 국방부가 자율무기·국내 대규모 감시 목적의 Claude 접근을 요구했으나 Anthropic 경영진이 거절한 사실이 드러났다.",
+      "points": [
+        "국방부의 자율무기·감시 목적 접근 요구",
+        "Anthropic 경영진이 이를 거절",
+        "법정 문서를 통해 갈등 내용이 외부 공개"
+      ],
+      "insight": "모델 제공자가 정부 고객이라도 용도를 스스로 제한할 수 있음을 보여준 사례다. 'AI를 판다'는 것이 '어떤 용도든 판다'는 뜻은 아니라는 경계가 실제로 시험대에 올랐다.",
+      "source_url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-4-2026",
+      "source_name": "buildfastwithai"
+    },
+    {
+      "rank": 5,
+      "category": "산업·투자",
+      "verified_date": "2026-07-04",
+      "verification_status": "passed",
+      "headline": "OpenAI, 美 정부에 지분 5% 제공 재확인 — IPO 전략과 연계",
+      "summary": "OpenAI가 9월 IPO 전략과 AI 표준 프레임워크 참여의 일환으로 정부 지분 제공안을 재확인했다.",
+      "points": [
+        "IPO 전략과 정부 지분 제공을 연계",
+        "AI 표준 프레임워크 참여 의지 표명",
+        "규제 대응과 자본 조달을 동시에 겨냥"
+      ],
+      "insight": "IPO를 앞둔 기업이 규제 순응을 자본 전략의 일부로 편입시키고 있다. 정부와의 관계 설정 자체가 상장 밸류에이션에 영향을 주는 변수가 됐다.",
+      "source_url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-4-2026",
+      "source_name": "buildfastwithai"
+    },
+    {
+      "rank": 6,
+      "category": "모델·연구",
+      "verified_date": "2026-07-04",
+      "verification_status": "passed",
+      "headline": "메타 '수박(Watermelon)' 모델, GPT-5.5급 성능에 '자릿수 단위' 더 많은 컴퓨팅 투입",
+      "summary": "메타 최고AI책임자가 자사 신모델이 GPT-5.5와 비슷한 성능을 내지만 이전 대비 '자릿수 단위'로 더 많은 컴퓨팅을 사용한다고 밝혔다.",
+      "points": [
+        "GPT-5.5급 성능 달성",
+        "이전 대비 자릿수 단위로 컴퓨팅 사용량 증가",
+        "성능 향상의 효율성에 의문 제기"
+      ],
+      "insight": "같은 성능에 훨씬 많은 자원을 쓴다는 자기 고백은 '규모만 키우는' 접근의 한계를 보여준다. 효율 개선 없는 스케일업은 지속가능한 경쟁 전략이 되기 어렵다.",
+      "source_url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-4-2026",
+      "source_name": "buildfastwithai"
+    }
+  ]
+}

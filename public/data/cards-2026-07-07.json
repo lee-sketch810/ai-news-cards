@@ -1,0 +1,126 @@
+{
+  "date": "2026-07-07",
+  "generated_at": "2026-07-07T09:05:00+09:00",
+  "daily_insight": {
+    "title": "Anthropic의 하루 — 매출 역전, 보안 위협, 대형 인프라 베팅이 겹쳤다",
+    "body": "매출에서 OpenAI를 앞섰다는 소식과, 자사 도구를 악용한 첫 자율 랜섬웨어 공격이 같은 날 보도됐다. 성장과 위협이 같은 속도로 커지고 있다는 점이 프런티어 AI 기업의 현재 위치를 압축해서 보여준다."
+  },
+  "cards": [
+    {
+      "rank": 1,
+      "category": "정책·규제",
+      "verified_date": "2026-07-07",
+      "verification_status": "passed",
+      "headline": "'JADEPUFFER' 랜섬웨어 — 첫 완전 자율 AI 공격 사례 공식 문서화",
+      "summary": "보안업체 Sysdig가 Langflow의 취약점(CVE-2025-3248)을 악용한 처음부터 끝까지 자율적인 AI 랜섬웨어 공격을 문서화했다.",
+      "points": [
+        "알려진 취약점(CVE-2025-3248)을 악용",
+        "처음부터 끝까지 자율적으로 수행된 공격",
+        "AI 에이전트 보안 위협의 실증 사례로 기록"
+      ],
+      "insight": "AI 에이전트의 자율성은 생산성뿐 아니라 공격의 자동화도 함께 끌어올린다. '자율 에이전트'라는 같은 기술이 방어와 공격 양쪽에서 능력을 키우고 있다.",
+      "source_url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-7-2026",
+      "source_name": "buildfastwithai",
+      "entities": [],
+      "thread_ids": []
+    },
+    {
+      "rank": 2,
+      "category": "산업·투자",
+      "verified_date": "2026-07-07",
+      "verification_status": "passed",
+      "headline": "Anthropic, 연환산 매출 470억 달러로 OpenAI 추월",
+      "summary": "Anthropic이 연환산 매출 470억 달러를 기록해 OpenAI의 250~330억 달러를 앞섰고, 예상보다 빠르게 흑자 전환에 도달했다.",
+      "points": [
+        "연환산 매출 470억 달러로 경쟁사 추월",
+        "예상보다 이른 흑자 전환",
+        "매출 기준 프런티어 경쟁의 순위 변화"
+      ],
+      "insight": "AI 경쟁의 순위표가 모델 벤치마크만이 아니라 실제 매출로도 다시 쓰이고 있다. 기술 우위와 사업적 우위가 항상 같은 순서로 움직이지는 않는다는 사실을 보여준다.",
+      "source_url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-7-2026",
+      "source_name": "buildfastwithai",
+      "entities": [
+        "OpenAI",
+        "Anthropic"
+      ],
+      "thread_ids": []
+    },
+    {
+      "rank": 3,
+      "category": "도구·개발",
+      "verified_date": "2026-07-07",
+      "verification_status": "passed",
+      "headline": "Claude Code, 연환산 매출 25억 달러 — Anthropic 성장의 핵심 엔진",
+      "summary": "Claude Code가 2026년 초 연환산 매출 25억 달러를 기록하며 Anthropic 상업적 성공의 주된 동력이 됐다.",
+      "points": [
+        "연환산 매출 25억 달러 기록",
+        "Anthropic 전체 성장의 핵심 동력으로 지목",
+        "코딩 도구가 회사 매출 구조의 중심으로"
+      ],
+      "insight": "범용 챗봇이 아니라 '개발자 도구'가 매출을 견인한다는 사실은 실용적 응용이 곧 수익화의 지름길임을 보여준다. 특정 직군에 깊게 파고든 도구가 범용 제품보다 강한 수익 모델이 될 수 있다.",
+      "source_url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-7-2026",
+      "source_name": "buildfastwithai",
+      "entities": [
+        "Anthropic",
+        "Claude"
+      ],
+      "thread_ids": []
+    },
+    {
+      "rank": 4,
+      "category": "정책·규제",
+      "verified_date": "2026-07-07",
+      "verification_status": "passed",
+      "headline": "백악관, AI 표준 프레임워크 이번 주 발표 임박",
+      "summary": "트럼프 행정부의 자발적 프런티어 모델 표준이 분류 기준과 심사 절차를 갖춘 형태로 이번 주 발표될 것으로 예상된다.",
+      "points": [
+        "분류 기준과 심사 절차를 포함할 전망",
+        "이번 주 발표가 유력하게 거론됨",
+        "프런티어 모델 출시 절차의 공식 문서화"
+      ],
+      "insight": "여러 날에 걸쳐 반복 예고된 발표가 임박했다는 것은 정부 개입이 임시방편에서 제도로 굳어지는 중임을 보여준다. 실제 발표 내용이 향후 모델 출시 속도의 기준선이 될 것이다.",
+      "source_url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-7-2026",
+      "source_name": "buildfastwithai",
+      "entities": [],
+      "thread_ids": []
+    },
+    {
+      "rank": 5,
+      "category": "산업·투자",
+      "verified_date": "2026-07-07",
+      "verification_status": "passed",
+      "headline": "Anthropic, 테라울프와 190억 달러 규모 데이터센터 장기 임대 계약",
+      "summary": "10월 IPO를 앞두고 Anthropic이 TeraWulf와 장기 컴퓨팅 인프라 계약을 체결했다.",
+      "points": [
+        "190억 달러 규모의 장기 임대 계약",
+        "10월 IPO를 앞둔 시점의 인프라 확보",
+        "컴퓨팅 자원 안정적 확보 전략"
+      ],
+      "insight": "IPO를 앞둔 기업이 대규모·장기 인프라 계약을 미리 확보하는 것은 상장 스토리에 '성장 여력'을 더하려는 포석이다. 인프라 계약 자체가 투자자에게 보내는 신호가 된다.",
+      "source_url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-7-2026",
+      "source_name": "buildfastwithai",
+      "entities": [
+        "Anthropic"
+      ],
+      "thread_ids": []
+    },
+    {
+      "rank": 6,
+      "category": "산업·투자",
+      "verified_date": "2026-07-07",
+      "verification_status": "passed",
+      "headline": "SK하이닉스·신티언트, 美 상장(IPO) 추진 — AI 칩 공급망 자금조달 가속",
+      "summary": "GPU 메모리 공급사 SK하이닉스(280억 달러 규모)와 엣지 프로세서 업체 신티언트가 나스닥 상장을 추진한다.",
+      "points": [
+        "GPU 메모리·엣지 프로세서 두 공급사가 동시 추진",
+        "SK하이닉스 상장 규모 약 280억 달러",
+        "AI 칩 공급망 전반의 자금조달 확대"
+      ],
+      "insight": "모델 기업뿐 아니라 그 밑단의 부품·공급망 기업까지 자본시장으로 몰려들고 있다. AI 붐의 수혜가 최종 모델 제공자를 넘어 공급망 전체로 번지고 있다는 뜻이다.",
+      "source_url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-7-2026",
+      "source_name": "buildfastwithai",
+      "entities": [],
+      "thread_ids": []
+    }
+  ]
+}

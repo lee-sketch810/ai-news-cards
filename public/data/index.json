@@ -1,7 +1,47 @@
 {
-  "generated_at": "2026-07-01T04:04:39.079584+00:00",
-  "latest": "2026-07-01",
+  "generated_at": "2026-07-09T23:27:20.576539+00:00",
+  "latest": "2026-07-09",
   "editions": [
+    {
+      "date": "2026-07-09",
+      "count": 6,
+      "top_headline": "OpenAI, GPT-5.6 패밀리(Sol·Terra·Luna) 전면 출시"
+    },
+    {
+      "date": "2026-07-08",
+      "count": 6,
+      "top_headline": "Fable 5, 무료 제공 종료 — 토큰당 10~50달러 유료 전환"
+    },
+    {
+      "date": "2026-07-07",
+      "count": 6,
+      "top_headline": "'JADEPUFFER' 랜섬웨어 — 첫 완전 자율 AI 공격 사례 공식 문서화"
+    },
+    {
+      "date": "2026-07-06",
+      "count": 6,
+      "top_headline": "구글 Gemini 3.5 Pro, 또 지연 — 토큰 소모·장문 추론 성능 문제"
+    },
+    {
+      "date": "2026-07-05",
+      "count": 5,
+      "top_headline": "Anthropic, 'Claude Science' 정식 확장 — 신약 발굴 프로그램 포함"
+    },
+    {
+      "date": "2026-07-04",
+      "count": 6,
+      "top_headline": "xAI, 1.5조 파라미터 'Grok 4.5(V9)' 비공개 베타 — SpaceX·Tesla 우선 투입"
+    },
+    {
+      "date": "2026-07-03",
+      "count": 5,
+      "top_headline": "엔비디아, AI 스타트업에 '선사용 후지불' 컴퓨팅 모델 제시"
+    },
+    {
+      "date": "2026-07-02",
+      "count": 6,
+      "top_headline": "Fable 5, 수출통제 해제 후 전 세계 재배포"
+    },
     {
       "date": "2026-07-01",
       "count": 3,

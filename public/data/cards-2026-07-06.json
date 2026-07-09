@@ -1,0 +1,131 @@
+{
+  "date": "2026-07-06",
+  "generated_at": "2026-07-06T09:05:00+09:00",
+  "daily_insight": {
+    "title": "약속한 날짜, 지킨 규정, 채점된 한계 — 셋 다 시험대에",
+    "body": "출시 지연·규제 준수·성능 한계가 한날 나란히 드러났다. 구글은 약속한 날짜를 못 지켰고, 바이트댄스는 새 규정을 지키려 기능을 접었고, 최신 모델은 생물학 문제 앞에서 한계를 보였다. 화려한 발표 이면의 '현실 점검'이 이어진 하루다."
+  },
+  "cards": [
+    {
+      "rank": 1,
+      "category": "모델·연구",
+      "verified_date": "2026-07-06",
+      "verification_status": "passed",
+      "headline": "구글 Gemini 3.5 Pro, 또 지연 — 토큰 소모·장문 추론 성능 문제",
+      "summary": "장문 추론 작업에서의 과도한 토큰 소모와 성능 격차로 Gemini 3.5 Pro가 예고된 출시 기한을 다시 넘겼다.",
+      "points": [
+        "장문 추론 작업의 토큰 소모 문제",
+        "성능 격차로 추가 검증 필요",
+        "예고된 기한을 재차 넘김"
+      ],
+      "insight": "반복되는 출시 연기는 이제 '일회성 사고'가 아니라 해당 모델 라인의 구조적 리스크로 봐야 한다. 여러 차례 연기된 제품에 의존한 계획은 대안을 함께 준비해야 한다.",
+      "source_url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-6-2026",
+      "source_name": "buildfastwithai",
+      "entities": [
+        "Google",
+        "Gemini"
+      ],
+      "thread_ids": [
+        "gemini-3.5-pro"
+      ]
+    },
+    {
+      "rank": 2,
+      "category": "정책·규제",
+      "verified_date": "2026-07-06",
+      "verification_status": "passed",
+      "headline": "바이트댄스 도우바오, 中 AI 동반자법 대응해 7월 15일 에이전트 기능 종료",
+      "summary": "중국의 새 AI 동반자 법규 준수를 위해 도우바오가 3억 4,500만 사용자 대상 AI 에이전트 기능을 종료한다.",
+      "points": [
+        "새 법규 준수를 위한 선제적 기능 종료",
+        "영향받는 사용자 규모 3억 4,500만 명",
+        "중국 AI 규제가 실제 제품 축소로 이어짐"
+      ],
+      "insight": "규제가 발효되기 전에 기업이 스스로 기능을 접는 사례는 규제 강도가 실제로 얼마나 센지를 보여준다. 대규모 사용자 기반도 법규 앞에서는 후순위로 밀린다.",
+      "source_url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-6-2026",
+      "source_name": "buildfastwithai",
+      "entities": [
+        "중국 오픈웨이트"
+      ],
+      "thread_ids": []
+    },
+    {
+      "rank": 3,
+      "category": "정책·규제",
+      "verified_date": "2026-07-06",
+      "verification_status": "passed",
+      "headline": "테슬라 로보택시, 마이애미서 안전요원 없이 운행 — 5번째 도시",
+      "summary": "테슬라 로보택시가 안전요원 없이 마이애미에서 서비스를 시작했으며, 미국 내 5번째 도시이자 가장 공격적인 무감독 자율주행 배치다.",
+      "points": [
+        "안전요원 없는 무감독 운행 방식",
+        "미국 내 서비스 도시로는 5번째",
+        "가장 공격적인 자율주행 배치로 평가"
+      ],
+      "insight": "자율주행의 '안전요원 제거'는 기술 신뢰도의 증거이자 동시에 규제 완화의 증거이기도 하다. 사고 발생 시 책임 소재 논쟁이 그만큼 더 첨예해질 조건이 갖춰졌다.",
+      "source_url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-6-2026",
+      "source_name": "buildfastwithai",
+      "entities": [],
+      "thread_ids": []
+    },
+    {
+      "rank": 4,
+      "category": "모델·연구",
+      "verified_date": "2026-07-06",
+      "verification_status": "passed",
+      "headline": "SWE-Together 벤치마크: Claude Opus 4.8, 다중턴 코딩서 '개입 최소' 1위",
+      "summary": "멀티턴 코딩 작업에서 Opus 4.8이 pass@1 63%로 가장 적은 수정 개입만으로 목표를 달성해 1위를 기록했다.",
+      "points": [
+        "멀티턴 코딩 작업에서 개입 최소화 1위",
+        "pass@1 기준 63% 기록",
+        "'단발 성능'이 아닌 '지속 작업 신뢰도' 측정"
+      ],
+      "insight": "코딩 벤치마크의 초점이 '한 번에 맞히는가'에서 '사람 개입 없이 끝까지 해내는가'로 이동하고 있다. 실무에서는 이 지속 신뢰도가 실제 생산성과 더 직결된다.",
+      "source_url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-6-2026",
+      "source_name": "buildfastwithai",
+      "entities": [
+        "Claude"
+      ],
+      "thread_ids": []
+    },
+    {
+      "rank": 5,
+      "category": "교육·생산성",
+      "verified_date": "2026-07-06",
+      "verification_status": "passed",
+      "headline": "GeneBench-Pro, 프런티어 AI의 생물학 한계 공개 — GPT-5.6 Sol 31.5%에 그쳐",
+      "summary": "129개 계산생물학 문제에서 GPT-5.6 Sol이 31.5%밖에 맞히지 못해 최신 모델의 과학 영역 한계가 드러났다.",
+      "points": [
+        "129개 계산생물학 문제로 구성된 벤치마크",
+        "최신 플래그십 모델도 31.5%에 그침",
+        "언어·코딩 대비 과학 영역의 뚜렷한 격차"
+      ],
+      "insight": "최고 수준의 언어·코딩 능력이 과학 난제 해결 능력과 자동으로 연결되지는 않는다. '똑똑해 보이는 것'과 '실제로 새로운 것을 발견하는 것' 사이엔 아직 큰 간극이 있다.",
+      "source_url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-6-2026",
+      "source_name": "buildfastwithai",
+      "entities": [
+        "GPT"
+      ],
+      "thread_ids": [
+        "gpt-5.6"
+      ]
+    },
+    {
+      "rank": 6,
+      "category": "정책·규제",
+      "verified_date": "2026-07-06",
+      "verification_status": "passed",
+      "headline": "백악관 AI 모델 표준 프레임워크, 이번 주 발표 예정",
+      "summary": "프런티어 모델 분류와 정부 검토 절차를 담은 자발적 표준 프레임워크가 이번 주 발표될 것으로 알려졌다.",
+      "points": [
+        "프런티어 모델 분류 기준 포함",
+        "정부 검토 절차의 공식화",
+        "발표 임박 신호가 여러 소스에서 확인됨"
+      ],
+      "insight": "임시 승인 관행에서 공식 프레임워크로의 전환이 임박했다는 신호가 반복 확인되고 있다. 실제 발표 내용이 향후 모델 출시 속도를 좌우할 핵심 변수가 될 것이다.",
+      "source_url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-6-2026",
+      "source_name": "buildfastwithai",
+      "entities": [],
+      "thread_ids": []
+    }
+  ]
+}

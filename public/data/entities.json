@@ -1,7 +1,42 @@
 {
-  "generated_at": "2026-07-09T23:27:31.068950+00:00",
+  "generated_at": "2026-07-12T00:44:48.567202+00:00",
   "timelines": {
     "OpenAI": [
+      {
+        "date": "2026-07-11",
+        "headline": "OpenAI, 'ChatGPT Work' 출시 — Codex·GPT-5.6 기반 에이전트 통합",
+        "url": "https://aitoolsrecap.com/Blog/ai-news-july-11-2026",
+        "category": "도구·개발",
+        "verification_status": "passed"
+      },
+      {
+        "date": "2026-07-11",
+        "headline": "애플, OpenAI 상대 영업비밀 침해 소송 제기",
+        "url": "https://aitoolsrecap.com/Blog/ai-news-july-11-2026",
+        "category": "정책·규제",
+        "verification_status": "passed"
+      },
+      {
+        "date": "2026-07-11",
+        "headline": "애플 시리, 올가을부터 ChatGPT 대신 구글 Gemini 탑재",
+        "url": "https://aitoolsrecap.com/Blog/ai-news-july-11-2026",
+        "category": "산업·투자",
+        "verification_status": "passed"
+      },
+      {
+        "date": "2026-07-11",
+        "headline": "에이전트 워크스페이스, 4파전 구도로 — ChatGPT Work·Claude Cowork·Muse Spark·Grok Build",
+        "url": "https://aitoolsrecap.com/Blog/ai-news-july-11-2026",
+        "category": "도구·개발",
+        "verification_status": "passed"
+      },
+      {
+        "date": "2026-07-10",
+        "headline": "OpenAI, Codex·ChatGPT 통합한 'ChatGPT Work' 출시",
+        "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-10-2026",
+        "category": "도구·개발",
+        "verification_status": "passed"
+      },
       {
         "date": "2026-07-09",
         "headline": "OpenAI, GPT-5.6 패밀리(Sol·Terra·Luna) 전면 출시",
@@ -145,6 +180,41 @@
     ],
     "GPT": [
       {
+        "date": "2026-07-11",
+        "headline": "OpenAI, 'ChatGPT Work' 출시 — Codex·GPT-5.6 기반 에이전트 통합",
+        "url": "https://aitoolsrecap.com/Blog/ai-news-july-11-2026",
+        "category": "도구·개발",
+        "verification_status": "passed"
+      },
+      {
+        "date": "2026-07-11",
+        "headline": "애플 시리, 올가을부터 ChatGPT 대신 구글 Gemini 탑재",
+        "url": "https://aitoolsrecap.com/Blog/ai-news-july-11-2026",
+        "category": "산업·투자",
+        "verification_status": "passed"
+      },
+      {
+        "date": "2026-07-11",
+        "headline": "에이전트 워크스페이스, 4파전 구도로 — ChatGPT Work·Claude Cowork·Muse Spark·Grok Build",
+        "url": "https://aitoolsrecap.com/Blog/ai-news-july-11-2026",
+        "category": "도구·개발",
+        "verification_status": "passed"
+      },
+      {
+        "date": "2026-07-10",
+        "headline": "OpenAI, Codex·ChatGPT 통합한 'ChatGPT Work' 출시",
+        "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-10-2026",
+        "category": "도구·개발",
+        "verification_status": "passed"
+      },
+      {
+        "date": "2026-07-10",
+        "headline": "Snorkel AI 벤치마크: Grok 4.5, 실제 전문직 업무서 29% 통과율로 1위",
+        "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-10-2026",
+        "category": "모델·연구",
+        "verification_status": "passed"
+      },
+      {
         "date": "2026-07-09",
         "headline": "OpenAI, GPT-5.6 패밀리(Sol·Terra·Luna) 전면 출시",
         "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-9-2026",
@@ -238,6 +308,13 @@
     ],
     "Google": [
       {
+        "date": "2026-07-11",
+        "headline": "애플 시리, 올가을부터 ChatGPT 대신 구글 Gemini 탑재",
+        "url": "https://aitoolsrecap.com/Blog/ai-news-july-11-2026",
+        "category": "산업·투자",
+        "verification_status": "passed"
+      },
+      {
         "date": "2026-07-09",
         "headline": "구글 Gemini 3.5 Pro, 예정보다 5주 지연 — 여전히 제한적 기업 프리뷰 단계",
         "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-9-2026",
@@ -316,6 +393,34 @@
       }
     ],
     "Claude": [
+      {
+        "date": "2026-07-11",
+        "headline": "에이전트 워크스페이스, 4파전 구도로 — ChatGPT Work·Claude Cowork·Muse Spark·Grok Build",
+        "url": "https://aitoolsrecap.com/Blog/ai-news-july-11-2026",
+        "category": "도구·개발",
+        "verification_status": "passed"
+      },
+      {
+        "date": "2026-07-10",
+        "headline": "Grok 4.5, 코딩 작업서 Claude Opus 4.8 대비 토큰 효율 4.2배",
+        "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-10-2026",
+        "category": "모델·연구",
+        "verification_status": "passed"
+      },
+      {
+        "date": "2026-07-10",
+        "headline": "Anthropic, 모바일 에이전트 앱 'Claude Cowork' 출시",
+        "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-10-2026",
+        "category": "도구·개발",
+        "verification_status": "passed"
+      },
+      {
+        "date": "2026-07-10",
+        "headline": "모델 가격 스펙트럼 극단으로 — Fable 5 출력 50달러부터 DeepSeek 0.87달러까지",
+        "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-10-2026",
+        "category": "산업·투자",
+        "verification_status": "passed"
+      },
       {
         "date": "2026-07-09",
         "headline": "SpaceXAI, 'Grok 4.5' 일반 공개 — SuperGrok·X 프리미엄+ 대상",
@@ -489,6 +594,13 @@
     ],
     "Gemini": [
       {
+        "date": "2026-07-11",
+        "headline": "애플 시리, 올가을부터 ChatGPT 대신 구글 Gemini 탑재",
+        "url": "https://aitoolsrecap.com/Blog/ai-news-july-11-2026",
+        "category": "산업·투자",
+        "verification_status": "passed"
+      },
+      {
         "date": "2026-07-09",
         "headline": "구글 Gemini 3.5 Pro, 예정보다 5주 지연 — 여전히 제한적 기업 프리뷰 단계",
         "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-9-2026",
@@ -518,6 +630,13 @@
       }
     ],
     "중국 오픈웨이트": [
+      {
+        "date": "2026-07-10",
+        "headline": "모델 가격 스펙트럼 극단으로 — Fable 5 출력 50달러부터 DeepSeek 0.87달러까지",
+        "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-10-2026",
+        "category": "산업·투자",
+        "verification_status": "passed"
+      },
       {
         "date": "2026-07-08",
         "headline": "中 오픈웨이트 모델, 美 기업 토큰 사용량의 30~46% 점유",
@@ -592,6 +711,20 @@
       }
     ],
     "Anthropic": [
+      {
+        "date": "2026-07-11",
+        "headline": "에이전트 워크스페이스, 4파전 구도로 — ChatGPT Work·Claude Cowork·Muse Spark·Grok Build",
+        "url": "https://aitoolsrecap.com/Blog/ai-news-july-11-2026",
+        "category": "도구·개발",
+        "verification_status": "passed"
+      },
+      {
+        "date": "2026-07-10",
+        "headline": "Anthropic, 모바일 에이전트 앱 'Claude Cowork' 출시",
+        "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-10-2026",
+        "category": "도구·개발",
+        "verification_status": "passed"
+      },
       {
         "date": "2026-07-09",
         "headline": "사상 최초 — 세 프런티어 랩 동시 신모델 공개일",
@@ -770,6 +903,20 @@
     ],
     "xAI": [
       {
+        "date": "2026-07-11",
+        "headline": "에이전트 워크스페이스, 4파전 구도로 — ChatGPT Work·Claude Cowork·Muse Spark·Grok Build",
+        "url": "https://aitoolsrecap.com/Blog/ai-news-july-11-2026",
+        "category": "도구·개발",
+        "verification_status": "passed"
+      },
+      {
+        "date": "2026-07-10",
+        "headline": "xAI 'Grok 4.5' 출시 — 에이전트 도구사용 최상위권, 환각률은 54%",
+        "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-10-2026",
+        "category": "모델·연구",
+        "verification_status": "passed"
+      },
+      {
         "date": "2026-07-09",
         "headline": "SpaceXAI, 'Grok 4.5' 일반 공개 — SuperGrok·X 프리미엄+ 대상",
         "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-9-2026",
@@ -808,6 +955,20 @@
       }
     ],
     "Meta": [
+      {
+        "date": "2026-07-11",
+        "headline": "메타, 첫 유료 모델 'Muse Spark 1.1' 출시 — 출력 백만 토큰당 4.25달러",
+        "url": "https://aitoolsrecap.com/Blog/ai-news-july-11-2026",
+        "category": "모델·연구",
+        "verification_status": "passed"
+      },
+      {
+        "date": "2026-07-11",
+        "headline": "에이전트 워크스페이스, 4파전 구도로 — ChatGPT Work·Claude Cowork·Muse Spark·Grok Build",
+        "url": "https://aitoolsrecap.com/Blog/ai-news-july-11-2026",
+        "category": "도구·개발",
+        "verification_status": "passed"
+      },
       {
         "date": "2026-07-04",
         "headline": "메타 '수박(Watermelon)' 모델, GPT-5.5급 성능에 '자릿수 단위' 더 많은 컴퓨팅 투입",

@@ -1,0 +1,106 @@
+{
+  "date": "2026-07-11",
+  "generated_at": "2026-07-11T09:05:00+09:00",
+  "daily_insight": {
+    "title": "자본시장 축포와 법정 소송이 같은 날 터졌다",
+    "body": "역대급 IPO 흥행과 애플의 영업비밀 소송이 한날 겹쳤다. AI 산업이 자본시장에서는 축배를 들면서, 동시에 인재 쟁탈과 플랫폼 주도권을 둘러싼 법적 갈등으로도 번지고 있다는 양면이 드러났다."
+  },
+  "cards": [
+    {
+      "rank": 1,
+      "category": "산업·투자",
+      "verified_date": "2026-07-11",
+      "verification_status": "passed",
+      "headline": "SK하이닉스, 나스닥 데뷔 첫날 13% 급등 — 시총 1.27조 달러",
+      "summary": "SK하이닉스가 나스닥 상장 첫날 13% 오르며 시가총액 1조 2,700억 달러를 기록해, 미국 역사상 최대 규모 외국기업 IPO가 됐다.",
+      "points": [
+        "상장 첫날 13% 급등",
+        "시가총액 1조 2,700억 달러 기록",
+        "미국 역사상 최대 규모 외국기업 IPO"
+      ],
+      "insight": "AI 인프라 공급망 기업에 대한 투자 심리가 얼마나 뜨거운지 보여주는 사례다. 모델 기업뿐 아니라 그 밑단의 부품·소재 기업까지 자본시장의 스포트라이트를 받고 있다.",
+      "source_url": "https://aitoolsrecap.com/Blog/ai-news-july-11-2026",
+      "source_name": "aitoolsrecap"
+    },
+    {
+      "rank": 2,
+      "category": "도구·개발",
+      "verified_date": "2026-07-11",
+      "verification_status": "passed",
+      "headline": "OpenAI, 'ChatGPT Work' 출시 — Codex·GPT-5.6 기반 에이전트 통합",
+      "summary": "OpenAI가 데스크톱 앱과 에이전트 기능을 통합해 Codex와 GPT-5.6 기반의 ChatGPT Work를 선보였다.",
+      "points": [
+        "데스크톱 앱과 에이전트 기능 통합",
+        "Codex·GPT-5.6 기반으로 구동",
+        "업무용 제품으로 명확히 포지셔닝"
+      ],
+      "insight": "범용 챗봇에서 '업무 전용 제품'으로의 재편이 빨라지고 있다. 같은 모델이라도 어떤 제품 포장으로 나오느냐가 실제 채택 여부를 가른다.",
+      "source_url": "https://aitoolsrecap.com/Blog/ai-news-july-11-2026",
+      "source_name": "aitoolsrecap"
+    },
+    {
+      "rank": 3,
+      "category": "정책·규제",
+      "verified_date": "2026-07-11",
+      "verification_status": "passed",
+      "headline": "애플, OpenAI 상대 영업비밀 침해 소송 제기",
+      "summary": "애플이 IO Products 인수와 관련해 OpenAI를 상대로 영업비밀 침해 소송을 제기했다.",
+      "points": [
+        "IO Products 인수 관련 소송",
+        "영업비밀 침해 혐의로 제소",
+        "빅테크 간 인재·기술 유출 갈등 표면화"
+      ],
+      "insight": "AI 인재·기술 쟁탈전이 법정 다툼으로 번지는 사례가 늘고 있다. 인수합병과 인재 영입이 이제 소송 리스크를 동반하는 전략적 결정이 됐다.",
+      "source_url": "https://aitoolsrecap.com/Blog/ai-news-july-11-2026",
+      "source_name": "aitoolsrecap"
+    },
+    {
+      "rank": 4,
+      "category": "산업·투자",
+      "verified_date": "2026-07-11",
+      "verification_status": "passed",
+      "headline": "애플 시리, 올가을부터 ChatGPT 대신 구글 Gemini 탑재",
+      "summary": "애플이 새 시리에 OpenAI ChatGPT 대신 구글 Gemini를 탑재하기로 했으며, 2026년 가을 출시 예정이다.",
+      "points": [
+        "기존 ChatGPT에서 Gemini로 파트너 교체",
+        "2026년 가을 출시 예정",
+        "빅테크 간 AI 파트너십 재편 신호"
+      ],
+      "insight": "플랫폼 기업의 AI 파트너 교체는 공급자에게 거대한 사용자 기반을 순식간에 잃거나 얻게 만든다. 파트너십 계약 하나가 시장 점유율 지도를 다시 그릴 수 있다.",
+      "source_url": "https://aitoolsrecap.com/Blog/ai-news-july-11-2026",
+      "source_name": "aitoolsrecap"
+    },
+    {
+      "rank": 5,
+      "category": "모델·연구",
+      "verified_date": "2026-07-11",
+      "verification_status": "passed",
+      "headline": "메타, 첫 유료 모델 'Muse Spark 1.1' 출시 — 출력 백만 토큰당 4.25달러",
+      "summary": "메타가 상업적으로 유료 판매하는 첫 모델 Muse Spark 1.1을 백만 토큰 출력당 4.25달러에 공개했다.",
+      "points": [
+        "메타의 첫 상업적 유료 모델",
+        "출력 백만 토큰당 4.25달러 책정",
+        "무료 개방 전략에서 유료화로 전환"
+      ],
+      "insight": "오픈소스·무료 중심이던 기업도 결국 유료화로 방향을 튼다. 모델을 무료로 풀던 전략이 지속가능한 사업 모델과 충돌하면 유료화가 뒤따른다는 패턴이 반복되고 있다.",
+      "source_url": "https://aitoolsrecap.com/Blog/ai-news-july-11-2026",
+      "source_name": "aitoolsrecap"
+    },
+    {
+      "rank": 6,
+      "category": "도구·개발",
+      "verified_date": "2026-07-11",
+      "verification_status": "passed",
+      "headline": "에이전트 워크스페이스, 4파전 구도로 — ChatGPT Work·Claude Cowork·Muse Spark·Grok Build",
+      "summary": "OpenAI·Anthropic·메타·SpaceXAI가 각자의 에이전트 워크스페이스 제품을 내놓으며 시장이 4파전 구도로 재편됐다.",
+      "points": [
+        "4개 주요 플랫폼이 각자 제품 보유",
+        "빅테크 전반의 동시다발적 경쟁",
+        "에이전트 워크스페이스가 새로운 격전지로"
+      ],
+      "insight": "에이전트 경쟁이 '모델 하나'의 싸움에서 '업무 워크스페이스 플랫폼'의 싸움으로 확장됐다. 사용자를 어디에 붙잡아두느냐가 다음 단계 경쟁의 핵심이 된다.",
+      "source_url": "https://aitoolsrecap.com/Blog/ai-news-july-11-2026",
+      "source_name": "aitoolsrecap"
+    }
+  ]
+}

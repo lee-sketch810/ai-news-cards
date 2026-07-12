@@ -4,8 +4,8 @@
       "id": "gpt-5.6",
       "label": "GPT-5.6 출시 여정",
       "first_seen": "2026-06-24",
-      "last_seen": "2026-07-09",
-      "count": 9,
+      "last_seen": "2026-07-11",
+      "count": 10,
       "entries": [
         {
           "date": "2026-06-24",
@@ -69,43 +69,13 @@
           "summary": "기존 GPU 기반 추론 서빙 대비 약 15배 빠른 초당 750토큰 속도로 Sol을 Cerebras 하드웨어에 배포했다.",
           "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-9-2026",
           "category": "도구·개발"
-        }
-      ]
-    },
-    {
-      "id": "gemini-3.5-pro",
-      "label": "Gemini 3.5 Pro 출시 지연",
-      "first_seen": "2026-06-25",
-      "last_seen": "2026-07-09",
-      "count": 4,
-      "entries": [
-        {
-          "date": "2026-06-25",
-          "headline": "구글 Gemini 3.5 Pro, 6월 출시 약속에도 정식 공개 지연",
-          "summary": "5월 I/O에서 6월 출시를 공언한 Gemini 3.5 Pro가 월말까지 정식 출시(GA)에 이르지 못하고 있다.",
-          "url": "https://llm-stats.com/llm-updates",
-          "category": "모델·연구"
         },
         {
-          "date": "2026-06-30",
-          "headline": "구글 Gemini 3.5 Pro, 6월 출시 불발 — 7월로 연기",
-          "summary": "구글이 장문 작업의 토큰 효율 검증이 더 필요하다고 판단해 플래그십 Gemini 3.5 Pro 출시를 7월로 미뤘다.",
-          "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-30-2026",
-          "category": "모델·연구"
-        },
-        {
-          "date": "2026-07-06",
-          "headline": "구글 Gemini 3.5 Pro, 또 지연 — 토큰 소모·장문 추론 성능 문제",
-          "summary": "장문 추론 작업에서의 과도한 토큰 소모와 성능 격차로 Gemini 3.5 Pro가 예고된 출시 기한을 다시 넘겼다.",
-          "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-6-2026",
-          "category": "모델·연구"
-        },
-        {
-          "date": "2026-07-09",
-          "headline": "구글 Gemini 3.5 Pro, 예정보다 5주 지연 — 여전히 제한적 기업 프리뷰 단계",
-          "summary": "경쟁사들의 잇단 출시에도 불구하고 Gemini 3.5 Pro는 6월 정식 출시 기한을 5주 넘긴 채 제한적 기업 프리뷰 상태에 머물러 있다.",
-          "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-9-2026",
-          "category": "모델·연구"
+          "date": "2026-07-11",
+          "headline": "OpenAI, 'ChatGPT Work' 출시 — Codex·GPT-5.6 기반 에이전트 통합",
+          "summary": "OpenAI가 데스크톱 앱과 에이전트 기능을 통합해 Codex와 GPT-5.6 기반의 ChatGPT Work를 선보였다.",
+          "url": "https://aitoolsrecap.com/Blog/ai-news-july-11-2026",
+          "category": "도구·개발"
         }
       ]
     },
@@ -113,8 +83,8 @@
       "id": "claude-access",
       "label": "Claude 모델 접근 제한·복원",
       "first_seen": "2026-06-24",
-      "last_seen": "2026-07-08",
-      "count": 6,
+      "last_seen": "2026-07-10",
+      "count": 7,
       "entries": [
         {
           "date": "2026-06-24",
@@ -157,6 +127,50 @@
           "summary": "Claude Pro 사용자 대상 무료 제공 기간이 끝나며 Fable 5가 백만 토큰당 10~50달러의 유료 구조로 전환됐다.",
           "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-8-2026",
           "category": "도구·개발"
+        },
+        {
+          "date": "2026-07-10",
+          "headline": "모델 가격 스펙트럼 극단으로 — Fable 5 출력 50달러부터 DeepSeek 0.87달러까지",
+          "summary": "최상위 모델과 초저가 모델 사이의 가격 격차가 벌어지며, 작업별로 어떤 모델을 쓸지 결정하는 라우팅이 더욱 복잡해지고 있다.",
+          "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-10-2026",
+          "category": "산업·투자"
+        }
+      ]
+    },
+    {
+      "id": "gemini-3.5-pro",
+      "label": "Gemini 3.5 Pro 출시 지연",
+      "first_seen": "2026-06-25",
+      "last_seen": "2026-07-09",
+      "count": 4,
+      "entries": [
+        {
+          "date": "2026-06-25",
+          "headline": "구글 Gemini 3.5 Pro, 6월 출시 약속에도 정식 공개 지연",
+          "summary": "5월 I/O에서 6월 출시를 공언한 Gemini 3.5 Pro가 월말까지 정식 출시(GA)에 이르지 못하고 있다.",
+          "url": "https://llm-stats.com/llm-updates",
+          "category": "모델·연구"
+        },
+        {
+          "date": "2026-06-30",
+          "headline": "구글 Gemini 3.5 Pro, 6월 출시 불발 — 7월로 연기",
+          "summary": "구글이 장문 작업의 토큰 효율 검증이 더 필요하다고 판단해 플래그십 Gemini 3.5 Pro 출시를 7월로 미뤘다.",
+          "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-30-2026",
+          "category": "모델·연구"
+        },
+        {
+          "date": "2026-07-06",
+          "headline": "구글 Gemini 3.5 Pro, 또 지연 — 토큰 소모·장문 추론 성능 문제",
+          "summary": "장문 추론 작업에서의 과도한 토큰 소모와 성능 격차로 Gemini 3.5 Pro가 예고된 출시 기한을 다시 넘겼다.",
+          "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-6-2026",
+          "category": "모델·연구"
+        },
+        {
+          "date": "2026-07-09",
+          "headline": "구글 Gemini 3.5 Pro, 예정보다 5주 지연 — 여전히 제한적 기업 프리뷰 단계",
+          "summary": "경쟁사들의 잇단 출시에도 불구하고 Gemini 3.5 Pro는 6월 정식 출시 기한을 5주 넘긴 채 제한적 기업 프리뷰 상태에 머물러 있다.",
+          "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-9-2026",
+          "category": "모델·연구"
         }
       ]
     },

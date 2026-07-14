@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-07-12T00:44:48.570555+00:00",
-  "period": "2026-06-24 ~ 2026-07-11",
-  "total_editions": 18,
-  "total_cards": 99,
+  "generated_at": "2026-07-14T00:40:45.998681+00:00",
+  "period": "2026-06-24 ~ 2026-07-13",
+  "total_editions": 20,
+  "total_cards": 111,
   "by_category": {
-    "모델·연구": 28,
-    "산업·투자": 25,
-    "정책·규제": 21,
-    "도구·개발": 16,
+    "모델·연구": 31,
+    "산업·투자": 29,
+    "정책·규제": 24,
+    "도구·개발": 18,
     "교육·생산성": 8,
     "에이전트·자동화": 1
   },
   "top_entities": [
     {
-      "name": "Anthropic",
-      "count": 27
+      "name": "OpenAI",
+      "count": 31
     },
     {
-      "name": "OpenAI",
-      "count": 25
+      "name": "Anthropic",
+      "count": 29
     },
     {
       "name": "Claude",
@@ -26,27 +26,27 @@
     },
     {
       "name": "GPT",
-      "count": 18
+      "count": 19
     },
     {
       "name": "Google",
-      "count": 12
+      "count": 15
     },
     {
       "name": "중국 오픈웨이트",
-      "count": 8
+      "count": 9
+    },
+    {
+      "name": "Gemini",
+      "count": 7
+    },
+    {
+      "name": "Microsoft",
+      "count": 6
     },
     {
       "name": "xAI",
       "count": 6
-    },
-    {
-      "name": "Microsoft",
-      "count": 5
-    },
-    {
-      "name": "Gemini",
-      "count": 5
     },
     {
       "name": "NVIDIA",

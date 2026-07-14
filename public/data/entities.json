@@ -1,7 +1,49 @@
 {
-  "generated_at": "2026-07-12T00:44:48.567202+00:00",
+  "generated_at": "2026-07-14T00:40:45.997357+00:00",
   "timelines": {
     "OpenAI": [
+      {
+        "date": "2026-07-13",
+        "headline": "애플-OpenAI 법적 분쟁 격화 — 머스크·올트먼 SNS 공방으로 번져",
+        "url": "https://aitoolsrecap.com/Blog/ai-news-july-13-2026",
+        "category": "정책·규제",
+        "verification_status": "passed"
+      },
+      {
+        "date": "2026-07-13",
+        "headline": "구글·MS, 기업용 AI 연합 결성 — Salesforce·Snowflake·ServiceNow 동참",
+        "url": "https://aitoolsrecap.com/Blog/ai-news-july-13-2026",
+        "category": "산업·투자",
+        "verification_status": "passed"
+      },
+      {
+        "date": "2026-07-13",
+        "headline": "OpenAI, 전이중 음성 모델 'GPT-Live' 출시 — 실시간 통역 지원",
+        "url": "https://aitoolsrecap.com/Blog/ai-news-july-13-2026",
+        "category": "모델·연구",
+        "verification_status": "passed"
+      },
+      {
+        "date": "2026-07-12",
+        "headline": "애플, OpenAI 상대 연방 소송 제기 — 전직원 400명 채용 관련 영업비밀 혐의",
+        "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-12-2026",
+        "category": "정책·규제",
+        "verification_status": "passed"
+      },
+      {
+        "date": "2026-07-12",
+        "headline": "OpenAI, 대형 IPO 준비 — 9월 목표, 기업가치 7,300억 달러",
+        "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-12-2026",
+        "category": "산업·투자",
+        "verification_status": "passed"
+      },
+      {
+        "date": "2026-07-12",
+        "headline": "OpenAI GPT-5.6, 3개 등급으로 정식 출시 — Sol, Terminal-Bench 91.9%",
+        "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-12-2026",
+        "category": "모델·연구",
+        "verification_status": "passed"
+      },
       {
         "date": "2026-07-11",
         "headline": "OpenAI, 'ChatGPT Work' 출시 — Codex·GPT-5.6 기반 에이전트 통합",
@@ -180,6 +222,13 @@
     ],
     "GPT": [
       {
+        "date": "2026-07-12",
+        "headline": "OpenAI GPT-5.6, 3개 등급으로 정식 출시 — Sol, Terminal-Bench 91.9%",
+        "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-12-2026",
+        "category": "모델·연구",
+        "verification_status": "passed"
+      },
+      {
         "date": "2026-07-11",
         "headline": "OpenAI, 'ChatGPT Work' 출시 — Codex·GPT-5.6 기반 에이전트 통합",
         "url": "https://aitoolsrecap.com/Blog/ai-news-july-11-2026",
@@ -307,6 +356,27 @@
       }
     ],
     "Google": [
+      {
+        "date": "2026-07-13",
+        "headline": "구글·MS, 기업용 AI 연합 결성 — Salesforce·Snowflake·ServiceNow 동참",
+        "url": "https://aitoolsrecap.com/Blog/ai-news-july-13-2026",
+        "category": "산업·투자",
+        "verification_status": "passed"
+      },
+      {
+        "date": "2026-07-12",
+        "headline": "구글 Gemini 3.5 Pro, 7월 17일 출시 예고 — 컨텍스트 200만 토큰",
+        "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-12-2026",
+        "category": "모델·연구",
+        "verification_status": "passed"
+      },
+      {
+        "date": "2026-07-12",
+        "headline": "구글 검색, AI 생성 요약으로 전면 전환 — 순위형 링크 대체",
+        "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-12-2026",
+        "category": "도구·개발",
+        "verification_status": "passed"
+      },
       {
         "date": "2026-07-11",
         "headline": "애플 시리, 올가을부터 ChatGPT 대신 구글 Gemini 탑재",
@@ -557,6 +627,13 @@
     ],
     "Microsoft": [
       {
+        "date": "2026-07-13",
+        "headline": "구글·MS, 기업용 AI 연합 결성 — Salesforce·Snowflake·ServiceNow 동참",
+        "url": "https://aitoolsrecap.com/Blog/ai-news-july-13-2026",
+        "category": "산업·투자",
+        "verification_status": "passed"
+      },
+      {
         "date": "2026-07-03",
         "headline": "MS, 25억 달러 규모 'Frontier Company' 신설 — 기업 AI 도입 가속",
         "url": "https://techstartups.com/2026/07/03/top-tech-news-today-july-3-2026/",
@@ -594,6 +671,20 @@
     ],
     "Gemini": [
       {
+        "date": "2026-07-12",
+        "headline": "구글 Gemini 3.5 Pro, 7월 17일 출시 예고 — 컨텍스트 200만 토큰",
+        "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-12-2026",
+        "category": "모델·연구",
+        "verification_status": "passed"
+      },
+      {
+        "date": "2026-07-12",
+        "headline": "구글 검색, AI 생성 요약으로 전면 전환 — 순위형 링크 대체",
+        "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-12-2026",
+        "category": "도구·개발",
+        "verification_status": "passed"
+      },
+      {
         "date": "2026-07-11",
         "headline": "애플 시리, 올가을부터 ChatGPT 대신 구글 Gemini 탑재",
         "url": "https://aitoolsrecap.com/Blog/ai-news-july-11-2026",
@@ -630,6 +721,13 @@
       }
     ],
     "중국 오픈웨이트": [
+      {
+        "date": "2026-07-13",
+        "headline": "골드만삭스, 고객에 중국산 AI 모델 추천 — 비용 대비 성능 우위 인정",
+        "url": "https://aitoolsrecap.com/Blog/ai-news-july-13-2026",
+        "category": "산업·투자",
+        "verification_status": "passed"
+      },
       {
         "date": "2026-07-10",
         "headline": "모델 가격 스펙트럼 극단으로 — Fable 5 출력 50달러부터 DeepSeek 0.87달러까지",
@@ -711,6 +809,20 @@
       }
     ],
     "Anthropic": [
+      {
+        "date": "2026-07-13",
+        "headline": "구글·MS, 기업용 AI 연합 결성 — Salesforce·Snowflake·ServiceNow 동참",
+        "url": "https://aitoolsrecap.com/Blog/ai-news-july-13-2026",
+        "category": "산업·투자",
+        "verification_status": "passed"
+      },
+      {
+        "date": "2026-07-13",
+        "headline": "Anthropic 'Project Glasswing' 3배 확장 — 15개국 150개 기관으로",
+        "url": "https://aitoolsrecap.com/Blog/ai-news-july-13-2026",
+        "category": "정책·규제",
+        "verification_status": "passed"
+      },
       {
         "date": "2026-07-11",
         "headline": "에이전트 워크스페이스, 4파전 구도로 — ChatGPT Work·Claude Cowork·Muse Spark·Grok Build",

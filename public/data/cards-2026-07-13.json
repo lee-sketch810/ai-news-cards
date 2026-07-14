@@ -1,0 +1,131 @@
+{
+  "date": "2026-07-13",
+  "generated_at": "2026-07-13T09:05:00+09:00",
+  "daily_insight": {
+    "title": "빅테크 연합군이 결성됐다 — 대항할 곳은 Anthropic·OpenAI",
+    "body": "구글·마이크로소프트가 손잡고 공동 표준을 만들었고, 골드만삭스는 중국 모델을 추천하기 시작했다. 프런티어 2강 체제에 맞서는 연합과 대안이 동시에 형성되는 흐름이 뚜렷했던 하루다."
+  },
+  "cards": [
+    {
+      "rank": 1,
+      "category": "정책·규제",
+      "verified_date": "2026-07-13",
+      "verification_status": "passed",
+      "headline": "애플-OpenAI 법적 분쟁 격화 — 머스크·올트먼 SNS 공방으로 번져",
+      "summary": "애플의 영업비밀 소송을 둘러싸고 일론 머스크와 샘 올트먼이 SNS에서 공개적으로 충돌했다.",
+      "points": [
+        "영업비밀 소송을 둘러싼 갈등 심화",
+        "빅테크 수장 간 공개 SNS 공방",
+        "기업 간 법적 다툼이 개인 갈등으로 확산"
+      ],
+      "insight": "기업 간 소송이 경영진 개인의 공개 설전으로 번지면 갈등의 골이 더 깊어진다. 법정 다툼과 여론전이 동시에 진행되는 양상이 되고 있다.",
+      "source_url": "https://aitoolsrecap.com/Blog/ai-news-july-13-2026",
+      "source_name": "aitoolsrecap",
+      "entities": [
+        "OpenAI"
+      ],
+      "thread_ids": []
+    },
+    {
+      "rank": 2,
+      "category": "산업·투자",
+      "verified_date": "2026-07-13",
+      "verification_status": "passed",
+      "headline": "구글·MS, 기업용 AI 연합 결성 — Salesforce·Snowflake·ServiceNow 동참",
+      "summary": "구글과 마이크로소프트가 Salesforce·Snowflake·ServiceNow와 함께 공유 프로토콜을 지지하며 Anthropic·OpenAI의 엔터프라이즈 에이전트 인프라 장악에 맞선다.",
+      "points": [
+        "5개 기업이 공유 프로토콜 지지",
+        "Anthropic·OpenAI의 시장 지배에 대응",
+        "엔터프라이즈 에이전트 인프라가 경쟁 무대"
+      ],
+      "insight": "선두 2강에 맞서 나머지 빅테크들이 연합 전선을 구축하고 있다. 표준을 누가 정하느냐의 싸움이 이제 개별 기업이 아니라 진영 대 진영으로 확대되고 있다.",
+      "source_url": "https://aitoolsrecap.com/Blog/ai-news-july-13-2026",
+      "source_name": "aitoolsrecap",
+      "entities": [
+        "OpenAI",
+        "Anthropic",
+        "Google",
+        "Microsoft"
+      ],
+      "thread_ids": []
+    },
+    {
+      "rank": 3,
+      "category": "모델·연구",
+      "verified_date": "2026-07-13",
+      "verification_status": "passed",
+      "headline": "OpenAI, 전이중 음성 모델 'GPT-Live' 출시 — 실시간 통역 지원",
+      "summary": "듣기·말하기·추론을 동시에 수행하는 음성 AI를 출시해, 대화 지연 없이 실시간 통역과 실시간 웹 검색을 지원한다.",
+      "points": [
+        "듣기·말하기·추론을 동시 수행하는 전이중 방식",
+        "대화 지연 없는 실시간 통역 지원",
+        "실시간 웹 검색과 결합"
+      ],
+      "insight": "음성 AI가 '순서대로 주고받는 대화'에서 '동시에 듣고 말하는 대화'로 넘어가고 있다. 실제 사람 대화에 가까워질수록 활용 범위는 통역·상담 등으로 빠르게 넓어진다.",
+      "source_url": "https://aitoolsrecap.com/Blog/ai-news-july-13-2026",
+      "source_name": "aitoolsrecap",
+      "entities": [
+        "OpenAI"
+      ],
+      "thread_ids": []
+    },
+    {
+      "rank": 4,
+      "category": "정책·규제",
+      "verified_date": "2026-07-13",
+      "verification_status": "passed",
+      "headline": "Anthropic 'Project Glasswing' 3배 확장 — 15개국 150개 기관으로",
+      "summary": "핵심 인프라의 소프트웨어 취약점을 찾아 패치하는 사이버보안 이니셔티브가 50개에서 150개 기관, 15개국으로 확장됐다.",
+      "points": [
+        "대상 기관이 50개에서 150개로 3배 확장",
+        "15개국 핵심 인프라 대상",
+        "취약점 발견·패치를 지원하는 이니셔티브"
+      ],
+      "insight": "AI 기업이 자사 모델의 보안 위협 대응을 넘어 국가 핵심 인프라 보호까지 역할을 넓히고 있다. AI 안전이 개별 제품 이슈에서 국가 안보 인프라의 일부로 확장되고 있다.",
+      "source_url": "https://aitoolsrecap.com/Blog/ai-news-july-13-2026",
+      "source_name": "aitoolsrecap",
+      "entities": [
+        "Anthropic"
+      ],
+      "thread_ids": []
+    },
+    {
+      "rank": 5,
+      "category": "도구·개발",
+      "verified_date": "2026-07-13",
+      "verification_status": "passed",
+      "headline": "클라우드플레어, AI 에이전트용 결제 게이트웨이 'x402' 대기자 명단 오픈",
+      "summary": "AI 에이전트가 웹사이트·API에 자동으로 결제할 수 있게 하는 x402 프로토콜 기반 인프라를 클라우드플레어가 공개했다.",
+      "points": [
+        "AI 에이전트의 자동 결제를 지원하는 인프라",
+        "웹사이트·API 대상 기계 간(M2M) 거래",
+        "x402 프로토콜 기반으로 구축"
+      ],
+      "insight": "에이전트가 사람 개입 없이 직접 돈을 쓰는 인프라가 현실화되고 있다. 에이전트 경제가 '작업 대행'을 넘어 '실제 거래'로 확장되는 다음 단계를 예고한다.",
+      "source_url": "https://aitoolsrecap.com/Blog/ai-news-july-13-2026",
+      "source_name": "aitoolsrecap",
+      "entities": [],
+      "thread_ids": []
+    },
+    {
+      "rank": 6,
+      "category": "산업·투자",
+      "verified_date": "2026-07-13",
+      "verification_status": "passed",
+      "headline": "골드만삭스, 고객에 중국산 AI 모델 추천 — 비용 대비 성능 우위 인정",
+      "summary": "골드만삭스가 DeepSeek·Qwen 등 중국 오픈웨이트 모델을 고객에게 추천하는 가이던스를 발표해, 대안 모델의 주류 채택 신호를 보냈다.",
+      "points": [
+        "DeepSeek·Qwen 등 구체적 모델을 명시적으로 추천",
+        "비용 대비 성능 우위가 추천 근거",
+        "주요 투자은행이 대안 모델 채택을 공식화"
+      ],
+      "insight": "월가 주요 기관이 중국 오픈웨이트 모델을 공식 추천하는 것은 '대안 모델'이 이제 주류 선택지로 인정받고 있다는 신호다. 모델 선택의 기준이 출신 국가보다 비용 대비 성능으로 이동하고 있다.",
+      "source_url": "https://aitoolsrecap.com/Blog/ai-news-july-13-2026",
+      "source_name": "aitoolsrecap",
+      "entities": [
+        "중국 오픈웨이트"
+      ],
+      "thread_ids": []
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "date": "2026-07-12",
+  "generated_at": "2026-07-12T09:05:00+09:00",
+  "daily_insight": {
+    "title": "검색이 답을 대신 써주기 시작했다",
+    "body": "구글 검색이 순위 링크 대신 AI 생성 요약으로 통째로 바뀌었고, 그 옆에서는 소송·IPO·신모델 소식이 동시에 터졌다. AI가 '결과를 찾아주는 도구'에서 '결과를 대신 만들어주는 존재'로 넘어가는 신호가 뚜렷했던 하루다."
+  },
+  "cards": [
+    {
+      "rank": 1,
+      "category": "정책·규제",
+      "verified_date": "2026-07-12",
+      "verification_status": "passed",
+      "headline": "애플, OpenAI 상대 연방 소송 제기 — 전직원 400명 채용 관련 영업비밀 혐의",
+      "summary": "애플이 전 애플 직원 400명 이상을 채용한 것과 관련해 OpenAI를 영업비밀 침해 혐의로 연방 소송을 제기했다.",
+      "points": [
+        "전 애플 직원 400명 이상 채용이 쟁점",
+        "연방 법원에 정식 소송 제기",
+        "빅테크 간 인재 유출 갈등이 법정으로"
+      ],
+      "insight": "대규모 인재 이동이 이제 소송으로 이어지는 규모에 이르렀다. 핵심 인력 채용 자체가 법적 리스크를 동반하는 시대가 되고 있다.",
+      "source_url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-12-2026",
+      "source_name": "buildfastwithai",
+      "entities": [
+        "OpenAI"
+      ],
+      "thread_ids": []
+    },
+    {
+      "rank": 2,
+      "category": "산업·투자",
+      "verified_date": "2026-07-12",
+      "verification_status": "passed",
+      "headline": "OpenAI, 대형 IPO 준비 — 9월 목표, 기업가치 7,300억 달러",
+      "summary": "OpenAI가 7,300억 달러 밸류에이션으로 9월 상장을 목표로 비공개 IPO 신청서를 준비 중이다.",
+      "points": [
+        "9월 상장을 목표로 한 비공개 신청 절차",
+        "목표 기업가치 7,300억 달러",
+        "프런티어 AI 기업의 자본시장 진출 본격화"
+      ],
+      "insight": "AI 기업 최상위권의 다음 승부처가 자본시장으로 옮겨가고 있다. 상장은 기술 경쟁을 넘어 투자자 신뢰라는 새로운 시험대를 의미한다.",
+      "source_url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-12-2026",
+      "source_name": "buildfastwithai",
+      "entities": [
+        "OpenAI"
+      ],
+      "thread_ids": []
+    },
+    {
+      "rank": 3,
+      "category": "모델·연구",
+      "verified_date": "2026-07-12",
+      "verification_status": "passed",
+      "headline": "OpenAI GPT-5.6, 3개 등급으로 정식 출시 — Sol, Terminal-Bench 91.9%",
+      "summary": "OpenAI가 신모델 패밀리를 출시했으며, 최상위 등급 Sol이 Terminal-Bench 2.1에서 91.9%를 기록하고 초당 750토큰 속도로 서빙된다.",
+      "points": [
+        "3개 등급으로 구성된 모델 패밀리 출시",
+        "Sol의 Terminal-Bench 2.1 점수 91.9%",
+        "초당 750토큰의 서빙 속도"
+      ],
+      "insight": "성능과 속도를 동시에 갖춘 모델 출시가 표준이 되고 있다. 벤치마크 1위만이 아니라 '실제 서빙 속도'까지 함께 갖춰야 경쟁력으로 인정받는다.",
+      "source_url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-12-2026",
+      "source_name": "buildfastwithai",
+      "entities": [
+        "OpenAI",
+        "GPT"
+      ],
+      "thread_ids": [
+        "gpt-5.6"
+      ]
+    },
+    {
+      "rank": 4,
+      "category": "모델·연구",
+      "verified_date": "2026-07-12",
+      "verification_status": "passed",
+      "headline": "구글 Gemini 3.5 Pro, 7월 17일 출시 예고 — 컨텍스트 200만 토큰",
+      "summary": "지연됐던 Gemini 3.5 Pro가 200만 토큰 컨텍스트 윈도우와 입력 백만 토큰당 1.25달러의 공격적 가격으로 7월 17일 출시된다.",
+      "points": [
+        "200만 토큰의 초장문 컨텍스트 윈도우",
+        "입력 백만 토큰당 1.25달러의 공격적 가격",
+        "여러 차례 지연 끝에 구체적 출시일 확정"
+      ],
+      "insight": "긴 지연 끝에 나온 모델이 컨텍스트·가격 양쪽에서 공격적으로 나온다면, 지연의 이유가 '경쟁력 확보'였을 가능성이 크다. 늦은 출시가 반드시 약점은 아니다.",
+      "source_url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-12-2026",
+      "source_name": "buildfastwithai",
+      "entities": [
+        "Google",
+        "Gemini"
+      ],
+      "thread_ids": [
+        "gemini-3.5-pro"
+      ]
+    },
+    {
+      "rank": 5,
+      "category": "도구·개발",
+      "verified_date": "2026-07-12",
+      "verification_status": "passed",
+      "headline": "구글 검색, AI 생성 요약으로 전면 전환 — 순위형 링크 대체",
+      "summary": "구글 검색이 전통적인 순위형 링크 목록 대신 Gemini 3.5 Flash가 생성하는 요약으로 완전히 바뀌었다.",
+      "points": [
+        "전통적 순위형 링크 목록을 대체",
+        "Gemini 3.5 Flash 생성 요약으로 전환",
+        "검색의 기본 형태 자체가 변경됨"
+      ],
+      "insight": "검색이라는 20년 넘은 인터넷의 기본 인터페이스가 AI 요약으로 바뀌는 순간이다. 정보를 찾는 방식 자체가 바뀌면, 그 위에서 작동하던 웹 생태계 전체가 함께 흔들린다.",
+      "source_url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-12-2026",
+      "source_name": "buildfastwithai",
+      "entities": [
+        "Google",
+        "Gemini"
+      ],
+      "thread_ids": []
+    },
+    {
+      "rank": 6,
+      "category": "산업·투자",
+      "verified_date": "2026-07-12",
+      "verification_status": "passed",
+      "headline": "SK하이닉스, 역대 최대 ADR 상장 — 280~290억 달러, HBM 시장 60% 장악",
+      "summary": "SK하이닉스가 역대 최대 규모 ADR 상장을 완료했으며, 고대역폭 메모리(HBM) 시장의 60%를 장악하고 있다.",
+      "points": [
+        "역대 최대 규모의 ADR 상장",
+        "상장 규모 280~290억 달러",
+        "HBM 시장 점유율 60% 장악"
+      ],
+      "insight": "AI 붐의 실질적 수혜자가 최종 모델 기업만이 아니라 핵심 부품 공급사에도 뚜렷이 나타나고 있다. 메모리 반도체가 AI 인프라 경쟁의 숨은 병목이자 기회임을 보여준다.",
+      "source_url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-12-2026",
+      "source_name": "buildfastwithai",
+      "entities": [],
+      "thread_ids": []
+    }
+  ]
+}

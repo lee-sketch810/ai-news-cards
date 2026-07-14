@@ -1,0 +1,84 @@
+{
+  "date": "2026-07-14",
+  "generated_at": "2026-07-14T16:20:00+09:00",
+  "daily_insight": {
+    "title": "국경을 넘나드는 AI 대규모 도입, 국내에선 공공부터",
+    "body": "삼성전자의 전 세계 임직원용 제미나이 도입과 유럽 방산기업 Helsing의 초대형 투자유치는 AI가 이제 '실험'이 아니라 '전사적 인프라'로 자리잡았음을 보여준다. 같은 날 한국 정부와 대학은 공무원·대학생을 대상으로 AI 기초교육과 실무 도구 보급에 나서, 민간의 대규모 투자와 공공의 저변 확대가 동시에 진행되는 흐름이 뚜렷했다."
+  },
+  "cards": [
+    {
+      "rank": 1,
+      "category": "산업·투자",
+      "verified_date": "2026-07-13",
+      "verification_status": "yesterday",
+      "headline": "독일 방산 AI 기업 Helsing, 18조원 밸류에이션에 2.4조원 투자 유치 — 유럽 방산테크 사상 최대",
+      "summary": "독일 방산 AI 스타트업 Helsing이 시리즈E로 18억 달러(약 18조원 밸류에이션)를 유치하며 유럽 방산테크 사상 최대 라운드를 기록했다.",
+      "points": [
+        "시리즈E 18억 달러 유치, 기업가치 180억 달러",
+        "유럽 방산테크 역사상 최대 규모 펀딩",
+        "Dragoneer 주도, JP모건·라이트스피드 등 참여"
+      ],
+      "insight": "AI 투자 열기가 소비자·엔터프라이즈 소프트웨어를 넘어 국방·안보 영역까지 본격 확산되고 있음을 보여준다. 지정학적 긴장이 고조될수록 AI 기반 방위산업에 대한 자본 쏠림은 더 뚜렷해질 가능성이 크다.",
+      "source_url": "https://www.defensenews.com/global/europe/2026/07/13/helsing-raises-18-billion-in-europes-biggest-defense-startup-round/",
+      "source_name": "Defense News",
+      "entities": [],
+      "thread_ids": []
+    },
+    {
+      "rank": 2,
+      "category": "산업·투자",
+      "verified_date": "2026-07-13",
+      "verification_status": "yesterday",
+      "headline": "삼성전자, 전 세계 DX부문 임직원에 '제미나이 엔터프라이즈' 전면 도입",
+      "summary": "구글 클라우드가 삼성전자 DX부문 전 세계 임직원 대상으로 제미나이 엔터프라이즈를 공급하며, 국내 기업 에이전틱 AI 도입 사례 중 역대 최대 규모를 기록했다.",
+      "points": [
+        "한국 포함 전 세계 DX부문 임직원 전체 대상 공급",
+        "사내 지식 검색부터 임직원 맞춤형 에이전트 개발까지 단계적 확장",
+        "삼성 전용 구글 클라우드 테넌트로 데이터 주권 확보"
+      ],
+      "insight": "대기업이 특정 부서 시범 도입을 넘어 전사 차원에서 에이전틱 AI를 채택하는 사례가 늘고 있다. 이는 AI 도구 경쟁이 '누가 더 똑똑한 모델을 만드느냐'에서 '누가 더 안전하게 조직 전체에 배포하느냐'로 옮겨가고 있다는 신호다.",
+      "source_url": "https://www.hankyung.com/article/202607130973g",
+      "source_name": "한국경제",
+      "entities": [
+        "Google"
+      ],
+      "thread_ids": []
+    },
+    {
+      "rank": 3,
+      "category": "교육·생산성",
+      "verified_date": "2026-07-13",
+      "verification_status": "yesterday",
+      "headline": "전국 20개 대학, AI 기본교육과정 공동 개발 착수 — 인문사회 전공 60% 참여",
+      "summary": "교육부와 한국대학교육협의회가 세종대에서 20개 대학이 참여하는 'AI 기본교육과정 개발 지원사업' 출범식을 열었다.",
+      "points": [
+        "수도권 6개·비수도권 14개 등 전국 20개 대학 참여",
+        "학교당 3억 원씩 지원, 2년간 교육과정 개발",
+        "인문사회 전공 대상 소단위 AI 활용 과정이 60% 차지"
+      ],
+      "insight": "AI 소양 교육이 공학 전공 학생만이 아니라 전공 불문 필수 역량으로 재정의되고 있다. 특히 인문사회 계열 중심 설계는 AI 활용 능력이 특정 산업의 전문 기술이 아니라 전 국민 기초 소양으로 이동하고 있음을 보여준다.",
+      "source_url": "https://www.asiatoday.co.kr/kn/view.php?key=20260713010004597",
+      "source_name": "아시아투데이",
+      "entities": [],
+      "thread_ids": []
+    },
+    {
+      "rank": 4,
+      "category": "교육·생산성",
+      "verified_date": "2026-07-13",
+      "verification_status": "yesterday",
+      "headline": "정부, 공무원 전용 'AI 법령 비서' 14일 시범 운영 개시",
+      "summary": "법제처·행안부·과기정통부가 공동 개발한 AI 법령 비서가 판례 6만 건 등 법령 데이터 24만 건을 학습해 전 공무원 대상 시범 서비스를 시작한다.",
+      "points": [
+        "법령·행정규칙·자치법규·판례 24만 건 학습",
+        "전문 개발인력 없이 정부 공통 AI 인프라로 약 1개월 만에 자체 구축",
+        "AI 답변은 참고자료일 뿐 최종 법적 판단은 아님을 명시"
+      ],
+      "insight": "공공기관이 외부 벤더 의존 없이 자체 인력만으로 실무형 AI 도구를 빠르게 내재화하는 사례가 늘고 있다. 동시에 'AI 답변은 참고용'이라는 명확한 책임 경계 설정은 공공부문 AI 도입의 표준 관행으로 자리잡는 모습이다.",
+      "source_url": "https://industryjournal.co.kr/news/246698",
+      "source_name": "산업종합저널",
+      "entities": [],
+      "thread_ids": []
+    }
+  ]
+}

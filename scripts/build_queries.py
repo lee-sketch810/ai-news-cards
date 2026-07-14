@@ -48,8 +48,13 @@ def build(now_kst: datetime | None = None) -> dict:
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--out", dest="out_path")
+    ap.add_argument("--date", dest="date", help="YYYY-MM-DD (KST) override for backfill runs")
     args = ap.parse_args()
-    data = build()
+    now_kst = None
+    if args.date:
+        target = datetime.strptime(args.date, "%Y-%m-%d")
+        now_kst = target.replace(hour=9, tzinfo=KST)
+    data = build(now_kst)
     text = json.dumps(data, ensure_ascii=False, indent=2)
     if args.out_path:
         with open(args.out_path, "w", encoding="utf-8") as f:

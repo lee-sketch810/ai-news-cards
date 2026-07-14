@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-14T00:40:45.997357+00:00",
+  "generated_at": "2026-07-14T07:20:43.535022+00:00",
   "timelines": {
     "OpenAI": [
       {
@@ -356,6 +356,13 @@
       }
     ],
     "Google": [
+      {
+        "date": "2026-07-14",
+        "headline": "삼성전자, 전 세계 DX부문 임직원에 '제미나이 엔터프라이즈' 전면 도입",
+        "url": "https://www.hankyung.com/article/202607130973g",
+        "category": "산업·투자",
+        "verification_status": "yesterday"
+      },
       {
         "date": "2026-07-13",
         "headline": "구글·MS, 기업용 AI 연합 결성 — Salesforce·Snowflake·ServiceNow 동참",

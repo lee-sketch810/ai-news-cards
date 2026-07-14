@@ -70,11 +70,12 @@ def classify(raw_published: str | None, now_kst: datetime | None = None,
     return verified_date, "stale"
 
 
-def verify_file(in_path: str, out_path: str, window_days: int = DEFAULT_WINDOW_DAYS) -> dict:
+def verify_file(in_path: str, out_path: str, window_days: int = DEFAULT_WINDOW_DAYS,
+                 now_kst: datetime | None = None) -> dict:
     with open(in_path, encoding="utf-8") as f:
         data = json.load(f)
     articles = data.get("articles", [])
-    now_kst = datetime.now(KST)
+    now_kst = now_kst or datetime.now(KST)
     kept, rejected = [], []
     for art in articles:
         raw = art.get("raw_published") or art.get("snippet_date")
@@ -131,13 +132,18 @@ def main() -> int:
     ap.add_argument("--in", dest="in_path")
     ap.add_argument("--out", dest="out_path")
     ap.add_argument("--window", type=int, default=DEFAULT_WINDOW_DAYS)
+    ap.add_argument("--date", dest="date", help="YYYY-MM-DD (KST) override 'today' for backfill runs")
     ap.add_argument("--selftest", action="store_true")
     args = ap.parse_args()
     if args.selftest:
         return _selftest()
     if not args.in_path or not args.out_path:
         ap.error("--in and --out required (or --selftest)")
-    res = verify_file(args.in_path, args.out_path, args.window)
+    now_kst = None
+    if args.date:
+        target = datetime.strptime(args.date, "%Y-%m-%d")
+        now_kst = target.replace(hour=9, tzinfo=KST)
+    res = verify_file(args.in_path, args.out_path, args.window, now_kst)
     print(f"verified: {res['total_passed']}/{res['total_in']} "
           f"(today={res['passed_today']}, yesterday={res['passed_yesterday']}, "
           f"rejected={len(res['rejected'])})")

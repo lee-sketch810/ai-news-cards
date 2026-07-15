@@ -1,7 +1,12 @@
 {
-  "generated_at": "2026-07-14T07:20:32.128336+00:00",
-  "latest": "2026-07-14",
+  "generated_at": "2026-07-15T01:12:50.918581+00:00",
+  "latest": "2026-07-15",
   "editions": [
+    {
+      "date": "2026-07-15",
+      "count": 6,
+      "top_headline": "Anthropic, Claude Artifacts에 '공개 공유'와 '팀 공동편집' 기능 추가"
+    },
     {
       "date": "2026-07-14",
       "count": 4,

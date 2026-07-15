@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-14T07:20:43.535022+00:00",
+  "generated_at": "2026-07-15T01:12:58.145865+00:00",
   "timelines": {
     "OpenAI": [
       {
@@ -471,6 +471,13 @@
     ],
     "Claude": [
       {
+        "date": "2026-07-15",
+        "headline": "Anthropic, Claude Artifacts에 '공개 공유'와 '팀 공동편집' 기능 추가",
+        "url": "https://www.progressiverobot.com/2026/07/14/anthropic-enables-public-artifact-sharing-and-team-editing-in-claude/",
+        "category": "도구·개발",
+        "verification_status": "yesterday"
+      },
+      {
         "date": "2026-07-11",
         "headline": "에이전트 워크스페이스, 4파전 구도로 — ChatGPT Work·Claude Cowork·Muse Spark·Grok Build",
         "url": "https://aitoolsrecap.com/Blog/ai-news-july-11-2026",
@@ -816,6 +823,13 @@
       }
     ],
     "Anthropic": [
+      {
+        "date": "2026-07-15",
+        "headline": "Anthropic, Claude Artifacts에 '공개 공유'와 '팀 공동편집' 기능 추가",
+        "url": "https://www.progressiverobot.com/2026/07/14/anthropic-enables-public-artifact-sharing-and-team-editing-in-claude/",
+        "category": "도구·개발",
+        "verification_status": "yesterday"
+      },
       {
         "date": "2026-07-13",
         "headline": "구글·MS, 기업용 AI 연합 결성 — Salesforce·Snowflake·ServiceNow 동참",

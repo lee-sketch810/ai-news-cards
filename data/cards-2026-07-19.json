@@ -1,0 +1,64 @@
+{
+  "date": "2026-07-19",
+  "generated_at": "2026-07-19T09:10:00+09:00",
+  "daily_insight": {
+    "title": "주말의 정적 속, '오픈 가중치 공세'를 향한 카운트다운",
+    "body": "주말은 발표가 뜸했지만, 업계 시계는 7월 말을 향해 재깍이고 있었다. 앤트로픽의 Claude Fable 5 유료 접근과 한도 상향 프로모션이 이날 밤 종료되며 다음 날부터 크레딧제로 전환됐고, DeepSeek V4 안정판(7월 24일)과 Kimi K3 가중치 공개(7월 27일)를 앞둔 '오픈 가중치 공세'가 초읽기에 들어갔다. 조용한 하루였지만, 무료로 풀릴 프런티어급 모델들이 폐쇄형 가격 체계에 던질 질문은 그 어느 때보다 커지고 있었다."
+  },
+  "cards": [
+    {
+      "rank": 1,
+      "category": "도구·개발",
+      "verified_date": "2026-07-19",
+      "verification_status": "passed",
+      "headline": "앤트로픽, Claude Fable 5 유료 접근·한도 상향 프로모션 7월 19일 종료",
+      "summary": "앤트로픽이 유료 구독자에게 제공하던 Claude Fable 5 접근과 주간 한도 50% 상향 프로모션을 7월 19일 오후 11시 59분(PT)에 종료했다. 다음 날부터 사용 방식이 바뀐다.",
+      "points": [
+        "Pro·Max·Team 등 유료 사용자 대상 '한도 50% 상향'이 이날 만료",
+        "종료 후 주간 한도는 요금제 변경 없이 표준 수준으로 복귀",
+        "7월 20일부터 Fable 5는 선불 크레딧 기반 이용으로 전환"
+      ],
+      "insight": "무료·프로모션 구간을 접고 사용량 기반 과금으로 옮기는 결정은, 프런티어 모델 운영 비용을 사용자에게 더 정직하게 반영하려는 움직임이다. 오픈 가중치 모델이 무료로 확산되는 국면에서 폐쇄형 랩이 '가격의 근거'를 어떻게 설득하느냐가 관건이 된다.",
+      "source_url": "https://www.forbes.com/sites/sandycarter/2026/07/13/claude-fable-5-extends-to-july-19-7-days-7-power-moves/",
+      "source_name": "Forbes",
+      "entities": ["Anthropic", "Claude"],
+      "thread_ids": []
+    },
+    {
+      "rank": 2,
+      "category": "모델·연구",
+      "verified_date": "2026-07-19",
+      "verification_status": "passed",
+      "headline": "'오픈 가중치 공세' 초읽기 — DeepSeek V4·Kimi K3 가중치 공개 임박",
+      "summary": "7월 말로 예고된 오픈 가중치 릴리스가 줄줄이 대기 중이다. DeepSeek V4 안정판은 7월 24일, Kimi K3 가중치는 7월 27일 공개가 예정돼 프리뷰 사용자에게 이전 압박이 커지고 있다.",
+      "points": [
+        "DeepSeek V4 안정판 7월 24일 — 프리뷰 빌드 사용자 마이그레이션 마감",
+        "Kimi K3 가중치 7월 27일 공개 — 프런티어급 오픈 모델",
+        "DeepSeek의 100만 토큰당 출력 약 0.44달러가 시장 가격 하한선 역할"
+      ],
+      "insight": "무료로 내려받아 돌릴 수 있는 프런티어급 모델이 늘어날수록, 기업의 질문은 '폐쇄형 프리미엄을 무엇이 정당화하는가'로 날카로워진다. 7월 말은 가격·성능 양면에서 오픈 진영이 폐쇄형 랩을 방어 태세로 몰아넣는 분기점이 될 가능성이 크다.",
+      "source_url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-18-2026",
+      "source_name": "Build Fast with AI",
+      "entities": ["DeepSeek", "Kimi K3"],
+      "thread_ids": []
+    },
+    {
+      "rank": 3,
+      "category": "산업·투자",
+      "verified_date": "2026-07-18",
+      "verification_status": "yesterday",
+      "headline": "DeepSeek, 740억 달러 밸류로 700억+ 조달 추진·상하이 상장 준비",
+      "summary": "DeepSeek이 기존 약 500억 달러에서 올린 740억 달러 기업가치로 700억 달러 이상 조달을 추진하며 내년 상하이 상장을 준비 중인 것으로 전해졌다. 공격적 저가 정책은 시장 전체를 계속 압박한다.",
+      "points": [
+        "연 환산 매출 4~5억 달러 대비 높은 밸류 — '오픈 가중치 표준' 베팅",
+        "가격은 경쟁사 대비 약 75% 저렴, 업계 가격 기준선 역할",
+        "상하이 상장 계획으로 가치를 중국 자본시장 안에 묶어두는 구도"
+      ],
+      "insight": "75% 저가 정책은 경쟁사를 압박하는 무기인 동시에 자사 매출도 제약하는 양날의 칼이다. 지금 채택을 보조금으로 사서 나중에 생태계를 지배하겠다는 '플랫폼 플레이북'이 통할지가, 오픈 가중치 경제의 향방을 가른다.",
+      "source_url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-18-2026",
+      "source_name": "Build Fast with AI",
+      "entities": ["DeepSeek"],
+      "thread_ids": []
+    }
+  ]
+}

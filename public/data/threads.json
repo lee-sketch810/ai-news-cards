@@ -1,6 +1,85 @@
 {
   "threads": [
     {
+      "id": "claude-access",
+      "label": "Claude 모델 접근 제한·복원",
+      "first_seen": "2026-06-24",
+      "last_seen": "2026-07-20",
+      "count": 10,
+      "entries": [
+        {
+          "date": "2026-06-24",
+          "headline": "Fable 5, 6월 23일부터 모든 구독자에 유료 크레딧 필요",
+          "summary": "Fable 5 모델이 6월 23일부터 모든 구독자에게 유료 사용 크레딧을 요구하는 방식으로 전환됐다.",
+          "url": "https://llm-stats.com/llm-updates",
+          "category": "도구·개발"
+        },
+        {
+          "date": "2026-06-26",
+          "headline": "프런티어 모델 가격, 2026년 들어 두 배로 — GPT-5.5·Fable 5 단가 상승",
+          "summary": "하락하던 토큰 단가 추세가 반전돼 GPT-5.5와 Claude Fable 5가 전작 대비 토큰당 비용을 두 배로 올렸다.",
+          "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-26-2026",
+          "category": "도구·개발"
+        },
+        {
+          "date": "2026-06-29",
+          "headline": "Claude Mythos 5 부분 복원 — 美 핵심인프라 100곳 한정",
+          "summary": "Anthropic이 상무부 승인으로 약 100개 미국 핵심 인프라 기관에 Mythos 5 접근을 복원했으나 Fable 5는 여전히 차단 상태다.",
+          "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-29-2026",
+          "category": "정책·규제"
+        },
+        {
+          "date": "2026-07-01",
+          "headline": "Anthropic, 'Fable 5' 재배포 — 앞선 정부 지시 이후 복귀",
+          "summary": "앞선 정부 지시로 접근이 제한됐던 Fable 5를 Anthropic이 다시 배포하기 시작했다.",
+          "url": "https://www.anthropic.com/news",
+          "category": "정책·규제"
+        },
+        {
+          "date": "2026-07-02",
+          "headline": "Fable 5, 수출통제 해제 후 전 세계 재배포",
+          "summary": "Anthropic이 미 상무부의 수출통제 해제 결정에 따라 7월 1일 Fable 5를 전 세계에 재배포했으며, 탈옥 시도를 차단하는 새 안전 분류기를 함께 적용했다.",
+          "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-3-2026",
+          "category": "정책·규제"
+        },
+        {
+          "date": "2026-07-08",
+          "headline": "Fable 5, 무료 제공 종료 — 토큰당 10~50달러 유료 전환",
+          "summary": "Claude Pro 사용자 대상 무료 제공 기간이 끝나며 Fable 5가 백만 토큰당 10~50달러의 유료 구조로 전환됐다.",
+          "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-8-2026",
+          "category": "도구·개발"
+        },
+        {
+          "date": "2026-07-10",
+          "headline": "모델 가격 스펙트럼 극단으로 — Fable 5 출력 50달러부터 DeepSeek 0.87달러까지",
+          "summary": "최상위 모델과 초저가 모델 사이의 가격 격차가 벌어지며, 작업별로 어떤 모델을 쓸지 결정하는 라우팅이 더욱 복잡해지고 있다.",
+          "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-10-2026",
+          "category": "산업·투자"
+        },
+        {
+          "date": "2026-07-18",
+          "headline": "Kimi K3, 출시 몇 시간 만에 프런트엔드 코딩 아레나 1위…Fable 5 제쳐",
+          "summary": "문샷AI의 Kimi K3가 Arena.ai 프런트엔드 코드 아레나에서 76% 승률로 1위에 올라 앤트로픽 Claude Fable 5를 눌렀다. Terminal-Bench 2.1에서 88.3점을 기록했다.",
+          "url": "https://venturebeat.com/technology/chinas-moonshot-ai-releases-kimi-k3-the-largest-open-source-model-ever-rivaling-top-u-s-systems",
+          "category": "모델·연구"
+        },
+        {
+          "date": "2026-07-19",
+          "headline": "앤트로픽, Claude Fable 5 유료 접근·한도 상향 프로모션 7월 19일 종료",
+          "summary": "앤트로픽이 유료 구독자에게 제공하던 Claude Fable 5 접근과 주간 한도 50% 상향 프로모션을 7월 19일 오후 11시 59분(PT)에 종료했다. 다음 날부터 사용 방식이 바뀐다.",
+          "url": "https://www.forbes.com/sites/sandycarter/2026/07/13/claude-fable-5-extends-to-july-19-7-days-7-power-moves/",
+          "category": "도구·개발"
+        },
+        {
+          "date": "2026-07-20",
+          "headline": "7월 20일부터 Claude Fable 5 크레딧제 전환…Max·Team Premium은 한도 50% 재적용",
+          "summary": "앤트로픽이 7월 20일부터 Claude Fable 5 이용을 선불 크레딧 기반으로 전환했다. Max·Team Premium은 주간 한도의 50%로 Fable 5를 다시 쓸 수 있고, Pro·Team Standard는 크레딧과 함께 일회성 크레딧을 받는다.",
+          "url": "https://www.squaredtech.co/claude-access-plans-key-questions-over-july-20-changes",
+          "category": "도구·개발"
+        }
+      ]
+    },
+    {
       "id": "gpt-5.6",
       "label": "GPT-5.6 출시 여정",
       "first_seen": "2026-06-24",
@@ -127,64 +206,6 @@
           "summary": "지연됐던 Gemini 3.5 Pro가 200만 토큰 컨텍스트 윈도우와 입력 백만 토큰당 1.25달러의 공격적 가격으로 7월 17일 출시된다.",
           "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-12-2026",
           "category": "모델·연구"
-        }
-      ]
-    },
-    {
-      "id": "claude-access",
-      "label": "Claude 모델 접근 제한·복원",
-      "first_seen": "2026-06-24",
-      "last_seen": "2026-07-10",
-      "count": 7,
-      "entries": [
-        {
-          "date": "2026-06-24",
-          "headline": "Fable 5, 6월 23일부터 모든 구독자에 유료 크레딧 필요",
-          "summary": "Fable 5 모델이 6월 23일부터 모든 구독자에게 유료 사용 크레딧을 요구하는 방식으로 전환됐다.",
-          "url": "https://llm-stats.com/llm-updates",
-          "category": "도구·개발"
-        },
-        {
-          "date": "2026-06-26",
-          "headline": "프런티어 모델 가격, 2026년 들어 두 배로 — GPT-5.5·Fable 5 단가 상승",
-          "summary": "하락하던 토큰 단가 추세가 반전돼 GPT-5.5와 Claude Fable 5가 전작 대비 토큰당 비용을 두 배로 올렸다.",
-          "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-26-2026",
-          "category": "도구·개발"
-        },
-        {
-          "date": "2026-06-29",
-          "headline": "Claude Mythos 5 부분 복원 — 美 핵심인프라 100곳 한정",
-          "summary": "Anthropic이 상무부 승인으로 약 100개 미국 핵심 인프라 기관에 Mythos 5 접근을 복원했으나 Fable 5는 여전히 차단 상태다.",
-          "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-29-2026",
-          "category": "정책·규제"
-        },
-        {
-          "date": "2026-07-01",
-          "headline": "Anthropic, 'Fable 5' 재배포 — 앞선 정부 지시 이후 복귀",
-          "summary": "앞선 정부 지시로 접근이 제한됐던 Fable 5를 Anthropic이 다시 배포하기 시작했다.",
-          "url": "https://www.anthropic.com/news",
-          "category": "정책·규제"
-        },
-        {
-          "date": "2026-07-02",
-          "headline": "Fable 5, 수출통제 해제 후 전 세계 재배포",
-          "summary": "Anthropic이 미 상무부의 수출통제 해제 결정에 따라 7월 1일 Fable 5를 전 세계에 재배포했으며, 탈옥 시도를 차단하는 새 안전 분류기를 함께 적용했다.",
-          "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-3-2026",
-          "category": "정책·규제"
-        },
-        {
-          "date": "2026-07-08",
-          "headline": "Fable 5, 무료 제공 종료 — 토큰당 10~50달러 유료 전환",
-          "summary": "Claude Pro 사용자 대상 무료 제공 기간이 끝나며 Fable 5가 백만 토큰당 10~50달러의 유료 구조로 전환됐다.",
-          "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-8-2026",
-          "category": "도구·개발"
-        },
-        {
-          "date": "2026-07-10",
-          "headline": "모델 가격 스펙트럼 극단으로 — Fable 5 출력 50달러부터 DeepSeek 0.87달러까지",
-          "summary": "최상위 모델과 초저가 모델 사이의 가격 격차가 벌어지며, 작업별로 어떤 모델을 쓸지 결정하는 라우팅이 더욱 복잡해지고 있다.",
-          "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-10-2026",
-          "category": "산업·투자"
         }
       ]
     },

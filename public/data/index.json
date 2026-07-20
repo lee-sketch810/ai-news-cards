@@ -1,7 +1,32 @@
 {
-  "generated_at": "2026-07-15T01:12:50.918581+00:00",
-  "latest": "2026-07-15",
+  "generated_at": "2026-07-20T02:57:34.902021+00:00",
+  "latest": "2026-07-20",
   "editions": [
+    {
+      "date": "2026-07-20",
+      "count": 3,
+      "top_headline": "7월 20일부터 Claude Fable 5 크레딧제 전환…Max·Team Premium은 한도 50% 재적용"
+    },
+    {
+      "date": "2026-07-19",
+      "count": 3,
+      "top_headline": "앤트로픽, Claude Fable 5 유료 접근·한도 상향 프로모션 7월 19일 종료"
+    },
+    {
+      "date": "2026-07-18",
+      "count": 6,
+      "top_headline": "Kimi K3, 출시 몇 시간 만에 프런트엔드 코딩 아레나 1위…Fable 5 제쳐"
+    },
+    {
+      "date": "2026-07-17",
+      "count": 6,
+      "top_headline": "시진핑, 세계AI대회 첫 기조연설…29개국 'WAICO' 출범 선언"
+    },
+    {
+      "date": "2026-07-16",
+      "count": 5,
+      "top_headline": "문샷AI, 역대 최대 오픈 모델 'Kimi K3' 공개 — 2.8조 파라미터·100만 토큰"
+    },
     {
       "date": "2026-07-15",
       "count": 6,

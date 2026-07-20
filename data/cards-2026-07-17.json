@@ -1,0 +1,118 @@
+{
+  "date": "2026-07-17",
+  "generated_at": "2026-07-17T09:10:00+09:00",
+  "daily_insight": {
+    "title": "한 날, 두 반구 — 서방의 최대 모델 출시와 중국의 최대 AI 정책이 정면충돌",
+    "body": "7월 17일은 올여름 AI 달력에서 가장 무거운 하루였다. 서방에선 구글 제미나이 3.5 프로 출시가 예고됐고, 동시에 상하이에선 시진핑이 세계AI대회에 사상 처음 등장해 29개국이 참여하는 글로벌 AI 거버넌스 기구(WAICO) 출범을 선언했다. 그 사이 밤사이 중국 오픈 모델 Kimi K3가 끼어들었다. 모델 경쟁, 칩 경쟁, 규칙 경쟁이 같은 날짜 칸에 겹치면서, AI가 이제 모델·칩·자본·정책을 한꺼번에 겨루는 다층 지정학 게임이 됐음을 압축해 보여준 하루다."
+  },
+  "cards": [
+    {
+      "rank": 1,
+      "category": "정책·규제",
+      "verified_date": "2026-07-17",
+      "verification_status": "passed",
+      "headline": "시진핑, 세계AI대회 첫 기조연설…29개국 'WAICO' 출범 선언",
+      "summary": "시진핑 중국 국가주석이 상하이 세계AI대회 개막 연설에 사상 처음 나서, 상하이에 본부를 둘 세계인공지능협력기구(WAICO) 창설을 발표했다. 파키스탄·러시아·인도네시아 등 29개국이 창립 회원으로 참여했다.",
+      "points": [
+        "\"AI 발전은 한 나라의 독주가 아니라 국제 협력의 교향곡이어야\" 강조",
+        "본부는 상하이, 창립 회원 29개국 상당수가 글로벌 사우스 국가",
+        "오픈소스 AI와 개도국 접근권을 앞세워 미국의 수출 통제를 우회 겨냥"
+      ],
+      "insight": "서방이 규칙을 만드는 국제 기구를 아직 제시하지 못한 사이, 중국이 회원국을 갖춘 '실체 있는 기구'를 먼저 띄웠다. AI 규칙을 누가 쓰느냐가 모든 모델이 경쟁하는 시장의 조건을 결정한다는 점에서, 거버넌스 주도권 경쟁은 모델 성능 경쟁만큼이나 판을 좌우하는 변수가 됐다.",
+      "source_url": "https://www.aljazeera.com/news/2026/7/17/chinas-xi-jinping-launches-new-ai-alliance-what-is-it",
+      "source_name": "Al Jazeera",
+      "entities": ["WAICO", "China"],
+      "thread_ids": []
+    },
+    {
+      "rank": 2,
+      "category": "모델·연구",
+      "verified_date": "2026-07-17",
+      "verification_status": "passed",
+      "headline": "구글 제미나이 3.5 프로, '제미나이 데이'에도 출시 확정 안 돼",
+      "summary": "업계가 7월 17일 출시를 기대했던 구글 제미나이 3.5 프로가 재학습·지연 정황 속에 공식 확정을 내놓지 못했다. 구글은 모델 카드·가격·벤치마크를 아직 공개하지 않았다.",
+      "points": [
+        "구글은 6월 기존 베이스 모델을 폐기하고 사전학습을 다시 시작한 것으로 전해짐",
+        "200만 토큰 컨텍스트 등 떠도는 사양은 모두 유출·추정치로 미확인",
+        "GPT-5.6·Grok 4.5가 이미 가격·성능 기준선을 재설정한 뒤라 부담 가중"
+      ],
+      "insight": "결함 있는 플래그십을 서두르지 않는 것은 옳은 엔지니어링 판단이지만, '늦으면서 동시에 뒤처진' 조합은 지연을 '구글이 여전히 프런티어에서 이길 수 있는가'라는 서사로 바꿔놓는다. 검색이라는 압도적 배포력이 있는 한 성급한 결론은 이르지만, 다음 시도에 걸리는 압박은 커졌다.",
+      "source_url": "https://www.techtimes.com/articles/320308/20260713/gemini-35-pro-targets-july-17-after-full-rebuild-every-spec-remains-unconfirmed.htm",
+      "source_name": "TechTimes",
+      "entities": ["Google", "Gemini"],
+      "thread_ids": []
+    },
+    {
+      "rank": 3,
+      "category": "산업·투자",
+      "verified_date": "2026-07-17",
+      "verification_status": "passed",
+      "headline": "TSMC 2분기 순이익 77%↑…애리조나에 1,000억 달러 추가 투자",
+      "summary": "TSMC가 2분기 순이익 약 220억 달러로 전년 대비 77% 급증했다고 발표했다. AI 칩 수요가 이어지며 애리조나 사업에 1,000억 달러를 더 투입, 미국 내 투자 계획을 총 2,650억 달러로 늘렸다.",
+      "points": [
+        "매출 402억 달러(+34%), 2026년 설비투자 전망을 600~640억 달러로 상향",
+        "미국 투자 총 2,650억 달러로 확대, 2나노 첨단 공정 중심",
+        "가격 인하 경쟁이 붙은 모델 시장과 달리 하드웨어 계층은 기록적 실적"
+      ],
+      "insight": "모델 기업들이 가격을 내리는 동안 하드웨어 계층은 기록을 갈아치우는 2026년의 패턴이 또 한 분기 확인됐다. 애리조나 대규모 투자는 공급망의 대만 집중 리스크에 대한 가장 강력한 헤지이며, 모든 가격 전쟁의 양쪽에서 결국 파운드리가 수익을 거둔다는 구조를 보여준다.",
+      "source_url": "https://techstartups.com/2026/07/17/top-tech-news-today-july-17-2026-anthropic-apple-google-meta-moonshot-ai-nvidia-more/",
+      "source_name": "Tech Startups",
+      "entities": ["TSMC"],
+      "thread_ids": []
+    },
+    {
+      "rank": 4,
+      "category": "도구·개발",
+      "verified_date": "2026-07-17",
+      "verification_status": "passed",
+      "headline": "오픈AI, AI 브라우저 'Atlas' 접고 ChatGPT '슈퍼앱'에 집중",
+      "summary": "오픈AI가 자사 AI 웹브라우저 Atlas를 접고 모든 기능을 ChatGPT 하나로 통합하기로 했다. 브라우징·업무도구·음성·에이전트를 담은 챗 앱이 인터넷의 '첫 관문'을 대체한다는 판단이다.",
+      "points": [
+        "브라우저 대신 ChatGPT를 인터넷 진입점으로 삼는 전략 선회",
+        "ChatGPT Work·GPT-Live 음성·Codex 도구를 단일 표면으로 결집",
+        "IPO 신청을 앞두고 승산 없는 제품을 정리하는 규율 있는 움직임"
+      ],
+      "insight": "고가치 제품을 접는 결정은 어떤 출시보다 전략을 선명하게 드러낸다. 한때 모든 랩이 자체 브라우저·기기를 원했지만, 이제 싸움은 '아침에 가장 먼저 여는 단 하나의 앱'을 두고 벌어진다. 일상 습관을 가장 많이 확보한 앱이 이긴다는 베팅이다.",
+      "source_url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-17-2026",
+      "source_name": "Build Fast with AI",
+      "entities": ["OpenAI", "ChatGPT"],
+      "thread_ids": []
+    },
+    {
+      "rank": 5,
+      "category": "모델·연구",
+      "verified_date": "2026-07-17",
+      "verification_status": "passed",
+      "headline": "미라 무라티의 씽킹머신스, 오픈 가중치 모델 'Inkling' 공개",
+      "summary": "전 오픈AI CTO 미라 무라티가 세운 씽킹머신스가 누구나 내려받아 로컬 실행·파인튜닝할 수 있는 오픈 가중치 모델 Inkling을 공개했다. 창업 이후 첫 주요 공개 릴리스다.",
+      "points": [
+        "폐쇄형 모델을 만들던 대표 인물이 독립 데뷔작으로 '오픈 가중치'를 선택",
+        "DeepSeek·Qwen·GLM·Kimi에 이어 오픈 모델 물결에 미국 간판 창업자 합류",
+        "수익 모델은 엔터프라이즈 서비스·맞춤 학습·호스팅 등으로 전망"
+      ],
+      "insight": "폐쇄형 모델의 심장부에 있던 사람이 독립하며 가중치를 공개했다는 사실은, 오픈 대 폐쇄 논쟁이 시장 최상단에서 사실상 기울고 있음을 시사한다. 무료로 쓸 수 있는 유능한 모델이 늘수록 '토큰당 과금'의 근거는 계속 약해진다.",
+      "source_url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-17-2026",
+      "source_name": "Build Fast with AI",
+      "entities": ["Thinking Machines", "Mira Murati"],
+      "thread_ids": []
+    },
+    {
+      "rank": 6,
+      "category": "정책·규제",
+      "verified_date": "2026-07-17",
+      "verification_status": "passed",
+      "headline": "MS 7월 패치 570건 '역대 최대'…취약점 상당수 AI가 발굴",
+      "summary": "마이크로소프트가 7월 정기 패치에서 사상 최대인 570건의 보안 취약점을 수정했다. 회사는 상당수를 내부 AI 시스템이 찾아내고 우선순위를 매겼다고 밝혔다.",
+      "points": [
+        "단일 패치 릴리스로는 MS 역사상 최대 규모",
+        "AI가 인간이 하기 어려운 규모로 코드를 감사해 잠재 결함을 노출",
+        "공격자도 같은 도구를 쓰는 만큼 방어도 '기계 속도'로 돌아가야"
+      ],
+      "insight": "역대 최대 패치 수는 코드가 나빠졌다기보다 '찾는 능력이 좋아졌다'는 신호에 가깝다. 문제는 같은 종류의 도구를 공격자도 쥔다는 점이며, 결함 발견과 악용 사이의 시간이 짧아질수록 AI 보안 도구를 도입하지 않은 조직은 구조적으로 뒤처진다.",
+      "source_url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-17-2026",
+      "source_name": "Build Fast with AI",
+      "entities": ["Microsoft"],
+      "thread_ids": []
+    }
+  ]
+}

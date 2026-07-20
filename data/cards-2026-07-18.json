@@ -1,0 +1,118 @@
+{
+  "date": "2026-07-18",
+  "generated_at": "2026-07-18T09:10:00+09:00",
+  "daily_insight": {
+    "title": "오픈 가중치가 판을 뒤집은 한 주 — 지연된 플래그십, 왕좌가 바뀐 시총",
+    "body": "가장 기대를 모은 제미나이 3.5 프로가 코딩·추론 미흡으로 다시 밀리고 알파벳 주가가 4% 빠진 사이, 중국 오픈 모델 Kimi K3가 출시 몇 시간 만에 프런트엔드 코딩 아레나 1위에 올랐다. 애플은 조용히 엔비디아를 제치고 시총 세계 1위가 됐고, 앤트로픽은 1조 달러를 넘볼 IPO 준비에 들어갔다. 관통하는 서사는 분명하다. 최고의 폐쇄형 모델은 여전히 서방에 있지만, 이번 주 '모멘텀'은 오픈 가중치와 중국 주도 거버넌스로 기울었다. AI 경쟁 지형이 처음으로 다극화됐다."
+  },
+  "cards": [
+    {
+      "rank": 1,
+      "category": "모델·연구",
+      "verified_date": "2026-07-18",
+      "verification_status": "passed",
+      "headline": "Kimi K3, 출시 몇 시간 만에 프런트엔드 코딩 아레나 1위…Fable 5 제쳐",
+      "summary": "문샷AI의 Kimi K3가 Arena.ai 프런트엔드 코드 아레나에서 76% 승률로 1위에 올라 앤트로픽 Claude Fable 5를 눌렀다. Terminal-Bench 2.1에서 88.3점을 기록했다.",
+      "points": [
+        "정적 벤치마크가 아닌 실제 코딩 선호도 맞대결에서 1위 달성",
+        "터미널 벤치 88.3점으로 에이전트형 코딩 최상위권",
+        "다만 종합 텍스트 아레나는 9위 — 코딩·에이전트 특화형이라는 방증"
+      ],
+      "insight": "구글이 가장 스포트라이트를 원했던 날, 열흘 뒤 가중치가 무료로 풀릴 중국 모델이 코딩 정상을 차지했다. 무료로 쓸 수 있는 모델이 차트 상단을 계속 점령한다면, 프런티어 AI의 수익 모델 자체를 다시 써야 한다는 압박이 현실이 된다.",
+      "source_url": "https://venturebeat.com/technology/chinas-moonshot-ai-releases-kimi-k3-the-largest-open-source-model-ever-rivaling-top-u-s-systems",
+      "source_name": "VentureBeat",
+      "entities": ["Kimi K3", "Moonshot AI", "Claude"],
+      "thread_ids": []
+    },
+    {
+      "rank": 2,
+      "category": "산업·투자",
+      "verified_date": "2026-07-17",
+      "verification_status": "yesterday",
+      "headline": "애플, 엔비디아 제치고 시총 세계 1위…약 5조 달러 근접",
+      "summary": "애플이 시가총액 약 5조 달러에 근접하며 엔비디아를 제치고 세계 최대 기업 자리에 올랐다. 엔비디아는 2위로 내려앉았다.",
+      "points": [
+        "AI 붐의 상징이던 '삽 파는' 엔비디아를 배포·생태계 강자 애플이 추월",
+        "중국 규제 통과·자체 서버칩 추진 등 최근 호재가 겹친 결과",
+        "시총 순위는 매일 바뀌지만 '가치의 원천' 이동 신호로 읽혀"
+      ],
+      "insight": "시장이 원천 컴퓨트 공급자보다 'AI를 수십억 사용자 앞에 놓는 기업'을 다시 보상하기 시작했다는 신호다. 모델이 상품화된 뒤 누가 가치를 포착하느냐가 AI 경제의 핵심 질문이 되면서, 배포력과 생태계가 다시 전면에 부상하고 있다.",
+      "source_url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-18-2026",
+      "source_name": "Build Fast with AI",
+      "entities": ["Apple", "NVIDIA"],
+      "thread_ids": []
+    },
+    {
+      "rank": 3,
+      "category": "산업·투자",
+      "verified_date": "2026-07-18",
+      "verification_status": "passed",
+      "headline": "앤트로픽, 1조 달러 넘볼 IPO 위해 비공개 S-1 제출",
+      "summary": "앤트로픽이 2026년 하반기 상장을 겨냥해 비공개 S-1 등록 서류를 제출했다. 연 환산 매출 약 470억 달러로 AI 매출 선두이며, 2026년 흑자 전환이 거론된다.",
+      "points": [
+        "Claude Code와 엔터프라이즈 채택을 앞세운 '기업 우선' 전략",
+        "다중 신용 한도와 벤처 관심으로 기업가치 1조 달러 이상 거론",
+        "소비자 중심 경쟁사와 대비되는 '안전·엔터프라이즈' 포지셔닝"
+      ],
+      "insight": "설립 5년 남짓한 기업의 1조 달러 상장 시도는 '안전·엔터프라이즈 우선' 전략이 소비자 중심 모델보다 더 지속 가능한 매출을 만든다는 베팅을 반영한다. 성사되면 엔터프라이즈 AI 논제 전체를 검증하는 사건이 된다.",
+      "source_url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-18-2026",
+      "source_name": "Build Fast with AI",
+      "entities": ["Anthropic"],
+      "thread_ids": []
+    },
+    {
+      "rank": 4,
+      "category": "모델·연구",
+      "verified_date": "2026-07-18",
+      "verification_status": "passed",
+      "headline": "씽킹머신스 'Inkling'은 9,750억 파라미터…20억 달러 시드도 확인",
+      "summary": "미라 무라티의 씽킹머신스가 공개한 오픈 가중치 모델 Inkling이 9,750억 파라미터 규모로 확인됐다. 회사는 역대 최대급인 20억 달러 시드를 유치한 것으로 전해졌다.",
+      "points": [
+        "경량 실험이 아닌 프런티어급 규모의 오픈 가중치 모델",
+        "20억 달러 시드로 토큰당 즉시 수익화 없이 학습·서빙 감당 가능",
+        "Kimi K3·DeepSeek V4와 같은 시기 — 7월 화제작 다수가 오픈 계열"
+      ],
+      "insight": "오픈AI 엔지니어링을 이끌던 인물이 20억 달러를 모아 모델을 '공짜로' 내놓았다는 사실은, 시장 최상단에서 오픈-폐쇄 논쟁이 이미 기울었음을 보여준다. 폐쇄형 랩들은 이제 회의적인 구매자 앞에서 가격을 정당화해야 한다.",
+      "source_url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-18-2026",
+      "source_name": "Build Fast with AI",
+      "entities": ["Thinking Machines", "Mira Murati"],
+      "thread_ids": []
+    },
+    {
+      "rank": 5,
+      "category": "에이전트·자동화",
+      "verified_date": "2026-07-18",
+      "verification_status": "passed",
+      "headline": "파인콘, 에이전트용 지식 엔진 'Nexus Engine' 출시",
+      "summary": "벡터DB 기업 파인콘이 비즈니스 맥락을 구조화된 데이터로 정리해 AI 에이전트가 직접 질의하게 하는 Nexus Engine을 선보였다. 정확도를 높이고 토큰 비용을 줄이는 것을 노린다.",
+      "points": [
+        "여러 에이전트가 공유하는 구조화된 '지식 계층' 제공",
+        "맥락 검색을 통해 답변 정확도 향상·토큰 비용 절감 지향",
+        "에이전트 인프라 계층 경쟁이 검색·메모리로 확장되는 흐름"
+      ],
+      "insight": "모델이 빠르게 상품화되는 국면에서 실질적 차별화는 '에이전트가 무엇을 알고 어떻게 맥락을 끌어오는가'로 옮겨간다. 지식·검색 계층을 잡는 인프라 기업이 어느 모델이 이기든 반복 매출을 가져갈 위치에 선다.",
+      "source_url": "https://aiagentsdirectory.com/news/ai-agents-daily-brief-july-18-2026",
+      "source_name": "AI Agents Directory",
+      "entities": ["Pinecone"],
+      "thread_ids": []
+    },
+    {
+      "rank": 6,
+      "category": "정책·규제",
+      "verified_date": "2026-07-18",
+      "verification_status": "passed",
+      "headline": "샌프란시스코, 애플·구글에 'AI 누드' 앱 13종 삭제 명령",
+      "summary": "샌프란시스코 당국이 실존 인물의 비동의 나체 이미지를 생성하는 'nudify' 앱 13종을 앱스토어에서 내리라며 애플과 구글에 시정명령을 내렸다.",
+      "points": [
+        "앱 제작사가 아닌 '유통 관문(플랫폼)'에 법적 책임을 겨냥",
+        "같은 주 xAI가 Grok 생성 아동 성착취물 관련 소송에 피소",
+        "이미지·영상 생성의 '어두운 면'에 규제가 본격 대응 시작"
+      ],
+      "insight": "생성 이미지의 오남용이 개별 앱의 문제를 넘어 플랫폼 책임 문제로 옮겨가고 있다. 동의·초상권·미성년자 보호가 AI 정책의 부차 항목이 아니라 핵심 쟁점이 되면서, 앱스토어 운영자가 유통물에 책임을 지는 방향으로 규제가 굳어질 전망이다.",
+      "source_url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-18-2026",
+      "source_name": "Build Fast with AI",
+      "entities": ["Apple", "Google"],
+      "thread_ids": []
+    }
+  ]
+}

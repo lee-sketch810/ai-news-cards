@@ -1,7 +1,14 @@
 {
-  "generated_at": "2026-07-15T01:12:58.145865+00:00",
+  "generated_at": "2026-07-20T02:57:35.194410+00:00",
   "timelines": {
     "OpenAI": [
+      {
+        "date": "2026-07-17",
+        "headline": "오픈AI, AI 브라우저 'Atlas' 접고 ChatGPT '슈퍼앱'에 집중",
+        "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-17-2026",
+        "category": "도구·개발",
+        "verification_status": "passed"
+      },
       {
         "date": "2026-07-13",
         "headline": "애플-OpenAI 법적 분쟁 격화 — 머스크·올트먼 SNS 공방으로 번져",
@@ -222,6 +229,13 @@
     ],
     "GPT": [
       {
+        "date": "2026-07-17",
+        "headline": "오픈AI, AI 브라우저 'Atlas' 접고 ChatGPT '슈퍼앱'에 집중",
+        "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-17-2026",
+        "category": "도구·개발",
+        "verification_status": "passed"
+      },
+      {
         "date": "2026-07-12",
         "headline": "OpenAI GPT-5.6, 3개 등급으로 정식 출시 — Sol, Terminal-Bench 91.9%",
         "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-12-2026",
@@ -357,6 +371,27 @@
     ],
     "Google": [
       {
+        "date": "2026-07-18",
+        "headline": "샌프란시스코, 애플·구글에 'AI 누드' 앱 13종 삭제 명령",
+        "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-18-2026",
+        "category": "정책·규제",
+        "verification_status": "passed"
+      },
+      {
+        "date": "2026-07-17",
+        "headline": "구글 제미나이 3.5 프로, '제미나이 데이'에도 출시 확정 안 돼",
+        "url": "https://www.techtimes.com/articles/320308/20260713/gemini-35-pro-targets-july-17-after-full-rebuild-every-spec-remains-unconfirmed.htm",
+        "category": "모델·연구",
+        "verification_status": "passed"
+      },
+      {
+        "date": "2026-07-16",
+        "headline": "구글, 'NotebookLM'을 'Gemini Notebook'으로 개편…노트 안에서 코드 실행",
+        "url": "https://blog.google/innovation-and-ai/products/gemini-notebook/notebooklm-gemini-notebook/",
+        "category": "도구·개발",
+        "verification_status": "passed"
+      },
+      {
         "date": "2026-07-14",
         "headline": "삼성전자, 전 세계 DX부문 임직원에 '제미나이 엔터프라이즈' 전면 도입",
         "url": "https://www.hankyung.com/article/202607130973g",
@@ -470,6 +505,34 @@
       }
     ],
     "Claude": [
+      {
+        "date": "2026-07-20",
+        "headline": "7월 20일부터 Claude Fable 5 크레딧제 전환…Max·Team Premium은 한도 50% 재적용",
+        "url": "https://www.squaredtech.co/claude-access-plans-key-questions-over-july-20-changes",
+        "category": "도구·개발",
+        "verification_status": "passed"
+      },
+      {
+        "date": "2026-07-20",
+        "headline": "앤트로픽, 미 K-12 교사에 'Claude for Teachers' 무료 제공",
+        "url": "https://www.anthropic.com/news",
+        "category": "교육·생산성",
+        "verification_status": "passed"
+      },
+      {
+        "date": "2026-07-19",
+        "headline": "앤트로픽, Claude Fable 5 유료 접근·한도 상향 프로모션 7월 19일 종료",
+        "url": "https://www.forbes.com/sites/sandycarter/2026/07/13/claude-fable-5-extends-to-july-19-7-days-7-power-moves/",
+        "category": "도구·개발",
+        "verification_status": "passed"
+      },
+      {
+        "date": "2026-07-18",
+        "headline": "Kimi K3, 출시 몇 시간 만에 프런트엔드 코딩 아레나 1위…Fable 5 제쳐",
+        "url": "https://venturebeat.com/technology/chinas-moonshot-ai-releases-kimi-k3-the-largest-open-source-model-ever-rivaling-top-u-s-systems",
+        "category": "모델·연구",
+        "verification_status": "passed"
+      },
       {
         "date": "2026-07-15",
         "headline": "Anthropic, Claude Artifacts에 '공개 공유'와 '팀 공동편집' 기능 추가",
@@ -641,6 +704,13 @@
     ],
     "Microsoft": [
       {
+        "date": "2026-07-17",
+        "headline": "MS 7월 패치 570건 '역대 최대'…취약점 상당수 AI가 발굴",
+        "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-17-2026",
+        "category": "정책·규제",
+        "verification_status": "passed"
+      },
+      {
         "date": "2026-07-13",
         "headline": "구글·MS, 기업용 AI 연합 결성 — Salesforce·Snowflake·ServiceNow 동참",
         "url": "https://aitoolsrecap.com/Blog/ai-news-july-13-2026",
@@ -684,6 +754,13 @@
       }
     ],
     "Gemini": [
+      {
+        "date": "2026-07-16",
+        "headline": "구글, 'NotebookLM'을 'Gemini Notebook'으로 개편…노트 안에서 코드 실행",
+        "url": "https://blog.google/innovation-and-ai/products/gemini-notebook/notebooklm-gemini-notebook/",
+        "category": "도구·개발",
+        "verification_status": "passed"
+      },
       {
         "date": "2026-07-12",
         "headline": "구글 Gemini 3.5 Pro, 7월 17일 출시 예고 — 컨텍스트 200만 토큰",
@@ -735,6 +812,41 @@
       }
     ],
     "중국 오픈웨이트": [
+      {
+        "date": "2026-07-19",
+        "headline": "'오픈 가중치 공세' 초읽기 — DeepSeek V4·Kimi K3 가중치 공개 임박",
+        "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-18-2026",
+        "category": "모델·연구",
+        "verification_status": "passed"
+      },
+      {
+        "date": "2026-07-19",
+        "headline": "DeepSeek, 740억 달러 밸류로 700억+ 조달 추진·상하이 상장 준비",
+        "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-18-2026",
+        "category": "산업·투자",
+        "verification_status": "yesterday"
+      },
+      {
+        "date": "2026-07-17",
+        "headline": "시진핑, 세계AI대회 첫 기조연설…29개국 'WAICO' 출범 선언",
+        "url": "https://www.aljazeera.com/news/2026/7/17/chinas-xi-jinping-launches-new-ai-alliance-what-is-it",
+        "category": "정책·규제",
+        "verification_status": "passed"
+      },
+      {
+        "date": "2026-07-16",
+        "headline": "문샷AI, 역대 최대 오픈 모델 'Kimi K3' 공개 — 2.8조 파라미터·100만 토큰",
+        "url": "https://venturebeat.com/technology/chinas-moonshot-ai-releases-kimi-k3-the-largest-open-source-model-ever-rivaling-top-u-s-systems",
+        "category": "모델·연구",
+        "verification_status": "passed"
+      },
+      {
+        "date": "2026-07-16",
+        "headline": "애플 인텔리전스, 알리바바 Qwen 업고 중국 규제 관문 통과",
+        "url": "https://techcrunch.com/2026/07/15/apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai/",
+        "category": "산업·투자",
+        "verification_status": "yesterday"
+      },
       {
         "date": "2026-07-13",
         "headline": "골드만삭스, 고객에 중국산 AI 모델 추천 — 비용 대비 성능 우위 인정",
@@ -800,6 +912,13 @@
       }
     ],
     "NVIDIA": [
+      {
+        "date": "2026-07-18",
+        "headline": "애플, 엔비디아 제치고 시총 세계 1위…약 5조 달러 근접",
+        "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-18-2026",
+        "category": "산업·투자",
+        "verification_status": "yesterday"
+      },
       {
         "date": "2026-07-03",
         "headline": "엔비디아, AI 스타트업에 '선사용 후지불' 컴퓨팅 모델 제시",

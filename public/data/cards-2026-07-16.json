@@ -1,0 +1,107 @@
+{
+  "date": "2026-07-16",
+  "generated_at": "2026-07-16T09:10:00+09:00",
+  "daily_insight": {
+    "title": "온디바이스·오픈모델·중국 스택 — AI 경쟁의 축이 한꺼번에 흔들린 하루",
+    "body": "문샷AI가 역대 최대 오픈 모델 Kimi K3를 내놓고, 애플이 자국 모델 없이 알리바바 Qwen을 빌려 중국 규제를 통과하고, 구글이 NotebookLM을 Gemini 브랜드로 흡수한 것이 같은 날 겹쳤다. 표면적으로는 제각각인 소식이지만, 관통하는 흐름은 하나다. AI의 승부처가 '가장 큰 폐쇄형 모델' 하나에서 온디바이스 효율, 오픈 가중치, 그리고 시장 접근권을 좌우하는 규제·지정학으로 다변화되고 있다는 것이다. 다음 날인 7월 17일 제미나이 3.5 프로 출시와 상하이 세계AI대회가 정면으로 부딪히기 하루 전, 판이 이미 흔들리기 시작했다."
+  },
+  "cards": [
+    {
+      "rank": 1,
+      "category": "모델·연구",
+      "verified_date": "2026-07-16",
+      "verification_status": "passed",
+      "headline": "문샷AI, 역대 최대 오픈 모델 'Kimi K3' 공개 — 2.8조 파라미터·100만 토큰",
+      "summary": "중국 문샷AI가 약 2.8조 파라미터의 희소 MoE 구조에 100만 토큰 컨텍스트를 갖춘 Kimi K3를 공개했다. 지금까지 나온 오픈 계열 모델 중 최대 규모다.",
+      "points": [
+        "채팅·에이전트용 K3 Max와 대규모 병렬 처리용 K3 Swarm Max 두 종으로 출시",
+        "API 가격은 100만 토큰당 입력 3달러·출력 15달러, 가중치는 7월 27일 공개 예정",
+        "Kimi Delta Attention 등 새 구조로 긴 문맥 처리와 상시 추론(reasoning_effort) 지원"
+      ],
+      "insight": "프런티어급 성능을 지향하는 모델의 가중치가 열흘 안에 무료로 풀린다는 사실은, 폐쇄형 모델이 받아온 '프리미엄'의 근거를 정면으로 묻는다. 오픈 가중치 진영이 성능·가격 양쪽에서 동시에 압박을 키우면, AI 사업의 무게중심은 모델 자체보다 이를 안정적으로 서빙하고 운영하는 인프라 계층으로 옮겨갈 공산이 크다.",
+      "source_url": "https://venturebeat.com/technology/chinas-moonshot-ai-releases-kimi-k3-the-largest-open-source-model-ever-rivaling-top-u-s-systems",
+      "source_name": "VentureBeat",
+      "entities": [
+        "중국 오픈웨이트"
+      ],
+      "thread_ids": []
+    },
+    {
+      "rank": 2,
+      "category": "산업·투자",
+      "verified_date": "2026-07-15",
+      "verification_status": "yesterday",
+      "headline": "애플 인텔리전스, 알리바바 Qwen 업고 중국 규제 관문 통과",
+      "summary": "애플 인텔리전스가 중국 사이버공간관리국(CAC) 등록을 마쳤다. 자체 모델이 아닌 알리바바 Qwen을 핵심으로 쓰고, 바이두가 추가 기능을 맡는 구조다.",
+      "points": [
+        "중국은 모든 대형언어모델의 사전 등록·승인을 요구 — 서방 모델은 통과 불가",
+        "세계 최대 기업 애플조차 중국 시장에선 현지 모델을 '빌려' 쓰는 셈",
+        "정식 출시일은 미정, 이번 등록은 출시가 아닌 규제 관문 통과 단계"
+      ],
+      "insight": "모델 품질이 아니라 '시장 접근권'이 어느 나라에서 누가 이기는지를 가르는 결정적 변수가 되고 있음을 보여준다. AI 생태계가 서방 스택과 중국 스택으로 갈라지는 흐름 속에서, 글로벌 기업은 지역마다 다른 모델을 얹어야 하는 이중 구조를 감수하게 된다.",
+      "source_url": "https://techcrunch.com/2026/07/15/apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai/",
+      "source_name": "TechCrunch",
+      "entities": [
+        "중국 오픈웨이트"
+      ],
+      "thread_ids": []
+    },
+    {
+      "rank": 3,
+      "category": "도구·개발",
+      "verified_date": "2026-07-16",
+      "verification_status": "passed",
+      "headline": "구글, 'NotebookLM'을 'Gemini Notebook'으로 개편…노트 안에서 코드 실행",
+      "summary": "구글이 인기 연구 도구 NotebookLM을 Gemini Notebook으로 이름을 바꾸고, 노트 안에서 코드를 직접 돌릴 수 있는 보안 클라우드 컴퓨터를 붙였다.",
+      "points": [
+        "노트 내에서 데이터 분석 코드를 실행하는 클라우드 컴퓨터 기능 추가(프로 대상)",
+        "Gemini 앱·구글 검색과 동기화, 검색 AI 모드 연동도 예고",
+        "이용자 3,000만 명·조직 60만 곳 이상이 사용하는 도구를 Gemini 브랜드로 통합"
+      ],
+      "insight": "문서 기반 챗 도구가 '분석 워크벤치'로 진화하면서, AI 생산성 도구의 경쟁 기준이 답변 품질에서 '실제 업무 흐름을 얼마나 끝까지 처리하는가'로 이동하고 있다. 다만 잦은 브랜드 통합은 독립 제품이 쌓아온 인지도를 희생시키는 위험도 함께 안고 있다.",
+      "source_url": "https://blog.google/innovation-and-ai/products/gemini-notebook/notebooklm-gemini-notebook/",
+      "source_name": "Google Blog",
+      "entities": [
+        "Google",
+        "Gemini"
+      ],
+      "thread_ids": []
+    },
+    {
+      "rank": 4,
+      "category": "산업·투자",
+      "verified_date": "2026-07-16",
+      "verification_status": "passed",
+      "headline": "현대차 노조, AI·휴머노이드 로봇 도입에 반발…부분 파업 돌입",
+      "summary": "현대차 노동자들이 임금과 함께 AI 도입, 공장 내 휴머노이드 로봇 배치를 이유로 부분 파업에 나섰다. AI·로봇이 파업의 명시적 쟁점으로 등장한 첫 사례에 속한다.",
+      "points": [
+        "임금뿐 아니라 'AI·휴머노이드 로봇 도입'이 파업의 직접 쟁점으로 명시",
+        "화이트칼라 논쟁이던 자동화·고용 갈등이 생산 현장으로 확산",
+        "한국은 휴머노이드 로봇 비중을 2028년까지 크게 늘리겠다는 국가 목표를 추진 중"
+      ],
+      "insight": "자동화는 생산성을 높이는 동시에 일자리를 대체한다는 두 사실이 동시에 참이다. 정부가 로봇 도입을 장려하고 기업이 이를 배치할 때, 그 사이에서 협상 테이블에 남는 것은 결국 현장 노동자다. 재교육·이익 공유·배치 속도 조절 중 무엇으로 이 갈등을 풀지는 다른 산업 국가들도 지켜볼 선례가 된다.",
+      "source_url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-16-2026",
+      "source_name": "Build Fast with AI",
+      "entities": [],
+      "thread_ids": []
+    },
+    {
+      "rank": 5,
+      "category": "산업·투자",
+      "verified_date": "2026-07-16",
+      "verification_status": "passed",
+      "headline": "애플, 자체 AI 서버칩 위해 반도체 기업 인수 추진",
+      "summary": "애플이 자체 AI 서버용 칩 개발을 앞당기기 위해 반도체 기업 인수를 모색 중인 것으로 전해졌다. 모바일에서 쌓은 실리콘 설계 역량을 데이터센터로 확장하려는 움직임이다.",
+      "points": [
+        "A·M 시리즈로 입증한 칩 설계 역량을 AI 서버 영역으로 확대",
+        "엔비디아 의존도를 낮추고 자사 모델에 맞춘 하드웨어 확보가 목표",
+        "구글·아마존·메타·오픈AI가 걷는 자체 칩 내재화 대열에 합류"
+      ],
+      "insight": "빅테크가 앞다퉈 자체 칩을 내재화하는 흐름은 'AI 비용의 승부처가 모델이 아니라 하드웨어 원가'로 이동하고 있음을 보여준다. 인수를 통한 역량 확보는 빠르지만 리스크도 큰 선택으로, 데이터센터 칩은 모바일 칩과 전혀 다른 난도의 과제다.",
+      "source_url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-16-2026",
+      "source_name": "Build Fast with AI",
+      "entities": [],
+      "thread_ids": []
+    }
+  ]
+}

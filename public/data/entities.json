@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-20T02:57:35.194410+00:00",
+  "generated_at": "2026-07-21T00:09:40.474728+00:00",
   "timelines": {
     "OpenAI": [
       {
@@ -812,6 +812,13 @@
       }
     ],
     "중국 오픈웨이트": [
+      {
+        "date": "2026-07-21",
+        "headline": "딥시크 'V4' 정식 출시 임박…API에 시간대별 차등 요금제 도입",
+        "url": "https://www.newspim.com/news/view/20260720000005",
+        "category": "도구·개발",
+        "verification_status": "passed"
+      },
       {
         "date": "2026-07-19",
         "headline": "'오픈 가중치 공세' 초읽기 — DeepSeek V4·Kimi K3 가중치 공개 임박",

@@ -2,3 +2,14 @@
 ===== 2026-07-22  9:20:00.71 : auto_publish start ===== 
 From https://github.com/lee-sketch810/ai-news-cards
  * branch            main       -> FETCH_HEAD
+warning: in the working copy of 'setup_auto_publish.ps1', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'install.bat', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'logs/publish.log', LF will be replaced by CRLF the next time Git touches it
+[main 1f3266b] news: auto-publish 2026-07-22
+ 3 files changed, 49 insertions(+), 23 deletions(-)
+ create mode 100644 install.bat
+ create mode 100644 logs/publish.log
+To https://github.com/lee-sketch810/ai-news-cards.git
+   93699f2..1f3266b  main -> main
+pushed OK - Pages will redeploy in 1-2 min 
+===== done ===== 

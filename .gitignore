@@ -6,6 +6,9 @@ review-logs/
 data/research/
 data/planning/
 
+# 발행 로그 — 커밋하지 않음
+logs/
+
 # 캐시
 __pycache__/
 *.pyc

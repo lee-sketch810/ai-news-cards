@@ -1,7 +1,6 @@
 @echo off
-chcp 65001 >nul
-setlocal
-cd /d "D:\AI 프로그램\AgenticWorkflow\ai-news-cards"
+REM cd to this script's own folder (no hardcoded non-ASCII path)
+cd /d "%~dp0"
 
 REM ============================================================
 REM  ai-news-cards : UNATTENDED publisher (no pause).
@@ -27,7 +26,8 @@ REM    tree, so a locally-behind repo can still fast-forward push.
 git fetch origin main >> "%LOG%" 2>&1
 git reset --soft origin/main >> "%LOG%" 2>&1
 
-REM 3) stage everything the pipeline generated
+REM 3) stop tracking the log (one-time self-heal), then stage the rest
+git rm -r --cached logs >nul 2>&1
 git add -A >> "%LOG%" 2>&1
 
 REM 4) commit only if there is something staged
@@ -46,4 +46,3 @@ if %errorlevel%==0 (
   echo PUSH FAILED - see git output above >> "%LOG%"
 )
 echo ===== done ===== >> "%LOG%"
-endlocal

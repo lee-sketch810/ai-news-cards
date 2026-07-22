@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-21T00:09:40.474728+00:00",
+  "generated_at": "2026-07-22T00:37:15.473501+00:00",
   "timelines": {
     "OpenAI": [
       {
@@ -370,6 +370,20 @@
       }
     ],
     "Google": [
+      {
+        "date": "2026-07-22",
+        "headline": "알파벳, 22일 2분기 실적 발표…'제미나이 지연·설비투자 과잉' 시험대",
+        "url": "https://www.newspim.com/news/view/20260722000085",
+        "category": "산업·투자",
+        "verification_status": "passed"
+      },
+      {
+        "date": "2026-07-22",
+        "headline": "삼성, 22일 런던 '갤럭시 언팩'…제미나이 기반 AI 스마트안경 첫선",
+        "url": "https://v.daum.net/v/20260721111552980",
+        "category": "도구·개발",
+        "verification_status": "yesterday"
+      },
       {
         "date": "2026-07-18",
         "headline": "샌프란시스코, 애플·구글에 'AI 누드' 앱 13종 삭제 명령",
@@ -812,6 +826,13 @@
       }
     ],
     "중국 오픈웨이트": [
+      {
+        "date": "2026-07-22",
+        "headline": "베선트 美 재무 \"中 AI '증류'로 미국 기술 도용 확인 시 제재 가능\"",
+        "url": "https://www.newspim.com/news/view/20260722000058",
+        "category": "정책·규제",
+        "verification_status": "passed"
+      },
       {
         "date": "2026-07-21",
         "headline": "딥시크 'V4' 정식 출시 임박…API에 시간대별 차등 요금제 도입",

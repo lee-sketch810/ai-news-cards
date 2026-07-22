@@ -1,23 +1,21 @@
 @echo off
-chcp 65001 >nul
-cd /d "D:\AI 프로그램\AgenticWorkflow\ai-news-cards"
+REM cd to this script's own folder (no hardcoded non-ASCII path)
+cd /d "%~dp0"
 
 echo == ai-news-cards: commit and push ==
 
 REM 1) remove any stale git lock left by a crashed/sandbox process
 if exist ".git\index.lock" del /f /q ".git\index.lock"
 
-REM 2) sync branch pointer with origin WITHOUT touching the working tree.
-REM    The local repo is often behind origin (published 7/16~7/20 came from
-REM    an earlier run), which makes a plain push get rejected. --soft moves
-REM    HEAD up to origin while keeping all locally rendered files intact.
+REM 2) sync branch pointer with origin WITHOUT touching the working tree,
+REM    so a locally-behind repo can still fast-forward push.
 git fetch origin main
 git reset --soft origin/main
 
-REM 3) stage everything the pipeline generated (new day cards + re-renders)
+REM 3) stage everything the pipeline generated
 git add -A
 
-REM 4) commit + push. If nothing new, commit is skipped gracefully.
+REM 4) commit + push (commit is skipped gracefully if nothing changed)
 git commit -m "news: publish pending cards"
 git push origin main
 

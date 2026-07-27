@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-22T00:37:15.473501+00:00",
+  "generated_at": "2026-07-27T00:01:09.729218+00:00",
   "timelines": {
     "OpenAI": [
       {
@@ -370,6 +370,27 @@
       }
     ],
     "Google": [
+      {
+        "date": "2026-07-24",
+        "headline": "알파벳, 사상 첫 분기 현금흐름 마이너스…빅테크 AI 투자에 '경고음'",
+        "url": "https://www.g-enews.com/article/Global-Biz/2026/07/2026072321181416279a1f309431_1",
+        "category": "산업·투자",
+        "verification_status": "yesterday"
+      },
+      {
+        "date": "2026-07-23",
+        "headline": "구글, '제미나이 3.6 플래시' 등 경량 3종 공개…토큰 17% 절감·'제미나이 4' 착수",
+        "url": "https://www.g-enews.com/article/Global-Biz/2026/07/20260723183855618fbbec65dfb_1",
+        "category": "모델·연구",
+        "verification_status": "passed"
+      },
+      {
+        "date": "2026-07-23",
+        "headline": "구글 제미나이 월 사용자 9.5억 명…챗GPT를 '5000만 명' 차로 추격",
+        "url": "https://www.aitimes.com/news/articleView.html?idxno=213071",
+        "category": "도구·개발",
+        "verification_status": "passed"
+      },
       {
         "date": "2026-07-22",
         "headline": "알파벳, 22일 2분기 실적 발표…'제미나이 지연·설비투자 과잉' 시험대",
@@ -827,6 +848,27 @@
     ],
     "중국 오픈웨이트": [
       {
+        "date": "2026-07-25",
+        "headline": "저가 '키미 K3' 충격…중국 오픈웨이트에 美 반도체주 급락",
+        "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008667802",
+        "category": "산업·투자",
+        "verification_status": "passed"
+      },
+      {
+        "date": "2026-07-25",
+        "headline": "엔비디아·MS·메타 등 25곳 \"오픈웨이트 막지 마라\" 미 정부에 공동서한",
+        "url": "https://www.aitimes.com/news/articleView.html?idxno=213165",
+        "category": "정책·규제",
+        "verification_status": "passed"
+      },
+      {
+        "date": "2026-07-24",
+        "headline": "美 백악관 \"문샷AI, 앤트로픽 '페이블' 증류…태국 우회로 엔비디아 GB300 접근\" 주장",
+        "url": "https://www.g-enews.com/article/Global-Biz/2026/07/2026072321375455759a1f309431_1",
+        "category": "정책·규제",
+        "verification_status": "passed"
+      },
+      {
         "date": "2026-07-22",
         "headline": "베선트 美 재무 \"中 AI '증류'로 미국 기술 도용 확인 시 제재 가능\"",
         "url": "https://www.newspim.com/news/view/20260722000058",
@@ -940,6 +982,34 @@
       }
     ],
     "NVIDIA": [
+      {
+        "date": "2026-07-26",
+        "headline": "李대통령, 美 빅테크와 1400조 'AI 혈맹'…엔비디아·오픈AI·앤트로픽 참여",
+        "url": "https://www.ajunews.com/view/20260726060343485",
+        "category": "산업·투자",
+        "verification_status": "passed"
+      },
+      {
+        "date": "2026-07-25",
+        "headline": "엔비디아·MS·메타 등 25곳 \"오픈웨이트 막지 마라\" 미 정부에 공동서한",
+        "url": "https://www.aitimes.com/news/articleView.html?idxno=213165",
+        "category": "정책·규제",
+        "verification_status": "passed"
+      },
+      {
+        "date": "2026-07-24",
+        "headline": "美 백악관 \"문샷AI, 앤트로픽 '페이블' 증류…태국 우회로 엔비디아 GB300 접근\" 주장",
+        "url": "https://www.g-enews.com/article/Global-Biz/2026/07/2026072321375455759a1f309431_1",
+        "category": "정책·규제",
+        "verification_status": "passed"
+      },
+      {
+        "date": "2026-07-23",
+        "headline": "AMD, 앤트로픽에 최대 50억 달러 투자…2GW '헬리오스'로 엔비디아에 맞불",
+        "url": "https://www.ddaily.co.kr/page/view/2026072305075054807",
+        "category": "산업·투자",
+        "verification_status": "passed"
+      },
       {
         "date": "2026-07-18",
         "headline": "애플, 엔비디아 제치고 시총 세계 1위…약 5조 달러 근접",
@@ -1235,6 +1305,13 @@
       }
     ],
     "Meta": [
+      {
+        "date": "2026-07-25",
+        "headline": "엔비디아·MS·메타 등 25곳 \"오픈웨이트 막지 마라\" 미 정부에 공동서한",
+        "url": "https://www.aitimes.com/news/articleView.html?idxno=213165",
+        "category": "정책·규제",
+        "verification_status": "passed"
+      },
       {
         "date": "2026-07-11",
         "headline": "메타, 첫 유료 모델 'Muse Spark 1.1' 출시 — 출력 백만 토큰당 4.25달러",

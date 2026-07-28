@@ -118,25 +118,33 @@ nginx -t && systemctl reload nginx
 
 ---
 
-## 6. (선택) 도메인 연결 + HTTPS
+## 6. 도메인 연결 + HTTPS — `ai-news.wiselab.kr`
 
-커스텀 도메인이 있다면:
+1. wiselab.kr을 관리하는 DNS(가비아/후이즈/카페24 등 도메인 등록업체 콘솔)에서 **A 레코드** 추가:
+   - 호스트: `ai-news`
+   - 타입: `A`
+   - 값: `<서버_공인_IP>` (iwinv 콘솔에서 확인한 IP)
+   - TTL: 기본값(보통 3600)
+   - 반영까지 몇 분~1시간 정도 걸릴 수 있음. `nslookup ai-news.wiselab.kr` 로 확인 가능.
 
-1. 도메인 DNS의 A 레코드를 서버 공인 IP로 설정 (예: `news.내도메인.com → 123.45.67.89`)
-2. 위 nginx 설정의 `server_name _;` 를 `server_name news.내도메인.com;` 로 변경 후 `nginx -t && systemctl reload nginx`
-3. HTTPS 발급 (Let's Encrypt):
+2. 위 5단계 nginx 설정의 `server_name _;` 를 `server_name ai-news.wiselab.kr;` 로 변경 후:
+```bash
+nginx -t && systemctl reload nginx
+```
+
+3. DNS 전파가 확인되면(`nslookup ai-news.wiselab.kr` 결과가 서버 IP로 나오면) HTTPS 발급:
 
 ```bash
 # Ubuntu/Debian
 apt install -y certbot python3-certbot-nginx
-certbot --nginx -d news.내도메인.com
+certbot --nginx -d ai-news.wiselab.kr
 
 # CentOS/Rocky
 dnf install -y certbot python3-certbot-nginx
-certbot --nginx -d news.내도메인.com
+certbot --nginx -d ai-news.wiselab.kr
 ```
 
-도메인이 없으면 이 단계는 건너뛰고 `http://<서버_IP>` 로 접속하면 된다.
+certbot이 자동으로 nginx 설정에 443(HTTPS) 블록을 추가하고 인증서를 90일마다 자동 갱신하도록 등록해준다.
 
 ---
 

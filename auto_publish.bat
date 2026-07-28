@@ -4,10 +4,14 @@ cd /d "%~dp0"
 
 REM ============================================================
 REM  ai-news-cards : UNATTENDED publisher (no pause).
-REM  Run by Windows Task Scheduler on the HOST, where git has
-REM  credentials and full .git permissions. The Claude scheduled
+REM  Run by Windows Task Scheduler on the HOST. The Claude scheduled
 REM  task only GENERATES/RENDERS the card files; this publishes.
 REM  Idempotent: if nothing new was generated, it just no-ops.
+REM
+REM  2026-07: GitHub Pages 배포는 중단하고 iwinv 서버
+REM  (ai-news.wiselab.kr)로 완전히 대체했다. git commit은 로컬
+REM  버전 이력 목적으로만 유지하고, origin으로 push는 하지 않는다.
+REM  실제 배포는 deploy_to_iwinv.bat 이 담당.
 REM ============================================================
 
 if not exist "logs" mkdir "logs"
@@ -21,28 +25,20 @@ if exist ".git\index.lock" (
   echo removed stale .git\index.lock >> "%LOG%"
 )
 
-REM 2) sync branch pointer with origin WITHOUT touching the working
-REM    tree, so a locally-behind repo can still fast-forward push.
-git fetch origin main >> "%LOG%" 2>&1
-git reset --soft origin/main >> "%LOG%" 2>&1
-
-REM 3) stop tracking the log (one-time self-heal), then stage the rest
+REM 2) stop tracking the log (one-time self-heal), then stage the rest
 git rm -r --cached logs >nul 2>&1
 git add -A >> "%LOG%" 2>&1
 
-REM 4) commit only if there is something staged
+REM 3) commit locally only if there is something staged (history only,
+REM    no push - GitHub Pages is no longer the publish target)
 git diff --cached --quiet
 if %errorlevel%==0 (
-  echo nothing new to publish >> "%LOG%"
-  echo ===== done: no changes ===== >> "%LOG%"
-  goto :eof
+  echo nothing new to commit locally >> "%LOG%"
+) else (
+  git commit -m "news: auto-publish %DATE%" >> "%LOG%" 2>&1
+  echo committed locally ^(no push - iwinv is the publish target^) >> "%LOG%"
 )
 
-git commit -m "news: auto-publish %DATE%" >> "%LOG%" 2>&1
-git push origin main >> "%LOG%" 2>&1
-if %errorlevel%==0 (
-  echo pushed OK - Pages will redeploy in 1-2 min >> "%LOG%"
-) else (
-  echo PUSH FAILED - see git output above >> "%LOG%"
-)
+REM 4) actual publish: upload public\ to the iwinv server
+call deploy_to_iwinv.bat
 echo ===== done ===== >> "%LOG%"

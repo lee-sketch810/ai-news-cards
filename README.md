@@ -22,6 +22,8 @@ workflow.md                 전체 설계도 (Research→Planning→Implementati
 `build_queries → @news-collector(WebSearch) → dedupe → @date-verifier(WebFetch+verify_dates) → score_news → @news-scorer → @card-writer → render_cards → @news-deployer(push)`
 
 ## 배포
-`public/`에 push되면 GitHub Actions가 GitHub Pages로 자동 배포한다(`.github/workflows/deploy-pages.yml`).
+2026-07부터 GitHub Pages 배포는 중단하고 iwinv 서버(`https://ai-news.wiselab.kr`)로 완전히 이전했다.
+`auto_publish.bat`이 로컬 커밋(이력용) 후 `deploy_to_iwinv.bat`을 호출해 `public/`을 서버 웹 루트(`/var/www/ai-news-cards`)로 scp 업로드한다.
+서버 최초 설정은 `IWINV_SETUP.md` + `server_finish_setup.sh` 참고.
 
 생성: AgenticWorkflow 하네스 (workflow-generator). API 추가 과금 없이 Claude Code 구독 내 sub-agent로 구동.

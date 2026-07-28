@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-27T00:01:09.729218+00:00",
+  "generated_at": "2026-07-28T00:10:19.855298+00:00",
   "timelines": {
     "OpenAI": [
       {
@@ -848,6 +848,13 @@
     ],
     "중국 오픈웨이트": [
       {
+        "date": "2026-07-27",
+        "headline": "문샷AI, 2.8조 파라미터 'Kimi K3' 오픈 웨이트 전면 공개",
+        "url": "https://technode.com/2026/07/27/moonshot-ai-to-make-kimi-k3-available-for-public-download/",
+        "category": "모델·연구",
+        "verification_status": "passed"
+      },
+      {
         "date": "2026-07-25",
         "headline": "저가 '키미 K3' 충격…중국 오픈웨이트에 美 반도체주 급락",
         "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008667802",
@@ -982,6 +989,27 @@
       }
     ],
     "NVIDIA": [
+      {
+        "date": "2026-07-28",
+        "headline": "삼성전자·SK하이닉스, 오픈AI·앤스로픽과 반도체 '직거래' 물꼬",
+        "url": "https://www.newspim.com/news/view/20260727000417",
+        "category": "산업·투자",
+        "verification_status": "yesterday"
+      },
+      {
+        "date": "2026-07-27",
+        "headline": "네이버, 엔비디아를 3대 주주로 맞이…14조원대 AI 인프라 동맹",
+        "url": "https://www.etnews.com/20260727000271",
+        "category": "산업·투자",
+        "verification_status": "passed"
+      },
+      {
+        "date": "2026-07-27",
+        "headline": "엔비디아, 오픈AI 오하이오 데이터센터에 최대 2500억달러 지급보증 검토",
+        "url": "https://winbuzzer.com/2026/07/27/nvidia-weighs-250-billion-backstop-for-openai-ohio-campus-xcxwbn/",
+        "category": "산업·투자",
+        "verification_status": "passed"
+      },
       {
         "date": "2026-07-26",
         "headline": "李대통령, 美 빅테크와 1400조 'AI 혈맹'…엔비디아·오픈AI·앤트로픽 참여",

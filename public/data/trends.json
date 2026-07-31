@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-07-29T00:11:04.714744+00:00",
-  "period": "2026-06-24 ~ 2026-07-29",
-  "total_editions": 36,
-  "total_cards": 173,
+  "generated_at": "2026-07-31T09:10:02.580019+00:00",
+  "period": "2026-06-24 ~ 2026-07-31",
+  "total_editions": 38,
+  "total_cards": 184,
   "by_category": {
-    "산업·투자": 53,
-    "모델·연구": 43,
-    "정책·규제": 35,
-    "도구·개발": 27,
+    "산업·투자": 57,
+    "모델·연구": 45,
+    "정책·규제": 36,
+    "도구·개발": 29,
     "교육·생산성": 12,
-    "에이전트·자동화": 3
+    "에이전트·자동화": 5
   },
   "top_entities": [
     {
@@ -26,14 +26,14 @@
     },
     {
       "name": "Google",
-      "count": 24
-    },
-    {
-      "name": "GPT",
-      "count": 20
+      "count": 26
     },
     {
       "name": "중국 오픈웨이트",
+      "count": 21
+    },
+    {
+      "name": "GPT",
       "count": 20
     },
     {
@@ -41,12 +41,12 @@
       "count": 11
     },
     {
-      "name": "Gemini",
+      "name": "Microsoft",
       "count": 8
     },
     {
-      "name": "Microsoft",
-      "count": 7
+      "name": "Gemini",
+      "count": 8
     },
     {
       "name": "xAI",

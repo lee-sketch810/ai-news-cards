@@ -54,12 +54,15 @@ def main() -> int:
             for e in c.get("entities", []):
                 ent_counter[e] += 1
 
+    top_entities = [{"name": n, "count": c} for n, c in ent_counter.most_common(8)]
     payload = {
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "window_days": args.window,
         "period": f"{dates[0]} ~ {dates[-1]}",
         "by_category": dict(cat_counter.most_common()),
-        "top_entities": [{"name": n, "count": c} for n, c in ent_counter.most_common(8)],
+        "top_entities": top_entities,
+        # overview.json에 그대로 복사해 넣을 해시태그 후보(상위 5개 이름만) — AI가 새로 만들지 않는다(P1)
+        "hashtags": [e["name"] for e in top_entities[:5]],
         "daily_insights": daily_insights,
     }
 

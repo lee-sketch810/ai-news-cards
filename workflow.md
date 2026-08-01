@@ -109,11 +109,11 @@
 - **Verification**:
   - [ ] Top10 각 기사마다 카드 1장 — `category`·`verified_date`(절대표기)·`headline`(한국어)·`summary`(1줄)·`points`(3개)·`insight`·`source_url`·`verification_status` 필드 완비
   - [ ] `insight`는 **범용('왜 중요한가')** — 개인 맥락('그래서 나에게'·특정 사용자 지칭) **금지**
-  - [ ] `tip`(💡 실전 팁)은 **선택 필드** — 기사에 실제로 즉시 실행 가능한 행동(켜볼 설정·확인할 계약 조항·마감 전 조치 등)이 있을 때만 작성. 없으면 필드 자체를 생략(빈 문자열 금지) — 억지로 채우면 필러가 되어 없느니만 못함
+  - [ ] `tip`(💡 실전 팁)·`angles`(청중별 시사점)·`links`(공식 링크 버튼)는 모두 **선택 필드** — 기사가 실제로 뒷받침할 때만 작성, 없으면 필드 자체를 생략(빈 값 금지). `tip`은 즉시 실행 가능한 행동 1문장. `angles`는 서로 다른 독자층(개발자·투자자·정책결정자 등)에게 명확히 다른 함의가 있을 때만 `{audience,text}` 배열로. `links`는 원문 기사가 실제로 링크한 공식 자료(GitHub·제품 페이지·논문)만 — 채우려고 별도 검색하지 않음. 셋 다 억지로 채우면 필러가 되어 없느니만 못함
   - [ ] 날짜 표기에 상대표현('어제'·'오늘'·'N일 전') **전무**, 절대 발행일(YYYY-MM-DD)만
   - [ ] 모든 `source_url`이 Step 2에서 검증된 실제 링크 (source: Step 2)
   - [ ] 한국어 네이티브 — 번역체 아님, 판매용 카피 수준의 자연스러움
-- **Task**: Write one news card per Top-10 article in native Korean. Each card: catchy Korean headline, one-line summary, three key bullet points, a UNIVERSAL "왜 중요한가" insight (industry implication / general lesson — never personalized), and an OPTIONAL "💡 실전 팁" (universal actionable tip) only when the article genuinely supports one. Use only absolute publication dates. Output structured JSON.
+- **Task**: Write one news card per Top-10 article in native Korean. Each card: catchy Korean headline, one-line summary, three key bullet points, a UNIVERSAL "왜 중요한가" insight (industry implication / general lesson — never personalized), and three OPTIONAL fields used only when the article genuinely supports them — "💡 실전 팁" (universal actionable tip), `angles` (per-audience takeaways, e.g. 개발자/투자자), `links` (official links the source article itself points to). Use only absolute publication dates. Output structured JSON.
 - **Output**: `data/cards-YYYY-MM-DD.json` (SOT 산출물)
 - **Review**: `@reviewer + @fact-checker` — 고위험 공개 콘텐츠: 요약의 사실 정합성(@fact-checker) + 카드 구조·필드 완전성·인사이트 범용성(@reviewer)
 - **Translation**: none (이미 한국어 원본)
@@ -145,13 +145,13 @@
 - **Translation**: none
 
 ### 7.5. 주간 종합 재생성 (Overview Refresh) ⚠️ 매일 실행 필수
-- **Pre-processing**: `scripts/build_overview_input.py --window 7` — 최근 7개 에디션의 `daily_insight` + 카테고리/엔티티 집계를 결정론적으로 `data/planning/overview-input.json`에 씀
+- **Pre-processing**: `scripts/build_overview_input.py --window 7` — 최근 7개 에디션의 `daily_insight` + 카테고리/엔티티 집계 + 상위 5개 엔티티명(`hashtags`)을 결정론적으로 `data/planning/overview-input.json`에 씀
 - **Agent**: `@news-deployer` (별도 서브에이전트 없음 — daily_insight 작성과 동일 패턴으로 인라인 합성)
 - **Verification**:
   - [ ] `public/data/overview.json`의 `period`가 오늘 날짜를 포함한 최근 7일 범위인지 확인 (당일 실행마다 갱신 — 절대 과거 날짜에 고정되지 않음)
   - [ ] `title`·`themes`가 이전 실행과 동일한 문구를 재사용하지 않음 (verbatim 재사용 금지)
   - [ ] 어느 한 날의 `daily_insight`를 그대로 복사하지 않고, 여러 날에 걸친 흐름을 새로 종합함
-- **Task**: Read `overview-input.json`, synthesize the trailing week into `{updated, period, title, lead, themes:[{k,v}×4]}` native Korean prose. Same voice/format as `daily_insight` but week-scale — find the connecting thread across days plus category/entity shifts, don't just restate one day.
+- **Task**: Read `overview-input.json`, synthesize the trailing week into `{updated, period, title, lead, hashtags, themes:[{k,v}×4]}` native Korean prose (`hashtags` copied straight through from the input file, not authored). Same voice/format as `daily_insight` but week-scale — find the connecting thread across days plus category/entity shifts, don't just restate one day.
 - **Output**: `public/data/overview.json` (fetched dynamically by `index.html` — no HTML re-embed needed)
 - **Review**: none
 - **Translation**: none
@@ -240,11 +240,14 @@ memory: project
 You write daily AI-news cards in native Korean. Per article: catchy Korean
 headline, one-line summary, three key points, and a UNIVERSAL "왜 중요한가"
 insight (industry implication or general lesson — NEVER personalized, never
-"그래서 나에게"). Optionally add a "💡 실전 팁" (`tip` field) ONLY when the
-article genuinely supports a concrete, immediately actionable step — never
-fabricate one just to fill the field; omit it entirely otherwise. Use only
-absolute publication dates (YYYY-MM-DD); no relative expressions. Output
-structured JSON. Sales-copy-level naturalness is the bar.
+"그래서 나에게"). Three further fields are OPTIONAL — add each ONLY when the
+article genuinely supports it, never fabricate to fill a field, omit
+otherwise: "💡 실전 팁" (`tip`, one concrete actionable step), `angles`
+(per-audience takeaways like 개발자/투자자, only when they're genuinely
+distinct), `links` (official links the SOURCE ARTICLE itself points to —
+never a fresh search just to populate this). Use only absolute publication
+dates (YYYY-MM-DD); no relative expressions. Output structured JSON.
+Sales-copy-level naturalness is the bar.
 
 # .claude/agents/news-deployer.md
 ---

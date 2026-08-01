@@ -143,6 +143,20 @@
 - **Review**: none
 - **Translation**: none
 
+### 7.5. 주간 종합 재생성 (Overview Refresh) ⚠️ 매일 실행 필수
+- **Pre-processing**: `scripts/build_overview_input.py --window 7` — 최근 7개 에디션의 `daily_insight` + 카테고리/엔티티 집계를 결정론적으로 `data/planning/overview-input.json`에 씀
+- **Agent**: `@news-deployer` (별도 서브에이전트 없음 — daily_insight 작성과 동일 패턴으로 인라인 합성)
+- **Verification**:
+  - [ ] `public/data/overview.json`의 `period`가 오늘 날짜를 포함한 최근 7일 범위인지 확인 (당일 실행마다 갱신 — 절대 과거 날짜에 고정되지 않음)
+  - [ ] `title`·`themes`가 이전 실행과 동일한 문구를 재사용하지 않음 (verbatim 재사용 금지)
+  - [ ] 어느 한 날의 `daily_insight`를 그대로 복사하지 않고, 여러 날에 걸친 흐름을 새로 종합함
+- **Task**: Read `overview-input.json`, synthesize the trailing week into `{updated, period, title, lead, themes:[{k,v}×4]}` native Korean prose. Same voice/format as `daily_insight` but week-scale — find the connecting thread across days plus category/entity shifts, don't just restate one day.
+- **Output**: `public/data/overview.json` (fetched dynamically by `index.html` — no HTML re-embed needed)
+- **Review**: none
+- **Translation**: none
+
+> **⚠️ 이력 (2026-08-01)**: 이 스텝이 없어서 `overview.json`이 최초 작성일(07-01)에 한 달간 고정돼 있던 버그가 있었음. 재발 방지를 위해 **매일** 실행하도록 설계(주 1회가 아님) — 트레일링 윈도우라 매일 다시 써도 항상 최신 7일을 가리킴.
+
 ### 8. 일일 다이제스트 초안 생성 (Gmail Draft — 발송 안 함)
 - **Pre-processing**: `scripts/build_digest.py --cards data/cards-YYYY-MM-DD.json` — 당일 카드+종합인사이트를 이메일 HTML로 변환
 - **Agent**: `@news-deployer` (Gmail MCP)
@@ -269,6 +283,7 @@ render with valid source links, then commit and push to the GitHub Pages branch.
 | `scripts/verify_dates.py` | 발행일 파싱 + KST 오늘/어제 윈도우 판정 (검증 게이트 핵심) | 2 (Pre) |
 | `scripts/score_news.py` | 중요도×실용성×관련성 점수 사전계산 | 3 (Pre) |
 | `scripts/render_cards.py` | cards JSON → index.html 마커 주입 + 아카이브 | 6 (Pre) |
+| `scripts/build_overview_input.py` | 최근 7일 daily_insight + 카테고리/엔티티 집계 → overview 재료 준비 | 7.5 (Pre) |
 
 > 폴백: `scripts/ddg_fallback.py`는 상위 `news_fetcher.py`(throttle+KST윈도우 수리본)를 감싸 WebSearch 전면 실패 시에만 후보를 보충.
 

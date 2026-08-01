@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>오늘의 AI 뉴스</title>
 <meta name="description" content="매일 아침, 그날의 핵심 AI 뉴스만 골라 요약과 인사이트로. 출처와 발행일을 확인한 뉴스만 싣습니다.">
+<link rel="alternate" type="application/rss+xml" title="오늘의 AI 뉴스" href="rss.xml">
 <style>
   :root{
     --bg:#f6f6f4; --surface:#ffffff; --text:#1f1f1d; --muted:#5f5e5a; --hint:#8a8980;
@@ -185,6 +186,8 @@
     <button id="btn-trends">📊 트렌드</button>
     <button id="btn-threads">🧵 후속 소식</button>
     <button id="btn-bookmarks">⭐ 북마크</button>
+    <a id="btn-rss" href="rss.xml" style="font:inherit;font-size:13px;padding:7px 12px;border-radius:8px;
+      background:var(--chip);color:var(--chip-text);text-decoration:none;white-space:nowrap">📡 RSS 구독</a>
     <button id="btn-about">ℹ️ 소개</button>
   </div>
 
@@ -358,12 +361,28 @@
   var elDaily=document.getElementById('daily');
 
   // ---- 텍스트 강조 / 해시태그 (결정론적 — AI가 쓰지 않고 클라이언트에서 계산) ----
-  function boldLead(text){
-    text=text||'';
-    var m=/^[\s\S]*?(?:다\.|[.!?])(?=\s|$)/.exec(text);
-    if(!m){ return esc(text); }
-    var head=text.slice(0,m[0].length), rest=text.slice(m[0].length);
-    return '<b>'+esc(head)+'</b>'+esc(rest);
+  function splitSentences(text){
+    text=(text||'').trim();
+    if(!text) return [];
+    var out=[], re=/[\s\S]*?(?:다\.|[.!?])(?:\s+|$)/g, m, idx=0;
+    while((m=re.exec(text))){
+      var s=m[0].trim(); if(s) out.push(s);
+      idx=re.lastIndex;
+      if(m[0].length===0) re.lastIndex++;
+    }
+    if(idx<text.length){ var rest=text.slice(idx).trim(); if(rest) out.push(rest); }
+    return out;
+  }
+  // 긴 종합 텍스트를 첫 문장 볼드 + 2문장 단위 문단으로 쪼갠다 (가독성 — 통짜 텍스트 블록 방지)
+  function formatBody(text,cls){
+    var sents=splitSentences(text);
+    if(!sents.length) return '';
+    var first=sents[0], rest=sents.slice(1), groups=[], i;
+    for(i=0;i<rest.length;i+=2){ groups.push(rest.slice(i,i+2).join(' ')); }
+    var c=cls?(' class="'+cls+'"'):'';
+    var html='<p'+c+'><b>'+esc(first)+'</b></p>';
+    groups.forEach(function(g){ html+='<p'+c+'>'+esc(g)+'</p>'; });
+    return html;
   }
   function topEntitiesOf(cards,n){
     var count={};
@@ -410,14 +429,14 @@
       elDaily.innerHTML='<div class="d-label">오늘의 흐름</div>'
         +(di.title?'<h2>'+esc(di.title)+'</h2>':'')
         +hashtagsHTML(topEntitiesOf(data.cards,5))
-        +(di.body?'<p>'+boldLead(di.body)+'</p>':'');
+        +formatBody(di.body);
     } else { elDaily.style.display='none'; elDaily.innerHTML=''; }
   }
 
   function setHeader(data){
     var isLatest = data.date===manifest.latest;
     elSub.textContent = fmtDate(data.date) + ' · ' +
-      (isLatest ? '오늘 꼭 알아야 할 AI 뉴스 ' : '그날의 AI 뉴스 ') + (data.cards.length);
+      (isLatest ? '오늘 꼭 알아야 할 AI 뉴스' : '그날의 AI 뉴스');
     elBack.classList.toggle('show', !isLatest);
   }
 
@@ -542,13 +561,13 @@
       if(!o || !(o.title||o.lead)){ return; }
       var themes=(o.themes||[]).map(function(t){
         return '<div class="o-theme"><span class="o-k">'+esc(t.k)+'</span>'
-          +'<p class="o-v">'+boldLead(t.v)+'</p></div>';
+          +formatBody(t.v,'o-v')+'</div>';
       }).join('');
       el.innerHTML='<div><span class="o-label">전체 흐름 · 기간 종합</span>'
         +(o.period?'<span class="o-period">'+esc(o.period)+'</span>':'')+'</div>'
         +(o.title?'<h2>'+esc(o.title)+'</h2>':'')
         +hashtagsHTML(o.hashtags)
-        +(o.lead?'<p class="o-lead">'+boldLead(o.lead)+'</p>':'')+themes;
+        +formatBody(o.lead,'o-lead')+themes;
       el.style.display='block';
     }).catch(function(){});
   }
@@ -681,6 +700,7 @@
       +'<li><b>3단 인사이트</b> — 카드별 "왜 중요한가", 일별 "오늘의 흐름", 기간 전체 "전체 흐름". 해당하는 기사에는 "💡 실전 팁"도 붙습니다.</li>'
       +'<li><b>출처 공개</b> — 모든 카드에 원문 링크를 답니다. 2개 이상 출처로 확인되면 ✓✓ 교차검증 배지가 붙습니다.</li>'
       +'<li><b>북마크</b> — 카드 우측 상단 ☆로 저장, ⭐ 버튼에서 모아보기. 이 브라우저에만 저장되고 서버에는 전송되지 않습니다.</li>'
+      +'<li><b>RSS 구독</b> — 이메일 뉴스레터 대신 📡 RSS로 매일 업데이트를 받아볼 수 있습니다. RSS 리더가 없다면 Kill-the-Newsletter 같은 서비스로 이메일처럼 받아볼 수도 있습니다.</li>'
       +'</ul>'
       +'<p>카테고리는 주제 기준 6종입니다: 모델·연구 / 에이전트·자동화 / 도구·개발 / 교육·생산성 / 산업·투자 / 정책·규제.</p>'
       +'</div>');

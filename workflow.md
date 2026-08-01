@@ -5,7 +5,7 @@
 ## Overview
 
 - **Input**: 일일 스케줄 트리거 (07:00 KST) + WebSearch 멀티앵글 쿼리 세트
-- **Output**: 공개 카드뉴스 사이트 — `data/cards-YYYY-MM-DD.json` (SOT 산출물) + `public/index.html` (로컬 커밋 후 별도 Windows Task Scheduler 잡이 iwinv 서버로 scp 배포)
+- **Output**: 공개 카드뉴스 사이트 — `data/cards-YYYY-MM-DD.json` (SOT 산출물) + `public/index.html` + `public/rss.xml`(뉴스레터 대체 피드) — 로컬 커밋 후 별도 Windows Task Scheduler 잡이 iwinv 서버로 scp 배포
 - **Frequency**: Daily (09:00 KST, cron)
 - **Autopilot**: enabled — 무인 일일 실행. `(human)` 게이트는 자동 승인하되 결정 로그 남김
 - **pACS**: enabled
@@ -158,6 +158,18 @@
 
 > **⚠️ 이력 (2026-08-01)**: 이 스텝이 없어서 `overview.json`이 최초 작성일(07-01)에 한 달간 고정돼 있던 버그가 있었음. 재발 방지를 위해 **매일** 실행하도록 설계(주 1회가 아님) — 트레일링 윈도우라 매일 다시 써도 항상 최신 7일을 가리킴.
 
+### 7.6. RSS 피드 재생성 (뉴스레터 대체) ⚠️ 매일 실행 필수
+- **Pre-processing/Task**: `scripts/build_rss.py --limit 30` — 완전 결정론적(AI 판단 없음). 최근 30개 에디션을 스캔해 에디션(날짜) 1개당 아이템 1개짜리 RSS 2.0 피드를 생성. 아이템 본문 = 그날 `daily_insight` + 그날 카드 헤드라인 링크 목록(이미 쓰인 텍스트를 XML로 옮기기만 함).
+- **Agent**: `@news-deployer`
+- **Verification**:
+  - [ ] `public/rss.xml`이 유효한 XML이고 최신 날짜가 최상단 아이템인지 확인
+  - [ ] 각 아이템의 `link`가 `<site-url>?date=YYYY-MM-DD` 형식인지 확인
+- **Output**: `public/rss.xml`
+- **Review**: none
+- **Translation**: none
+
+> **왜 이메일 뉴스레터가 아니라 RSS인가 (2026-08-01 결정)**: le님이 이메일 뉴스레터 구독 기능을 요청했으나, iwinv VPS는 메일 서버가 비활성이고(자체 SMTP는 25번 포트 차단·스팸 처리 위험으로 비권장), 이메일 수집은 개인정보 보관·수신거부 처리 책임까지 발생시킴. RSS는 백엔드·PII 수집 없이 같은 "매일 업데이트 받아보기" 효과를 내므로 우선 채택. 실제 구독 수요가 확인되면 그때 이메일 API(Resend 등) 연동을 재검토.
+
 ### 8. 일일 다이제스트 초안 생성 (Gmail Draft — 발송 안 함)
 - **Pre-processing**: `scripts/build_digest.py --cards data/cards-YYYY-MM-DD.json` — 당일 카드+종합인사이트를 이메일 HTML로 변환
 - **Agent**: `@news-deployer` (Gmail MCP)
@@ -294,6 +306,7 @@ the GitHub remote does not affect the live site.
 | `scripts/score_news.py` | 중요도×실용성×관련성 점수 사전계산 | 3 (Pre) |
 | `scripts/render_cards.py` | cards JSON → index.html 마커 주입 + 아카이브 | 6 (Pre) |
 | `scripts/build_overview_input.py` | 최근 7일 daily_insight + 카테고리/엔티티 집계 → overview 재료 준비 | 7.5 (Pre) |
+| `scripts/build_rss.py` | 최근 30개 에디션 → RSS 2.0 피드 생성(뉴스레터 대체, 완전 결정론적) | 7.6 |
 
 > 폴백: `scripts/ddg_fallback.py`는 상위 `news_fetcher.py`(throttle+KST윈도우 수리본)를 감싸 WebSearch 전면 실패 시에만 후보를 보충.
 

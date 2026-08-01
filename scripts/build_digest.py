@@ -72,7 +72,7 @@ def build_html(cards_data: dict, site_url: str) -> tuple[str, str]:
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--cards", required=True)
-    ap.add_argument("--site-url", default="https://example.github.io/ai-news-cards/")
+    ap.add_argument("--site-url", default="https://ai-news.wiselab.kr/")
     ap.add_argument("--out")
     args = ap.parse_args()
 

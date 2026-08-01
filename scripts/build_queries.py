@@ -1,5 +1,5 @@
 """
-build_queries.py — 실행 KST 날짜를 주입한 8앵글 WebSearch 쿼리 세트 생성 (P1 Pre-processing, Step 1)
+build_queries.py — 실행 KST 날짜를 주입한 12앵글 WebSearch 쿼리 세트 생성 (P1 Pre-processing, Step 1)
 
 @news-collector가 이 출력을 받아 각 쿼리를 WebSearch로 실행한다.
 placeholder 날짜 금지 — 항상 실행 시각의 KST 날짜를 주입한다.
@@ -19,14 +19,20 @@ KST = timezone(timedelta(hours=9))
 CATEGORIES = ["모델·연구", "에이전트·자동화", "도구·개발", "교육·생산성", "산업·투자", "정책·규제"]
 
 ANGLES = [
+    # 카테고리당 2앵글 — 수집 폭을 넓혀 발행일 검증 통과 건수를 늘린다
+    # (2026-08-01: 8앵글로는 검증 통과가 하루 3~6건에 그쳐 콘텐츠가 부족하다는 피드백 반영)
     ("model-release", "모델·연구", "OpenAI Anthropic Google new model release announcement {date}"),
-    ("agent-automation", "에이전트·자동화", "AI agent automation tool launch {date} latest"),
-    ("edu-productivity", "교육·생산성", "AI education productivity tool {date} e-learning"),
-    ("korea", "산업·투자", "인공지능 AI 한국 발표 출시 {kdate}"),
-    ("policy", "정책·규제", "AI regulation policy governance {date}"),
-    ("bigtech", "산업·투자", "NVIDIA chip big tech AI funding {date}"),
-    ("dev-tools", "도구·개발", "AI workflow LLM developer tool {date} release"),
     ("research", "모델·연구", "artificial intelligence research breakthrough biggest stories {date}"),
+    ("agent-automation", "에이전트·자동화", "AI agent automation tool launch {date} latest"),
+    ("agent-standards", "에이전트·자동화", "AI agent framework MCP protocol update {date}"),
+    ("dev-tools", "도구·개발", "AI workflow LLM developer tool {date} release"),
+    ("dev-security", "도구·개발", "AI coding assistant vulnerability security {date}"),
+    ("edu-productivity", "교육·생산성", "AI education productivity tool {date} e-learning"),
+    ("edu-workplace", "교육·생산성", "AI 직장인 업무 생산성 활용 {kdate}"),
+    ("korea", "산업·투자", "인공지능 AI 한국 발표 출시 {kdate}"),
+    ("bigtech", "산업·투자", "NVIDIA chip big tech AI funding {date}"),
+    ("policy", "정책·규제", "AI regulation policy governance {date}"),
+    ("policy-korea", "정책·규제", "AI 규제 정책 정부 {kdate}"),
 ]
 
 

@@ -1,11 +1,11 @@
 # Daily AI News Card Pipeline
 
-매일 KST 기준 '오늘' 발행된 AI 뉴스 중 의미 있는 Top 10을, 발행일 검증 + 한국어 요약 + 범용 인사이트가 붙은 카드뉴스로 자동 생성해 공개 사이트(GitHub Pages)에 배포한다.
+매일 KST 기준 '오늘' 발행된 AI 뉴스 중 의미 있는 Top 10을, 발행일 검증 + 한국어 요약 + 범용 인사이트가 붙은 카드뉴스로 자동 생성해 공개 사이트(iwinv 서버, https://ai-news.wiselab.kr — 2026-07부로 GitHub Pages 대체)에 배포한다.
 
 ## Overview
 
 - **Input**: 일일 스케줄 트리거 (07:00 KST) + WebSearch 멀티앵글 쿼리 세트
-- **Output**: 공개 카드뉴스 사이트 — `data/cards-YYYY-MM-DD.json` (SOT 산출물) + `public/index.html` (GitHub Pages)
+- **Output**: 공개 카드뉴스 사이트 — `data/cards-YYYY-MM-DD.json` (SOT 산출물) + `public/index.html` (로컬 커밋 후 별도 Windows Task Scheduler 잡이 iwinv 서버로 scp 배포)
 - **Frequency**: Daily (09:00 KST, cron)
 - **Autopilot**: enabled — 무인 일일 실행. `(human)` 게이트는 자동 승인하되 결정 로그 남김
 - **pACS**: enabled
@@ -50,11 +50,11 @@
 ## Research
 
 ### 1. 뉴스 수집 (Multi-angle Collection)
-- **Pre-processing**: `scripts/build_queries.py` — 실행 시각의 KST 날짜를 쿼리에 주입하여 8개 앵글 쿼리 세트 생성 (모델 릴리스 / AI 도구·에이전트 / 교육·생산성 AI / 한국 AI / 정책·규제 / 빅테크 / 자동화 / 글로벌). placeholder 날짜 금지.
+- **Pre-processing**: `scripts/build_queries.py` — 실행 시각의 KST 날짜를 쿼리에 주입하여 12개 앵글 쿼리 세트 생성(6개 표준 카테고리 × 2앵글). **2026-08-01 확장**: 기존 8앵글로는 발행일 검증 통과가 하루 3~6건에 그쳐 콘텐츠가 얕다는 피드백이 있어, 카테고리당 2앵글로 넓혀 원천 후보 폭을 늘렸다(검증 게이트 자체는 그대로 — 폭을 넓혀 통과 건수를 자연스럽게 올리는 방향). placeholder 날짜 금지.
 - **Agent**: `@news-collector`
 - **Verification**:
-  - [ ] 8개 앵글 쿼리 모두 WebSearch 실행 완료
-  - [ ] 후보 기사 최소 25건 수집, 각 항목에 `title`·`url`·`snippet`·`source`·`snippet_date`(있으면) 포함
+  - [ ] 12개 앵글 쿼리 모두 WebSearch 실행 완료
+  - [ ] 후보 기사 최소 40건 수집, 각 항목에 `title`·`url`·`snippet`·`source`·`snippet_date`(있으면) 포함
   - [ ] 모든 `url`이 실제 http(s) 링크 (placeholder·검색결과 페이지 자체 제외)
   - [ ] Step 2 검증이 필요로 하는 필드 구조로 출력 (source: Step 2 입력 호환)
 - **Task**: Run WebSearch across the 8 query angles, collect candidate AI-news articles into a normalized JSON pool. Over-collect (noise removed downstream). Do NOT summarize yet.
@@ -109,25 +109,26 @@
 - **Verification**:
   - [ ] Top10 각 기사마다 카드 1장 — `category`·`verified_date`(절대표기)·`headline`(한국어)·`summary`(1줄)·`points`(3개)·`insight`·`source_url`·`verification_status` 필드 완비
   - [ ] `insight`는 **범용('왜 중요한가')** — 개인 맥락('그래서 나에게'·특정 사용자 지칭) **금지**
+  - [ ] `tip`(💡 실전 팁)은 **선택 필드** — 기사에 실제로 즉시 실행 가능한 행동(켜볼 설정·확인할 계약 조항·마감 전 조치 등)이 있을 때만 작성. 없으면 필드 자체를 생략(빈 문자열 금지) — 억지로 채우면 필러가 되어 없느니만 못함
   - [ ] 날짜 표기에 상대표현('어제'·'오늘'·'N일 전') **전무**, 절대 발행일(YYYY-MM-DD)만
   - [ ] 모든 `source_url`이 Step 2에서 검증된 실제 링크 (source: Step 2)
   - [ ] 한국어 네이티브 — 번역체 아님, 판매용 카피 수준의 자연스러움
-- **Task**: Write one news card per Top-10 article in native Korean. Each card: catchy Korean headline, one-line summary, three key bullet points, and a UNIVERSAL "왜 중요한가" insight (industry implication / general lesson — never personalized). Use only absolute publication dates. Output structured JSON.
+- **Task**: Write one news card per Top-10 article in native Korean. Each card: catchy Korean headline, one-line summary, three key bullet points, a UNIVERSAL "왜 중요한가" insight (industry implication / general lesson — never personalized), and an OPTIONAL "💡 실전 팁" (universal actionable tip) only when the article genuinely supports one. Use only absolute publication dates. Output structured JSON.
 - **Output**: `data/cards-YYYY-MM-DD.json` (SOT 산출물)
 - **Review**: `@reviewer + @fact-checker` — 고위험 공개 콘텐츠: 요약의 사실 정합성(@fact-checker) + 카드 구조·필드 완전성·인사이트 범용성(@reviewer)
 - **Translation**: none (이미 한국어 원본)
 
 ### 6. 렌더 + 배포 (Render & Deploy)
-- **Pre-processing**: `scripts/render_cards.py` — 최신 카드를 `public/index.html`의 `/* CARDS_DATA_START */ … /* CARDS_DATA_END */` 마커에 주입하고, 에디션을 `public/data/cards-YYYY-MM-DD.json`으로 발행하며, 날짜 매니페스트 `public/data/index.json`을 재생성. (서빙 데이터는 public/ 하위에 두어 GitHub Pages가 직접 서빙 → 아카이브/검색 fetch 가능)
+- **Pre-processing**: `scripts/render_cards.py` — 최신 카드를 `public/index.html`의 `/* CARDS_DATA_START */ … /* CARDS_DATA_END */` 마커에 주입하고, 에디션을 `public/data/cards-YYYY-MM-DD.json`으로 발행하며, 날짜 매니페스트 `public/data/index.json`을 재생성. (서빙 데이터는 public/ 하위에 두어 iwinv 서버가 그대로 서빙 → 아카이브/검색 fetch 가능)
 - **Agent**: `@news-deployer`
 - **Verification**:
   - [ ] `public/index.html`에 Top10(또는 검증 통과분) 카드가 모두 렌더됨
   - [ ] `data/archive/cards-YYYY-MM-DD.json` 저장 완료 (날짜별 아카이브 누적)
   - [ ] 모든 카드 출처 링크가 클릭 가능한 유효 URL (placeholder 0)
   - [ ] 날짜 네비게이션(아카이브)과 카테고리 필터가 동작
-  - [ ] GitHub Pages 배포 커밋·푸시 완료 (또는 Autopilot 미승인 시 푸시 보류 + 로그)
-- **Task**: Run `render_cards.py` to inject cards into the static HTML and archive the JSON. Verify the page renders all cards with valid source links, then commit and push to the GitHub Pages branch.
-- **Output**: `public/index.html` (배포본) + git push
+  - [ ] 로컬 git 커밋 완료 (**push는 하지 않음** — 2026-07부로 GitHub Pages 폐기, 실제 라이브는 iwinv 서버(https://ai-news.wiselab.kr)가 별도 Windows Task Scheduler 잡(`ai-news-cards-publish` → `auto_publish.bat` → `deploy_to_iwinv.bat`, scp)으로 독립 배포)
+- **Task**: Run `render_cards.py` to inject cards into the static HTML and archive the JSON. Verify the page renders all cards with valid source links, then commit locally (no push — a separate scheduled job handles the iwinv deploy).
+- **Output**: `public/index.html` (배포본) + local git commit
 - **Review**: none
 - **Translation**: none
 
@@ -239,22 +240,28 @@ memory: project
 You write daily AI-news cards in native Korean. Per article: catchy Korean
 headline, one-line summary, three key points, and a UNIVERSAL "왜 중요한가"
 insight (industry implication or general lesson — NEVER personalized, never
-"그래서 나에게"). Use only absolute publication dates (YYYY-MM-DD); no relative
-expressions. Output structured JSON. Sales-copy-level naturalness is the bar.
+"그래서 나에게"). Optionally add a "💡 실전 팁" (`tip` field) ONLY when the
+article genuinely supports a concrete, immediately actionable step — never
+fabricate one just to fill the field; omit it entirely otherwise. Use only
+absolute publication dates (YYYY-MM-DD); no relative expressions. Output
+structured JSON. Sales-copy-level naturalness is the bar.
 
 # .claude/agents/news-deployer.md
 ---
 name: news-deployer
-description: "카드 JSON을 정적 HTML에 주입·아카이브하고 GitHub Pages에 배포. '배포', '렌더', '사이트 갱신' 시 사용."
+description: "카드 JSON을 정적 HTML에 주입·아카이브하고 로컬에 커밋. '배포', '렌더', '사이트 갱신' 시 사용."
 model: sonnet
 tools: Read, Write, Bash
 permissionMode: default
 maxTurns: 20
 memory: project
 ---
-You render cards into the static site and publish. Run scripts/render_cards.py
+You render cards into the static site and commit locally. Run scripts/render_cards.py
 to inject cards into public/index.html and archive the JSON. Verify all cards
-render with valid source links, then commit and push to the GitHub Pages branch.
+render with valid source links, then `git commit` locally only — do NOT push.
+The live site (https://ai-news.wiselab.kr) is deployed independently by a
+Windows Task Scheduler job that scp's public/ to the iwinv server; pushing to
+the GitHub remote does not affect the live site.
 ```
 
 > **모델 선택 근거 (절대 기준 1)**: `card-writer`만 opus (최종 한국어 품질·인사이트가 결과물의 핵심). 수집·검증·점수·배포는 sonnet으로 안정적·결정론적 처리.
@@ -278,7 +285,7 @@ render with valid source links, then commit and push to the GitHub Pages branch.
 
 | 스크립트 | 역할 | 단계 |
 |---------|------|------|
-| `scripts/build_queries.py` | 실행 KST 날짜 주입 + 8앵글 쿼리 세트 생성 | 1 (Pre) |
+| `scripts/build_queries.py` | 실행 KST 날짜 주입 + 12앵글 쿼리 세트 생성(카테고리당 2) | 1 (Pre) |
 | `scripts/dedupe.py` | URL키 + 제목 유사도 중복 제거 | 1 (Post) |
 | `scripts/verify_dates.py` | 발행일 파싱 + KST 오늘/어제 윈도우 판정 (검증 게이트 핵심) | 2 (Pre) |
 | `scripts/score_news.py` | 중요도×실용성×관련성 점수 사전계산 | 3 (Pre) |

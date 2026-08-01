@@ -55,6 +55,9 @@
   .insight{background:var(--bg);border-radius:8px;padding:10px 12px;margin-bottom:12px}
   .insight .label{font-size:12px;font-weight:600;color:var(--text)}
   .insight p{font-size:13px;color:var(--muted);margin:5px 0 0}
+  .tip{background:var(--accent-bg);border-radius:8px;padding:10px 12px;margin-bottom:12px}
+  .tip .label{font-size:12px;font-weight:600;color:var(--accent)}
+  .tip p{font-size:13px;color:var(--text);margin:5px 0 0}
   .card-foot{display:flex;align-items:center;justify-content:space-between;font-size:12px;gap:8px}
   .card-foot a{color:var(--accent);text-decoration:none}
   .card-foot a:hover{text-decoration:underline}
@@ -377,6 +380,7 @@
         +'<p class="summary">'+esc(c.summary)+'</p>'
         +'<ul class="points">'+pts+'</ul>'
         +'<div class="insight"><span class="label">왜 중요한가</span><p>'+esc(c.insight)+'</p></div>'
+        +(c.tip?'<div class="tip"><span class="label">💡 실전 팁</span><p>'+esc(c.tip)+'</p></div>':'')
         +(chips||thread?'<div class="ents">'+chips+thread+'</div>':'')
         +'<div class="card-foot">'
         +'<a href="'+esc(c.source_url)+'" target="_blank" rel="noopener">출처'+(c.source_name?' · '+esc(c.source_name):'')+'</a>'

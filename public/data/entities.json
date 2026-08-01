@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T09:10:02.563582+00:00",
+  "generated_at": "2026-08-01T00:39:12.784145+00:00",
   "timelines": {
     "OpenAI": [
       {
@@ -370,6 +370,13 @@
       }
     ],
     "Google": [
+      {
+        "date": "2026-08-01",
+        "headline": "구글, 앤트로픽 데이터센터에 금융 보증…텍사스에 21조원 규모 캠퍼스",
+        "url": "https://www.aitimes.com/news/articleView.html?idxno=213404",
+        "category": "산업·투자",
+        "verification_status": "yesterday"
+      },
       {
         "date": "2026-07-31",
         "headline": "구글 딥마인드, '온몸으로 움직이는' 로봇 AI '제미나이 로보틱스 2' 공개",
@@ -752,6 +759,13 @@
       }
     ],
     "Microsoft": [
+      {
+        "date": "2026-08-01",
+        "headline": "MS 코파일럿서 사내 메일·파일 유출 취약점 확인…원인은 샌드박스 결함",
+        "url": "https://www.aitimes.com/news/articleView.html?idxno=213408",
+        "category": "도구·개발",
+        "verification_status": "yesterday"
+      },
       {
         "date": "2026-07-31",
         "headline": "MS·아마존 클라우드 '깜짝 실적'에 반도체주 급반등…삼성·SK하이닉스도 동반 상승",

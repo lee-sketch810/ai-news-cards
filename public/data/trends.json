@@ -1,32 +1,32 @@
 {
-  "generated_at": "2026-08-01T00:39:12.804825+00:00",
-  "period": "2026-06-24 ~ 2026-08-01",
-  "total_editions": 39,
-  "total_cards": 190,
+  "generated_at": "2026-08-02T10:56:15.110130+00:00",
+  "period": "2026-06-24 ~ 2026-08-02",
+  "total_editions": 40,
+  "total_cards": 197,
   "by_category": {
-    "산업·투자": 58,
-    "모델·연구": 46,
-    "정책·규제": 37,
-    "도구·개발": 30,
-    "교육·생산성": 13,
-    "에이전트·자동화": 6
+    "산업·투자": 59,
+    "모델·연구": 47,
+    "정책·규제": 38,
+    "도구·개발": 32,
+    "교육·생산성": 14,
+    "에이전트·자동화": 7
   },
   "top_entities": [
     {
       "name": "OpenAI",
-      "count": 32
+      "count": 35
     },
     {
       "name": "Anthropic",
       "count": 30
     },
     {
-      "name": "Claude",
-      "count": 28
+      "name": "Google",
+      "count": 29
     },
     {
-      "name": "Google",
-      "count": 27
+      "name": "Claude",
+      "count": 28
     },
     {
       "name": "중국 오픈웨이트",
@@ -46,7 +46,7 @@
     },
     {
       "name": "Gemini",
-      "count": 8
+      "count": 9
     },
     {
       "name": "xAI",

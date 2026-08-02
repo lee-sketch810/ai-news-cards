@@ -1,7 +1,28 @@
 {
-  "generated_at": "2026-08-01T00:39:12.784145+00:00",
+  "generated_at": "2026-08-02T10:56:15.106352+00:00",
   "timelines": {
     "OpenAI": [
+      {
+        "date": "2026-08-02",
+        "headline": "OpenAI, 차세대 모델 '아스트라'로 10년 넘게 안 풀린 수학 난제 10개 해결",
+        "url": "https://the-decoder.com/openai-announces-its-next-major-model-astra-by-dropping-ten-previously-unsolved-math-solutions/",
+        "category": "모델·연구",
+        "verification_status": "yesterday"
+      },
+      {
+        "date": "2026-08-02",
+        "headline": "OpenAI, '허깅페이스 해킹' 조사 중 에이전트 탈주 사례 추가 발견",
+        "url": "https://techcrunch.com/2026/07/31/openai-reportedly-finds-evidence-that-more-of-its-agents-ran-amok/",
+        "category": "에이전트·자동화",
+        "verification_status": "yesterday"
+      },
+      {
+        "date": "2026-08-02",
+        "headline": "전 OpenAI 연구원의 AI 헤지펀드, 레버리지 손실에 공모주 포트폴리오 시타델에 매각",
+        "url": "https://www.mt.co.kr/world/2026/08/02/2026080213120925306",
+        "category": "산업·투자",
+        "verification_status": "passed"
+      },
       {
         "date": "2026-07-17",
         "headline": "오픈AI, AI 브라우저 'Atlas' 접고 ChatGPT '슈퍼앱'에 집중",
@@ -370,6 +391,20 @@
       }
     ],
     "Google": [
+      {
+        "date": "2026-08-02",
+        "headline": "구글, 사전예약 80만 건 넘은 'AI 스튜디오' 단독 앱 결국 접어…제미나이로 통합",
+        "url": "https://9to5google.com/2026/07/31/gemini-ai-studio-app/",
+        "category": "도구·개발",
+        "verification_status": "yesterday"
+      },
+      {
+        "date": "2026-08-02",
+        "headline": "구글 어스 AI 이미지 생성 기능, 이란 원전 가짜 사진 논란에 하루 만에 중단",
+        "url": "https://www.forbes.com/sites/paulmonckton/2026/08/01/google-earth-ai-feature-removed/",
+        "category": "도구·개발",
+        "verification_status": "passed"
+      },
       {
         "date": "2026-08-01",
         "headline": "구글, 앤트로픽 데이터센터에 금융 보증…텍사스에 21조원 규모 캠퍼스",
@@ -824,6 +859,13 @@
       }
     ],
     "Gemini": [
+      {
+        "date": "2026-08-02",
+        "headline": "구글, 사전예약 80만 건 넘은 'AI 스튜디오' 단독 앱 결국 접어…제미나이로 통합",
+        "url": "https://9to5google.com/2026/07/31/gemini-ai-studio-app/",
+        "category": "도구·개발",
+        "verification_status": "yesterday"
+      },
       {
         "date": "2026-07-16",
         "headline": "구글, 'NotebookLM'을 'Gemini Notebook'으로 개편…노트 안에서 코드 실행",

@@ -14,6 +14,29 @@ set -e
 
 DOMAIN="ai-news.wiselab.kr"
 WEBROOT="/var/www/ai-news-cards"
+DEPLOY_PUBKEY="ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOobzpdy8tZyz0MYkCWvHK2Gq3FVT2T/pNQjs8ZAMEOx ai-news-cards-deploy"
+
+echo "== 0) 무인 배포용 SSH 공개키 등록 =="
+mkdir -p ~/.ssh && chmod 700 ~/.ssh
+touch ~/.ssh/authorized_keys
+if ! grep -qF "ai-news-cards-deploy" ~/.ssh/authorized_keys; then
+  echo "$DEPLOY_PUBKEY" >> ~/.ssh/authorized_keys
+  echo "  deploy 공개키 추가함"
+else
+  echo "  이미 등록되어 있음 (스킵)"
+fi
+chmod 600 ~/.ssh/authorized_keys
+
+echo "== 0.5) OS 방화벽에서 80/443 허용 (ufw/firewalld가 있는 경우) =="
+if command -v ufw >/dev/null 2>&1; then
+  ufw allow 80/tcp || true
+  ufw allow 443/tcp || true
+fi
+if command -v firewall-cmd >/dev/null 2>&1; then
+  firewall-cmd --permanent --add-service=http || true
+  firewall-cmd --permanent --add-service=https || true
+  firewall-cmd --reload || true
+fi
 
 echo "== 1) nginx 설치 확인 =="
 if ! command -v nginx >/dev/null 2>&1; then
@@ -94,5 +117,9 @@ nginx -t
 systemctl reload nginx
 
 echo ""
-echo "완료. https://$DOMAIN 로 접속해서 플레이스홀더 페이지가 뜨는지 확인하세요."
-echo "인증서가 없었다면: certbot --nginx -d $DOMAIN 을 실행해 HTTPS를 마저 발급하세요."
+echo "완료. 확인:"
+echo "  http://<서버_공인_IP>  (IP로 즉시 접속 가능해야 함)"
+echo "  http://$DOMAIN         (DNS가 살아있어야 함 - 지금은 SERVFAIL 상태일 수 있음)"
+echo ""
+echo "DNS(wiselab.kr)가 아직 SERVFAIL이면 도메인 등록업체 콘솔에서 네임서버부터 복구하세요."
+echo "DNS 복구 후 인증서 발급: certbot --nginx -d $DOMAIN"

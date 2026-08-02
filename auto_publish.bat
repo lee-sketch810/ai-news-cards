@@ -8,10 +8,10 @@ REM  Run by Windows Task Scheduler on the HOST. The Claude scheduled
 REM  task only GENERATES/RENDERS the card files; this publishes.
 REM  Idempotent: if nothing new was generated, it just no-ops.
 REM
-REM  2026-07: GitHub Pages 배포는 중단하고 iwinv 서버
-REM  (ai-news.wiselab.kr)로 완전히 대체했다. git commit은 로컬
-REM  버전 이력 목적으로만 유지하고, origin으로 push는 하지 않는다.
-REM  실제 배포는 deploy_to_iwinv.bat 이 담당.
+REM  2026-07: GitHub Pages publishing was replaced with the iwinv server
+REM  (ai-news.wiselab.kr). git commit is kept for local version history
+REM  only; there is no push to origin. Actual publishing is handled by
+REM  deploy_to_iwinv.bat.
 REM ============================================================
 
 if not exist "logs" mkdir "logs"

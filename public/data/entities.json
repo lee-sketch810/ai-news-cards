@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-02T10:56:15.106352+00:00",
+  "generated_at": "2026-08-03T02:12:51.441500+00:00",
   "timelines": {
     "OpenAI": [
       {
@@ -391,6 +391,13 @@
       }
     ],
     "Google": [
+      {
+        "date": "2026-08-03",
+        "headline": "구글, '제미나이 스파크' 크롬에 직접 통합…웹 작업 자동화 지원",
+        "url": "https://www.aitimes.com/news/articleView.html?idxno=213447",
+        "category": "에이전트·자동화",
+        "verification_status": "yesterday"
+      },
       {
         "date": "2026-08-02",
         "headline": "구글, 사전예약 80만 건 넘은 'AI 스튜디오' 단독 앱 결국 접어…제미나이로 통합",
@@ -795,6 +802,13 @@
     ],
     "Microsoft": [
       {
+        "date": "2026-08-03",
+        "headline": "'1375조원 AI 반도체 동맹'…삼성·SK, 남미서 핵심광물·원유까지 확보",
+        "url": "https://segye.com/newsView/20260802515095",
+        "category": "산업·투자",
+        "verification_status": "yesterday"
+      },
+      {
         "date": "2026-08-01",
         "headline": "MS 코파일럿서 사내 메일·파일 유출 취약점 확인…원인은 샌드박스 결함",
         "url": "https://www.aitimes.com/news/articleView.html?idxno=213408",
@@ -1073,6 +1087,13 @@
       }
     ],
     "NVIDIA": [
+      {
+        "date": "2026-08-03",
+        "headline": "'1375조원 AI 반도체 동맹'…삼성·SK, 남미서 핵심광물·원유까지 확보",
+        "url": "https://segye.com/newsView/20260802515095",
+        "category": "산업·투자",
+        "verification_status": "yesterday"
+      },
       {
         "date": "2026-07-28",
         "headline": "삼성전자·SK하이닉스, 오픈AI·앤스로픽과 반도체 '직거래' 물꼬",
@@ -1364,6 +1385,20 @@
       }
     ],
     "xAI": [
+      {
+        "date": "2026-08-03",
+        "headline": "xAI '그록 이매진', 7장 이미지 참조로 영상 제작…1080p·보이스 클로닝도 추가",
+        "url": "https://www.techtimes.com/articles/322670/20260802/grok-imagine-video-update-adds-1080p-voice-cloning-seven-reference-scene-control.htm",
+        "category": "도구·개발",
+        "verification_status": "yesterday"
+      },
+      {
+        "date": "2026-08-03",
+        "headline": "美 연방판사, xAI의 미네소타 '누디파이 앱 금지법' 정지 요청 기각",
+        "url": "https://www.engadget.com/2228460/judge-refuses-xai-request-to-stop-minnesota-law-banning-nudify-apps/",
+        "category": "정책·규제",
+        "verification_status": "yesterday"
+      },
       {
         "date": "2026-07-11",
         "headline": "에이전트 워크스페이스, 4파전 구도로 — ChatGPT Work·Claude Cowork·Muse Spark·Grok Build",

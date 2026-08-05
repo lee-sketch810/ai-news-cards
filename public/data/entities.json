@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03T02:12:51.441500+00:00",
+  "generated_at": "2026-08-05T03:10:45.810185+00:00",
   "timelines": {
     "OpenAI": [
       {
@@ -250,6 +250,13 @@
     ],
     "GPT": [
       {
+        "date": "2026-08-04",
+        "headline": "미 의회가 가장 많이 쓴 AI는 챗GPT…지출의 90%를 쓸어갔다",
+        "url": "https://techcrunch.com/2026/08/03/congresss-favorite-ai-tool-chatgpt/",
+        "category": "정책·규제",
+        "verification_status": "passed"
+      },
+      {
         "date": "2026-07-17",
         "headline": "오픈AI, AI 브라우저 'Atlas' 접고 ChatGPT '슈퍼앱'에 집중",
         "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-17-2026",
@@ -391,6 +398,13 @@
       }
     ],
     "Google": [
+      {
+        "date": "2026-08-05",
+        "headline": "AI 코딩 에이전트가 10시간 만에 뚫은 엔비디아 20년 해자",
+        "url": "https://www.aitimes.com/news/articleView.html?idxno=213508",
+        "category": "도구·개발",
+        "verification_status": "yesterday"
+      },
       {
         "date": "2026-08-03",
         "headline": "구글, '제미나이 스파크' 크롬에 직접 통합…웹 작업 자동화 지원",
@@ -802,6 +816,13 @@
     ],
     "Microsoft": [
       {
+        "date": "2026-08-05",
+        "headline": "규칙은 완성됐는데 내용은 비공개, 백악관 AI 검증 체계의 역설",
+        "url": "https://fortune.com/2026/08/04/baffling-white-house-wont-publicly-release-ai-model-evaluation-framework-it-reviewed-today-with-openai-anthropic-microsoft-and-others/",
+        "category": "정책·규제",
+        "verification_status": "passed"
+      },
+      {
         "date": "2026-08-03",
         "headline": "'1375조원 AI 반도체 동맹'…삼성·SK, 남미서 핵심광물·원유까지 확보",
         "url": "https://segye.com/newsView/20260802515095",
@@ -938,6 +959,20 @@
       }
     ],
     "중국 오픈웨이트": [
+      {
+        "date": "2026-08-05",
+        "headline": "오픈웨이트가 프런티어를 따라잡았다, 안전장치만 빼고",
+        "url": "https://techcrunch.com/2026/08/04/open-weight-ai-models-are-catching-up-to-the-frontier-the-safety-gap-remains/",
+        "category": "모델·연구",
+        "verification_status": "passed"
+      },
+      {
+        "date": "2026-08-04",
+        "headline": "국가대표 AI 4사, 개방형 모델 동시 공개…한국형 오픈웨이트 경쟁 막 올랐다",
+        "url": "https://zdnet.co.kr/view/?no=20260804100005",
+        "category": "모델·연구",
+        "verification_status": "passed"
+      },
       {
         "date": "2026-07-31",
         "headline": "중국 딥시크, 네이멍구에 1GW급 AI 데이터센터 건설 추진",
@@ -1087,6 +1122,20 @@
       }
     ],
     "NVIDIA": [
+      {
+        "date": "2026-08-05",
+        "headline": "AI 코딩 에이전트가 10시간 만에 뚫은 엔비디아 20년 해자",
+        "url": "https://www.aitimes.com/news/articleView.html?idxno=213508",
+        "category": "도구·개발",
+        "verification_status": "yesterday"
+      },
+      {
+        "date": "2026-08-05",
+        "headline": "규칙은 완성됐는데 내용은 비공개, 백악관 AI 검증 체계의 역설",
+        "url": "https://fortune.com/2026/08/04/baffling-white-house-wont-publicly-release-ai-model-evaluation-framework-it-reviewed-today-with-openai-anthropic-microsoft-and-others/",
+        "category": "정책·규제",
+        "verification_status": "passed"
+      },
       {
         "date": "2026-08-03",
         "headline": "'1375조원 AI 반도체 동맹'…삼성·SK, 남미서 핵심광물·원유까지 확보",
@@ -1452,6 +1501,13 @@
       }
     ],
     "Meta": [
+      {
+        "date": "2026-08-05",
+        "headline": "규칙은 완성됐는데 내용은 비공개, 백악관 AI 검증 체계의 역설",
+        "url": "https://fortune.com/2026/08/04/baffling-white-house-wont-publicly-release-ai-model-evaluation-framework-it-reviewed-today-with-openai-anthropic-microsoft-and-others/",
+        "category": "정책·규제",
+        "verification_status": "passed"
+      },
       {
         "date": "2026-07-25",
         "headline": "엔비디아·MS·메타 등 25곳 \"오픈웨이트 막지 마라\" 미 정부에 공동서한",

@@ -14,3 +14,6 @@ __pycache__/
 *.pyc
 
 # 커밋 대상: public/, data/archive/, data/cards-*.json, scripts/, .claude/, workflow.md
+
+# 임시 정리 폴더 — device_bash가 삭제를 못 해 옮겨둔 것들, 커밋 금지
+_to_delete/

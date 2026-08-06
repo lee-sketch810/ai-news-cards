@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-05T03:10:45.810185+00:00",
+  "generated_at": "2026-08-06T03:28:25.223452+00:00",
   "timelines": {
     "OpenAI": [
       {
@@ -398,6 +398,13 @@
       }
     ],
     "Google": [
+      {
+        "date": "2026-08-06",
+        "headline": "구글, AI 리더십을 마운틴뷰로 집중시켰다 — 앤트로픽·오픈AI와의 속도전 대응",
+        "url": "https://www.bloomberg.com/news/articles/2026-08-06/google-shifts-ai-power-to-california-in-race-against-anthropic-openai",
+        "category": "모델·연구",
+        "verification_status": "passed"
+      },
       {
         "date": "2026-08-05",
         "headline": "AI 코딩 에이전트가 10시간 만에 뚫은 엔비디아 20년 해자",

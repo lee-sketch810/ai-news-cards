@@ -19,7 +19,13 @@ DEFAULT_THRESHOLD = 0.75
 def url_key(url: str) -> str:
     try:
         p = urlparse(url.strip().lower())
-        return f"{p.netloc}{p.path}".rstrip("/")
+        # Include query string: many CMS sites (e.g. articleView.html?idxno=NNN)
+        # encode the real article identifier in the query, not the path — dropping
+        # it collapses distinct articles onto the same key. Bug found 2026-08-10 backfill.
+        key = f"{p.netloc}{p.path}".rstrip("/")
+        if p.query:
+            key += f"?{p.query}"
+        return key
     except Exception:
         return url.strip().lower()
 

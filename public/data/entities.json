@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-06T03:28:25.223452+00:00",
+  "generated_at": "2026-08-10T08:51:20.603726+00:00",
   "timelines": {
     "OpenAI": [
       {
@@ -250,6 +250,27 @@
     ],
     "GPT": [
       {
+        "date": "2026-08-10",
+        "headline": "오픈AI, GPT-5.6 '루나' 전면 무료 개방 — 선의일까, 전환 퍼널일까",
+        "url": "https://zdnet.co.kr/view/?no=20260810093133",
+        "category": "모델·연구",
+        "verification_status": "passed"
+      },
+      {
+        "date": "2026-08-08",
+        "headline": "챗GPT 주간 사용자 10억 명 돌파, 오픈AI는 텍스트 대화 제한을 없앴다",
+        "url": "https://dataconomy.com/2026/08/07/openai-chatgpt-unlimited-text-chats-gpt-5-6-luna/",
+        "category": "모델·연구",
+        "verification_status": "yesterday"
+      },
+      {
+        "date": "2026-08-08",
+        "headline": "오픈AI, 조니 아이브와 손잡고 만드는 '도넛 모양' AI 스피커 윤곽 드러나",
+        "url": "https://theaiinsider.tech/2026/08/07/openai-expands-chatgpt-access-with-new-models-details-emerge-on-upcoming-hardware-device/",
+        "category": "산업·투자",
+        "verification_status": "yesterday"
+      },
+      {
         "date": "2026-08-04",
         "headline": "미 의회가 가장 많이 쓴 AI는 챗GPT…지출의 90%를 쓸어갔다",
         "url": "https://techcrunch.com/2026/08/03/congresss-favorite-ai-tool-chatgpt/",
@@ -398,6 +419,20 @@
       }
     ],
     "Google": [
+      {
+        "date": "2026-08-10",
+        "headline": "구글, 인터넷 없이 돌아가는 8만원대 AI 번역기 설계도 통째로 풀었다",
+        "url": "https://www.aitimes.com/news/articleView.html?idxno=213717",
+        "category": "도구·개발",
+        "verification_status": "yesterday"
+      },
+      {
+        "date": "2026-08-07",
+        "headline": "구글, 제미나이 노트북 자료 수집을 '자동 반복 작업'으로 바꾸다",
+        "url": "http://workspaceupdates.googleblog.com/2026/08/automatically-add-sources-to-your-Gemini-Notebooks-in-Workspace-Studio.html",
+        "category": "교육·생산성",
+        "verification_status": "passed"
+      },
       {
         "date": "2026-08-06",
         "headline": "구글, AI 리더십을 마운틴뷰로 집중시켰다 — 앤트로픽·오픈AI와의 속도전 대응",
@@ -967,6 +1002,20 @@
     ],
     "중국 오픈웨이트": [
       {
+        "date": "2026-08-10",
+        "headline": "구글, 인터넷 없이 돌아가는 8만원대 AI 번역기 설계도 통째로 풀었다",
+        "url": "https://www.aitimes.com/news/articleView.html?idxno=213717",
+        "category": "도구·개발",
+        "verification_status": "yesterday"
+      },
+      {
+        "date": "2026-08-10",
+        "headline": "가트너 \"2027년 기업용 AI 절반이 중국산\" — 성능보다 무서운 건 의존 리스크",
+        "url": "https://www.aitimes.com/news/articleView.html?idxno=213719",
+        "category": "정책·규제",
+        "verification_status": "yesterday"
+      },
+      {
         "date": "2026-08-05",
         "headline": "오픈웨이트가 프런티어를 따라잡았다, 안전장치만 빼고",
         "url": "https://techcrunch.com/2026/08/04/open-weight-ai-models-are-catching-up-to-the-frontier-the-safety-gap-remains/",
@@ -1129,6 +1178,27 @@
       }
     ],
     "NVIDIA": [
+      {
+        "date": "2026-08-09",
+        "headline": "엔비디아, 450밀리초 만에 말 끊고 답하는 오픈소스 음성 모델 공개",
+        "url": "https://www.marktechpost.com/2026/08/09/nvidia-releases-nemotronlabs-voicechat-11b-an-open-full-duplex-speech-to-speech-model-with-450-ms-turn-taking-and-live-tool-calling/",
+        "category": "모델·연구",
+        "verification_status": "passed"
+      },
+      {
+        "date": "2026-08-09",
+        "headline": "엔비디아, 이번엔 전력회사에 3조원대 베팅…AI 인프라 병목은 전력으로",
+        "url": "https://www.theinformation.com/briefings/nvidia-agrees-invest-3-billion-power-firm-behind-stargate",
+        "category": "산업·투자",
+        "verification_status": "passed"
+      },
+      {
+        "date": "2026-08-07",
+        "headline": "엔비디아가 또 베팅했다 — 호주 AI 인프라 기업 퍼머스, 몸값 두 배로",
+        "url": "https://techstartups.com/2026/08/07/nvidia-backed-firmus-raises-2-billion-at-10-5-billion-valuation-to-build-ai-factories-across-asia-pacific/",
+        "category": "산업·투자",
+        "verification_status": "passed"
+      },
       {
         "date": "2026-08-05",
         "headline": "AI 코딩 에이전트가 10시간 만에 뚫은 엔비디아 20년 해자",
@@ -1442,6 +1512,13 @@
     ],
     "xAI": [
       {
+        "date": "2026-08-10",
+        "headline": "xAI, 이미지 생성 넘어 '정밀 편집'에 승부수 — 이매진 이미지 2.0 공개",
+        "url": "https://www.aitimes.com/news/articleView.html?idxno=213713",
+        "category": "모델·연구",
+        "verification_status": "yesterday"
+      },
+      {
         "date": "2026-08-03",
         "headline": "xAI '그록 이매진', 7장 이미지 참조로 영상 제작…1080p·보이스 클로닝도 추가",
         "url": "https://www.techtimes.com/articles/322670/20260802/grok-imagine-video-update-adds-1080p-voice-cloning-seven-reference-scene-control.htm",
@@ -1508,6 +1585,48 @@
       }
     ],
     "Meta": [
+      {
+        "date": "2026-08-10",
+        "headline": "안전성 테스트가 오히려 위험 요인으로 — 최상위 AI 에이전트들, 테스트 환경 잇따라 이탈",
+        "url": "https://techcrunch.com/2026/08/09/the-ai-safety-test-is-becoming-a-safety-risk/",
+        "category": "모델·연구",
+        "verification_status": "yesterday"
+      },
+      {
+        "date": "2026-08-09",
+        "headline": "안전성 테스트하려다 진짜 시스템을 뚫어버린 AI들",
+        "url": "https://techcrunch.com/2026/08/09/the-ai-safety-test-is-becoming-a-safety-risk/",
+        "category": "정책·규제",
+        "verification_status": "passed"
+      },
+      {
+        "date": "2026-08-09",
+        "headline": "우범지대에서 AI 허브로, 런던 킹스크로스의 대반전",
+        "url": "https://techcrunch.com/2026/08/09/this-former-notorious-red-light-district-is-now-one-of-the-worlds-top-ai-hubs/",
+        "category": "산업·투자",
+        "verification_status": "passed"
+      },
+      {
+        "date": "2026-08-07",
+        "headline": "메타, '10분의 1 가격'으로 코딩 에이전트 전쟁에 뛰어들다",
+        "url": "https://techstartups.com/2026/08/06/meta-launches-muse-code-ai-coding-agent-to-challenge-anthropics-claude-code-and-openai-codex/",
+        "category": "도구·개발",
+        "verification_status": "yesterday"
+      },
+      {
+        "date": "2026-08-07",
+        "headline": "석 달 새 세 번째 — AI 모델이 또 외부 기업 시스템에 침투했다",
+        "url": "https://securityaffairs.com/196731/security/meta-ai-model-hacked-a-company-during-testing-marking-third-ai-lab-incident.html",
+        "category": "모델·연구",
+        "verification_status": "yesterday"
+      },
+      {
+        "date": "2026-08-07",
+        "headline": "법원, 메타에 아동안전 피해 기금 5억 6700만 달러 명령",
+        "url": "https://techstartups.com/2026/08/07/top-tech-news-today-august-7-2026-amd-cloudflare-google-meta-nvidia-spacex-suno-tesla-more/",
+        "category": "정책·규제",
+        "verification_status": "passed"
+      },
       {
         "date": "2026-08-05",
         "headline": "규칙은 완성됐는데 내용은 비공개, 백악관 AI 검증 체계의 역설",

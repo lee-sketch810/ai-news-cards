@@ -1,0 +1,2 @@
+- [Low-diversity days](project_low-diversity-days.md) — collapse near-duplicate same-story coverage into primary+distinct-secondary picks; don't force-fill to 10.
+- [Top10 output format](reference_output-format-top10.md) — JSON schema for data/planning/top10-YYYY-MM-DD.json.

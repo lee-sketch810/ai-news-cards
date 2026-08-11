@@ -1,0 +1,2 @@
+- [WebFetch-blocked domains](webfetch_blocked_domains.md) — Bloomberg/Axios/CNBC/openai.com 403 WebFetch; verify_dates.py falls back to snippet_date when raw_published is null
+- [Date-catch examples](date-catch-examples.md) — real cases where snippet_date was wrong (c42, c50 in 2026-08-11 run) — validates the verification gate's purpose

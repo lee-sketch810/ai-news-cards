@@ -20,7 +20,12 @@
       ],
       "insight": "가중치를 공개한 모델은 기업과 개발자가 자체 인프라에서 직접 돌리고 커스터마이즈할 수 있다는 점에서 폐쇄형 모델과는 별개의 경쟁 축을 형성한다. 특히 데이터를 외부로 내보내기 어려운 조직일수록 절대 성능보다 '내 환경에서 통제 가능한가'가 실질적 선택 기준이 되며, 개방형 진영의 확장은 AI 도입의 문턱 자체를 낮춘다.",
       "source_url": "https://www.cnbc.com/2026/08/10/meta-muse-glimmer-open-weight-ai.html",
-      "source_name": "CNBC"
+      "source_name": "CNBC",
+      "entities": [
+        "Meta",
+        "중국 오픈웨이트"
+      ],
+      "thread_ids": []
     },
     {
       "rank": 2,
@@ -36,7 +41,11 @@
       ],
       "insight": "모델 경쟁의 핵심 지표가 '얼마나 큰가'에서 '같은 성능을 얼마나 작고 싸게 돌리는가'로 이동하고 있음을 보여준다. 양자화로 모델을 소비자 하드웨어까지 끌어내리면 클라우드 사용료라는 진입 장벽이 사라지고, 프라이버시가 중요한 작업이나 오프라인 환경에서도 고성능 에이전트를 상시 돌릴 수 있는 실사용 영역이 넓어진다.",
       "source_url": "https://www.marktechpost.com/2026/08/10/meta-ai-releases-muse-glimmer/",
-      "source_name": "MarkTechPost"
+      "source_name": "MarkTechPost",
+      "entities": [
+        "Meta"
+      ],
+      "thread_ids": []
     },
     {
       "rank": 3,
@@ -52,7 +61,9 @@
       ],
       "insight": "에이전트 자동화 논쟁에서 '사람이 직접 검토해야 더 안전하다'는 통념이 데이터로 반박되는 사례다. 일관된 규칙으로 걸러내는 자동 방어가 반복적인 대량 공격 앞에서 촘촘하게 작동할 수 있음을 보여준다. 다만 이 신뢰는 제3자 검증이라는 객관적 근거 위에서만 성립하며, 자동화 확대의 전제 조건이 독립적 안전 검증임을 시사한다.",
       "source_url": "https://theaiinsider.tech/2026/08/10/anthropic-sets-claude-codes-auto-mode-as-default-citing-improved-safety-over-manual-review/",
-      "source_name": "The AI Insider"
+      "source_name": "The AI Insider",
+      "entities": [],
+      "thread_ids": []
     },
     {
       "rank": 4,
@@ -68,7 +79,9 @@
       ],
       "insight": "자동화 에이전트의 신뢰성은 '얼마나 많이 자동으로 처리하느냐'가 아니라 '무엇을 골라 막느냐'라는 차단 로직의 정교함에서 갈린다. 되돌릴 수 없는 행동만 선별해 제어하는 접근은, 사람의 개입을 무조건 없애는 것과 최소한의 안전 저지선을 남기는 것 사이의 현실적 절충점을 보여준다. 앞으로의 에이전트 설계는 이 '허용과 차단의 경계선'을 어떻게 긋느냐가 핵심 경쟁력이 된다.",
       "source_url": "https://www.theregister.com/ai-and-ml/2026/08/10/claude-code-puts-auto-mode-in-the-drivers-seat/5285326",
-      "source_name": "The Register"
+      "source_name": "The Register",
+      "entities": [],
+      "thread_ids": []
     },
     {
       "rank": 5,
@@ -84,7 +97,11 @@
       ],
       "insight": "AI 인프라 투자가 개별 기업의 설비 투자 규모를 넘어 국가 예산급 자본 시장의 영역으로 넘어가고 있음을 보여준다. 연산 인프라를 '투자 가능한 자산'으로 규정해 사모·연기금 자본까지 끌어들이는 구조는, AI 붐이 실물 경제와 금융 시스템에 깊숙이 얽혀 들어가고 있다는 신호다. 이런 자본 동원력 자체가 앞으로 AI 주도권을 가르는 새로운 경쟁 요소가 된다.",
       "source_url": "https://nvidianews.nvidia.com/news/nvidia-partners-with-apollo-blackrock-blackstone-brookfield-goldman-sachs-and-kkr-to-establish-ai-compute-infrastructure-financing-platforms-to-mobilize-over-500-billion-of-third-party-capital",
-      "source_name": "NVIDIA Newsroom"
+      "source_name": "NVIDIA Newsroom",
+      "entities": [
+        "NVIDIA"
+      ],
+      "thread_ids": []
     },
     {
       "rank": 6,
@@ -100,7 +117,11 @@
       ],
       "insight": "공급업체가 고객의 구매 자금까지 설계·보증하는 순환적 금융 구조는 매출을 끌어올리는 동시에, 수요가 꺾일 때 위험이 공급업체로 되돌아오는 양날의 검이다. 시장이 화려한 발표 규모보다 '누구의 위험으로 굴러가는 성장인가'를 냉정하게 따지기 시작했다는 점에서, AI 인프라 투자의 지속 가능성을 평가하는 기준이 한층 까다로워지고 있음을 보여준다.",
       "source_url": "https://www.cnbc.com/2026/08/10/nvidia-wall-street-asset-managers-500-billion-ai-push.html",
-      "source_name": "CNBC"
+      "source_name": "CNBC",
+      "entities": [
+        "NVIDIA"
+      ],
+      "thread_ids": []
     }
   ]
 }

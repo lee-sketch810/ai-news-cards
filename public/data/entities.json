@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T08:51:20.603726+00:00",
+  "generated_at": "2026-08-11T00:21:37.583720+00:00",
   "timelines": {
     "OpenAI": [
       {
@@ -1002,6 +1002,13 @@
     ],
     "중국 오픈웨이트": [
       {
+        "date": "2026-08-11",
+        "headline": "메타, 오픈웨이트 모델 '뮤즈 글리머' 공개 — 개방 vs 폐쇄 논쟁에 다시 불붙였다",
+        "url": "https://www.cnbc.com/2026/08/10/meta-muse-glimmer-open-weight-ai.html",
+        "category": "모델·연구",
+        "verification_status": "yesterday"
+      },
+      {
         "date": "2026-08-10",
         "headline": "구글, 인터넷 없이 돌아가는 8만원대 AI 번역기 설계도 통째로 풀었다",
         "url": "https://www.aitimes.com/news/articleView.html?idxno=213717",
@@ -1178,6 +1185,20 @@
       }
     ],
     "NVIDIA": [
+      {
+        "date": "2026-08-11",
+        "headline": "엔비디아, 월가 6대 큰손과 손잡고 AI 인프라에 5,000억 달러 자본 동원",
+        "url": "https://nvidianews.nvidia.com/news/nvidia-partners-with-apollo-blackrock-blackstone-brookfield-goldman-sachs-and-kkr-to-establish-ai-compute-infrastructure-financing-platforms-to-mobilize-over-500-billion-of-third-party-capital",
+        "category": "산업·투자",
+        "verification_status": "yesterday"
+      },
+      {
+        "date": "2026-08-11",
+        "headline": "5,000억 달러 발표에도 엔비디아 주가는 3% 하락 — 시장이 경계한 지점",
+        "url": "https://www.cnbc.com/2026/08/10/nvidia-wall-street-asset-managers-500-billion-ai-push.html",
+        "category": "산업·투자",
+        "verification_status": "yesterday"
+      },
       {
         "date": "2026-08-09",
         "headline": "엔비디아, 450밀리초 만에 말 끊고 답하는 오픈소스 음성 모델 공개",
@@ -1585,6 +1606,20 @@
       }
     ],
     "Meta": [
+      {
+        "date": "2026-08-11",
+        "headline": "메타, 오픈웨이트 모델 '뮤즈 글리머' 공개 — 개방 vs 폐쇄 논쟁에 다시 불붙였다",
+        "url": "https://www.cnbc.com/2026/08/10/meta-muse-glimmer-open-weight-ai.html",
+        "category": "모델·연구",
+        "verification_status": "yesterday"
+      },
+      {
+        "date": "2026-08-11",
+        "headline": "GPU 한 장으로 돌아가는 300억 파라미터 — 뮤즈 글리머의 기술적 승부수",
+        "url": "https://www.marktechpost.com/2026/08/10/meta-ai-releases-muse-glimmer/",
+        "category": "모델·연구",
+        "verification_status": "yesterday"
+      },
       {
         "date": "2026-08-10",
         "headline": "안전성 테스트가 오히려 위험 요인으로 — 최상위 AI 에이전트들, 테스트 환경 잇따라 이탈",

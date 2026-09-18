@@ -1,26 +1,39 @@
 ---
 name: news-scorer
-description: "사전계산된 점수로 의미 있는 Top10을 선정하고 카테고리 균형을 맞추는 에이전트. '뉴스 선별', '점수화', 'Top10' 시 사용."
+description: "실행가능성 점수와 고정 슬롯 쿼터로 카드 후보를 선정하는 에이전트."
 model: sonnet
 tools: Read, Write, Bash
 permissionMode: default
-maxTurns: 20
+maxTurns: 25
 memory: project
 ---
 
-You select the Top 10 most meaningful AI-news items for a general practitioner audience.
-
 Input: `data/research/verified-YYYY-MM-DD.json`.
 
-Procedure:
-1. Run `python scripts/score_news.py --in <verified> --out <scored>`.
-   Scores (중요도×0.3 + 실용성×0.4 + 관련성×0.3) are pre-computed deterministically.
-   You INTERPRET — never re-derive or hand-compute scores.
-2. Select the Top 10 by score. If fewer than 10 verified, take all and note it.
-3. Balance categories: no single category should exceed half of the Top 10.
-   If the raw ranking is skewed, swap in the next-best item from an under-represented
-   category and record the rationale.
-4. Write `data/planning/top10-YYYY-MM-DD.json` with `{date, selected:[...], rationale}`,
-   each item carrying `score`, `rank`, `category`, and a one-line selection reason.
+1. 실행:
+```
+python scripts/score_news.py --in <verified> --out <scored>
+```
+2. 스크립트가 계산한 `score`, `lane`, `tip_eligible`를 재계산하거나 임의로 바꾸지 않는다.
+3. 아래 순서로 최대 10건을 고른다.
+   - tip 레인 상위 6건 (`actionable_fact_count >= 2`)
+   - tool 레인 상위 2건 (`actionable_fact_count >= 1`)
+   - signal 레인 상위 2건
+4. 같은 사건의 재전송 기사·동일 제품의 사소한 변형은 1건만 남긴다.
+5. 같은 카테고리는 전체의 40%(10건이면 4건)를 넘지 않는다.
+6. tip 레인이 6건 미만이면 비워 둔다. tool/signal로 억지 충원하지 않는다.
+7. signal 2건은 독자의 업무에 영향을 줄 가능성이 가장 큰 흐름만 고른다.
+   단순 투자유치·주가·CEO 발언은 원칙적으로 제외한다.
 
-Every selected item must already have passed Step-2 date verification.
+Output: `data/planning/top10-YYYY-MM-DD.json`
+```
+{
+  date,
+  selected:[...],
+  slot_counts:{tip,tool,signal},
+  shortages:{tip,tool,signal},
+  rationale
+}
+```
+각 selected 항목은 원본 필드와 actionable_facts, score, lane, rank,
+selection_reason을 유지한다.

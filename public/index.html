@@ -60,6 +60,11 @@
   .tip{background:var(--accent-bg);border-radius:8px;padding:10px 12px;margin-bottom:12px}
   .tip .label{font-size:12px;font-weight:600;color:var(--accent)}
   .tip p{font-size:13px;color:var(--text);margin:5px 0 0}
+  .tip .tip-goal{font-size:14px;font-weight:650;margin:6px 0}
+  .tip ol{font-size:13px;margin:6px 0 0;padding-left:22px}
+  .tip li{margin:4px 0}
+  .tip .tip-meta{font-size:12px;color:var(--muted);margin-top:8px}
+  .tip .tip-caveat{font-size:12px;color:var(--muted);border-top:1px solid var(--border);padding-top:6px;margin-top:7px}
   .angles{margin:0 0 12px}
   .angle{font-size:12.5px;color:var(--muted);padding:7px 0;border-top:1px solid var(--border)}
   .angle:first-child{border-top:none}
@@ -456,6 +461,23 @@
     elBack.classList.toggle('show', !isLatest);
   }
 
+  function renderTip(tip){
+    if(!tip) return '';
+    if(typeof tip==='string'){
+      return '<div class="tip"><span class="label">💡 실전 팁</span><p>'+esc(tip)+'</p></div>';
+    }
+    var steps=(tip.steps||[]).map(function(s){return '<li>'+esc(s)+'</li>';}).join('');
+    var meta=[];
+    if(tip.time) meta.push('예상 '+esc(tip.time));
+    if(tip.applies_to) meta.push(esc(tip.applies_to));
+    return '<div class="tip"><span class="label">💡 실전 팁</span>'
+      +(tip.goal?'<div class="tip-goal">'+esc(tip.goal)+'</div>':'')
+      +(steps?'<ol>'+steps+'</ol>':'')
+      +(meta.length?'<div class="tip-meta">'+meta.join(' · ')+'</div>':'')
+      +(tip.caveat?'<div class="tip-caveat">주의: '+esc(tip.caveat)+'</div>':'')
+      +'</div>';
+  }
+
   function renderCards(){
     var list=activeCat==='전체'?current.cards:current.cards.filter(function(c){return c.category===activeCat;});
     if(!current.cards.length){
@@ -485,7 +507,7 @@
         +'<ul class="points">'+pts+'</ul>'
         +'<div class="insight"><span class="label">왜 중요한가</span><p>'+esc(c.insight)+'</p></div>'
         +(angles?'<div class="angles">'+angles+'</div>':'')
-        +(c.tip?'<div class="tip"><span class="label">💡 실전 팁</span><p>'+esc(c.tip)+'</p></div>':'')
+        +renderTip(c.tip)
         +(linkBtns?'<div class="linkrow">'+linkBtns+'</div>':'')
         +(chips||thread?'<div class="ents">'+chips+thread+'</div>':'')
         +'<div class="card-foot">'

@@ -3,7 +3,6 @@ name: news-collector
 description: "실전 팁용 자료와 업계 흐름을 2개 티어로 분리 수집하는 에이전트."
 model: sonnet
 tools: WebSearch, WebFetch, Read, Write
-permissionMode: default
 maxTurns: 40
 memory: project
 ---

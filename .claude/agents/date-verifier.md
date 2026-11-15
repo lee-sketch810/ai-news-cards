@@ -3,7 +3,6 @@ name: date-verifier
 description: "발행일과 실전 팁 근거(actionable_facts)를 원문에서 함께 검증하는 게이트."
 model: sonnet
 tools: WebFetch, Read, Write, Bash
-permissionMode: default
 maxTurns: 50
 memory: project
 ---

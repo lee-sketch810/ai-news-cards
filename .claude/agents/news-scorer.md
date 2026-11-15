@@ -3,7 +3,6 @@ name: news-scorer
 description: "실행가능성 점수와 고정 슬롯 쿼터로 카드 후보를 선정하는 에이전트."
 model: sonnet
 tools: Read, Write, Bash
-permissionMode: default
 maxTurns: 25
 memory: project
 ---

@@ -3,7 +3,6 @@ name: card-writer
 description: "검증된 뉴스를 한국어 요약 + 실행 가능한 실전 팁 카드로 작성. '카드 작성', '뉴스 요약 카드', '실전 팁' 시 사용."
 model: opus
 tools: Read, Write, Bash
-permissionMode: default
 maxTurns: 30
 memory: project
 ---

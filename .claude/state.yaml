@@ -1,43 +1,21 @@
-# state.yaml — SOT (Single Source of Truth)
-# Daily AI News Card Pipeline. Orchestrator만 수정 (절대 기준 2). 에이전트는 읽기 전용.
+# state.yaml — 일일 실행 진행 상태. Orchestrator만 수정한다. 에이전트는 읽기 전용.
 
 workflow:
   name: "Daily AI News Card Pipeline"
-  current_step: 1
-  status: "in_progress"     # in_progress | completed | failed
+  run_date: null            # 처리 중인 에디션 날짜 (YYYY-MM-DD)
+  current_step: 0
+  status: "idle"            # idle | in_progress | completed | failed
 
-  parent_genome:
-    source: "AgenticWorkflow"
-    version: "2026-06-25"
-    inherited_dna: ["absolute-criteria", "sot-pattern", "3-phase-structure", "4-layer-qa", "safety-hooks", "adversarial-review", "decision-log", "context-preservation", "cross-step-traceability"]
-
-  # 단계별 산출물 경로 — Anti-Skip Guard가 파일 존재 + 최소 크기(100 bytes) 검증
+  # 단계별 산출물 — 다음 단계로 넘어가기 전 파일 존재 + 100 bytes 이상 확인
   outputs:
-    # step-1: "data/research/candidates-YYYY-MM-DD.json"
-    # step-2: "data/research/verified-YYYY-MM-DD.json"
-    # step-3: "data/planning/top10-YYYY-MM-DD.json"
-    # step-5: "data/cards-YYYY-MM-DD.json"
-    # step-6: "public/index.html"
-
-  pending_human_action:
-    step: null
-    options: []
+    # candidates: "data/research/candidates-YYYY-MM-DD.json"
+    # verified:   "data/research/verified-YYYY-MM-DD.json"
+    # top10:      "data/planning/top10-YYYY-MM-DD.json"
+    # cards:      "data/cards-YYYY-MM-DD.json"
+    # tip_review: "review-logs/tip-verify-YYYY-MM-DD.json"
 
   autopilot:
     enabled: true
-    decision_log_dir: "autopilot-logs/"
-    auto_approved_steps: []
 
-  pacs:
-    current_step_score: null
-    dimensions:
-      F: null
-      C: null
-      L: null
-    weak_dimension: null
-    pre_mortem_flag: null
-    history: {}
-
-  verification:
-    last_verified_step: 0
-    retries: {}
+  retries: {}               # 예: {card-writer: 1}
+  notes: []                 # 통과 < 10, 카드 제외 사유 등

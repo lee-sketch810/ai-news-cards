@@ -15,7 +15,8 @@ description: "실전 팁 중심 Daily AI News 파이프라인 전체 실행. 매
 9. `python scripts/check_tip_novelty.py --cards <cards> --history public/data --days 14`
 10. reviewer + fact-checker: 팁 UI 경로·명령어가 actionable_facts에 실제 있는지 표본 검증
 11. `python scripts/render_cards.py --cards <cards>`
-12. git add/commit/push
+12. `@wiki-saver` → 카드를 나만의 나무위키 `1_raw/news`에 하루 1파일로 저장 (논블로킹, 실패해도 발행 영향 없음)
+13. git add/commit/push (`data/wiki_raw/`의 업로드 매니페스트 포함)
 
 ## 실패 정책
 
@@ -24,5 +25,6 @@ description: "실전 팁 중심 Daily AI News 파이프라인 전체 실행. 매
 - WebSearch 전면 실패: fallback을 1회 사용. 그래도 0건이면 발행 보류.
 - KST 10:30까지 발행 파일이 없으면 실패 로그와 알림을 남긴다.
 - 전날 데이터를 오늘 날짜로 재포장하지 않는다.
+- 위키 저장(12) 실패: 로그만 남기고 계속. 미업로드 날짜는 다음 실행의 `--pending`이 자동으로 따라잡는다.
 
 $ARGUMENTS

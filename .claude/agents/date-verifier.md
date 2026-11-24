@@ -87,6 +87,37 @@ KST 당일/전일만 통과한다. 날짜를 추측하지 않는다.
 - 동일 내용의 공식 원문이 있으면 `canonical_url`로 교체한 뒤 다시 검증한다.
 - 날짜만 확인되고 본문을 못 읽으면 날짜 기사는 될 수 있지만 `signal-only`로 보낸다.
 
+## 5. 발행 전 품질 점검 (참고: anthropics/knowledge-work-plugins `data:validate-data`)
+
+날짜·팁 판정 후, 각 항목을 아래 체크리스트로 점검하고 걸리는 항목을 `verification_flags` 배열에 기록한다.
+플래그는 **정보 제공용**이다. 기존 통과/탈락 기준(날짜 창, actionability 판정)을 바꾸지 않는다.
+
+### 방법론 (출처·범위)
+- `single_source`: 핵심 사실이 2차 보도·블로그 한 곳에만 있고 공식 원문(공식 블로그·문서·릴리스 노트)이 없다.
+- `stale_basis`: 본문이 이전 버전/과거 발표를 다루는데 날짜만 새롭다. 기준 시점("as of")이 불명확하다.
+- `scope_mismatch`: 사실이 특정 요금제·지역·OS·베타 한정인데 제목·요약은 일반 적용처럼 읽힌다.
+
+### 정확성 (사실 대조)
+- `quote_mismatch`: `evidence_quotes`가 해당 `ui_path`/`commands`/`numbers`를 실제로 뒷받침하지 않는다. 각 사실마다 근거 인용 1:1 대응을 확인한다.
+- `number_unit_missing`: 숫자에 단위·기간·기준(일/월, 사용자/팀)이 빠졌다.
+- `number_conflict`: 같은 수치가 본문 내·다른 출처와 다르다. 반올림·환율·통화 단위 차이인지 구분한다.
+- `partial_path`: UI 경로나 명령어가 일부만 확인된다(전체로 확대 기재 금지).
+- `timezone_edge`: 발행 시각이 KST 날짜 경계(전일 15:00 UTC 전후)에 걸린다. UTC→KST 환산 후 판정했는지 재확인한다.
+- `date_conflict`: `published_time`, JSON-LD, 본문 날짜 사이 불일치(수정일이 최초 발행일로 오인되는 경우 포함).
+
+### 편향 (과장·치우침)
+- `vendor_claim`: 벤더 자체 주장(성능·절감 수치)이 독립 검증 없이 단정형이다.
+- `promo_tone`: 보도자료·홍보성 문구가 팁처럼 보이게 가공될 위험이 있다.
+- `causal_overreach`: 상관·사례를 인과나 일반 효과로 서술한다("X하면 Y% 향상").
+
+### 신뢰도 판정
+`verification_flags` 개수와 심각도로 `confidence`를 기록한다.
+- `high`: 플래그 없음 또는 경미(`partial_path` 외 없음)한 것만 있다.
+- `caveat`: `single_source`, `scope_mismatch`, `vendor_claim` 등 카드에 단서 문구가 필요한 플래그가 있다. `caveat_note`에 카드에 넣을 한 줄 단서를 적는다.
+- `review`: `quote_mismatch`, `number_conflict`, `date_conflict` 등이 있다. 사람이 `review-news` 단계에서 우선 확인해야 한다.
+
+의심만으로 사실을 지우거나 고치지 않는다. 플래그만 남기고 판단은 다음 단계에 넘긴다.
+
 ## 출력
 
 `data/research/verified-YYYY-MM-DD.json`
@@ -94,7 +125,9 @@ KST 당일/전일만 통과한다. 날짜를 추측하지 않는다.
 ```
 raw_published, verified_date, verification_status,
 fetch_status, canonical_url, actionable_facts,
-actionable_fact_count, actionability_status
+actionable_fact_count, actionability_status,
+verification_flags, confidence, caveat_note
 ```
+`verification_flags`는 없으면 빈 배열, `confidence`는 `high|caveat|review`, `caveat_note`는 없으면 null.
 
 보수적으로 판단한다. 잘못된 UI 경로나 명령어는 발행일 오류만큼 위험하다.
